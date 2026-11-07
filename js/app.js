@@ -30,7 +30,7 @@ function createProductSvgDataUri(title, brand, code, accentColor = '#D4AF37', ic
         <circle cx="400" cy="60" r="110" fill="${accentColor}" opacity="0.08"/>
         <circle cx="70" cy="260" r="90" fill="#06B6D4" opacity="0.07"/>
         <rect x="20" y="20" width="440" height="280" rx="14" fill="none" stroke="${accentColor}" stroke-opacity="0.35" stroke-width="1.5"/>
-        <text x="45" y="65" fill="#F3E5AB" font-family="Arial, sans-serif" font-size="15" font-weight="bold" letter-spacing="1">${brand.toUpperCase()} • DUY PHONG BN</text>
+        <text x="45" y="65" fill="#F3E5AB" font-family="Arial, sans-serif" font-size="15" font-weight="bold" letter-spacing="1">${brand.toUpperCase()} • DUY PHONG ELECTRICS</text>
         <text x="405" y="135" font-family="Segoe UI Emoji, Arial" font-size="68" text-anchor="middle">${iconText}</text>
         <text x="45" y="175" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="22" font-weight="bold">${title}</text>
         <rect x="45" y="205" width="170" height="32" rx="6" fill="rgba(212,175,55,0.16)" stroke="${accentColor}" stroke-width="1"/>

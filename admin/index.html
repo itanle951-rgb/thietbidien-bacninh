@@ -1031,13 +1031,16 @@
         </main>
     </div>
 
+    <!-- Script Danh Mục Sản Phẩm Hệ Thống -->
+    <script src="../js/products.js?v=20261108_05"></script>
+
     <!-- Script Xử Lý Toàn Bộ Admin -->
     <script>
         /**
          * HỆ THỐNG QUẢN TRỊ ADMIN - DUY PHONG ELECTRICS (A THÀNH BN)
          */
         const STORAGE_KEYS = {
-            PRODUCTS: 'duyphong_athanhbn_products_v1',
+            PRODUCTS: 'duyphong_athanhbn_products_v20261108_420',
             QUOTES:   'duyphong_athanhbn_quotes_v1',
             TRAFFIC:  'duyphong_traffic_logs_v1',
             ARTICLES: 'duyphong_articles_v1',
@@ -1055,7 +1058,7 @@
             {
                 id: 'art-01',
                 title: 'Kinh nghiệm tính tiết diện dây điện cho nhà phố 3 tầng tại Bắc Ninh',
-                category: 'Kinh Nghiệm Xây Nhà',
+                category: 'kinh-nghiem-xay-nha',
                 author: 'A Thành BN',
                 createdAt: '07/11/2026',
                 summary: 'Hướng dẫn chủ nhà chọn đúng dây trục tổng 6.0mm²-10.0mm², dây ổ cắm 2.5mm² và dây chiếu sáng 1.5mm² chống quá tải và chập cháy.',
@@ -1065,7 +1068,7 @@
             {
                 id: 'art-02',
                 title: 'So sánh độ bền dòng công tắc Bretina, Vanni và Panasonic',
-                category: 'Góc Thợ Điện BN',
+                category: 'tu-van-tho-dien',
                 author: 'A Thành BN',
                 createdAt: '05/11/2026',
                 summary: 'Đánh giá thực tế về tiếp điểm hợp kim đồng, độ đàn hồi của lá đồng và khả năng chịu tải của các dòng công tắc cao cấp.',
@@ -1141,8 +1144,18 @@
 
         function loadAllData() {
             try {
-                adminState.products = JSON.parse(localStorage.getItem(STORAGE_KEYS.PRODUCTS) || '[]');
-            } catch (e) { adminState.products = []; }
+                const stored = JSON.parse(localStorage.getItem(STORAGE_KEYS.PRODUCTS) || '[]');
+                if (stored && stored.length >= 200) {
+                    adminState.products = stored;
+                } else if (typeof window !== 'undefined' && window.ALL_PRODUCTS_DATA && window.ALL_PRODUCTS_DATA.length > 0) {
+                    adminState.products = [...window.ALL_PRODUCTS_DATA];
+                    localStorage.setItem(STORAGE_KEYS.PRODUCTS, JSON.stringify(adminState.products));
+                } else {
+                    adminState.products = stored;
+                }
+            } catch (e) {
+                adminState.products = (typeof window !== 'undefined' && window.ALL_PRODUCTS_DATA && window.ALL_PRODUCTS_DATA.length > 0) ? [...window.ALL_PRODUCTS_DATA] : [];
+            }
 
             try {
                 adminState.quotes = JSON.parse(localStorage.getItem(STORAGE_KEYS.QUOTES) || '[]');
@@ -1743,7 +1756,7 @@
             csv += `Ma Don,"${q.code}",Thoi Gian,"${q.createdAt}"\n`;
             csv += `Khach Hang,"${q.customerName}",Dien Thoai,"${q.customerPhone}"\n`;
             csv += `Dia Chi,"${q.projectAddress}",Phan Loai,"${q.customerTypeLabel}"\n\n`;
-            csv += `STT,Ten San Pham,Phan Loai,So Luong,Don Vi,Don Gia,Thanh Tiền\n`;
+            csv += `STT,Ten San Pham,Phan Loai,So Luong,Don Vi,Don Gia,Thanh Tien\n`;
             (q.items || []).forEach((it, i) => {
                 csv += `${i + 1},"${it.name}","${it.variant}",${it.qty},"${it.unit}",${it.price},${it.price * it.qty}\n`;
             });

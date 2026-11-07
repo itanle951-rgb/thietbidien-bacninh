@@ -1749,12 +1749,120 @@ function resetCatalogFilters() {
     renderCatalog();
 }
 
+// Ghi nhận nhật ký người truy cập website (Traffic Tracker)
+function trackVisitorTraffic() {
+    try {
+        const TRAFFIC_KEY = 'duyphong_traffic_logs_v1';
+        let logs = [];
+        try {
+            logs = JSON.parse(localStorage.getItem(TRAFFIC_KEY) || '[]');
+        } catch (e) { logs = []; }
+
+        const now = new Date();
+        const timeStr = now.toLocaleTimeString('vi-VN', { hour: '2-digit', minute: '2-digit', second: '2-digit' }) + ' ' + now.toLocaleDateString('vi-VN');
+        const ua = navigator.userAgent || '';
+        const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(ua);
+        const deviceType = isMobile ? 'Mobile' : 'Desktop';
+
+        let os = 'Windows';
+        if (/iPhone|iPad|iPod/i.test(ua)) os = 'iOS';
+        else if (/Android/i.test(ua)) os = 'Android';
+        else if (/Macintosh/i.test(ua)) os = 'macOS';
+        else if (/Linux/i.test(ua)) os = 'Linux';
+
+        let browser = 'Chrome';
+        if (/Safari/i.test(ua) && !/Chrome/i.test(ua)) browser = 'Safari';
+        else if (/Firefox/i.test(ua)) browser = 'Firefox';
+        else if (/Edg/i.test(ua)) browser = 'Edge';
+
+        const record = {
+            id: 'trf-' + Date.now(),
+            time: timeStr,
+            timestamp: timeStr,
+            deviceType: deviceType,
+            os: os,
+            browser: browser,
+            page: 'Trang Chủ Báo Giá Vật Tư',
+            referrer: document.referrer ? (new URL(document.referrer)).hostname : 'Trực tiếp (Direct)'
+        };
+
+        logs.push(record);
+        // Giới hạn 200 bản ghi mới nhất
+        if (logs.length > 200) logs = logs.slice(-200);
+        localStorage.setItem(TRAFFIC_KEY, JSON.stringify(logs));
+    } catch (err) {
+        // Lặng lẽ bỏ qua nếu có lỗi
+    }
+}
+
+// Render các bài viết cẩm nang kỹ thuật điện ngoài trang chủ
+function renderHomeArticles() {
+    const container = document.getElementById('homeArticlesContainer');
+    if (!container) return;
+
+    const ARTICLES_KEY = 'duyphong_articles_v1';
+    const DEFAULT_ARTICLES = [
+        {
+            id: 'art-01',
+            title: 'Kinh nghiệm tính tiết diện dây điện cho nhà phố 3 tầng tại Bắc Ninh',
+            category: 'Kinh Nghiệm Xây Nhà',
+            author: 'A Thành BN',
+            createdAt: '07/11/2026',
+            summary: 'Hướng dẫn chủ nhà chọn đúng dây trục tổng 6.0mm²-10.0mm², dây ổ cắm 2.5mm² và dây chiếu sáng 1.5mm² chống quá tải và chập cháy.',
+            image: 'assets/images/kho-day-cap-thiet-bi.jpg'
+        },
+        {
+            id: 'art-02',
+            title: 'So sánh độ bền dòng công tắc Bretina, Vanni và Panasonic',
+            category: 'Góc Thợ Điện BN',
+            author: 'A Thành BN',
+            createdAt: '05/11/2026',
+            summary: 'Đánh giá thực tế về tiếp điểm hợp kim đồng, độ đàn hồi của lá đồng và khả năng chịu tải của các dòng công tắc cao cấp trưng bày tại Showroom Duy Phong.',
+            image: 'assets/images/cua-hang-mat-tien.jpg'
+        }
+    ];
+
+    let articles = [];
+    try {
+        const saved = localStorage.getItem(ARTICLES_KEY);
+        articles = saved ? JSON.parse(saved) : DEFAULT_ARTICLES;
+    } catch (e) {
+        articles = DEFAULT_ARTICLES;
+    }
+
+    if (articles.length === 0) articles = DEFAULT_ARTICLES;
+
+    container.innerHTML = articles.map(art => `
+        <div class="product-card" style="display:flex; flex-direction:column; justify-content:space-between;">
+            <div>
+                <div style="position:relative; height:180px; overflow:hidden; border-radius:8px; margin-bottom:12px; background:#0B0F17;">
+                    <img src="${art.image}" alt="${art.title}" style="width:100%; height:100%; object-fit:cover; transition:transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                    <span class="product-badge-discount" style="top:10px; left:10px; right:auto;">${art.category}</span>
+                </div>
+                <div style="font-size:0.78rem; color:var(--text-muted); margin-bottom:6px;">
+                    <i class="far fa-calendar-alt"></i> ${art.createdAt || 'Mới cập nhật'} • <i class="fas fa-user-edit"></i> ${art.author || 'A Thành BN'}
+                </div>
+                <h4 style="font-size:1.05rem; color:var(--primary-light); line-height:1.4; margin-bottom:8px;">${art.title}</h4>
+                <p style="font-size:0.86rem; color:var(--text-secondary); line-height:1.5;">${art.summary || (art.content ? art.content.slice(0, 120) + '...' : '')}</p>
+            </div>
+            <div style="margin-top:14px; padding-top:10px; border-top:1px solid var(--border-subtle); display:flex; justify-content:space-between; align-items:center;">
+                <span style="font-size:0.8rem; color:var(--accent-cyan);"><i class="fas fa-store"></i> Kho 549 Ngô Gia Tự</span>
+                <a href="https://zalo.me/0904511227" target="_blank" class="btn btn-outline-gold" style="padding:6px 12px; font-size:0.8rem;">
+                    <i class="fab fa-whatsapp"></i> Hỏi A Thành
+                </a>
+            </div>
+        </div>
+    `).join('');
+}
+
 // Khởi chạy khi DOM sẵn sàng
 document.addEventListener('DOMContentLoaded', () => {
     initData();
     populateBrandFilter();
     renderCatalog();
     renderBoqSection();
+    renderHomeArticles();
+    trackVisitorTraffic();
     updateHeaderAndFloatingBadges();
     updateAdminQuoteBadge();
 

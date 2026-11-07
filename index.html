@@ -241,19 +241,19 @@
                         <button type="button" class="cat-tab active" onclick="setCategoryFilter('all', this)">
                             <i class="fas fa-border-all"></i> Tất cả sản phẩm
                         </button>
-                        <button type="button" class="cat-tab" onclick="setCategoryFilter('day-cap')">
+                        <button type="button" class="cat-tab" onclick="setCategoryFilter('day-cap', this)">
                             <i class="fas fa-plug"></i> Dây & Cáp Điện
                         </button>
-                        <button type="button" class="cat-tab" onclick="setCategoryFilter('cong-tac-o-cam')">
+                        <button type="button" class="cat-tab" onclick="setCategoryFilter('cong-tac-o-cam', this)">
                             <i class="fas fa-toggle-on"></i> Ổ Cắm & Công Tắc
                         </button>
-                        <button type="button" class="cat-tab" onclick="setCategoryFilter('chieu-sang')">
+                        <button type="button" class="cat-tab" onclick="setCategoryFilter('chieu-sang', this)">
                             <i class="fas fa-lightbulb"></i> Bóng Đèn & LED
                         </button>
-                        <button type="button" class="cat-tab" onclick="setCategoryFilter('dong-cat-tu-dien')">
+                        <button type="button" class="cat-tab" onclick="setCategoryFilter('dong-cat-tu-dien', this)">
                             <i class="fas fa-shield-halved"></i> Aptomat & Tủ Điện
                         </button>
-                        <button type="button" class="cat-tab" onclick="setCategoryFilter('vat-tu-phu-kien')">
+                        <button type="button" class="cat-tab" onclick="setCategoryFilter('vat-tu-phu-kien', this)">
                             <i class="fas fa-screwdriver-wrench"></i> Ống Luồn & Phụ Kiện
                         </button>
                     </div>
@@ -398,21 +398,18 @@
                             <span>Tổng số mục đã chọn:</span>
                             <strong id="summaryTotalItems" style="color: var(--text-primary);">0 đầu mục</strong>
                         </div>
-                        <div class="summary-line">
-                            <span>Tổng giá niêm yết tham khảo:</span>
-                            <span id="summarySubtotal">0 đ</span>
-                        </div>
-                        <div class="summary-line">
-                            <span>Ước tính chiết khấu (Theo nhóm KH):</span>
-                            <strong id="summaryDiscount" style="color: var(--accent-green);">- 0 đ</strong>
-                        </div>
                         <div class="summary-line total">
-                            <span>Tạm tính sau chiết khấu:</span>
-                            <span id="summaryFinal">0 đ</span>
+                            <span>Tổng giá Catalog niêm yết:</span>
+                            <span id="summarySubtotal" style="color: var(--primary-light); font-size: 1.25rem;">0 đ</span>
                         </div>
-                        <p style="font-size: 0.76rem; color: var(--text-secondary); margin-top: 8px;">
-                            * Lưu ý: Khi nhận được danh sách của bạn, <strong>A Thành BN</strong> sẽ áp dụng thêm ưu đãi chiết khấu theo tổng giá trị đơn hàng thực tế.
-                        </p>
+                        <div style="background: rgba(212,175,55,0.08); border: 1px dashed rgba(212,175,55,0.3); padding: 12px; border-radius: 8px; margin: 12px 0;">
+                            <div style="font-size: 0.88rem; color: #F3E5AB; font-weight: 700; margin-bottom: 4px;">
+                                <i class="fas fa-gift" style="color: var(--primary);"></i> Chiết Khấu Đại Lý & Dự Án:
+                            </div>
+                            <div style="font-size: 0.82rem; color: #cbd5e1; line-height: 1.4;">
+                                A Thành sẽ áp dụng mức chiết khấu tận gốc kịch sàn (theo nhóm thợ / chủ nhà / công trình) và báo giá chi tiết trực tiếp qua Zalo cho bạn.
+                            </div>
+                        </div>
                     </div>
 
                     <form onsubmit="event.preventDefault(); submitQuoteRequest(false);">
@@ -466,7 +463,7 @@
             <div>
                 <span>Danh sách đã chọn: <strong id="floatingItemCount">0 mặt hàng</strong></span>
                 <span style="margin: 0 10px; color: var(--text-muted);">|</span>
-                <span>Dự kiến sau CK: <strong id="floatingTotalAmount" style="color: var(--accent-green);">0 đ</strong></span>
+                <span>Tổng Catalog: <strong id="floatingTotalAmount" style="color: var(--primary-light);">0 đ</strong></span>
             </div>
         </div>
         <div style="display: flex; gap: 8px;">

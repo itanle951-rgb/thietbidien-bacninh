@@ -924,7 +924,7 @@ function renderCatalog() {
                 <div class="product-thumb-wrap">
                     <img src="${p.image}" alt="${p.name}" onerror="this.src='${createProductSvgDataUri(p.name.slice(0,22), p.brand, p.sku)}'"/>
                     <span class="product-brand-tag">${p.brand}</span>
-                    <span class="product-discount-tag">CK tới -${p.discount || 15}%</span>
+                    <span class="product-catalog-badge" style="position: absolute; top: 12px; right: 12px; background: rgba(212,175,55,0.18); color: var(--primary-light); border: 1px solid rgba(212,175,55,0.35); font-size: 0.72rem; padding: 3px 8px; border-radius: 4px; font-weight: 600;"><i class="fas fa-certificate"></i> Giá Catalog</span>
                     ${totalQtyInCart > 0 ? `<div class="in-quote-ribbon"><i class="fas fa-check-circle"></i> Đã chọn: ${totalQtyInCart} ${p.unit}</div>` : ''}
                 </div>
                 <div class="product-body">
@@ -941,6 +941,7 @@ function renderCatalog() {
 
                     <div class="product-price-row">
                         <div>
+                            <div style="font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 2px;">Giá Catalog niêm yết:</div>
                             <span class="price-main" id="price-val-${p.id}">${formatVND(getVariantPrice(p, variants[0]))}</span>
                             <span class="price-unit">/ ${p.unit}</span>
                         </div>
@@ -995,7 +996,7 @@ function renderCatalog() {
                     <td><strong>${p.unit}</strong></td>
                     <td>
                         <div style="color: var(--primary-light); font-weight: 700;" id="tbl-price-${p.id}">${formatVND(getVariantPrice(p, variants[0]))}</div>
-                        <div style="font-size: 0.74rem; color: var(--accent-green);">CK Thợ/Dự án tới -${p.discount || 15}%</div>
+                        <div style="font-size: 0.74rem; color: var(--text-muted);">Giá Catalog chính hãng</div>
                     </td>
                     <td>
                         <div style="display: flex; align-items: center; gap: 6px;">
@@ -1335,29 +1336,36 @@ function renderBoqSection() {
         `;
     }).join('');
 
+    const elTotalItems = document.getElementById('summaryTotalItems');
+    const elSubtotal = document.getElementById('summarySubtotal');
+    const elDiscount = document.getElementById('summaryDiscount');
+    const elFinal = document.getElementById('summaryFinal');
+
+    if (elTotalItems) elTotalItems.textContent = `${summary.totalItems} mục (${state.boqCart.reduce((s,i) => s + i.qty, 0)} số lượng)`;
+    if (elSubtotal) elSubtotal.textContent = formatVND(summary.subtotalListed);
+    if (elDiscount) elDiscount.textContent = 'A Thành báo riêng qua Zalo';
+    if (elFinal) elFinal.textContent = formatVND(summary.subtotalListed);
+
     if (subtotalEl) subtotalEl.textContent = formatVND(summary.subtotalListed);
-    if (discountEl) discountEl.textContent = `− ${formatVND(summary.estimatedDiscount)}`;
-    if (finalTotalEl) finalTotalEl.textContent = formatVND(summary.finalEstimated);
+    if (discountEl) discountEl.textContent = `A Thành báo riêng qua Zalo`;
+    if (finalTotalEl) finalTotalEl.textContent = formatVND(summary.subtotalListed);
 
     if (discountNoticeEl) {
-        if (summary.customerType === 'Tho-dien-Bac-Ninh') {
-            discountNoticeEl.innerHTML = '<i class="fas fa-user-shield" style="color: var(--accent-green);"></i> Áp dụng chính sách <strong>Chiết khấu Thợ Điện / Đội Thi Công Bắc Ninh</strong> (Tặng thêm chiết khấu & hỗ trợ đổi trả cuối công trình).';
-        } else if (summary.customerType === 'Nha-thau-xuong') {
-            discountNoticeEl.innerHTML = '<i class="fas fa-industry" style="color: var(--accent-cyan);"></i> Áp dụng chính sách <strong>Vật tư Công Nghiệp / Nhà Xưởng</strong> (Có xuất hóa đơn VAT điện tử & CO/CQ cáp lực).';
-        } else {
-            discountNoticeEl.innerHTML = '<i class="fas fa-home" style="color: var(--primary);"></i> Áp dụng chính sách <strong>Chủ Nhà Xây Mới</strong> (Báo giá trọn gói tiết kiệm 20% - 30% so với mua lẻ từng đợt).';
-        }
+        discountNoticeEl.innerHTML = '<i class="fas fa-certificate" style="color: var(--primary);"></i> Giá hiển thị là <strong>Giá Catalog Niêm Yết</strong> chính hãng. <strong>A Thành</strong> sẽ trực tiếp áp dụng mức chiết khấu tận gốc kịch sàn và gửi báo giá qua Zalo cho bạn.';
     }
 }
 
 // Cập nhật số đếm trên Header và Thanh nổi Mobile
 function updateHeaderAndFloatingBadges() {
+    const summary = calculateBoqSummary();
     const totalCount = state.boqCart.reduce((sum, item) => sum + item.qty, 0);
     const badgeHeader = document.getElementById('headerBoqCount');
     const badgeFloating = document.getElementById('floatingBoqBadge');
+    const floatTotal = document.getElementById('floatingTotalAmount');
 
     if (badgeHeader) badgeHeader.textContent = totalCount;
     if (badgeFloating) badgeFloating.textContent = totalCount;
+    if (floatTotal) floatTotal.textContent = formatVND(summary.subtotalListed);
 }
 
 // Tạo nội dung văn bản tổng hợp để gửi qua Zalo cho A Thành
@@ -1378,7 +1386,7 @@ function generateZaloQuoteMessage(quoteData) {
     });
 
     msg += `-------------------------------------------\n`;
-    msg += `💰 *Tổng niêm yết:* ${formatVND(summary.subtotalListed)}\n`;
+    msg += `💰 *Tổng niêm yết (Catalog):* ${formatVND(summary.subtotalListed)}\n`;
     msg += `🎁 *Chiết khấu ước tính:* -${formatVND(summary.estimatedDiscount)}\n`;
     msg += `🔥 *TẠM TÍNH SAU CHIẾT KHẤU:* ${formatVND(summary.finalEstimated)}\n`;
     msg += `-------------------------------------------\n`;
@@ -1476,7 +1484,7 @@ function showQuoteSuccessModal(quoteRecord, zaloUrl) {
     document.getElementById('successQuoteCode').textContent = quoteRecord.code;
     document.getElementById('successCustomerName').textContent = quoteRecord.customerName;
     document.getElementById('successCustomerPhone').textContent = quoteRecord.customerPhone;
-    document.getElementById('successTotalEstimated').textContent = formatVND(quoteRecord.summary.finalEstimated);
+    document.getElementById('successTotalEstimated').textContent = formatVND(quoteRecord.summary.subtotalListed);
     document.getElementById('successItemCount').textContent = quoteRecord.items.length;
 
     const zaloBtn = document.getElementById('btnOpenZaloDirect');

@@ -75,7 +75,7 @@
                 <a href="#boq-section" class="btn btn-gold">
                     <i class="fas fa-clipboard-list"></i>
                     <span>Danh Sách Báo Giá</span>
-                    <span class="badge-count" id="headerQuoteBadge">0</span>
+                    <span class="badge-count" id="headerBoqCount">0</span>
                 </a>
             </div>
         </div>
@@ -230,7 +230,7 @@
                     <p class="section-subtitle">Chọn thông số kỹ thuật, nhập số lượng từng món và bấm <strong>"Thêm Vào Danh Sách Báo Giá"</strong>. Hoặc bật <strong>"Chế độ Bảng Kê Nhanh"</strong> để gõ số lượng hàng loạt!</p>
                 </div>
                 <div style="display:flex; gap:10px; align-items:center;">
-                    <span id="catalogCountLabel" style="font-size:0.85rem; color:var(--text-secondary);"></span>
+                    <span id="filteredProductCount" style="font-size:0.85rem; color:var(--text-secondary);"></span>
                 </div>
             </div>
 
@@ -272,10 +272,10 @@
                     <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
                         <span style="font-size:0.84rem; color:var(--text-secondary);">Chế độ chọn hàng:</span>
                         <div class="view-mode-switch">
-                            <button type="button" class="view-btn active" id="viewBtnGrid" onclick="setViewMode('grid')">
+                            <button type="button" class="view-btn active" id="viewModeGridBtn" onclick="setViewMode('grid')">
                                 <i class="fas fa-grip"></i> Thẻ Chi Tiết
                             </button>
-                            <button type="button" class="view-btn" id="viewBtnTable" onclick="setViewMode('table')">
+                            <button type="button" class="view-btn" id="viewModeTableBtn" onclick="setViewMode('table')">
                                 <i class="fas fa-table-list"></i> Bảng Kê Nhanh (Chọn Nhiều 1 Lần)
                             </button>
                         </div>
@@ -284,10 +284,10 @@
             </div>
 
             <!-- Chế độ 1: Lưới Thẻ Sản Phẩm Trực Quan -->
-            <div class="product-grid" id="productGridContainer"></div>
+            <div class="product-grid" id="productsGrid"></div>
 
             <!-- Chế độ 2: Bảng Kê Nhanh (Điền số lượng 1 lần cho nhiều sản phẩm như bảng Excel) -->
-            <div class="quick-table-wrapper" id="quickTableWrapper">
+            <div class="quick-table-wrapper" id="productsTableWrapper">
                 <div style="padding: 14px 16px; background: rgba(212, 175, 55, 0.1); border-bottom: 1px solid var(--border-gold); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
                     <div style="font-size: 0.9rem; color: var(--primary-light);">
                         <i class="fas fa-bolt"></i> <strong>Mẹo cho Thợ Điện & Chủ Nhà:</strong> Nhập số lượng cần mua vào cột <em>"Số lượng cần mua"</em> của nhiều mặt hàng bên dưới, sau đó bấm nút <strong>"Gom Tất Cả Vào Phiếu Báo Giá"</strong>!
@@ -307,7 +307,7 @@
                             <th>Thao tác lẻ</th>
                         </tr>
                     </thead>
-                    <tbody id="quickTableBody"></tbody>
+                    <tbody id="productsTableBody"></tbody>
                 </table>
                 <div style="padding: 14px 16px; text-align: right; background: #101726;">
                     <button type="button" class="btn btn-gold" onclick="applyBulkTableSelection()">
@@ -461,7 +461,7 @@
         <div class="floating-info">
             <i class="fas fa-clipboard-check" style="color: var(--primary); font-size: 1.3rem;"></i>
             <div>
-                <span>Danh sách đã chọn: <strong id="floatingItemCount">0 mặt hàng</strong></span>
+                <span>Danh sách đã chọn: <strong id="floatingBoqBadge">0 mặt hàng</strong></span>
                 <span style="margin: 0 10px; color: var(--text-muted);">|</span>
                 <span>Tổng Catalog: <strong id="floatingTotalAmount" style="color: var(--primary-light);">0 đ</strong></span>
             </div>
@@ -483,7 +483,7 @@
                 </div>
             </div>
 
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px;" id="homeArticlesContainer">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px;" id="articlesGrid">
                 <!-- Render từ dữ liệu bài viết qua app.js -->
             </div>
         </div>

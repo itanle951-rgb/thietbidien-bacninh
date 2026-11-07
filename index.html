@@ -77,11 +77,6 @@
                     <span>Danh Sách Báo Giá</span>
                     <span class="badge-count" id="headerQuoteBadge">0</span>
                 </a>
-                <button type="button" class="btn btn-outline-gold" onclick="openAdminModal('tab-add-product')">
-                    <i class="fas fa-user-shield"></i>
-                    <span>Quản Trị Admin</span>
-                    <span class="badge-count-red" id="adminQuoteCountBadge" style="display:none;">0</span>
-                </button>
             </div>
         </div>
     </header>
@@ -123,9 +118,6 @@
                     <a href="#combo-section" class="btn btn-outline-gold">
                         <i class="fas fa-layer-group"></i> Nạp Nhanh Gói Vật Tư Mẫu
                     </a>
-                    <button type="button" class="btn btn-cyan" onclick="openAdminModal('tab-add-product')">
-                        <i class="fas fa-plus-circle"></i> Admin Thêm Sản Phẩm Mới
-                    </button>
                 </div>
             </div>
 
@@ -239,9 +231,6 @@
                 </div>
                 <div style="display:flex; gap:10px; align-items:center;">
                     <span id="catalogCountLabel" style="font-size:0.85rem; color:var(--text-secondary);"></span>
-                    <button type="button" class="btn btn-outline-gold" onclick="openAdminModal('tab-add-product')">
-                        <i class="fas fa-plus"></i> Thêm Sản Phẩm (Admin)
-                    </button>
                 </div>
             </div>
 
@@ -487,259 +476,21 @@
         </div>
     </div>
 
-    <!-- 8. MODAL QUẢN TRỊ ADMIN (CMS DÀNH CHO CHỦ WEB A THÀNH BN) -->
-    <div class="modal-backdrop" id="adminModalBackdrop">
-        <div class="admin-modal">
-            <div class="admin-header">
-                <div style="display: flex; align-items: center; gap: 12px;">
-                    <div class="brand-icon" style="width: 40px; height: 40px; font-size: 1.1rem;"><i class="fas fa-cogs"></i></div>
-                    <div>
-                        <h3 style="font-size: 1.2rem; color: var(--primary-light);">TRUNG TÂM QUẢN TRỊ WEBSITE — A THÀNH BN (DUY PHONG ELECTRICS)</h3>
-                        <p style="font-size: 0.8rem; color: var(--text-secondary);">Thêm sản phẩm mới, tải hình ảnh lên website & quản lý yêu cầu báo giá của khách hàng</p>
-                    </div>
+    <!-- 8. CẨM NANG & KINH NGHIỆM KỸ THUẬT ĐIỆN BẮC NINH -->
+    <section class="catalog-section" style="padding-top: 20px; border-top: 1px solid var(--border-subtle);" id="articles-section">
+        <div class="container">
+            <div class="section-header">
+                <div>
+                    <h3 class="section-title"><i class="fas fa-book-open" style="color:var(--primary);"></i> Cẩm Nang Kỹ Thuật & Kinh Nghiệm Thi Công Điện</h3>
+                    <p class="section-subtitle">Tư vấn kinh nghiệm thực chiến từ Cửa hàng Thiết Bị Điện Duy Phong (A Thành BN) dành cho chủ nhà và anh em thợ điện.</p>
                 </div>
-                <button type="button" class="btn btn-danger" onclick="closeAdminModal()">
-                    <i class="fas fa-times"></i> Đóng Quản Trị
-                </button>
             </div>
 
-            <!-- Các Tab trong Admin -->
-            <div class="admin-tabs">
-                <button type="button" class="admin-tab-btn active" data-tab="tab-add-product" onclick="switchAdminTab('tab-add-product')">
-                    <i class="fas fa-plus-circle"></i> 1. Thêm / Sửa Sản Phẩm & Hình Ảnh
-                </button>
-                <button type="button" class="admin-tab-btn" data-tab="tab-manage-products" onclick="switchAdminTab('tab-manage-products')">
-                    <i class="fas fa-boxes-stacked"></i> 2. Danh Sách Sản Phẩm Trên Web
-                </button>
-                <button type="button" class="admin-tab-btn" data-tab="tab-manage-quotes" onclick="switchAdminTab('tab-manage-quotes')">
-                    <i class="fas fa-envelope-open-text"></i> 3. Yêu Cầu Báo Giá Khách Gửi Về
-                    <span class="badge-count-red" id="adminTabQuoteBadge">0</span>
-                </button>
-            </div>
-
-            <div class="admin-body">
-                <!-- TAB 1: THÊM HOẶC SỬA SẢN PHẨM & TẢI HÌNH ẢNH -->
-                <div class="admin-tab-pane" id="tab-add-product">
-                    <form id="adminProductForm" onsubmit="saveAdminProduct(event)">
-                        <input type="hidden" id="adminEditProductId" value="">
-                        <div class="admin-grid">
-                            <!-- Cột Trái: Thông tin sản phẩm -->
-                            <div>
-                                <h4 style="color: var(--primary-light); margin-bottom: 14px;"><i class="fas fa-info-circle"></i> Thông Tin Chi Tiết Sản Phẩm</h4>
-                                
-                                <div class="form-group">
-                                    <label>Tên sản phẩm hiển thị trên Website (*)</label>
-                                    <input type="text" id="adminProdName" class="form-control" placeholder="VD: Đèn LED Âm Trần Panasonic 9W Đổi Màu" required>
-                                </div>
-
-                                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
-                                    <div class="form-group">
-                                        <label>Mã sản phẩm (SKU)</label>
-                                        <input type="text" id="adminProdSku" class="form-control" placeholder="VD: PANA-DL-9W">
-                                    </div>
-                                    <div class="form-group">
-                                        <label>Thương hiệu / Hãng</label>
-                                        <input type="text" id="adminProdBrand" class="form-control" placeholder="VD: Panasonic, Bretina, Vanni, Trần Phú..." required>
-                                    </div>
-                                </div>
-
-                                <div style="display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 12px;">
-                                    <div class="form-group">
-                                        <label>Danh mục ngành hàng</label>
-                                        <select id="adminProdCategory" class="form-control">
-                                            <option value="day-cap">Dây & Cáp Điện</option>
-                                            <option value="cong-tac-o-cam">Ổ Cắm & Công Tắc</option>
-                                            <option value="chieu-sang">Bóng Đèn & LED Chiếu Sáng</option>
-                                            <option value="dong-cat-tu-dien">Thiết Bị Đóng Cắt & Tủ Điện</option>
-                                            <option value="vat-tu-phu-kien">Ống Luồn & Phụ Kiện Thi Công</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group">
-                                        <label>Đơn vị tính</label>
-                                        <input type="text" id="adminProdUnit" class="form-control" placeholder="VD: Cuộn (100m), Cái, Bộ, Mét" value="Cái" required>
-                                    </div>
-                                </div>
-
-                                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
-                                    <div class="form-group">
-                                        <label>Đơn giá niêm yết (VNĐ) (*)</label>
-                                        <input type="number" id="adminProdPrice" class="form-control" min="0" step="1000" placeholder="VD: 125000" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <label>Mức chiết khấu tối đa cho Thợ/Dự án (%)</label>
-                                        <input type="number" id="adminProdDiscount" class="form-control" min="0" max="70" value="20">
-                                    </div>
-                                </div>
-
-                                <div class="form-group">
-                                    <label>Các phân loại / Thông số kỹ thuật để khách chọn (Cách nhau bằng dấu phẩy)</label>
-                                    <input type="text" id="adminProdVariants" class="form-control" placeholder="VD: Ánh sáng Trắng 9W, Ánh sáng Vàng 9W, Đổi 3 màu 9W, Đổi 3 màu 12W">
-                                </div>
-
-                                <div class="form-group">
-                                    <label>Mô tả ngắn / Ưu điểm kỹ thuật</label>
-                                    <textarea id="adminProdDesc" class="form-control" rows="2" placeholder="VD: Hàng chính hãng bảo hành 24 tháng, có sẵn số lượng lớn tại kho 549 Ngô Gia Tự..."></textarea>
-                                </div>
-                            </div>
-
-                            <!-- Cột Phải: Upload Hình Ảnh Sản Phẩm Trực Tiếp -->
-                            <div>
-                                <h4 style="color: var(--primary-light); margin-bottom: 14px;"><i class="fas fa-image"></i> Hình Ảnh Sản Phẩm (Tải Ảnh Từ Máy Tính / Điện Thoại)</h4>
-                                
-                                <label class="upload-dropzone" for="adminImageFileInput" style="display: block;">
-                                    <i class="fas fa-cloud-arrow-up" style="font-size: 2.3rem; color: var(--primary); margin-bottom: 8px;"></i>
-                                    <div style="font-weight: 700; color: var(--text-primary);">Bấm vào đây để Chọn Ảnh từ Máy tính hoặc Điện thoại</div>
-                                    <p style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 4px;">Hỗ trợ JPG, PNG, WebP (Hệ thống tự động nén tối ưu tốc độ hiển thị)</p>
-                                    <input type="file" id="adminImageFileInput" accept="image/*" style="display: none;" onchange="handleAdminImageUpload(event)">
-                                </label>
-
-                                <div class="form-group" style="margin-top: 12px;">
-                                    <label>Hoặc dán đường dẫn (Link URL) hình ảnh có sẵn:</label>
-                                    <input type="text" id="adminImageUrlInput" class="form-control" placeholder="VD: https://... hoặc assets/images/kho-day-cap-thiet-bi.jpg" oninput="handleAdminImageUrlInput(this.value)">
-                                </div>
-
-                                <div class="image-preview-box">
-                                    <div id="adminImagePlaceholder" style="color: var(--text-muted); font-size: 0.85rem; text-align: center; padding: 12px;">
-                                        <i class="far fa-eye" style="font-size: 1.5rem; display: block; margin-bottom: 6px;"></i>
-                                        Xem trước hình ảnh sản phẩm sẽ hiển thị tại đây (Nếu để trống hệ thống sẽ tự tạo thẻ ảnh thương hiệu Duy Phong)
-                                    </div>
-                                    <img id="adminImagePreview" src="" alt="Preview" style="display: none;">
-                                </div>
-
-                                <div style="display: flex; gap: 10px; margin-top: 18px;">
-                                    <button type="submit" id="adminFormSubmitBtn" class="btn btn-gold" style="flex: 1; padding: 13px; font-size: 0.96rem;">
-                                        <i class="fas fa-plus-circle"></i> Đăng Sản Phẩm Lên Website
-                                    </button>
-                                    <button type="button" class="btn btn-outline-gold" onclick="resetAdminProductForm()">
-                                        <i class="fas fa-eraser"></i> Làm mới Form
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-
-                <!-- TAB 2: QUẢN LÝ DANH SÁCH SẢN PHẨM HIỆN CÓ -->
-                <div class="admin-tab-pane" id="tab-manage-products" style="display: none;">
-                    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 16px;">
-                        <h4 style="color: var(--primary-light);">Danh Sách Sản Phẩm Đang Hiển Thị Trên Website</h4>
-                        <div style="display: flex; gap: 8px;">
-                            <button type="button" class="btn btn-outline-gold" onclick="exportProductsJson()">
-                                <i class="fas fa-download"></i> Sao Lưu Danh Mục (.JSON)
-                            </button>
-                            <button type="button" class="btn btn-cyan" onclick="restoreDefaultCatalog()">
-                                <i class="fas fa-rotate"></i> Khôi Phục Sản Phẩm Mẫu
-                            </button>
-                        </div>
-                    </div>
-                    <div style="overflow-x: auto;">
-                        <table class="quick-table">
-                            <thead>
-                                <tr>
-                                    <th>STT</th>
-                                    <th>Hình ảnh & Tên sản phẩm</th>
-                                    <th>Thương hiệu</th>
-                                    <th>Đơn giá / ĐVT</th>
-                                    <th>CK Thợ/Dự án</th>
-                                    <th>Thao tác</th>
-                                </tr>
-                            </thead>
-                            <tbody id="adminProductTableBody"></tbody>
-                        </table>
-                    </div>
-                </div>
-
-                <!-- TAB 3: QUẢN LÝ YÊU CẦU BÁO GIÁ TỪ KHÁCH HÀNG (DÀNH CHO NỘI BỘ CHỦ WEB) -->
-                <div class="admin-tab-pane" id="tab-manage-quotes" style="display: none;">
-                    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 16px;">
-                        <div>
-                            <h4 style="color: var(--primary-light);">Hộp Thư Nội Bộ: Danh Sách Yêu Cầu Báo Giá Khách Đã Gửi</h4>
-                            <p style="font-size: 0.85rem; color: var(--text-secondary);">Khách hàng trên web chỉ thấy thông báo "Đã gửi thành công". Toàn bộ dữ liệu đơn hàng được gom về đây để bạn chủ động xử lý nội bộ.</p>
-                        </div>
-                        <div style="display: flex; gap: 8px; flex-wrap: wrap;">
-                            <button type="button" class="btn btn-gold" onclick="exportAllQuotesInternalCsv()">
-                                <i class="fas fa-file-excel"></i> Xuất Toàn Bộ Đơn Ra File Nội Bộ (.CSV)
-                            </button>
-                            <button type="button" class="btn btn-outline-gold" onclick="exportAllQuotesInternalJson()">
-                                <i class="fas fa-file-code"></i> Tải File Dữ Liệu Nội Bộ (.JSON)
-                            </button>
-                        </div>
-                    </div>
-
-                    <!-- Cấu hình Tự động gửi Email & Webhook ngầm khi có đơn mới -->
-                    <div style="background: var(--bg-input); border: 1px solid var(--border-gold); border-radius: 12px; padding: 16px; margin-bottom: 18px; display: flex; flex-direction: column; gap: 14px;">
-                        <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px;">
-                            <div style="font-size: 0.85rem; color: var(--text-secondary); flex: 1; min-width: 260px;">
-                                <strong style="color: var(--primary-light); font-size: 0.94rem;"><i class="fas fa-envelope-circle-check"></i> 1. Tự Động Gửi Email Mỗi Khi Có Đơn Báo Giá Mới (Hoạt động ngầm 100%):</strong>
-                                <p style="margin-top: 3px;">Ngay khi khách bấm gửi trên web, hệ thống tự động gửi bảng kê chi tiết vào hộp thư Email của bạn (qua cổng FormSubmit AJAX miễn phí). <em>Lưu ý: Ở lần gửi đầu tiên, hãy mở hộp thư Gmail bấm nút "Activate Form" để kích hoạt nhận tự động vĩnh viễn.</em></p>
-                            </div>
-                        </div>
-
-                        <div style="display: grid; grid-template-columns: 1.2fr 1fr auto auto; gap: 8px; align-items: center;">
-                            <input type="email" id="adminNotifyEmailInput" class="form-control" style="padding: 8px 12px; font-size: 0.86rem;" value="itanle951@gmail.com" placeholder="Email chính nhận đơn (itanle951@gmail.com)">
-                            <input type="email" id="adminNotifyCcEmailInput" class="form-control" style="padding: 8px 12px; font-size: 0.86rem;" placeholder="Email phụ nhận CC (Tùy chọn - VD: email A Thành)">
-                            <button type="button" class="btn btn-gold" style="padding: 8px 14px; font-size: 0.84rem;" onclick="saveAdminEmailSettings()">
-                                <i class="fas fa-save"></i> Lưu Email
-                            </button>
-                            <button type="button" class="btn btn-green" style="padding: 8px 14px; font-size: 0.84rem;" onclick="sendTestEmailNotification()">
-                                <i class="fas fa-paper-plane"></i> Gửi Email Test Ngay
-                            </button>
-                        </div>
-
-                        <div style="border-top: 1px dashed var(--border-subtle); padding-top: 12px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px;">
-                            <div style="font-size: 0.83rem; color: var(--text-secondary); flex: 1; min-width: 240px;">
-                                <strong style="color: var(--accent-cyan);"><i class="fas fa-satellite-dish"></i> 2. Kết nối Webhook Nội Bộ (Tùy chọn - n8n / Telegram / Google Sheet):</strong>
-                            </div>
-                            <div style="display: flex; gap: 8px; flex: 1.5; min-width: 280px;">
-                                <input type="text" id="adminWebhookUrlInput" class="form-control" style="padding: 7px 12px; font-size: 0.84rem;" value="https://script.google.com/macros/s/AKfycbyvZUChHkx8m70IGKW-r9B1p-uUCC71Cqb9IDdo96a6xYHmRsz1Oap9cgYEhRzwVxrx/exec" placeholder="Dán link Webhook Google Apps Script...">
-                                <button type="button" class="btn btn-cyan" style="padding: 7px 14px; font-size: 0.84rem;" onclick="saveInternalWebhookUrl()">
-                                    <i class="fas fa-save"></i> Lưu Webhook
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="adminQuotesContainer"></div>
-                </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px;" id="homeArticlesContainer">
+                <!-- Render từ dữ liệu bài viết qua app.js -->
             </div>
         </div>
-    </div>
-
-    <!-- 8B. MODAL XỬ LÝ BÁO GIÁ NỘI BỘ (CHỈ MỞ TỪ TRONG ADMIN KHI CHỦ WEB THAO TÁC) -->
-    <div class="modal-backdrop" id="zaloPreviewModalBackdrop">
-        <div class="admin-modal" style="max-width: 760px;">
-            <div class="admin-header" style="background: linear-gradient(90deg, #101726 0%, #1E293B 100%); border-bottom: 1px solid var(--border-gold);">
-                <div style="display: flex; align-items: center; gap: 12px;">
-                    <div class="brand-icon" style="width: 42px; height: 42px; font-size: 1.2rem;">
-                        <i class="fas fa-user-secret"></i>
-                    </div>
-                    <div>
-                        <h3 style="font-size: 1.15rem; color: var(--primary-light);">CÔNG CỤ NỘI BỘ: XUẤT PHIẾU & GỬI BÁO GIÁ CHO KHÁCH</h3>
-                        <p style="font-size: 0.8rem; color: var(--text-secondary);">Chỉ dành cho Admin (A Thành BN) thao tác nội bộ sau khi khách đã gửi yêu cầu</p>
-                    </div>
-                </div>
-                <button type="button" class="btn btn-danger" onclick="closeZaloPreviewModal()">
-                    <i class="fas fa-times"></i> Đóng
-                </button>
-            </div>
-
-            <div class="admin-body">
-                <div class="form-group">
-                    <label style="color: var(--primary-light);"><i class="fas fa-align-left"></i> Bản tin báo giá chi tiết (Admin có thể chỉnh sửa giá/chiết khấu trước khi gửi cho khách):</label>
-                    <textarea id="zaloMessagePreviewText" class="form-control" rows="11" style="font-family: monospace; font-size: 0.86rem; line-height: 1.5; border-color: var(--primary); background: #090D16;"></textarea>
-                </div>
-
-                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 16px;">
-                    <button type="button" class="btn btn-gold" style="padding: 13px; font-size: 0.92rem;" onclick="downloadQuoteImageForZalo()">
-                        <i class="fas fa-image"></i> 1. Xuất Ảnh Phiếu Báo Giá (.PNG) Chuẩn Đẹp
-                    </button>
-                    <button type="button" class="btn btn-green" style="padding: 13px; font-size: 0.92rem;" onclick="adminSendQuoteToCustomerZalo()">
-                        <i class="fas fa-comment-dots"></i> 2. Copy Báo Giá & Mở Zalo Của Khách Hàng
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
+    </section>
 
     <!-- 9. FOOTER -->
     <footer class="site-footer">
@@ -774,8 +525,11 @@
                     </ul>
                 </div>
             </div>
-            <div style="border-top: 1px solid var(--border-subtle); margin-top: 32px; padding-top: 18px; text-align: center; font-size: 0.82rem;">
-                © 2026 Thiết Bị Điện Cao Cấp Duy Phong (Mã KH: A Thành BN) • 549 Ngô Gia Tự, Ninh Xá, Bắc Ninh • Hotline/Zalo: 0904.511.227
+            <div style="border-top: 1px solid var(--border-subtle); margin-top: 32px; padding-top: 18px; text-align: center; font-size: 0.82rem; color: var(--text-muted); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+                <span>© 2026 Thiết Bị Điện Cao Cấp Duy Phong (Mã KH: A Thành BN) • 549 Ngô Gia Tự, Ninh Xá, Bắc Ninh • Hotline/Zalo: 0904.511.227</span>
+                <a href="admin/" style="color: #334155; font-size: 0.75rem; text-decoration: none; padding: 4px 8px; border-radius: 4px; transition: color 0.2s;" title="Cổng Quản Trị Hệ Thống">
+                    <i class="fas fa-lock"></i> Quản Trị
+                </a>
             </div>
         </div>
     </footer>

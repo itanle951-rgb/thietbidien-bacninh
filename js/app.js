@@ -7,7 +7,7 @@
  */
 
 const STORAGE_KEYS = {
-    PRODUCTS: 'duyphong_athanhbn_products_v1',
+    PRODUCTS: 'duyphong_athanhbn_products_v20261108_420',
     CART_BOQ: 'duyphong_athanhbn_boq_v1',
     QUOTES:   'duyphong_athanhbn_quotes_v1'
 };
@@ -804,17 +804,28 @@ function showToast(message, icon = 'fa-check-circle') {
     }, 3200);
 }
 
-// Khởi tạo dữ liệu từ LocalStorage
+// Khởi tạo dữ liệu từ LocalStorage hoặc toàn bộ 420 sản phẩm danh mục nhà máy
 function initData() {
+    const catalogData = (typeof window !== 'undefined' && window.ALL_PRODUCTS_DATA && Array.isArray(window.ALL_PRODUCTS_DATA) && window.ALL_PRODUCTS_DATA.length > 0)
+        ? window.ALL_PRODUCTS_DATA
+        : [...INITIAL_PRODUCTS];
+
     const savedProducts = localStorage.getItem(STORAGE_KEYS.PRODUCTS);
     if (savedProducts) {
         try {
-            state.products = JSON.parse(savedProducts);
+            const parsed = JSON.parse(savedProducts);
+            if (Array.isArray(parsed) && parsed.length >= 200) {
+                state.products = parsed;
+            } else {
+                state.products = [...catalogData];
+                saveProducts();
+            }
         } catch (e) {
-            state.products = [...INITIAL_PRODUCTS];
+            state.products = [...catalogData];
+            saveProducts();
         }
     } else {
-        state.products = [...INITIAL_PRODUCTS];
+        state.products = [...catalogData];
         saveProducts();
     }
 
@@ -872,10 +883,13 @@ function getFilteredProducts() {
 function populateBrandFilter() {
     const select = document.getElementById('brandFilterSelect');
     if (!select) return;
-    const brands = Array.from(new Set(state.products.map(p => p.brand))).sort();
+    const brands = Array.from(new Set(state.products.map(p => p.brand))).filter(Boolean).sort();
     const current = state.activeBrand;
-    select.innerHTML = `<option value="all">Tất cả thương hiệu (${brands.length})</option>` +
-        brands.map(b => `<option value="${b}" ${b === current ? 'selected' : ''}>Thương hiệu: ${b}</option>`).join('');
+    select.innerHTML = `<option value="all">⚡ Tất cả sản phẩm (${state.products.length} mặt hàng)</option>` +
+        brands.map(b => {
+            const count = state.products.filter(p => p.brand === b).length;
+            return `<option value="${b}" ${b === current ? 'selected' : ''}>Hãng: ${b} (${count} mặt hàng)</option>`;
+        }).join('');
 }
 
 // Render Danh mục Sản phẩm (Cả chế độ Lưới Thẻ và Chế độ Bảng Chọn Nhanh)
@@ -912,7 +926,7 @@ function renderCatalog() {
         return `
             <div class="product-card ${totalQtyInCart > 0 ? 'in-quote' : ''}" id="card-${p.id}">
                 <div class="product-thumb-wrap">
-                    <img src="${p.image}" alt="${p.name}" onerror="this.src='${createProductSvgDataUri(p.name.slice(0,22), p.brand, p.sku)}'"/>
+                    <img src="${p.image}" alt="${p.name}" loading="lazy" onerror="this.onerror=null; this.src='${createProductSvgDataUri(p.name.slice(0,22), p.brand, p.sku, p.brandColor || '#D4AF37')}';"/>
                     <span class="product-brand-tag">${p.brand}</span>
                     <span class="product-catalog-badge" style="position: absolute; top: 12px; right: 12px; background: rgba(212,175,55,0.18); color: var(--primary-light); border: 1px solid rgba(212,175,55,0.35); font-size: 0.72rem; padding: 3px 8px; border-radius: 4px; font-weight: 600;"><i class="fas fa-certificate"></i> Giá Catalog</span>
                     ${totalQtyInCart > 0 ? `<div class="in-quote-ribbon"><i class="fas fa-check-circle"></i> Đã chọn: ${totalQtyInCart} ${p.unit}</div>` : ''}
@@ -971,7 +985,7 @@ function renderCatalog() {
                 <tr>
                     <td>
                         <div style="display: flex; align-items: center; gap: 10px;">
-                            <img src="${p.image}" class="table-thumb" alt="${p.name}" onerror="this.src='${createProductSvgDataUri(p.name.slice(0,18), p.brand, p.sku)}'"/>
+                            <img src="${p.image}" class="table-thumb" alt="${p.name}" loading="lazy" onerror="this.onerror=null; this.src='${createProductSvgDataUri(p.name.slice(0,18), p.brand, p.sku, p.brandColor || '#D4AF37')}';"/>
                             <div>
                                 <div style="font-weight: 700; color: var(--text-primary);">${p.name}</div>
                                 <div style="font-size: 0.76rem; color: var(--accent-cyan);">Mã: ${p.sku} • Hãng: <strong>${p.brand}</strong></div>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldIconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE885"/>
+      <stop offset="30%" stop-color="#D4AF37"/>
+      <stop offset="70%" stop-color="#AA7C11"/>
+      <stop offset="100%" stop-color="#F3E5AB"/>
+    </linearGradient>
+    <linearGradient id="shieldIconBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="50%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="lightningGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFBEB"/>
+      <stop offset="50%" stop-color="#FDE047"/>
+      <stop offset="100%" stop-color="#CA8A04"/>
+    </linearGradient>
+    <filter id="iconGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Outer Hexagon / Shield -->
+  <polygon points="60,4 112,32 112,88 60,116 8,88 8,32" fill="url(#shieldIconBg)" stroke="url(#goldIconGrad)" stroke-width="4" stroke-linejoin="round"/>
+  
+  <!-- Inner Ring / Accent Border -->
+  <polygon points="60,12 103,36 103,84 60,108 17,84 17,36" fill="none" stroke="#D4AF37" stroke-width="1.2" stroke-opacity="0.4" stroke-linejoin="round"/>
+
+  <!-- Stylized "D" and "P" with integrated Lightning Bolt -->
+  <!-- Letter D (Left) -->
+  <path d="M 32 34 L 52 34 C 60 34 63 39 60 46 L 54 55 C 51 59 46 60 41 60 L 32 60 Z" fill="url(#goldIconGrad)"/>
+  <path d="M 39 41 L 47 41 C 50 41 51 43 50 46 L 47 50 C 46 53 44 53 41 53 L 39 53 Z" fill="#0F172A"/>
+
+  <!-- Letter P (Right) -->
+  <path d="M 62 46 L 81 46 C 88 46 91 51 89 58 L 86 65 C 84 71 78 73 72 73 L 62 73 Z M 62 73 L 62 88 L 56 88 L 56 46 Z" fill="url(#goldIconGrad)"/>
+  <path d="M 68 53 L 76 53 C 78 53 79 55 78 58 L 77 62 C 76 66 74 66 71 66 L 68 66 Z" fill="#0F172A"/>
+
+  <!-- Center Electric Energy Lightning -->
+  <polygon points="63,22 47,60 58,60 50,94 74,53 62,53" fill="url(#lightningGlow)" filter="url(#iconGlow)"/>
+  <polygon points="63,22 47,60 58,60 50,94 74,53 62,53" fill="#FFFFFF"/>
+
+  <!-- Top and Bottom Tech Energy Nodes -->
+  <circle cx="60" cy="4" r="3" fill="#38BDF8"/>
+  <circle cx="60" cy="116" r="3" fill="#FDE047"/>
+</svg>

@@ -277,13 +277,14 @@ function renderCatalog() {
             return `
                 <tr>
                     <td>
-                        <div style="display: flex; align-items: center; gap: 12px;">
-                            <img src="${getProductImageUrl(p.image)}" class="table-thumb" alt="${p.name}" loading="lazy" onerror="this.onerror=null; this.src='${createSvgDataUri(p.name.slice(0,18), p.brand, p.sku)}';"/>
-                            <div>
-                                <div style="font-weight: 700; color: #fff; line-height: 1.35; font-size: 0.92rem;">${p.name}</div>
-                                <div style="font-size: 0.76rem; color: var(--accent-cyan); margin-top: 2px;">
+                        <div style="display: flex; align-items: center; gap: 16px;">
+                            <img src="${getProductImageUrl(p.image)}" class="table-thumb" alt="${p.name}" loading="lazy" onerror="this.onerror=null; this.src='${createSvgDataUri(p.name.slice(0,18), p.brand, p.sku)}';" onclick="openImageModal('${getProductImageUrl(p.image)}', '${p.name.replace(/'/g, "\\'")}')" title="Bấm để xem ảnh phóng to"/>
+                            <div style="flex: 1; min-width: 0;">
+                                <div style="font-weight: 700; color: #fff; line-height: 1.4; font-size: 0.98rem;">${p.name}</div>
+                                <div style="font-size: 0.78rem; color: var(--accent-cyan); margin-top: 4px;">
                                     Mã: <strong>${p.sku}</strong> • Hãng: <strong style="color: var(--primary);">${p.brand}</strong>
                                 </div>
+                                ${p.desc ? `<div style="font-size: 0.76rem; color: var(--text-muted); margin-top: 3px; line-height: 1.35;">${p.desc.slice(0, 75)}...</div>` : ''}
                             </div>
                         </div>
                     </td>
@@ -292,21 +293,21 @@ function renderCatalog() {
                             ${variants.map(v => `<option value="${v}">${v}</option>`).join('')}
                         </select>
                     </td>
-                    <td style="text-align: center;"><strong>${p.unit}</strong></td>
+                    <td style="text-align: center;"><span class="badge" style="background:#0F172A; border:1px solid var(--border-subtle); padding:4px 8px; border-radius:4px; font-weight:700;">${p.unit}</span></td>
                     <td>
-                        <div style="color: var(--primary-light); font-weight: 700; font-size: 0.95rem;" id="tbl-prc-${p.id}">
-                            ${formatVND(getVariantPrice(p, variants[0]))}
+                        <div class="table-price-wrap">
+                            <span class="table-price-val" id="tbl-prc-${p.id}">${formatVND(getVariantPrice(p, variants[0]))}</span>
+                            <span class="table-price-sub">Giá Catalog niêm yết</span>
                         </div>
-                        <div style="font-size: 0.72rem; color: var(--text-muted);">Giá Catalog niêm yết</div>
                     </td>
-                    <td>
-                        <div style="display: flex; align-items: center; gap: 6px;">
-                            <input type="number" min="0" value="${currentQty > 0 ? currentQty : 0}" id="tbl-qty-${p.id}" class="form-control" style="width: 85px; text-align: center; font-weight: 700; border-color: var(--border-gold);"/>
+                    <td style="text-align: center;">
+                        <div style="display: inline-flex; align-items: center; gap: 6px; justify-content: center;">
+                            <input type="number" min="0" value="${currentQty > 0 ? currentQty : 0}" id="tbl-qty-${p.id}" class="form-control" style="width: 78px; height: 38px; text-align: center; font-weight: 700; font-size: 0.95rem; border-color: var(--border-gold); background: #0B0F17;"/>
                             <button class="chip-qty" onclick="stepTableQty('${p.id}', 10)">+10</button>
                         </div>
                     </td>
-                    <td>
-                        <button type="button" class="btn btn-outline-gold" style="padding: 7px 12px; font-size: 0.82rem; white-space: nowrap;" onclick="addSingleRow('${p.id}')">
+                    <td style="text-align: center;">
+                        <button type="button" class="btn btn-outline-gold" style="padding: 8px 14px; font-size: 0.82rem; white-space: nowrap; font-weight: 600;" onclick="addSingleRow('${p.id}')">
                             <i class="fas fa-cart-plus"></i> Đưa vào DS
                         </button>
                     </td>
@@ -682,3 +683,32 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
+// Điều khiển Modal phóng to ảnh sản phẩm
+function openImageModal(imgSrc, title) {
+    const modal = document.getElementById('imageZoomModal');
+    const img = document.getElementById('imageZoomImg');
+    const caption = document.getElementById('imageZoomTitle');
+    if (modal && img) {
+        img.src = imgSrc;
+        if (caption) caption.textContent = title || 'Ảnh sản phẩm chi tiết';
+        modal.classList.add('active');
+    }
+}
+
+function closeImageModal() {
+    const modal = document.getElementById('imageZoomModal');
+    if (modal) modal.classList.remove('active');
+}
+
+// Điều khiển Sidebar Drawer trên thiết bị di động
+function toggleMobileSidebar() {
+    const sidebar = document.getElementById('catalogSidebar');
+    const backdrop = document.getElementById('sidebarBackdrop');
+    if (sidebar) {
+        sidebar.classList.toggle('mobile-open');
+    }
+    if (backdrop) {
+        backdrop.classList.toggle('active');
+    }
+}

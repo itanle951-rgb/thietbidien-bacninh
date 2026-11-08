@@ -6,7 +6,7 @@
  */
 
 const STORAGE_KEYS = {
-    PRODUCTS: 'duyphong_athanhbn_products_v20261108_420',
+    PRODUCTS: 'duyphong_athanhbn_products_v20261108_465',
     CART_BOQ: 'duyphong_athanhbn_boq_v1'
 };
 
@@ -289,14 +289,12 @@ function renderCatalog() {
                         </div>
                     </td>
                     <td>
-                        <select class="variant-select" id="tbl-var-${p.id}" style="min-width: 220px;" onchange="updateRowPrice('${p.id}', this.value)">
-                            ${variants.map(v => `<option value="${v}">${v}</option>`).join('')}
-                        </select>
+                        <div style="color: #F3E5AB; font-weight: 600; font-size: 0.9rem; line-height: 1.4;">${p.spec || (p.variants && p.variants[0]) || 'Chính hãng'}</div>
                     </td>
                     <td style="text-align: center;"><span class="badge" style="background:#0F172A; border:1px solid var(--border-subtle); padding:4px 8px; border-radius:4px; font-weight:700;">${p.unit}</span></td>
                     <td>
                         <div class="table-price-wrap">
-                            <span class="table-price-val" id="tbl-prc-${p.id}">${formatVND(getVariantPrice(p, variants[0]))}</span>
+                            <span class="table-price-val" id="tbl-prc-${p.id}">${formatVND(p.price)}</span>
                             <span class="table-price-sub">Giá Catalog niêm yết</span>
                         </div>
                     </td>
@@ -336,16 +334,14 @@ function renderCatalog() {
                         <p class="product-desc">${p.desc || ''}</p>
                         
                         <div class="product-variant-box">
-                            <label><i class="fas fa-sliders"></i> Quy cách:</label>
-                            <select class="variant-select" id="grid-var-${p.id}" onchange="updateCardPrice('${p.id}', this.value)">
-                                ${variants.map(v => `<option value="${v}">${v}</option>`).join('')}
-                            </select>
+                            <label style="color: var(--text-muted); font-size: 0.76rem;"><i class="fas fa-certificate" style="color: var(--primary);"></i> Thông số / Quy cách:</label>
+                            <div style="color: #F3E5AB; font-weight: 600; font-size: 0.88rem; padding: 6px 10px; background: rgba(212,175,55,0.08); border-radius: 6px; border: 1px solid rgba(212,175,55,0.2);">${p.spec || (p.variants && p.variants[0]) || 'Chính hãng'}</div>
                         </div>
 
                         <div class="product-price-row">
                             <div>
                                 <div style="font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase;">Giá Catalog:</div>
-                                <span class="price-main" id="grid-prc-${p.id}">${formatVND(getVariantPrice(p, variants[0]))}</span>
+                                <span class="price-main" id="grid-prc-${p.id}">${formatVND(p.price)}</span>
                                 <span class="price-unit">/ ${p.unit}</span>
                             </div>
                             <span style="font-size: 0.75rem; color: var(--accent-green); font-weight: 600;">Sẵn hàng kho BN</span>
@@ -421,9 +417,8 @@ function stepCardQty(productId, delta) {
 function addSingleRow(productId) {
     const product = catalogState.products.find(p => p.id === productId);
     if (!product) return;
-    const variantEl = document.getElementById('tbl-var-' + productId);
     const qtyEl = document.getElementById('tbl-qty-' + productId);
-    const variant = variantEl ? variantEl.value : 'Tiêu chuẩn';
+    const variant = product.spec || (product.variants && product.variants[0]) || 'Chính hãng';
     let qty = parseInt(qtyEl ? qtyEl.value : 1, 10) || 0;
     if (qty <= 0) qty = 1;
     if (qtyEl) qtyEl.value = qty;
@@ -438,9 +433,8 @@ function addSingleRow(productId) {
 function addFromCard(productId) {
     const product = catalogState.products.find(p => p.id === productId);
     if (!product) return;
-    const variantEl = document.getElementById('grid-var-' + productId);
     const qtyEl = document.getElementById('grid-qty-' + productId);
-    const variant = variantEl ? variantEl.value : 'Tiêu chuẩn';
+    const variant = product.spec || (product.variants && product.variants[0]) || 'Chính hãng';
     const qty = Math.max(1, parseInt(qtyEl ? qtyEl.value : 1, 10) || 1);
 
     upsertCart(product, variant, qty, true);
@@ -457,10 +451,7 @@ function applyBulkTableSelection() {
 
     filtered.forEach(p => {
         const qtyEl = document.getElementById('tbl-qty-' + p.id);
-        const varEl = document.getElementById('tbl-var-' + p.id);
-        if (!qtyEl) return;
-        const qty = parseInt(qtyEl.value, 10) || 0;
-        const variant = varEl ? varEl.value : 'Tiêu chuẩn';
+        const variant = p.spec || (p.variants && p.variants[0]) || 'Chính hãng';
 
         if (qty > 0) {
             upsertCart(p, variant, qty, false);
@@ -482,7 +473,7 @@ function applyBulkTableSelection() {
 function upsertCart(product, variant, qty, accumulate = true) {
     const cartId = `${product.id}__${variant}`;
     const existing = catalogState.boqCart.find(item => item.cartId === cartId);
-    const actualPrice = getVariantPrice(product, variant);
+    const actualPrice = Number(product.price) || 0;
 
     if (existing) {
         existing.qty = accumulate ? (existing.qty + qty) : qty;

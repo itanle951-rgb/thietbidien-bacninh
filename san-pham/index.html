@@ -19,10 +19,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <!-- Main & Catalog Stylesheet -->
-    <link rel="stylesheet" href="../css/style.css?v=20261108_07">
-    <link rel="stylesheet" href="../css/catalog-page.css?v=20261108_07">
+    <link rel="stylesheet" href="../css/style.css?v=20261108_08">
+    <link rel="stylesheet" href="../css/catalog-page.css?v=20261108_08">
 </head>
-<body>
+<body class="catalog-body-wide">
+
+    <!-- Backdrop bộ lọc cho thiết bị di động -->
+    <div class="sidebar-backdrop" id="sidebarBackdrop" onclick="toggleMobileSidebar()"></div>
 
     <!-- Thông báo Toast -->
     <div class="toast-container" id="toastContainer"></div>
@@ -105,7 +108,13 @@
         <div class="catalog-two-col">
             
             <!-- CỘT TRÁI: BỘ LỌC ĐA TẦNG -->
-            <aside class="catalog-sidebar">
+            <aside class="catalog-sidebar" id="catalogSidebar">
+                
+                <!-- Tiêu đề đóng mở trên Mobile -->
+                <div class="catalog-sidebar-header-mobile">
+                    <h3><i class="fas fa-sliders"></i> Bộ Lọc Sản Phẩm</h3>
+                    <button type="button" class="catalog-sidebar-close-btn" onclick="toggleMobileSidebar()" title="Đóng bộ lọc">&times;</button>
+                </div>
                 
                 <!-- Tìm kiếm nội bộ -->
                 <div class="sidebar-box">
@@ -212,6 +221,13 @@
             <!-- CỘT PHẢI: KHU VỰC HIỂN THỊ SẢN PHẨM & ĐẶT HÀNG -->
             <section class="catalog-main" id="catalogContentTop">
                 
+                <!-- Nút mở bộ lọc dành riêng cho Mobile -->
+                <div class="mobile-filter-bar">
+                    <button type="button" class="btn btn-outline-gold mobile-filter-btn" onclick="toggleMobileSidebar()">
+                        <i class="fas fa-sliders"></i> Mở Bộ Lọc & Tìm Kiếm Vật Tư
+                    </button>
+                </div>
+
                 <!-- Thanh Toolbar Điều Khiển -->
                 <div class="catalog-top-toolbar">
                     <div class="toolbar-summary" id="catalogCountSummary">
@@ -242,6 +258,12 @@
 
                 <!-- 1. CHẾ ĐỘ CHÍNH: BẢNG KÊ NHANH (TABLE VIEW) -->
                 <div class="quick-table-wrapper active" id="catalogTableWrapper">
+                    
+                    <!-- Gợi ý vuốt ngang cho màn hình điện thoại -->
+                    <div class="mobile-table-hint">
+                        <i class="fas fa-arrows-left-right"></i> Vuốt ngang bảng để xem quy cách, giá Catalog & gõ số lượng
+                    </div>
+
                     <div style="padding: 14px 18px; background: rgba(212, 175, 55, 0.1); border-bottom: 1px solid var(--border-gold); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
                         <div style="font-size: 0.88rem; color: var(--primary-light);">
                             <i class="fas fa-bolt"></i> <strong>Hướng dẫn:</strong> Nhập số lượng cần lấy vào ô số lượng của các món bên dưới rồi bấm <strong>"Gom Tất Cả Vào Danh Sách"</strong>!
@@ -254,12 +276,12 @@
                     <table class="quick-table">
                         <thead>
                             <tr>
-                                <th style="width: 38%;">Sản phẩm / Thương hiệu</th>
-                                <th style="width: 25%;">Chọn Quy cách / Tiết diện</th>
-                                <th style="width: 8%; text-align: center;">ĐVT</th>
-                                <th style="width: 14%;">Đơn giá Catalog</th>
-                                <th style="width: 15%;">Số lượng</th>
-                                <th style="width: 10%;">Thao tác lẻ</th>
+                                <th style="width: 38%; min-width: 320px;">Sản phẩm / Thương hiệu</th>
+                                <th style="width: 24%; min-width: 220px;">Chọn Quy cách / Tiết diện</th>
+                                <th style="width: 7%; text-align: center;">ĐVT</th>
+                                <th style="width: 13%;">Đơn giá Catalog</th>
+                                <th style="width: 10%; text-align: center;">Số lượng</th>
+                                <th style="width: 8%; text-align: center;">Thao tác</th>
                             </tr>
                         </thead>
                         <tbody id="catalogTableBody"></tbody>
@@ -352,9 +374,18 @@
         </div>
     </footer>
 
+    <!-- Modal Phóng To Ảnh Sản Phẩm -->
+    <div class="image-zoom-modal" id="imageZoomModal" onclick="closeImageModal()">
+        <div class="image-zoom-box" onclick="event.stopPropagation()">
+            <button type="button" class="image-zoom-close" onclick="closeImageModal()">&times;</button>
+            <img id="imageZoomImg" src="" alt="Ảnh sản phẩm phóng to">
+            <h4 id="imageZoomTitle" style="color: #fff; margin-top: 14px; font-size: 1.05rem;"></h4>
+        </div>
+    </div>
+
     <!-- Dữ liệu 420 Sản Phẩm Nhà Máy -->
-    <script src="../js/products.js?v=20261108_07"></script>
+    <script src="../js/products.js?v=20261108_08"></script>
     <!-- Script Chuyên Trang Sản Phẩm -->
-    <script src="../js/catalog-page.js?v=20261108_07"></script>
+    <script src="../js/catalog-page.js?v=20261108_08"></script>
 </body>
 </html>

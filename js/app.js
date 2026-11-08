@@ -2399,7 +2399,7 @@ function resetCatalogFilters() {
 }
 
 // Ghi nhận nhật ký người truy cập website (Traffic Tracker)
-function trackVisitorTraffic() {
+async function trackVisitorTraffic(pageName = 'Trang Chủ Báo Giá Vật Tư') {
     try {
         const TRAFFIC_KEY = 'duyphong_traffic_logs_v1';
         let logs = [];
@@ -2424,6 +2424,24 @@ function trackVisitorTraffic() {
         else if (/Firefox/i.test(ua)) browser = 'Firefox';
         else if (/Edg/i.test(ua)) browser = 'Edge';
 
+        let location = 'Bắc Ninh, VN';
+        let isp = 'Viettel/VNPT';
+        let ip = '';
+
+        try {
+            const geoRes = await fetch('https://ipwho.is/', { cache: 'no-store' });
+            if (geoRes.ok) {
+                const geoData = await geoRes.json();
+                if (geoData && geoData.success) {
+                    const city = geoData.city || geoData.region || 'Việt Nam';
+                    const country = geoData.country === 'Viet Nam' ? 'VN' : (geoData.country || '');
+                    location = city + ', ' + country;
+                    isp = geoData.connection ? (geoData.connection.isp || geoData.connection.org || 'Nhà mạng VN') : 'Nhà mạng VN';
+                    ip = geoData.ip || '';
+                }
+            }
+        } catch (e) {}
+
         const record = {
             id: 'trf-' + Date.now(),
             time: timeStr,
@@ -2431,17 +2449,17 @@ function trackVisitorTraffic() {
             deviceType: deviceType,
             os: os,
             browser: browser,
-            page: 'Trang Chủ Báo Giá Vật Tư',
+            location: location,
+            isp: isp,
+            ip: ip,
+            page: pageName,
             referrer: document.referrer ? (new URL(document.referrer)).hostname : 'Trực tiếp (Direct)'
         };
 
         logs.push(record);
-        // Giới hạn 200 bản ghi mới nhất
         if (logs.length > 200) logs = logs.slice(-200);
         localStorage.setItem(TRAFFIC_KEY, JSON.stringify(logs));
-    } catch (err) {
-        // Lặng lẽ bỏ qua nếu có lỗi
-    }
+    } catch (err) {}
 }
 
 // Render các bài viết cẩm nang kỹ thuật điện ngoài trang chủ

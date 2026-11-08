@@ -1,269 +1,1069 @@
 /**
- * TỔNG HỢP DANH MỤC SẢN PHẨM THIẾT BỊ ĐIỆN BẮC NINH (DUY PHONG ELECTRICS)
- * Cập nhật đầy đủ 100% từ 4 file bảng giá nhà máy:
- * - Dây & Cáp Cadisun 20-08-2026 (140 mục cáp + 77 mục dây)
- * - Cáp đồng Cadi-Gold 29-10-2026 (124 mục)
- * - Dây & Cáp & Thiết bị Trần Phú 27-10-2026 (67 mục)
- * - 14 Thiết bị điện cao cấp dân dụng & công nghiệp & gói combo (Panasonic, Schneider, LS, Bretina, Vanni, Nanoco, Rạng Đông, MPE)
- * 
- * TỔNG SỐ SẢN PHẨM: 420 mặt hàng chính hãng
+ * TỔNG DANH MỤC SẢN PHẨM NHÀ MÁY CHÍNH HÃNG - DUY PHONG BẮC NINH
+ * Đã tách riêng từng quy cách & đơn giá độc lập
  */
-
 window.ALL_PRODUCTS_DATA = [
   {
-    "id": "dp-01",
-    "sku": "TP-VCm-2.5",
-    "name": "Dây Điện Đơn Mềm Trần Phú Chính Hãng (Cuộn 100m)",
-    "category": "day-cap",
+    "id": "dp-tp-vcm-15",
+    "sku": "TP-VCm-1.5",
+    "name": "Dây Điện Đơn Mềm Trần Phú 1x1.5mm² (Cuộn 100m)",
     "brand": "Trần Phú",
+    "category": "day-cap",
+    "categoryName": "Dây & Cáp Điện",
+    "unit": "Cuộn (100m)",
     "price": 685000,
-    "unit": "Cuộn (100m)",
-    "discount": 18,
+    "catalogPrice": 685000,
+    "spec": "Tiết diện 1.5mm² (Đỏ/Xanh/Vàng)",
+    "image": "assets/images/products/day-don-tran-phu.jpg",
+    "desc": "Dây đơn mềm 1 lõi nhiều sợi đồng 99.99% Trần Phú, vỏ PVC chống cháy lan tiêu chuẩn TCVN, dùng cho đường dây chiếu sáng và ổ cắm nhà ở.",
+    "inStock": true,
     "variants": [
-      "Tiết diện 1.5mm² (Đỏ/Xanh/Vàng)",
-      "Tiết diện 2.5mm² (Đỏ/Xanh/Đen)",
-      "Tiết diện 4.0mm² (Chạy nguồn chính)",
-      "Tiết diện 6.0mm² (Chạy trục tổng)"
-    ],
-    "desc": "Dây đồng nguyên chất 99.99% dẫn điện tối ưu, vỏ PVC chống cháy lan chuyên dùng đi âm tường xây nhà mới.",
-    "image": "assets/images/products/day-don-tran-phu.jpg"
+      "Tiết diện 1.5mm² (Đỏ/Xanh/Vàng)"
+    ]
   },
   {
-    "id": "dp-02",
-    "sku": "CDV-CV-4.0",
-    "name": "Dây Cáp Điện Đơn Cứng Cadivi CV Chính Hãng",
+    "id": "dp-tp-vcm-25",
+    "sku": "TP-VCm-2.5",
+    "name": "Dây Điện Đơn Mềm Trần Phú 1x2.5mm² (Cuộn 100m)",
+    "brand": "Trần Phú",
     "category": "day-cap",
-    "brand": "Cadivi",
+    "categoryName": "Dây & Cáp Điện",
+    "unit": "Cuộn (100m)",
     "price": 1120000,
-    "unit": "Cuộn (100m)",
-    "discount": 20,
+    "catalogPrice": 1120000,
+    "spec": "Tiết diện 2.5mm² (Đỏ/Xanh/Đen)",
+    "image": "assets/images/products/day-don-tran-phu.jpg",
+    "desc": "Dây đơn mềm Trần Phú 1x2.5mm² chịu tải cao, chuyên dùng cho ổ cắm công suất lớn, bếp từ, điều hòa 9000-12000 BTU.",
+    "inStock": true,
     "variants": [
-      "CV 1.5mm² - 450/750V",
-      "CV 2.5mm² - 450/750V",
-      "CV 4.0mm² - 450/750V",
-      "CV 6.0mm² - 450/750V",
-      "CV 10.0mm² - Cáp nguồn tổng"
-    ],
-    "desc": "Thương hiệu quốc gia Cadivi, chịu tải cao cho điều hòa, bình nóng lạnh, bếp từ và trục đứng nhà ống 2-5 tầng.",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg"
+      "Tiết diện 2.5mm² (Đỏ/Xanh/Đen)"
+    ]
   },
   {
-    "id": "dp-03",
-    "sku": "CDS-3P-4x16",
-    "name": "Cáp Đồng Hạ Thế 3 Pha 4 Lõi Cadisun (Dùng Cho Nhà Xưởng)",
+    "id": "dp-tp-vcm-40",
+    "sku": "TP-VCm-4.0",
+    "name": "Dây Điện Đơn Mềm Trần Phú 1x4.0mm² (Cuộn 100m)",
+    "brand": "Trần Phú",
     "category": "day-cap",
-    "brand": "Cadisun",
-    "price": 165000,
-    "unit": "Mét",
-    "discount": 22,
+    "categoryName": "Dây & Cáp Điện",
+    "unit": "Cuộn (100m)",
+    "price": 1745000,
+    "catalogPrice": 1745000,
+    "spec": "Tiết diện 4.0mm² (Chạy nguồn chính)",
+    "image": "assets/images/products/day-don-tran-phu.jpg",
+    "desc": "Dây đơn mềm 1x4.0mm² Trần Phú làm trục nguồn nhánh các tầng hoặc phụ tải nặng như bếp từ đôi, bình nước nóng trung tâm.",
+    "inStock": true,
     "variants": [
-      "CVV 3x6 + 1x4 mm²",
-      "CVV 3x10 + 1x6 mm²",
-      "CVV 3x16 + 1x10 mm²",
-      "CVV 3x25 + 1x16 mm²",
-      "CVV 3x35 + 1x16 mm²"
-    ],
-    "desc": "Cáp lực 3 pha cấp nguồn tổng cho tủ điện MSB/DB nhà xưởng vừa và nhỏ tại các KCN Bắc Ninh. Cắt lẻ theo số mét yêu cầu.",
-    "image": "assets/images/products/cap-3pha-4loi-cadisun.jpg"
+      "Tiết diện 4.0mm² (Chạy nguồn chính)"
+    ]
   },
   {
-    "id": "dp-04",
-    "sku": "BRT-LUX-G1",
-    "name": "Bộ Công Tắc & Ổ Cắm Cao Cấp BRETINA Viền Kim Loại",
-    "category": "cong-tac-o-cam",
-    "brand": "Bretina",
-    "price": 145000,
-    "unit": "Bộ",
-    "discount": 25,
+    "id": "dp-tp-vcm-60",
+    "sku": "TP-VCm-6.0",
+    "name": "Dây Điện Đơn Mềm Trần Phú 1x6.0mm² (Cuộn 100m)",
+    "brand": "Trần Phú",
+    "category": "day-cap",
+    "categoryName": "Dây & Cáp Điện",
+    "unit": "Cuộn (100m)",
+    "price": 2580000,
+    "catalogPrice": 2580000,
+    "spec": "Tiết diện 6.0mm² (Chạy trục tổng)",
+    "image": "assets/images/products/day-don-tran-phu.jpg",
+    "desc": "Dây đơn mềm 1x6.0mm² Trần Phú truyền tải trục nguồn tổng từ tủ điện chính vào các tầng, chống quá tải và sụt áp.",
+    "inStock": true,
     "variants": [
-      "Ổ cắm đôi 3 chấu mặt Vàng Champagne",
-      "Công tắc 2 hạt mặt Vàng Champagne",
-      "Công tắc 3 hạt mặt Xám Titan",
-      "Công tắc 1 hạt 2 chiều (Cầu thang)",
-      "Hạt mạng LAN + Tivi đồng bộ"
-    ],
-    "desc": "Dòng thiết bị mặt viền sang trọng trưng bày trực tiếp tại Showroom Duy Phong, tiếp điểm đồng hợp kim đàn hồi chống đánh lửa.",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg"
+      "Tiết diện 6.0mm² (Chạy trục tổng)"
+    ]
   },
   {
-    "id": "dp-05",
-    "sku": "VNI-PRO-S2",
-    "name": "Bộ Công Tắc & Ổ Cắm Cao Cấp VANNI Chính Hãng",
-    "category": "cong-tac-o-cam",
-    "brand": "Vanni",
-    "price": 125000,
-    "unit": "Bộ",
-    "discount": 25,
+    "id": "dp-cdv-cv-15",
+    "sku": "CDV-CV-1.5",
+    "name": "Dây Cáp Điện Đơn Cứng Cadivi CV 1.5mm² (Cuộn 100m)",
+    "brand": "Cadivi",
+    "category": "day-cap",
+    "categoryName": "Dây & Cáp Điện",
+    "unit": "Cuộn (100m)",
+    "price": 545000,
+    "catalogPrice": 545000,
+    "spec": "CV 1.5mm² - 450/750V",
+    "image": "assets/images/products/day-don-tran-phu.jpg",
+    "desc": "Cáp điện lực hạ thế CV 1 lõi đồng cứng Cadivi cách điện PVC 450/750V tiêu chuẩn AS/NZS 5000.1 và TCVN 6610-3.",
+    "inStock": true,
     "variants": [
-      "Bộ ổ cắm đôi 3 chấu đa năng",
-      "Bộ công tắc 1 chiều (1-2-3 hạt)",
-      "Bộ công tắc cầu thang 2 chiều",
-      "Công tắc bình nóng lạnh 20A có đèn báo"
-    ],
-    "desc": "Thiết kế hiện đại, mặt nhựa Polycarbonate chống ố vàng, bảo hành đổi mới dài hạn cho công trình nhà dân & biệt thự.",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg"
+      "CV 1.5mm² - 450/750V"
+    ]
   },
   {
-    "id": "dp-06",
-    "sku": "PANA-WIDE-W",
-    "name": "Bộ Công Tắc Ổ Cắm Panasonic Dòng Wide / Halumie",
-    "category": "cong-tac-o-cam",
-    "brand": "Panasonic",
-    "price": 118000,
-    "unit": "Bộ",
-    "discount": 22,
-    "variants": [
-      "Bộ ổ cắm đôi 3 chấu có màn che",
-      "Bộ 1 công tắc + 1 ổ cắm",
-      "Bộ 2 công tắc 1 chiều",
-      "Bộ 3 công tắc 1 chiều",
-      "Công tắc 2 cực 20A cho Điều hòa/Nóng lạnh"
-    ],
-    "desc": "Dòng sản phẩm Panasonic bền bỉ theo năm tháng, được các thợ điện Bắc Ninh tin dùng nhiều nhất cho nhà xây mới.",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg"
-  },
-  {
-    "id": "dp-07",
-    "sku": "NNC-DL-9W",
-    "name": "Đèn LED Âm Trần Downlight Nanoco / Panasonic Đổi Màu",
-    "category": "chieu-sang",
-    "brand": "Nanoco",
-    "price": 115000,
-    "unit": "Cái",
-    "discount": 28,
-    "variants": [
-      "9W Đổi 3 màu (Lỗ khoét Φ90mm)",
-      "12W Đổi 3 màu (Lỗ khoét Φ110mm)",
-      "9W Ánh sáng Trắng 6500K (Φ90mm)",
-      "9W Ánh sáng Vàng ấm 3000K (Φ90mm)"
-    ],
-    "desc": "Đế nhôm đúc tản nhiệt nhanh, chip LED RG0 chống chói bảo vệ mắt, ánh sáng trung thực CRI > 80 cho phòng khách & phòng ngủ.",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg"
-  },
-  {
-    "id": "dp-08",
-    "sku": "RD-BN-40W",
-    "name": "Đèn LED Bán Nguyệt & Tuýp LED Rạng Đông 1.2m Siêu Sáng",
-    "category": "chieu-sang",
-    "brand": "Rạng Đông",
-    "price": 168000,
-    "unit": "Bộ",
-    "discount": 20,
-    "variants": [
-      "Bán nguyệt 1.2m - 40W Trắng",
-      "Bán nguyệt 1.2m - 50W Siêu sáng",
-      "Bộ Tuýp LED đôi 1.2m - 2x20W",
-      "Bán nguyệt 0.6m - 20W"
-    ],
-    "desc": "Giải pháp chiếu sáng tiết kiệm điện cho hành lang, bếp, phòng sinh hoạt chung, cửa hàng và văn phòng nhà xưởng.",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg"
-  },
-  {
-    "id": "dp-09",
-    "sku": "HB-IND-150W",
-    "name": "Đèn LED Highbay & Đèn Pha Nhà Xưởng Công Nghiệp IP65",
-    "category": "chieu-sang",
-    "brand": "MPE",
+    "id": "dp-cdv-cv-25",
+    "sku": "CDV-CV-2.5",
+    "name": "Dây Cáp Điện Đơn Cứng Cadivi CV 2.5mm² (Cuộn 100m)",
+    "brand": "Cadivi",
+    "category": "day-cap",
+    "categoryName": "Dây & Cáp Điện",
+    "unit": "Cuộn (100m)",
     "price": 890000,
+    "catalogPrice": 890000,
+    "spec": "CV 2.5mm² - 450/750V",
+    "image": "assets/images/products/day-don-tran-phu.jpg",
+    "desc": "Cáp đơn cứng Cadivi CV 2.5mm² dẫn điện tốt, chịu nhiệt vỏ 70°C, đi luồn ống gen cứng hoặc ống ruột gà an toàn tuyệt đối.",
+    "inStock": true,
+    "variants": [
+      "CV 2.5mm² - 450/750V"
+    ]
+  },
+  {
+    "id": "dp-cdv-cv-40",
+    "sku": "CDV-CV-4.0",
+    "name": "Dây Cáp Điện Đơn Cứng Cadivi CV 4.0mm² (Cuộn 100m)",
+    "brand": "Cadivi",
+    "category": "day-cap",
+    "categoryName": "Dây & Cáp Điện",
+    "unit": "Cuộn (100m)",
+    "price": 1395000,
+    "catalogPrice": 1395000,
+    "spec": "CV 4.0mm² - 450/750V",
+    "image": "assets/images/products/day-don-tran-phu.jpg",
+    "desc": "Cáp đơn cứng Cadivi CV 4.0mm² chuyên tải nặng, chống cháy chậm, giảm thiểu hao tổn điện năng.",
+    "inStock": true,
+    "variants": [
+      "CV 4.0mm² - 450/750V"
+    ]
+  },
+  {
+    "id": "dp-cdv-cv-60",
+    "sku": "CDV-CV-6.0",
+    "name": "Dây Cáp Điện Đơn Cứng Cadivi CV 6.0mm² (Cuộn 100m)",
+    "brand": "Cadivi",
+    "category": "day-cap",
+    "categoryName": "Dây & Cáp Điện",
+    "unit": "Cuộn (100m)",
+    "price": 2080000,
+    "catalogPrice": 2080000,
+    "spec": "CV 6.0mm² - 450/750V",
+    "image": "assets/images/products/day-don-tran-phu.jpg",
+    "desc": "Cáp đơn cứng Cadivi CV 6.0mm² dùng cho nguồn cấp điều hòa cây, thang máy gia đình, trục phân phối tầng.",
+    "inStock": true,
+    "variants": [
+      "CV 6.0mm² - 450/750V"
+    ]
+  },
+  {
+    "id": "dp-cdv-cv-100",
+    "sku": "CDV-CV-10.0",
+    "name": "Dây Cáp Điện Đơn Cứng Cadivi CV 10.0mm² (Mét)",
+    "brand": "Cadivi",
+    "category": "day-cap",
+    "categoryName": "Dây & Cáp Điện",
+    "unit": "Mét",
+    "price": 36500,
+    "catalogPrice": 36500,
+    "spec": "CV 10.0mm² - Cáp nguồn tổng",
+    "image": "assets/images/products/day-don-tran-phu.jpg",
+    "desc": "Cáp đồng cứng Cadivi CV 10.0mm² kéo nguồn chính từ công tơ vào tủ điện tổng gia đình hoặc nhà xưởng.",
+    "inStock": true,
+    "variants": [
+      "CV 10.0mm² - Cáp nguồn tổng"
+    ]
+  },
+  {
+    "id": "dp-cds-3p-6",
+    "sku": "CDS-3P-6",
+    "name": "Cáp Đồng Hạ Thế 3 Pha 4 Lõi Cadisun CVV 3x6 + 1x4 mm²",
+    "brand": "Cadisun",
+    "category": "day-cap",
+    "categoryName": "Dây & Cáp Điện",
+    "unit": "Mét",
+    "price": 165000,
+    "catalogPrice": 165000,
+    "spec": "CVV 3x6 + 1x4 mm²",
+    "image": "assets/images/products/cap-3pha-4loi-cadisun.jpg",
+    "desc": "Cáp điện lực 4 lõi Cadisun ruột đồng bọc PVC, cách điện PVC 0.6/1kV chuyên dùng kéo điện 3 pha cho nhà xưởng vừa & nhỏ.",
+    "inStock": true,
+    "variants": [
+      "CVV 3x6 + 1x4 mm²"
+    ]
+  },
+  {
+    "id": "dp-cds-3p-10",
+    "sku": "CDS-3P-10",
+    "name": "Cáp Đồng Hạ Thế 3 Pha 4 Lõi Cadisun CVV 3x10 + 1x6 mm²",
+    "brand": "Cadisun",
+    "category": "day-cap",
+    "categoryName": "Dây & Cáp Điện",
+    "unit": "Mét",
+    "price": 268000,
+    "catalogPrice": 268000,
+    "spec": "CVV 3x10 + 1x6 mm²",
+    "image": "assets/images/products/cap-3pha-4loi-cadisun.jpg",
+    "desc": "Cáp 3 pha 4 lõi Cadisun 3x10 + 1x6 mm² tiêu chuẩn TCVN 5935-1, ruột đồng ép chặt chịu tải máy móc sản xuất liên tục.",
+    "inStock": true,
+    "variants": [
+      "CVV 3x10 + 1x6 mm²"
+    ]
+  },
+  {
+    "id": "dp-cds-3p-16",
+    "sku": "CDS-3P-16",
+    "name": "Cáp Đồng Hạ Thế 3 Pha 4 Lõi Cadisun CVV 3x16 + 1x10 mm²",
+    "brand": "Cadisun",
+    "category": "day-cap",
+    "categoryName": "Dây & Cáp Điện",
+    "unit": "Mét",
+    "price": 395000,
+    "catalogPrice": 395000,
+    "spec": "CVV 3x16 + 1x10 mm²",
+    "image": "assets/images/products/cap-3pha-4loi-cadisun.jpg",
+    "desc": "Cáp đồng 3 pha 4 lõi Cadisun 3x16 + 1x10 mm² chịu dòng tải cao, dùng đấu nối trạm biến áp vào tủ phân phối xưởng.",
+    "inStock": true,
+    "variants": [
+      "CVV 3x16 + 1x10 mm²"
+    ]
+  },
+  {
+    "id": "dp-cds-3p-25",
+    "sku": "CDS-3P-25",
+    "name": "Cáp Đồng Hạ Thế 3 Pha 4 Lõi Cadisun CVV 3x25 + 1x16 mm²",
+    "brand": "Cadisun",
+    "category": "day-cap",
+    "categoryName": "Dây & Cáp Điện",
+    "unit": "Mét",
+    "price": 590000,
+    "catalogPrice": 590000,
+    "spec": "CVV 3x25 + 1x16 mm²",
+    "image": "assets/images/products/cap-3pha-4loi-cadisun.jpg",
+    "desc": "Cáp đồng 3 pha 4 lõi Cadisun 3x25 + 1x16 mm² cấp điện xưởng cơ khí, may mặc, chế tạo máy tại các KCN Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "CVV 3x25 + 1x16 mm²"
+    ]
+  },
+  {
+    "id": "dp-cds-3p-35",
+    "sku": "CDS-3P-35",
+    "name": "Cáp Đồng Hạ Thế 3 Pha 4 Lõi Cadisun CVV 3x35 + 1x16 mm²",
+    "brand": "Cadisun",
+    "category": "day-cap",
+    "categoryName": "Dây & Cáp Điện",
+    "unit": "Mét",
+    "price": 810000,
+    "catalogPrice": 810000,
+    "spec": "CVV 3x35 + 1x16 mm²",
+    "image": "assets/images/products/cap-3pha-4loi-cadisun.jpg",
+    "desc": "Cáp đồng 3 pha 4 lõi Cadisun 3x35 + 1x16 mm² công suất lớn, độ bền cơ học cao, đầy đủ chứng chỉ xuất xưởng CO/CQ.",
+    "inStock": true,
+    "variants": [
+      "CVV 3x35 + 1x16 mm²"
+    ]
+  },
+  {
+    "id": "dp-brt-oc3",
+    "sku": "BRT-LUX-OC",
+    "name": "Bộ Ổ Cắm Đôi 3 Chấu BRETINA Mặt Vàng Champagne",
+    "brand": "Bretina",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
     "unit": "Bộ",
-    "discount": 24,
+    "price": 145000,
+    "catalogPrice": 145000,
+    "spec": "Mặt Vàng Champagne viền kim loại",
+    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "desc": "Dòng công tắc ổ cắm Luxury viền nhôm phay xước mạ vàng Champagne, mặt cắm chống lỏng, chịu tải 16A cho biệt thự.",
+    "inStock": true,
     "variants": [
-      "Highbay Nhà xưởng 100W (Chóa nhôm)",
-      "Highbay Nhà xưởng 150W (Chóa nhôm)",
-      "Highbay Nhà xưởng 200W (Trần cao >7m)",
-      "Đèn Pha LED Ngoài Trời 100W IP66"
-    ],
-    "desc": "Chuyên dụng chiếu sáng nhà xưởng sản xuất, kho hàng, bãi xe KCN với tuổi thọ 30.000 giờ, chống bụi và ẩm IP65.",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg"
+      "Mặt Vàng Champagne viền kim loại"
+    ]
   },
   {
-    "id": "dp-10",
-    "sku": "SCH-MCB-2P",
-    "name": "Aptomat Tép (MCB) & Chống Giật (RCBO) Schneider / Panasonic",
-    "category": "dong-cat-tu-dien",
-    "brand": "Schneider",
-    "price": 155000,
-    "unit": "Cái",
-    "discount": 22,
+    "id": "dp-brt-ct2",
+    "sku": "BRT-LUX-CT2",
+    "name": "Bộ Công Tắc 2 Hạt BRETINA Mặt Vàng Champagne",
+    "brand": "Bretina",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Bộ",
+    "price": 135000,
+    "catalogPrice": 135000,
+    "spec": "Công tắc 2 hạt mặt Vàng Champagne",
+    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "desc": "Công tắc 2 phím bấm êm tay có dạ quang phát sáng ban đêm, tiếp điểm hợp kim bạc chống tia lửa điện.",
+    "inStock": true,
     "variants": [
-      "MCB 1P 16A/20A (Nhánh chiếu sáng/ổ cắm)",
-      "MCB 2P 32A/40A (Điều hòa/Bếp từ)",
-      "MCB 2P 63A (Aptomat tổng từng tầng)",
-      "RCBO Chống giật 2P 40A/63A 30mA"
-    ],
-    "desc": "Thiết bị bảo vệ quá tải, ngắn mạch và chống dòng rò giật điện an toàn tuyệt đối cho từng phòng và từng tầng gia đình.",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg"
+      "Công tắc 2 hạt mặt Vàng Champagne"
+    ]
   },
   {
-    "id": "dp-11",
-    "sku": "LS-MCCB-3P",
-    "name": "Aptomat Khối 3 Pha (MCCB) & Khởi Động Từ LS Hàn Quốc",
-    "category": "dong-cat-tu-dien",
-    "brand": "LS",
-    "price": 980000,
-    "unit": "Cái",
-    "discount": 25,
+    "id": "dp-brt-ct3",
+    "sku": "BRT-LUX-CT3",
+    "name": "Bộ Công Tắc 3 Hạt BRETINA Mặt Xám Titan",
+    "brand": "Bretina",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Bộ",
+    "price": 165000,
+    "catalogPrice": 165000,
+    "spec": "Công tắc 3 hạt mặt Xám Titan",
+    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "desc": "Mặt viền nhôm xước màu Xám Titan sang trọng cho nội thất hiện đại, 3 phím bấm độc lập 16A.",
+    "inStock": true,
     "variants": [
-      "MCCB ABN103c 3P 63A (18kA)",
-      "MCCB ABN103c 3P 100A (18kA)",
-      "MCCB ABN203c 3P 150A/200A (30kA)",
-      "Contactor MC-32a / MC-50a 380V"
-    ],
-    "desc": "Thiết bị đóng cắt công nghiệp chính hãng LS Hàn Quốc, đầy đủ CO/CQ dùng lắp tủ điện tổng nhà xưởng và máy sản xuất.",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg"
+      "Công tắc 3 hạt mặt Xám Titan"
+    ]
   },
   {
-    "id": "dp-12",
-    "sku": "NNC-BOX-12M",
-    "name": "Tủ Điện Âm Tường Gia Đình & Vỏ Tủ Điện Sơn Tĩnh Điện Nhà Xưởng",
-    "category": "dong-cat-tu-dien",
-    "brand": "Nanoco",
-    "price": 265000,
-    "unit": "Cái",
-    "discount": 20,
+    "id": "dp-brt-ct2c",
+    "sku": "BRT-LUX-CT2C",
+    "name": "Bộ Công Tắc 1 Hạt 2 Chiều Cầu Thang BRETINA",
+    "brand": "Bretina",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Bộ",
+    "price": 98000,
+    "catalogPrice": 98000,
+    "spec": "1 hạt 2 chiều (Cầu thang / Phòng ngủ)",
+    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "desc": "Bộ công tắc đảo chiều chuyên dụng bật tắt 2 vị trí cầu thang và đầu giường ngủ, viền kim loại cao cấp.",
+    "inStock": true,
     "variants": [
-      "Tủ âm tường 8-12 Module nắp kim loại",
-      "Tủ âm tường 16-18 Module (Nhà 3 tầng)",
-      "Vỏ tủ điện công nghiệp 400x600x200mm",
-      "Vỏ tủ điện tổng xưởng 600x800x250mm"
-    ],
-    "desc": "Tủ điện thẩm mỹ cao cho gia đình và vỏ tủ thép sơn tĩnh điện dày 1.2mm - 1.5mm cho công trình nhà xưởng.",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg"
+      "1 hạt 2 chiều (Cầu thang / Phòng ngủ)"
+    ]
   },
   {
-    "id": "dp-13",
-    "sku": "NNC-PIPE-20",
-    "name": "Ống Luồn Dây Điện Chống Cháy (Ống Ruột Gà & Ống Cứng + Đế Âm)",
-    "category": "vat-tu-phu-kien",
-    "brand": "Nanoco",
-    "price": 245000,
-    "unit": "Cuộn / Lô",
-    "discount": 25,
+    "id": "dp-brt-lan",
+    "sku": "BRT-LUX-LAN",
+    "name": "Bộ Hạt Mạng LAN + Tivi BRETINA Mặt Kim Loại",
+    "brand": "Bretina",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Bộ",
+    "price": 185000,
+    "catalogPrice": 185000,
+    "spec": "Mạng LAN Cat6 + Cáp Tivi đồng bộ",
+    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "desc": "Bộ ổ cắm đa phương tiện mạng LAN tốc độ cao Gigabit kết hợp cổng cáp đồng trục Tivi gia đình.",
+    "inStock": true,
     "variants": [
-      "Ống ruột gà chống cháy Φ16 (Cuộn 50m)",
-      "Ống ruột gà chống cháy Φ20 (Cuộn 50m)",
-      "Combo 50 Đế âm tường đơn chống cháy",
-      "Ống cứng luồn dây PVC Φ20 (Bó 25 cây)"
-    ],
-    "desc": "Vật tư giai đoạn 1 (đi phần thô âm tường, âm sàn bê tông) không thể thiếu khi khởi công xây nhà mới.",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg"
+      "Mạng LAN Cat6 + Cáp Tivi đồng bộ"
+    ]
   },
   {
-    "id": "dp-14",
-    "sku": "PANA-FAN-5B",
-    "name": "Quạt Trần Đèn & Quạt Hút Âm Trần Chính Hãng Panasonic / Nanoco",
-    "category": "vat-tu-phu-kien",
+    "id": "dp-vni-oc3",
+    "sku": "VNI-PRO-OC",
+    "name": "Bộ Ổ Cắm Đôi 3 Chấu Đa Năng VANNI Chính Hãng",
+    "brand": "Vanni",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Bộ",
+    "price": 125000,
+    "catalogPrice": 125000,
+    "spec": "Ổ cắm đôi 3 chấu đa năng",
+    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "desc": "Ổ cắm Vanni chống cháy, lá đồng phốt-pho đàn hồi cao, cắm rút 15.000 lần không lỏng chân cắm.",
+    "inStock": true,
+    "variants": [
+      "Ổ cắm đôi 3 chấu đa năng"
+    ]
+  },
+  {
+    "id": "dp-vni-ct1",
+    "sku": "VNI-PRO-CT1",
+    "name": "Bộ Công Tắc 1 Hạt 1 Chiều VANNI Chính Hãng",
+    "brand": "Vanni",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Bộ",
+    "price": 75000,
+    "catalogPrice": 75000,
+    "spec": "Công tắc 1 hạt 1 chiều",
+    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "desc": "Bộ công tắc 1 phím lớn thiết kế viền bo cong tinh tế, nhựa Polycarbonate chống cháy va đập.",
+    "inStock": true,
+    "variants": [
+      "Công tắc 1 hạt 1 chiều"
+    ]
+  },
+  {
+    "id": "dp-vni-ct2c",
+    "sku": "VNI-PRO-CT2C",
+    "name": "Bộ Công Tắc Cầu Thang 2 Chiều VANNI Chính Hãng",
+    "brand": "Vanni",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Bộ",
+    "price": 88000,
+    "catalogPrice": 88000,
+    "spec": "Công tắc 2 chiều (Cầu thang)",
+    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "desc": "Công tắc 2 chiều đảo mạch cầu thang Vanni độ bền cao, bảo hành chính hãng 24 tháng.",
+    "inStock": true,
+    "variants": [
+      "Công tắc 2 chiều (Cầu thang)"
+    ]
+  },
+  {
+    "id": "dp-vni-nl",
+    "sku": "VNI-PRO-NL",
+    "name": "Công Tắc Bình Nóng Lạnh 20A Có Đèn Báo VANNI",
+    "brand": "Vanni",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Bộ",
+    "price": 135000,
+    "catalogPrice": 135000,
+    "spec": "20A có đèn báo chuyên bình nóng lạnh",
+    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "desc": "Bộ công tắc 2 cực chịu tải 20A chuyên dụng ngắt cả 2 dây pha và trung tính cho bình nóng lạnh an toàn.",
+    "inStock": true,
+    "variants": [
+      "20A có đèn báo chuyên bình nóng lạnh"
+    ]
+  },
+  {
+    "id": "dp-pana-oc3",
+    "sku": "PANA-OC-3C",
+    "name": "Bộ Ổ Cắm Đôi 3 Chấu Có Màn Che Panasonic Dòng Wide",
     "brand": "Panasonic",
-    "price": 2150000,
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
     "unit": "Bộ",
-    "discount": 18,
+    "price": 118000,
+    "catalogPrice": 118000,
+    "spec": "Đôi 3 chấu có màn che an toàn",
+    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "desc": "Dòng Panasonic Wide quốc dân bền bỉ, màn che an toàn chống giật cho trẻ nhỏ, cắm chân tròn hoặc dẹt.",
+    "inStock": true,
     "variants": [
-      "Quạt trần 5 cánh động cơ DC tiết kiệm điện",
-      "Quạt trần 4 cánh có điều khiển từ xa",
-      "Quạt thông gió âm trần phòng vệ sinh 240x240"
-    ],
-    "desc": "Lắp đặt hoàn thiện đồng bộ cho phòng khách, phòng ngủ và khu vệ sinh, vận hành êm ái, bảo hành chính hãng.",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg"
+      "Đôi 3 chấu có màn che an toàn"
+    ]
+  },
+  {
+    "id": "dp-pana-ctoc",
+    "sku": "PANA-CT-OC",
+    "name": "Bộ 1 Công Tắc + 1 Ổ Cắm Panasonic Dòng Wide",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Bộ",
+    "price": 98000,
+    "catalogPrice": 98000,
+    "spec": "1 công tắc + 1 ổ cắm tiện dụng",
+    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "desc": "Thiết kế kết hợp 1 công tắc đèn và 1 ổ cắm tiện lợi cho khu vực nhà vệ sinh, ban công, hành lang.",
+    "inStock": true,
+    "variants": [
+      "1 công tắc + 1 ổ cắm tiện dụng"
+    ]
+  },
+  {
+    "id": "dp-pana-ct2",
+    "sku": "PANA-CT2",
+    "name": "Bộ 2 Công Tắc 1 Chiều Panasonic Dòng Wide",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Bộ",
+    "price": 92000,
+    "catalogPrice": 92000,
+    "spec": "2 công tắc 1 chiều",
+    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "desc": "Bộ công tắc đôi Panasonic Wide màu trắng tuyết thanh lịch, phím gạt nhẹ nhàng, tuổi thọ trên 40.000 lần bật tắt.",
+    "inStock": true,
+    "variants": [
+      "2 công tắc 1 chiều"
+    ]
+  },
+  {
+    "id": "dp-pana-ct3",
+    "sku": "PANA-CT3",
+    "name": "Bộ 3 Công Tắc 1 Chiều Panasonic Dòng Wide",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Bộ",
+    "price": 125000,
+    "catalogPrice": 125000,
+    "spec": "3 công tắc 1 chiều",
+    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "desc": "Bộ 3 công tắc 1 chiều Panasonic dòng Wide chuyên lắp cửa ra vào phòng khách, phòng ngủ điều khiển 3 nhóm đèn.",
+    "inStock": true,
+    "variants": [
+      "3 công tắc 1 chiều"
+    ]
+  },
+  {
+    "id": "dp-pana-20a",
+    "sku": "PANA-2P20A",
+    "name": "Công Tắc 2 Cực 20A Điều Hòa / Nóng Lạnh Panasonic",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Bộ",
+    "price": 148000,
+    "catalogPrice": 148000,
+    "spec": "2 cực 20A đóng cắt an toàn",
+    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "desc": "Công tắc đóng ngắt 2 cực 20A Panasonic có đèn báo ON/OFF, chuyên dụng cho bình nóng lạnh và điều hòa nhiệt độ.",
+    "inStock": true,
+    "variants": [
+      "2 cực 20A đóng cắt an toàn"
+    ]
+  },
+  {
+    "id": "dp-nnc-dl9w-3c",
+    "sku": "NNC-DL-9W-3C",
+    "name": "Đèn LED Âm Trần 9W Đổi 3 Màu Nanoco (Khoét Lỗ Φ90mm)",
+    "brand": "Nanoco",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Cái",
+    "price": 95000,
+    "catalogPrice": 95000,
+    "spec": "9W Đổi 3 màu (Lỗ khoét Φ90mm)",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn Downlight Nanoco đổi màu (Trắng - Vàng - Trung tính) sau mỗi lần bật tắt công tắc, bảo vệ mắt, không nhấp nháy.",
+    "inStock": true,
+    "variants": [
+      "9W Đổi 3 màu (Lỗ khoét Φ90mm)"
+    ]
+  },
+  {
+    "id": "dp-nnc-dl12w-3c",
+    "sku": "NNC-DL-12W-3C",
+    "name": "Đèn LED Âm Trần 12W Đổi 3 Màu Nanoco (Khoét Lỗ Φ110mm)",
+    "brand": "Nanoco",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Cái",
+    "price": 135000,
+    "catalogPrice": 135000,
+    "spec": "12W Đổi 3 màu (Lỗ khoét Φ110mm)",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn Downlight 12W công suất lớn cho trần thạch cao phòng khách cao rộng, góc chiếu rộng 120 độ ánh sáng tỏa đều.",
+    "inStock": true,
+    "variants": [
+      "12W Đổi 3 màu (Lỗ khoét Φ110mm)"
+    ]
+  },
+  {
+    "id": "dp-nnc-dl9w-t",
+    "sku": "NNC-DL-9W-T",
+    "name": "Đèn LED Âm Trần 9W Ánh Sáng Trắng 6500K Nanoco (Φ90mm)",
+    "brand": "Nanoco",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Cái",
+    "price": 75000,
+    "catalogPrice": 75000,
+    "spec": "9W Ánh sáng Trắng 6500K (Φ90mm)",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED âm trần 1 màu đơn sắc Trắng tinh tế, chip LED Epistar tuổi thọ 30.000 giờ, tiết kiệm 80% điện.",
+    "inStock": true,
+    "variants": [
+      "9W Ánh sáng Trắng 6500K (Φ90mm)"
+    ]
+  },
+  {
+    "id": "dp-nnc-dl9w-v",
+    "sku": "NNC-DL-9W-V",
+    "name": "Đèn LED Âm Trần 9W Ánh Sáng Vàng Ấm 3000K Nanoco (Φ90mm)",
+    "brand": "Nanoco",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Cái",
+    "price": 75000,
+    "catalogPrice": 75000,
+    "spec": "9W Ánh sáng Vàng ấm 3000K (Φ90mm)",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED âm trần 9W màu Vàng ấm dịu nhẹ cho phòng ngủ, phòng thư giãn, vỏ nhôm đúc tản nhiệt nhanh.",
+    "inStock": true,
+    "variants": [
+      "9W Ánh sáng Vàng ấm 3000K (Φ90mm)"
+    ]
+  },
+  {
+    "id": "dp-rd-bn40",
+    "sku": "RD-BN-12-40W",
+    "name": "Đèn LED Bán Nguyệt 1.2m - 40W Rạng Đông Ánh Sáng Trắng",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 165000,
+    "catalogPrice": 165000,
+    "spec": "Bán nguyệt 1.2m - 40W Trắng",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Mẫu đèn bán nguyệt tràn viền siêu sáng Rạng Đông, thay thế hoàn toàn máng tuýp truyền thống cho phòng khách, văn phòng.",
+    "inStock": true,
+    "variants": [
+      "Bán nguyệt 1.2m - 40W Trắng"
+    ]
+  },
+  {
+    "id": "dp-rd-bn50",
+    "sku": "RD-BN-12-50W",
+    "name": "Đèn LED Bán Nguyệt 1.2m - 50W Siêu Sáng Rạng Đông",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 215000,
+    "catalogPrice": 215000,
+    "spec": "Bán nguyệt 1.2m - 50W Siêu sáng",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn bán nguyệt 50W hiệu suất quang cao >100 lm/W, chiếu sáng mạnh mẽ cho showroom, cửa hàng, phòng làm việc rộng.",
+    "inStock": true,
+    "variants": [
+      "Bán nguyệt 1.2m - 50W Siêu sáng"
+    ]
+  },
+  {
+    "id": "dp-rd-typ",
+    "sku": "RD-TYP-2X20W",
+    "name": "Bộ Máng Đôi Tuýp LED 1.2m - 2x20W Rạng Đông",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 185000,
+    "catalogPrice": 185000,
+    "spec": "Máng đôi 1.2m - 2x20W kèm bóng",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bộ máng đèn đôi 2 bóng tuýp T8 nhôm nhựa Rạng Đông, ánh sáng tập trung cho nhà kho, lớp học, xưởng sản xuất.",
+    "inStock": true,
+    "variants": [
+      "Máng đôi 1.2m - 2x20W kèm bóng"
+    ]
+  },
+  {
+    "id": "dp-rd-bn06",
+    "sku": "RD-BN-06-20W",
+    "name": "Đèn LED Bán Nguyệt 0.6m - 20W Rạng Đông",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 115000,
+    "catalogPrice": 115000,
+    "spec": "Bán nguyệt 0.6m - 20W nhỏ gọn",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Mẫu đèn bán nguyệt ngắn 60cm công suất 20W thích hợp lắp đặt bàn bếp, gương lavabo, cầu thang và hành lang hẹp.",
+    "inStock": true,
+    "variants": [
+      "Bán nguyệt 0.6m - 20W nhỏ gọn"
+    ]
+  },
+  {
+    "id": "dp-mpe-hb100",
+    "sku": "MPE-HB-100W",
+    "name": "Đèn LED Highbay Nhà Xưởng 100W Chóa Nhôm MPE",
+    "brand": "MPE",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 650000,
+    "catalogPrice": 650000,
+    "spec": "Highbay Nhà xưởng 100W",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn treo trần xưởng công nghiệp MPE công suất 100W, chóa nhôm phản xạ tản quang rộng, vỏ nhôm đúc tản nhiệt tốt.",
+    "inStock": true,
+    "variants": [
+      "Highbay Nhà xưởng 100W"
+    ]
+  },
+  {
+    "id": "dp-mpe-hb150",
+    "sku": "MPE-HB-150W",
+    "name": "Đèn LED Highbay Nhà Xưởng 150W Chóa Nhôm MPE",
+    "brand": "MPE",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 920000,
+    "catalogPrice": 920000,
+    "spec": "Highbay Nhà xưởng 150W",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn Highbay 150W chiếu sáng xưởng gia công cơ khí, kho bãi trần cao 5-8 mét, hoạt động bền bỉ trong môi trường công nghiệp.",
+    "inStock": true,
+    "variants": [
+      "Highbay Nhà xưởng 150W"
+    ]
+  },
+  {
+    "id": "dp-mpe-hb200",
+    "sku": "MPE-HB-200W",
+    "name": "Đèn LED Highbay Nhà Xưởng 200W Chóa Nhôm MPE (Trần >7m)",
+    "brand": "MPE",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 1280000,
+    "catalogPrice": 1280000,
+    "spec": "Highbay Nhà xưởng 200W",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn Highbay công suất cực lớn 200W quang thông >24.000 lm, dành cho nhà máy sản xuất trần cao trên 7 mét.",
+    "inStock": true,
+    "variants": [
+      "Highbay Nhà xưởng 200W"
+    ]
+  },
+  {
+    "id": "dp-mpe-pha100",
+    "sku": "MPE-PHA-100W",
+    "name": "Đèn Pha LED Ngoài Trời 100W IP66 Chống Nước MPE",
+    "brand": "MPE",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 480000,
+    "catalogPrice": 480000,
+    "spec": "Đèn Pha LED Ngoài Trời 100W IP66",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn pha LED chống nước mưa chống bụi IP66, chiếu sáng biển hiệu quảng cáo, sân vườn, cổng xưởng và bãi đỗ xe.",
+    "inStock": true,
+    "variants": [
+      "Đèn Pha LED Ngoài Trời 100W IP66"
+    ]
+  },
+  {
+    "id": "dp-sch-mcb1p",
+    "sku": "SCH-MCB-1P20A",
+    "name": "Aptomat Tép MCB 1P 20A Schneider (Chiếu Sáng / Ổ Cắm)",
+    "brand": "Schneider",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Cái",
+    "price": 68000,
+    "catalogPrice": 68000,
+    "spec": "MCB 1P 20A - Dòng cắt 4.5kA",
+    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "desc": "Aptomat tép 1 pha Schneider Acti9 / Easy9 chính hãng Pháp, bảo vệ quá tải và ngắn mạch từng lộ chiếu sáng/ổ cắm.",
+    "inStock": true,
+    "variants": [
+      "MCB 1P 20A - Dòng cắt 4.5kA"
+    ]
+  },
+  {
+    "id": "dp-sch-mcb2p32",
+    "sku": "SCH-MCB-2P32A",
+    "name": "Aptomat Tép MCB 2P 32A Schneider (Điều Hòa / Bếp Từ)",
+    "brand": "Schneider",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Cái",
+    "price": 145000,
+    "catalogPrice": 145000,
+    "spec": "MCB 2P 32A - Dòng cắt 4.5kA",
+    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "desc": "Aptomat tép 2 cực ngắt cả pha lửa và nguội Schneider 32A, dùng cho lộ điều hòa tổng và bếp từ an toàn.",
+    "inStock": true,
+    "variants": [
+      "MCB 2P 32A - Dòng cắt 4.5kA"
+    ]
+  },
+  {
+    "id": "dp-sch-mcb2p63",
+    "sku": "SCH-MCB-2P63A",
+    "name": "Aptomat Tép MCB 2P 63A Schneider (Tổng Tầng)",
+    "brand": "Schneider",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Cái",
+    "price": 215000,
+    "catalogPrice": 215000,
+    "spec": "MCB 2P 63A - Dòng cắt 6.0kA",
+    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "desc": "Aptomat tép 2P 63A Schneider làm aptomat tổng tầng cho nhà phố và biệt thự, khả năng cắt ngắn mạch 6kA bền bỉ.",
+    "inStock": true,
+    "variants": [
+      "MCB 2P 63A - Dòng cắt 6.0kA"
+    ]
+  },
+  {
+    "id": "dp-sch-rcbo",
+    "sku": "SCH-RCBO-2P40A",
+    "name": "Aptomat Chống Giật RCBO 2P 40A 30mA Schneider",
+    "brand": "Schneider",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Cái",
+    "price": 465000,
+    "catalogPrice": 465000,
+    "spec": "RCBO 2P 40A dòng rò 30mA",
+    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "desc": "Aptomat chống rò chống giật tích hợp bảo vệ quá tải RCBO 30mA ngắt mạch siêu nhanh <0.03 giây bảo vệ tính mạng con người.",
+    "inStock": true,
+    "variants": [
+      "RCBO 2P 40A dòng rò 30mA"
+    ]
+  },
+  {
+    "id": "dp-ls-mccb63",
+    "sku": "LS-ABN103c-63A",
+    "name": "Aptomat Khối MCCB 3P 63A 18kA LS ABN103c Hàn Quốc",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Cái",
+    "price": 850000,
+    "catalogPrice": 850000,
+    "spec": "MCCB 3P 63A dòng cắt 18kA",
+    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "desc": "Aptomat khối 3 pha LS Metasol/Susol xuất xứ Hàn Quốc, dòng cắt 18kA bảo vệ phụ tải công nghiệp.",
+    "inStock": true,
+    "variants": [
+      "MCCB 3P 63A dòng cắt 18kA"
+    ]
+  },
+  {
+    "id": "dp-ls-mccb100",
+    "sku": "LS-ABN103c-100A",
+    "name": "Aptomat Khối MCCB 3P 100A 18kA LS ABN103c Hàn Quốc",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Cái",
+    "price": 980000,
+    "catalogPrice": 980000,
+    "spec": "MCCB 3P 100A dòng cắt 18kA",
+    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "desc": "Aptomat khối LS 3P 100A chuẩn công nghiệp, tiếp điểm chịu mài mòn cao, độ tin cậy tuyệt đối.",
+    "inStock": true,
+    "variants": [
+      "MCCB 3P 100A dòng cắt 18kA"
+    ]
+  },
+  {
+    "id": "dp-ls-mccb150",
+    "sku": "LS-ABN203c-150A",
+    "name": "Aptomat Khối MCCB 3P 150A 30kA LS ABN203c Hàn Quốc",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Cái",
+    "price": 1850000,
+    "catalogPrice": 1850000,
+    "spec": "MCCB 3P 150A dòng cắt 30kA",
+    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "desc": "MCCB 3P 150A dòng cắt cực cao 30kA làm cầu dao tổng tủ điện nhà xưởng phân xưởng tại Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "MCCB 3P 150A dòng cắt 30kA"
+    ]
+  },
+  {
+    "id": "dp-ls-mc32",
+    "sku": "LS-MC-32A",
+    "name": "Khởi Động Từ Contactor 3 Pha LS MC-32a 380V Hàn Quốc",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Cái",
+    "price": 520000,
+    "catalogPrice": 520000,
+    "spec": "Contactor 3P 32A cuộn hút 380V",
+    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "desc": "Khởi động từ 3 pha LS MC-32a điều khiển động cơ bơm nước công nghiệp, quạt hút thông gió nhà xưởng.",
+    "inStock": true,
+    "variants": [
+      "Contactor 3P 32A cuộn hút 380V"
+    ]
+  },
+  {
+    "id": "dp-nnc-tu12",
+    "sku": "NNC-TU-AM-12M",
+    "name": "Tủ Điện Âm Tường 8-12 Module Nắp Kim Loại Nanoco",
+    "brand": "Nanoco",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Tủ",
+    "price": 285000,
+    "catalogPrice": 285000,
+    "spec": "8-12 Module nắp kim loại sang trọng",
+    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "desc": "Hộp tủ điện âm tường Nanoco mặt sơn tĩnh điện chống xước, nắp nhựa mở gập tiện dụng chứa 8-12 MCB tép.",
+    "inStock": true,
+    "variants": [
+      "8-12 Module nắp kim loại sang trọng"
+    ]
+  },
+  {
+    "id": "dp-nnc-tu18",
+    "sku": "NNC-TU-AM-18M",
+    "name": "Tủ Điện Âm Tường 16-18 Module Nắp Kim Loại Nanoco (Nhà 3 Tầng)",
+    "brand": "Nanoco",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Tủ",
+    "price": 420000,
+    "catalogPrice": 420000,
+    "spec": "16-18 Module cho nhà phố 3 tầng",
+    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "desc": "Tủ điện âm tường cỡ lớn chứa 16-18 module aptomat, có thanh đồng tiếp địa và thanh trung tính mạ niken.",
+    "inStock": true,
+    "variants": [
+      "16-18 Module cho nhà phố 3 tầng"
+    ]
+  },
+  {
+    "id": "dp-tu-xn46",
+    "sku": "TU-XN-400X600",
+    "name": "Vỏ Tủ Điện Công Nghiệp Sơn Tĩnh Điện 400x600x200mm",
+    "brand": "Nanoco",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Tủ",
+    "price": 580000,
+    "catalogPrice": 580000,
+    "spec": "Kích thước 400x600x200mm tole 1.2mm",
+    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "desc": "Vỏ tủ điện treo tường công nghiệp tole dập nguội sơn tĩnh điện màu ghi sáng, ron cao su chống bụi nước IP54.",
+    "inStock": true,
+    "variants": [
+      "Kích thước 400x600x200mm tole 1.2mm"
+    ]
+  },
+  {
+    "id": "dp-tu-xn68",
+    "sku": "TU-XN-600X800",
+    "name": "Vỏ Tủ Điện Tổng Nhà Xưởng Sơn Tĩnh Điện 600x800x250mm",
+    "brand": "Nanoco",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Tủ",
+    "price": 950000,
+    "catalogPrice": 950000,
+    "spec": "Kích thước 600x800x250mm tole 1.5mm",
+    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "desc": "Vỏ tủ điện tổng phân phối xưởng cơ khí, khóa bật nẹp góc chịu lực, cánh tủ mở 130 độ dễ đấu nối thiết bị.",
+    "inStock": true,
+    "variants": [
+      "Kích thước 600x800x250mm tole 1.5mm"
+    ]
+  },
+  {
+    "id": "dp-nnc-rg16",
+    "sku": "NNC-RG-16-50M",
+    "name": "Ống Ruột Gà Chống Cháy Φ16 Nanoco (Cuộn 50m)",
+    "brand": "Nanoco",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cuộn (50m)",
+    "price": 185000,
+    "catalogPrice": 185000,
+    "spec": "Ống ruột gà Φ16 đàn hồi cuộn 50m",
+    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "desc": "Ống luồn đàn hồi PVC tự chống cháy Φ16 Nanoco, dễ uốn cong luồn dây trên trần thạch cao và tường góc hẹp.",
+    "inStock": true,
+    "variants": [
+      "Ống ruột gà Φ16 đàn hồi cuộn 50m"
+    ]
+  },
+  {
+    "id": "dp-nnc-rg20",
+    "sku": "NNC-RG-20-50M",
+    "name": "Ống Ruột Gà Chống Cháy Φ20 Nanoco (Cuộn 50m)",
+    "brand": "Nanoco",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cuộn (50m)",
+    "price": 245000,
+    "catalogPrice": 245000,
+    "spec": "Ống ruột gà Φ20 đàn hồi cuộn 50m",
+    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "desc": "Ống ruột gà chống cháy cỡ Φ20 luồn được 4-6 sợi dây điện 2.5mm² hoặc 4.0mm², tiêu chuẩn BS EN 61386.",
+    "inStock": true,
+    "variants": [
+      "Ống ruột gà Φ20 đàn hồi cuộn 50m"
+    ]
+  },
+  {
+    "id": "dp-nnc-deam",
+    "sku": "NNC-DE-AM-50",
+    "name": "Combo 50 Đế Âm Tường Đơn Chống Cháy Sâu Nanoco",
+    "brand": "Nanoco",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Combo (50 cái)",
+    "price": 225000,
+    "catalogPrice": 225000,
+    "spec": "Combo 50 đế âm đơn chống cháy có ốc",
+    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "desc": "Đế âm tường đơn Nanoco lòng sâu 50mm, có tai bắt vít đồng chắc chắn, nhựa chống cháy không bị giòn vỡ khi chôn vữa.",
+    "inStock": true,
+    "variants": [
+      "Combo 50 đế âm đơn chống cháy có ốc"
+    ]
+  },
+  {
+    "id": "dp-nnc-pvc20",
+    "sku": "NNC-PVC-20-BO",
+    "name": "Ống Cứng Luồn Dây PVC Φ20 Chống Cháy (Bó 25 Cây x 2.92m)",
+    "brand": "Nanoco",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Bó (25 cây)",
+    "price": 465000,
+    "catalogPrice": 465000,
+    "spec": "Bó 25 cây PVC Φ20 x 2.92m chịu lực",
+    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "desc": "Ống luồn dây cứng PVC Φ20 Nanoco chịu lực nén 750N, uốn cong bằng lò xo không gãy dập, chuyên đi âm sàn bê tông.",
+    "inStock": true,
+    "variants": [
+      "Bó 25 cây PVC Φ20 x 2.92m chịu lực"
+    ]
+  },
+  {
+    "id": "dp-pana-qt5c",
+    "sku": "PANA-QT-5C-DC",
+    "name": "Quạt Trần 5 Cánh Động Cơ DC Tiết Kiệm Điện Panasonic",
+    "brand": "Panasonic",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 4650000,
+    "catalogPrice": 4650000,
+    "spec": "5 cánh động cơ DC tiết kiệm điện",
+    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "desc": "Quạt trần cao cấp Panasonic động cơ DC êm ái, 9 cấp độ gió, chế độ gió tự nhiên 1/f Yuragi, điều khiển từ xa có màn hình LCD.",
+    "inStock": true,
+    "variants": [
+      "5 cánh động cơ DC tiết kiệm điện"
+    ]
+  },
+  {
+    "id": "dp-pana-qt4c",
+    "sku": "PANA-QT-4C-REMOTE",
+    "name": "Quạt Trần 4 Cánh Có Điều Khiển Từ Xa Panasonic",
+    "brand": "Panasonic",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 2480000,
+    "catalogPrice": 2480000,
+    "spec": "4 cánh có remote điều khiển",
+    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "desc": "Quạt trần 4 cánh Panasonic sải cánh 140cm, công tắc an toàn tự ngắt dòng khi rung lắc, điều khiển từ xa 3 tốc độ.",
+    "inStock": true,
+    "variants": [
+      "4 cánh có remote điều khiển"
+    ]
+  },
+  {
+    "id": "dp-pana-qhut",
+    "sku": "PANA-QH-AT-240",
+    "name": "Quạt Hút Thông Gió Âm Trần Phòng Vệ Sinh Panasonic 240x240",
+    "brand": "Panasonic",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Cái",
+    "price": 850000,
+    "catalogPrice": 850000,
+    "spec": "Âm trần 240x240mm hút mùi êm",
+    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "desc": "Quạt hút âm trần Panasonic độ ồn cực thấp <26dB, động cơ bạc đạn bôi trơn vĩnh viễn, van đóng ngược ngăn mùi hiệu quả.",
+    "inStock": true,
+    "variants": [
+      "Âm trần 240x240mm hút mùi êm"
+    ]
   },
   {
     "id": "cb-cadisun-zs195",
@@ -283,7 +1083,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CV 1x1.5 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp CV 1x1.5 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CV 1x1.5 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs196",
@@ -303,7 +1104,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CV 1x2.5 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp CV 1x2.5 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CV 1x2.5 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs197",
@@ -323,7 +1125,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CV 1x4 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp CV 1x4 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CV 1x4 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs198",
@@ -343,7 +1146,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CV 1x6 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp CV 1x6 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CV 1x6 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs199",
@@ -363,7 +1167,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CV 1x10 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp CV 1x10 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CV 1x10 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs10",
@@ -383,7 +1188,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CXV 1x1.5 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp CXV 1x1.5 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CXV 1x1.5 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs11",
@@ -403,7 +1209,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CXV 1x2.5 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp CXV 1x2.5 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CXV 1x2.5 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs12",
@@ -423,7 +1230,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CXV 1x4 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp CXV 1x4 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CXV 1x4 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs13",
@@ -443,7 +1251,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CXV 1x6 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp CXV 1x6 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CXV 1x6 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs14",
@@ -463,7 +1272,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CXV 1x10 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp CXV 1x10 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CXV 1x10 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs15",
@@ -483,7 +1293,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CXV 1x16 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp CXV 1x16 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CXV 1x16 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs16",
@@ -503,7 +1314,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CXV 1x25 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp CXV 1x25 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CXV 1x25 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs17",
@@ -523,7 +1335,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CXV 1x35 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp CXV 1x35 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CXV 1x35 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs18",
@@ -543,7 +1356,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CXV 1x50 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp CXV 1x50 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CXV 1x50 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs181",
@@ -563,7 +1377,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CXV 1x70 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp CXV 1x70 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CXV 1x70 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs182",
@@ -583,7 +1398,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CXV 1x95 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp CXV 1x95 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CXV 1x95 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs183",
@@ -603,7 +1419,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CXV 1x120 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp CXV 1x120 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CXV 1x120 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs184",
@@ -623,7 +1440,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CXV 1x150 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp CXV 1x150 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CXV 1x150 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs19",
@@ -643,7 +1461,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CXV 1x185 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp CXV 1x185 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CXV 1x185 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs191",
@@ -663,7 +1482,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CXV 1x240 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp CXV 1x240 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CXV 1x240 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs192",
@@ -683,7 +1503,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CXV 1x300 cadisun Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp CXV 1x300 cadisun Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CXV 1x300 cadisun Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs193",
@@ -703,7 +1524,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CXV 1x400 cadisun Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp CXV 1x400 cadisun Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CXV 1x400 cadisun Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs200",
@@ -723,7 +1545,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CV 1x16 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp CV 1x16 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CV 1x16 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs201",
@@ -743,7 +1566,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CV 1x25 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp CV 1x25 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CV 1x25 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs202",
@@ -763,7 +1587,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CV 1x35 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp CV 1x35 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CV 1x35 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs203",
@@ -783,7 +1608,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CV 1x50 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp CV 1x50 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CV 1x50 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs204",
@@ -803,7 +1629,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CV 1x70 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp CV 1x70 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CV 1x70 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs205",
@@ -823,7 +1650,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CV 1x95 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp CV 1x95 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CV 1x95 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs206",
@@ -843,7 +1671,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CV 1x120 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp CV 1x120 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CV 1x120 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs207",
@@ -863,7 +1692,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CV 1x150 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp CV 1x150 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CV 1x150 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs208",
@@ -883,7 +1713,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CV 1x185 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp CV 1x185 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CV 1x185 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs209",
@@ -903,7 +1734,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CV 1x240 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp CV 1x240 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CV 1x240 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs21",
@@ -923,7 +1755,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 2x1.5 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 2x1.5 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 2x1.5 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs22",
@@ -943,7 +1776,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 2x2.5 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 2x2.5 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 2x2.5 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs23",
@@ -963,7 +1797,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 2x4 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 2x4 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 2x4 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs24",
@@ -983,7 +1818,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 2x6 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 2x6 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 2x6 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs25",
@@ -1003,7 +1839,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 2x10 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 2x10 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 2x10 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs26",
@@ -1023,7 +1860,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 2x16 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 2x16 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 2x16 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs27",
@@ -1043,7 +1881,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 2x25 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 2x25 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 2x25 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs28",
@@ -1063,7 +1902,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 2x35 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 2x35 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 2x35 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs29",
@@ -1083,7 +1923,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 2x50 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 2x50 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 2x50 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs30",
@@ -1103,7 +1944,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x1.5 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x1.5 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x1.5 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs300",
@@ -1123,7 +1965,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x2.5 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x2.5 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x2.5 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs301",
@@ -1143,7 +1986,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x4 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x4 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x4 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs302",
@@ -1163,7 +2007,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x6 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x6 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x6 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs303",
@@ -1183,7 +2028,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x10 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x10 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x10 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs304",
@@ -1203,7 +2049,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x16 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x16 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x16 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs305",
@@ -1223,7 +2070,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x25 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x25 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x25 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs306",
@@ -1243,7 +2091,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x35 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x35 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x35 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs307",
@@ -1263,7 +2112,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x50 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x50 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x50 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs308",
@@ -1283,7 +2133,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x70 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x70 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x70 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs31",
@@ -1303,7 +2154,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x2.5+1x1.5 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x2.5+1x1.5 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x2.5+1x1.5 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs310",
@@ -1323,7 +2175,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x4+1x2.5 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x4+1x2.5 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x4+1x2.5 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs311",
@@ -1343,7 +2196,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x6+1x4 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x6+1x4 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x6+1x4 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs32",
@@ -1363,7 +2217,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x10+1x6 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x10+1x6 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x10+1x6 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs321",
@@ -1383,7 +2238,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x16+1x10 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x16+1x10 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x16+1x10 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs33",
@@ -1403,7 +2259,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x25+1x16 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x25+1x16 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x25+1x16 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs34",
@@ -1423,7 +2280,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x35+1x16 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x35+1x16 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x35+1x16 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs341",
@@ -1443,7 +2301,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x35+1x25 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x35+1x25 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x35+1x25 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs35",
@@ -1463,7 +2322,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x50+1x25 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x50+1x25 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x50+1x25 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs351",
@@ -1483,7 +2343,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x50+1x35 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x50+1x35 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x50+1x35 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs36",
@@ -1503,7 +2364,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x70+1x35 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x70+1x35 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x70+1x35 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs361",
@@ -1523,7 +2385,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x70+1x50 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x70+1x50 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x70+1x50 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs37",
@@ -1543,7 +2406,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x95+1x50 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x95+1x50 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x95+1x50 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs371",
@@ -1563,7 +2427,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x95+1x70 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x95+1x70 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x95+1x70 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs38",
@@ -1583,7 +2448,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x120+1x70 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x120+1x70 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x120+1x70 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs381",
@@ -1603,7 +2469,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x120+1x95 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x120+1x95 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x120+1x95 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs39",
@@ -1623,7 +2490,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x150+1x95 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x150+1x95 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x150+1x95 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs390",
@@ -1643,7 +2511,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x150+1x70 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x150+1x70 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x150+1x70 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs391",
@@ -1663,7 +2532,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x150+1x120 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x150+1x120 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x150+1x120 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs392",
@@ -1683,7 +2553,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x185+1x150 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x185+1x150 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x185+1x150 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs393",
@@ -1703,7 +2574,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x240+1x150 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x240+1x150 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x240+1x150 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs3941",
@@ -1723,7 +2595,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x240+1x185 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x240+1x185 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x240+1x185 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs40",
@@ -1743,7 +2616,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 4x1.5 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 4x1.5 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 4x1.5 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs400",
@@ -1763,7 +2637,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 4x2.5 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 4x2.5 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 4x2.5 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs401",
@@ -1783,7 +2658,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 4x4 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 4x4 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 4x4 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs402",
@@ -1803,7 +2679,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 4x6 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 4x6 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 4x6 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs41",
@@ -1823,7 +2700,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 4x10 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 4x10 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 4x10 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs411",
@@ -1843,7 +2721,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 4x16 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 4x16 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 4x16 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs42",
@@ -1863,7 +2742,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 4x25 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 4x25 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 4x25 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs422",
@@ -1883,7 +2763,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 4x35 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 4x35 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 4x35 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs43",
@@ -1903,7 +2784,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 4x50 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 4x50 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 4x50 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs431",
@@ -1923,7 +2805,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 4x70 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 4x70 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 4x70 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs44",
@@ -1943,7 +2826,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 4x95 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 4x95 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 4x95 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs441",
@@ -1963,7 +2847,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 4x120 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 4x120 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 4x120 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs45",
@@ -1983,7 +2868,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 4x150 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 4x150 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 4x150 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs46",
@@ -2003,7 +2889,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 4x185 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 4x185 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 4x185 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs47",
@@ -2023,7 +2910,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 4x240 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 4x240 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 4x240 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs50",
@@ -2043,7 +2931,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 2x2.5 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 2x2.5 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 2x2.5 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs501",
@@ -2063,7 +2952,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 2x4 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 2x4 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 2x4 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs51",
@@ -2083,7 +2973,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 2x6 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 2x6 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 2x6 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs511",
@@ -2103,7 +2994,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 2x10 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 2x10 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 2x10 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs512",
@@ -2123,7 +3015,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 2x16 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 2x16 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 2x16 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs52",
@@ -2143,7 +3036,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 2x25 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 2x25 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 2x25 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs521",
@@ -2163,7 +3057,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 2x35 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 2x35 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 2x35 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs522",
@@ -2183,7 +3078,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 2x50 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 2x50 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 2x50 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs53",
@@ -2203,7 +3099,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 2x70 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 2x70 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 2x70 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs531",
@@ -2223,7 +3120,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 2x95 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 2x95 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 2x95 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs54",
@@ -2243,7 +3141,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 2x120 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 2x120 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 2x120 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs541",
@@ -2263,7 +3162,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 2x150 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 2x150 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 2x150 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs55",
@@ -2283,7 +3183,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 4x2.5 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 4x2.5 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 4x2.5 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs56",
@@ -2303,7 +3204,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 4x4 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 4x4 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 4x4 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs561",
@@ -2323,7 +3225,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 4x6 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 4x6 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 4x6 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs562",
@@ -2343,7 +3246,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 4x10 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 4x10 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 4x10 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs57",
@@ -2363,7 +3267,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 4x16 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 4x16 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 4x16 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs571",
@@ -2383,7 +3288,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 4x25 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 4x25 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 4x25 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs58",
@@ -2403,7 +3309,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 4x35 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 4x35 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 4x35 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs581",
@@ -2423,7 +3330,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 4x50 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 4x50 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 4x50 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs582",
@@ -2443,7 +3351,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 4x70 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 4x70 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 4x70 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs59",
@@ -2463,7 +3372,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 4x95 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 4x95 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 4x95 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs591",
@@ -2483,7 +3393,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 4x120 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 4x120 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 4x120 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs592",
@@ -2503,7 +3414,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 4x150 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 4x150 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 4x150 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs60",
@@ -2523,7 +3435,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 4x185 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 4x185 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 4x185 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs601",
@@ -2543,7 +3456,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 4x240 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 4x240 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 4x240 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs61",
@@ -2563,7 +3477,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 3x2.5+1x1.5 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 3x2.5+1x1.5 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 3x2.5+1x1.5 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs611",
@@ -2583,7 +3498,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 3x4+1x2.5 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 3x4+1x2.5 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 3x4+1x2.5 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs621",
@@ -2603,7 +3519,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 3x6+1x4 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 3x6+1x4 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 3x6+1x4 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs63",
@@ -2623,7 +3540,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 3x10+1x6 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 3x10+1x6 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 3x10+1x6 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs631",
@@ -2643,7 +3561,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 3x16+1x10 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 3x16+1x10 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 3x16+1x10 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs64",
@@ -2663,7 +3582,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 3x25+1x16 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 3x25+1x16 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 3x25+1x16 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs641",
@@ -2683,7 +3603,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 3x35+1x16 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 3x35+1x16 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 3x35+1x16 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs642",
@@ -2703,7 +3624,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 3x35+1x25 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 3x35+1x25 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 3x35+1x25 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs65",
@@ -2723,7 +3645,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 3x50+1x25 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 3x50+1x25 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 3x50+1x25 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs651",
@@ -2743,7 +3666,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 3x50+1x35 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 3x50+1x35 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 3x50+1x35 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs652",
@@ -2763,7 +3687,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 3x70+1x35 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 3x70+1x35 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 3x70+1x35 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs653",
@@ -2783,7 +3708,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 3x70+1x50 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 3x70+1x50 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 3x70+1x50 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs66",
@@ -2803,7 +3729,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 3x95+1x50 cadisun Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 3x95+1x50 cadisun Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 3x95+1x50 cadisun Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs661",
@@ -2823,7 +3750,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 3x95+1x70 cadisun Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 3x95+1x70 cadisun Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 3x95+1x70 cadisun Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs67",
@@ -2843,7 +3771,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 3x120+1x70 cadisun Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 3x120+1x70 cadisun Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 3x120+1x70 cadisun Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs68",
@@ -2863,7 +3792,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 3x120+1x95 cadisun Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 3x120+1x95 cadisun Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 3x120+1x95 cadisun Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs69",
@@ -2883,7 +3813,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 3x150+1x70 cadisun Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 3x150+1x70 cadisun Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 3x150+1x70 cadisun Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs690",
@@ -2903,7 +3834,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 3x150+1x95 cadisun Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 3x150+1x95 cadisun Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 3x150+1x95 cadisun Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs691",
@@ -2923,7 +3855,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 3x150+1x120 cadisun Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 3x150+1x120 cadisun Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 3x150+1x120 cadisun Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs-cv300",
@@ -2943,7 +3876,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CV 1x300 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp CV 1x300 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CV 1x300 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs-c2x70",
@@ -2963,7 +3897,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 2x70 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 2x70 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 2x70 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs-c2x95",
@@ -2983,7 +3918,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 2x95 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 2x95 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 2x95 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs-c2x120",
@@ -3003,7 +3939,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 2x120 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 2x120 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 2x120 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs-c2x150",
@@ -3023,7 +3960,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 2x150 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp 2x150 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 2x150 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs00a",
@@ -3043,7 +3981,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x0.5 Cadisun Đỏ (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x0.5 Cadisun Đỏ chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x0.5 Cadisun Đỏ (Mét)"
   },
   {
     "id": "cb-cadisun-zs00d",
@@ -3063,7 +4002,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x0.5 Cadisun Đen (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x0.5 Cadisun Đen chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x0.5 Cadisun Đen (Mét)"
   },
   {
     "id": "cb-cadisun-zs00ta",
@@ -3083,7 +4023,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x0.5 Cadisun Tiếp địa (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x0.5 Cadisun Tiếp địa chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x0.5 Cadisun Tiếp địa (Mét)"
   },
   {
     "id": "cb-cadisun-zs00v",
@@ -3103,7 +4044,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x0.5 Cadisun Vàng (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x0.5 Cadisun Vàng chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x0.5 Cadisun Vàng (Mét)"
   },
   {
     "id": "cb-cadisun-zs00x",
@@ -3123,7 +4065,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x0.5 Cadisun Xanh lá (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x0.5 Cadisun Xanh lá chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x0.5 Cadisun Xanh lá (Mét)"
   },
   {
     "id": "cb-cadisun-zs00xl",
@@ -3143,7 +4086,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x0.5 Cadisun Xanh Dương (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x0.5 Cadisun Xanh Dương chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x0.5 Cadisun Xanh Dương (Mét)"
   },
   {
     "id": "cb-cadisun-zs010a",
@@ -3163,7 +4107,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x0.75 Cadisun Đỏ (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x0.75 Cadisun Đỏ chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x0.75 Cadisun Đỏ (Mét)"
   },
   {
     "id": "cb-cadisun-zs010d",
@@ -3183,7 +4128,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x0.75 Cadisun Đen (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x0.75 Cadisun Đen chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x0.75 Cadisun Đen (Mét)"
   },
   {
     "id": "cb-cadisun-zs010ta",
@@ -3203,7 +4149,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x0.75 Cadisun Tiếp địa (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x0.75 Cadisun Tiếp địa chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x0.75 Cadisun Tiếp địa (Mét)"
   },
   {
     "id": "cb-cadisun-zs010v",
@@ -3223,7 +4170,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x0.75 Cadisun Vàng (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x0.75 Cadisun Vàng chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x0.75 Cadisun Vàng (Mét)"
   },
   {
     "id": "cb-cadisun-zs010x",
@@ -3243,7 +4191,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x0.75 Cadisun Xanh lá (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x0.75 Cadisun Xanh lá chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x0.75 Cadisun Xanh lá (Mét)"
   },
   {
     "id": "cb-cadisun-zs010xl",
@@ -3263,7 +4212,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x0.75 Cadisun Xanh Dương (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x0.75 Cadisun Xanh Dương chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x0.75 Cadisun Xanh Dương (Mét)"
   },
   {
     "id": "cb-cadisun-zs011a",
@@ -3283,7 +4233,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x1 Cadisun Đỏ (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x1 Cadisun Đỏ chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x1 Cadisun Đỏ (Mét)"
   },
   {
     "id": "cb-cadisun-zs011d",
@@ -3303,7 +4254,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x1 Cadisun Đen (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x1 Cadisun Đen chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x1 Cadisun Đen (Mét)"
   },
   {
     "id": "cb-cadisun-zs011ta",
@@ -3323,7 +4275,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x1 Cadisun Tiếp địa (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x1 Cadisun Tiếp địa chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x1 Cadisun Tiếp địa (Mét)"
   },
   {
     "id": "cb-cadisun-zs011v",
@@ -3343,7 +4296,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x1 Cadisun vàng (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x1 Cadisun vàng chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x1 Cadisun vàng (Mét)"
   },
   {
     "id": "cb-cadisun-zs011x",
@@ -3363,7 +4317,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x1 Cadisun Xanh lá (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x1 Cadisun Xanh lá chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x1 Cadisun Xanh lá (Mét)"
   },
   {
     "id": "cb-cadisun-zs011xl",
@@ -3383,7 +4338,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x1 Cadisun Xanh Dương (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x1 Cadisun Xanh Dương chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x1 Cadisun Xanh Dương (Mét)"
   },
   {
     "id": "cb-cadisun-zs012a",
@@ -3403,7 +4359,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x1.5 Cadisun Đỏ (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x1.5 Cadisun Đỏ chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x1.5 Cadisun Đỏ (Mét)"
   },
   {
     "id": "cb-cadisun-zs012d",
@@ -3423,7 +4380,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x1.5 Cadisun Đen (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x1.5 Cadisun Đen chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x1.5 Cadisun Đen (Mét)"
   },
   {
     "id": "cb-cadisun-zs012ta",
@@ -3443,7 +4401,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x1.5 Cadisun Tiếp địa (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x1.5 Cadisun Tiếp địa chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x1.5 Cadisun Tiếp địa (Mét)"
   },
   {
     "id": "cb-cadisun-zs012v",
@@ -3463,7 +4422,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x1.5 Cadisun Vàng (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x1.5 Cadisun Vàng chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x1.5 Cadisun Vàng (Mét)"
   },
   {
     "id": "cb-cadisun-zs012x",
@@ -3483,7 +4443,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x1.5 Cadisun Xanh lá (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x1.5 Cadisun Xanh lá chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x1.5 Cadisun Xanh lá (Mét)"
   },
   {
     "id": "cb-cadisun-zs012xl",
@@ -3503,7 +4464,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x1.5 Cadisun Xanh dương (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x1.5 Cadisun Xanh dương chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x1.5 Cadisun Xanh dương (Mét)"
   },
   {
     "id": "cb-cadisun-zs013a",
@@ -3523,7 +4485,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x2.5 Cadisun Đỏ (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x2.5 Cadisun Đỏ chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x2.5 Cadisun Đỏ (Mét)"
   },
   {
     "id": "cb-cadisun-zs013d",
@@ -3543,7 +4506,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x2.5 Cadisun Đen (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x2.5 Cadisun Đen chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x2.5 Cadisun Đen (Mét)"
   },
   {
     "id": "cb-cadisun-zs013ta",
@@ -3563,7 +4527,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x2.5 Cadisun tiếp địa (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x2.5 Cadisun tiếp địa chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x2.5 Cadisun tiếp địa (Mét)"
   },
   {
     "id": "cb-cadisun-zs013v",
@@ -3583,7 +4548,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x2.5 Cadisun vàng (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x2.5 Cadisun vàng chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x2.5 Cadisun vàng (Mét)"
   },
   {
     "id": "cb-cadisun-zs013x",
@@ -3603,7 +4569,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x2.5 Cadisun Xanh lá (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x2.5 Cadisun Xanh lá chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x2.5 Cadisun Xanh lá (Mét)"
   },
   {
     "id": "cb-cadisun-zs013xl",
@@ -3623,7 +4590,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x2.5 Cadisun Xanh Dương (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x2.5 Cadisun Xanh Dương chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x2.5 Cadisun Xanh Dương (Mét)"
   },
   {
     "id": "cb-cadisun-zs014a",
@@ -3643,7 +4611,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x4 Cadisun Đỏ (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x4 Cadisun Đỏ chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x4 Cadisun Đỏ (Mét)"
   },
   {
     "id": "cb-cadisun-zs014d",
@@ -3663,7 +4632,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x4 Cadisun Đen (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x4 Cadisun Đen chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x4 Cadisun Đen (Mét)"
   },
   {
     "id": "cb-cadisun-zs014ta",
@@ -3683,7 +4653,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x4 Cadisun Tiếp địa (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x4 Cadisun Tiếp địa chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x4 Cadisun Tiếp địa (Mét)"
   },
   {
     "id": "cb-cadisun-zs014v",
@@ -3703,7 +4674,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x4 Cadisun Vàng (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x4 Cadisun Vàng chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x4 Cadisun Vàng (Mét)"
   },
   {
     "id": "cb-cadisun-zs014x",
@@ -3723,7 +4695,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x4 Cadisun Xanh lá (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x4 Cadisun Xanh lá chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x4 Cadisun Xanh lá (Mét)"
   },
   {
     "id": "cb-cadisun-zs014xl",
@@ -3743,7 +4716,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x4 Cadisun Xanh Dương (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x4 Cadisun Xanh Dương chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x4 Cadisun Xanh Dương (Mét)"
   },
   {
     "id": "cb-cadisun-zs015a",
@@ -3763,7 +4737,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x6 Cadisun Đỏ (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x6 Cadisun Đỏ chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x6 Cadisun Đỏ (Mét)"
   },
   {
     "id": "cb-cadisun-zs015d",
@@ -3783,7 +4758,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x6 Cadisun Đen (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x6 Cadisun Đen chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x6 Cadisun Đen (Mét)"
   },
   {
     "id": "cb-cadisun-zs015ta",
@@ -3803,7 +4779,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x6 Cadisun Tiếp địa (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x6 Cadisun Tiếp địa chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x6 Cadisun Tiếp địa (Mét)"
   },
   {
     "id": "cb-cadisun-zs015v",
@@ -3823,7 +4800,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x6 Cadisun Vàng (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x6 Cadisun Vàng chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x6 Cadisun Vàng (Mét)"
   },
   {
     "id": "cb-cadisun-zs015xl",
@@ -3843,7 +4821,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x6 Cadisun Xanh Dương (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x6 Cadisun Xanh Dương chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x6 Cadisun Xanh Dương (Mét)"
   },
   {
     "id": "cb-cadisun-zs016a",
@@ -3863,7 +4842,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x10 Cadi-sun Đỏ (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x10 Cadi-sun Đỏ chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x10 Cadi-sun Đỏ (Mét)"
   },
   {
     "id": "cb-cadisun-zs016d",
@@ -3883,7 +4863,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x10 Cadi-sun Đen (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x10 Cadi-sun Đen chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x10 Cadi-sun Đen (Mét)"
   },
   {
     "id": "cb-cadisun-zs016ta",
@@ -3903,7 +4884,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x10 Cadi-sun Tiếp địa (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x10 Cadi-sun Tiếp địa chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x10 Cadi-sun Tiếp địa (Mét)"
   },
   {
     "id": "cb-cadisun-zs016v",
@@ -3923,7 +4905,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x10 Cadi-sun Vàng (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x10 Cadi-sun Vàng chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x10 Cadi-sun Vàng (Mét)"
   },
   {
     "id": "cb-cadisun-zs016x",
@@ -3943,7 +4926,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x10 Cadi-sun Xanh lá (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x10 Cadi-sun Xanh lá chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x10 Cadi-sun Xanh lá (Mét)"
   },
   {
     "id": "cb-cadisun-zs016xl",
@@ -3963,7 +4947,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x10 Cadi-sun Xanh Dương (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x10 Cadi-sun Xanh Dương chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x10 Cadi-sun Xanh Dương (Mét)"
   },
   {
     "id": "cb-cadisun-zs0190",
@@ -3983,7 +4968,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 2x0.5 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Dây 2x0.5 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 2x0.5 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs020",
@@ -4003,7 +4989,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 2x0.75 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Dây 2x0.75 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 2x0.75 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs021",
@@ -4023,7 +5010,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 2x1 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Dây 2x1 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 2x1 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs022",
@@ -4043,7 +5031,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 2x1.5 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Dây 2x1.5 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 2x1.5 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs023",
@@ -4063,7 +5052,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 2x2.5 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Dây 2x2.5 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 2x2.5 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs024",
@@ -4083,7 +5073,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 2x4 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Dây 2x4 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 2x4 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs025",
@@ -4103,7 +5094,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 2x6 Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Dây 2x6 Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 2x6 Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zsm20",
@@ -4123,7 +5115,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 2x0.75 VCTF Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 2x0.75 VCTF Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 2x0.75 VCTF Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zsm21",
@@ -4143,7 +5136,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 2x1 VCTF Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 2x1 VCTF Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 2x1 VCTF Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zsm22",
@@ -4163,7 +5157,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 2x1.5 VCTF Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 2x1.5 VCTF Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 2x1.5 VCTF Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zsm23",
@@ -4183,7 +5178,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 2x2.5 VCTF Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 2x2.5 VCTF Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 2x2.5 VCTF Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zsm24",
@@ -4203,7 +5199,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 2x4 VCTF Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 2x4 VCTF Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 2x4 VCTF Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zsm25",
@@ -4223,7 +5220,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 2x6 VCTF Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 2x6 VCTF Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 2x6 VCTF Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zsm29",
@@ -4243,7 +5241,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 3x0.75 VCTF Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 3x0.75 VCTF Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 3x0.75 VCTF Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zsm291",
@@ -4263,7 +5262,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 3x1 VCTF Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 3x1 VCTF Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 3x1 VCTF Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zsm30",
@@ -4283,7 +5283,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 3x1.5 VCTF Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 3x1.5 VCTF Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 3x1.5 VCTF Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zsm31",
@@ -4303,7 +5304,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 3x2.5 VCTF Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 3x2.5 VCTF Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 3x2.5 VCTF Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zsm35",
@@ -4323,7 +5325,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 3x4 VCTF Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 3x4 VCTF Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 3x4 VCTF Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zsm36",
@@ -4343,7 +5346,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 3x6 VCTF Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 3x6 VCTF Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 3x6 VCTF Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zsm40",
@@ -4363,7 +5367,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 4x0.75 VCTF Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 4x0.75 VCTF Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 4x0.75 VCTF Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zsm41",
@@ -4383,7 +5388,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 4x1 VCTF Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 4x1 VCTF Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 4x1 VCTF Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zsm42",
@@ -4403,7 +5409,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 4x1.5 VCTF Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 4x1.5 VCTF Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 4x1.5 VCTF Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zsm43",
@@ -4423,7 +5430,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 4x2.5 VCTF Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 4x2.5 VCTF Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 4x2.5 VCTF Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zsm44",
@@ -4443,7 +5451,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 4x4 VCTF Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 4x4 VCTF Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 4x4 VCTF Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zsm441",
@@ -4463,7 +5472,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 4x6 VCTF Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 4x6 VCTF Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 4x6 VCTF Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs03",
@@ -4483,7 +5493,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x1.5 VCSH Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x1.5 VCSH Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x1.5 VCSH Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs031",
@@ -4503,7 +5514,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x2.5 VCSH Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x2.5 VCSH Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x2.5 VCSH Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs032",
@@ -4523,7 +5535,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x4 VCSH Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x4 VCSH Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x4 VCSH Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs033",
@@ -4543,7 +5556,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x6 VCSH Cadisun (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x6 VCSH Cadisun chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x6 VCSH Cadisun (Mét)"
   },
   {
     "id": "cb-cadisun-zs015x",
@@ -4563,7 +5577,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x6 Cadisun Xanh lá (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x6 Cadisun Xanh lá chính hãng Cadisun. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x6 Cadisun Xanh lá (Mét)"
   },
   {
     "id": "cb-cadigold-z10",
@@ -4583,7 +5598,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CV 1x2.5 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp CV 1x2.5 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CV 1x2.5 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z101",
@@ -4603,7 +5619,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CV 1x4 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp CV 1x4 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CV 1x4 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z102",
@@ -4623,7 +5640,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CV 1x6 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp CV 1x6 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CV 1x6 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z103",
@@ -4643,7 +5661,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CV 1x10 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp CV 1x10 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CV 1x10 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z104",
@@ -4663,7 +5682,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CV 1x16 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp CV 1x16 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CV 1x16 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z105",
@@ -4683,7 +5703,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CV 1x25 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp CV 1x25 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CV 1x25 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z106",
@@ -4703,7 +5724,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CV 1x35 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp CV 1x35 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CV 1x35 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z107",
@@ -4723,7 +5745,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CV 1x50 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp CV 1x50 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CV 1x50 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z108",
@@ -4743,7 +5766,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CV 1x70 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp CV 1x70 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CV 1x70 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z109",
@@ -4763,7 +5787,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CV 1x95 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp CV 1x95 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CV 1x95 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z1090",
@@ -4783,7 +5808,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp CV 1x120 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp CV 1x120 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp CV 1x120 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z111",
@@ -4803,7 +5829,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 1x10 CXV Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 1x10 CXV Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 1x10 CXV Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z1110",
@@ -4823,7 +5850,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 1x16 CXV Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 1x16 CXV Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 1x16 CXV Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z1101",
@@ -4843,7 +5871,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 1x25 CXV Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 1x25 CXV Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 1x25 CXV Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z110",
@@ -4863,7 +5892,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 1x35 CXV Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 1x35 CXV Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 1x35 CXV Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z1111",
@@ -4883,7 +5913,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 1x50 CXV Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 1x50 CXV Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 1x50 CXV Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z112",
@@ -4903,7 +5934,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 1x70 CXV Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 1x70 CXV Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 1x70 CXV Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z114",
@@ -4923,7 +5955,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 1x95 CXV Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 1x95 CXV Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 1x95 CXV Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z115",
@@ -4943,7 +5976,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 1x120 CXV Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 1x120 CXV Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 1x120 CXV Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z1151",
@@ -4963,7 +5997,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 1x150 CXV Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 1x150 CXV Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 1x150 CXV Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z1152",
@@ -4983,7 +6018,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 1x185 CXV Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 1x185 CXV Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 1x185 CXV Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z116",
@@ -5003,7 +6039,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 1x240 CXV Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 1x240 CXV Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 1x240 CXV Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z117",
@@ -5023,7 +6060,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 1x300 CXV Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 1x300 CXV Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 1x300 CXV Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z200",
@@ -5043,7 +6081,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 2x1.5 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 2x1.5 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 2x1.5 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z201",
@@ -5063,7 +6102,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 2x2.5 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 2x2.5 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 2x2.5 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z202",
@@ -5083,7 +6123,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 2x4 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 2x4 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 2x4 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z203",
@@ -5103,7 +6144,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 2x6 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 2x6 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 2x6 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z204",
@@ -5123,7 +6165,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 2x10 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 2x10 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 2x10 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z205",
@@ -5143,7 +6186,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 2x16 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 2x16 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 2x16 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z206",
@@ -5163,7 +6207,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 2x25 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 2x25 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 2x25 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z207",
@@ -5183,7 +6228,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 2x35 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 2x35 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 2x35 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z208",
@@ -5203,7 +6249,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 2x50 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 2x50 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 2x50 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z300",
@@ -5223,7 +6270,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x2.5+1x1.5 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x2.5+1x1.5 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x2.5+1x1.5 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z301",
@@ -5243,7 +6291,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x4+1x2.5 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x4+1x2.5 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x4+1x2.5 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z302",
@@ -5263,7 +6312,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x6+1x4 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x6+1x4 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x6+1x4 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z303",
@@ -5283,7 +6333,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x10+1x6 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x10+1x6 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x10+1x6 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z304",
@@ -5303,7 +6354,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x16+1x10 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x16+1x10 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x16+1x10 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z305",
@@ -5323,7 +6375,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x25+1x16 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x25+1x16 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x25+1x16 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z306",
@@ -5343,7 +6396,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x35+1x16 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x35+1x16 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x35+1x16 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z306d",
@@ -5363,7 +6417,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x35+1x25 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x35+1x25 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x35+1x25 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z307",
@@ -5383,7 +6438,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x50+1x25 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x50+1x25 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x50+1x25 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z307d",
@@ -5403,7 +6459,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x50+1x35 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x50+1x35 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x50+1x35 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z308",
@@ -5423,7 +6480,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x70+1x35 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x70+1x35 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x70+1x35 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z308d",
@@ -5443,7 +6501,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x70+1x50 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x70+1x50 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x70+1x50 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z309",
@@ -5463,7 +6522,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x95+1x50 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x95+1x50 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x95+1x50 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z309d",
@@ -5483,7 +6543,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x95+1x70 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x95+1x70 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x95+1x70 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z310",
@@ -5503,7 +6564,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x120+1x70 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x120+1x70 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x120+1x70 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z310d",
@@ -5523,7 +6585,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x120+1x95 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x120+1x95 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x120+1x95 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z311",
@@ -5543,7 +6606,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x150+1x95 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x150+1x95 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x150+1x95 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z311d",
@@ -5563,7 +6627,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x150+1x120 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x150+1x120 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x150+1x120 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z312",
@@ -5583,7 +6648,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x185+1x120 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x185+1x120 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x185+1x120 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z312d",
@@ -5603,7 +6669,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x185+1x150 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x185+1x150 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x185+1x150 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z313",
@@ -5623,7 +6690,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x240+1x120 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x240+1x120 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x240+1x120 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z313d",
@@ -5643,7 +6711,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x240+1x150 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x240+1x150 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x240+1x150 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z313e",
@@ -5663,7 +6732,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x240+1x185 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x240+1x185 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x240+1x185 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z332",
@@ -5683,7 +6753,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x2.5 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x2.5 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x2.5 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z333",
@@ -5703,7 +6774,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x4 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x4 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x4 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z334",
@@ -5723,7 +6795,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x6 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x6 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x6 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z335",
@@ -5743,7 +6816,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x10 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x10 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x10 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z336",
@@ -5763,7 +6837,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x16 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x16 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x16 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z337",
@@ -5783,7 +6858,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x25 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x25 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x25 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z338",
@@ -5803,7 +6879,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x35 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x35 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x35 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z339",
@@ -5823,7 +6900,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x50 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x50 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x50 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z340",
@@ -5843,7 +6921,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 3x70 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 3x70 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 3x70 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z402",
@@ -5863,7 +6942,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 4x2.5 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 4x2.5 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 4x2.5 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z403",
@@ -5883,7 +6963,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 4x4 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 4x4 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 4x4 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z404",
@@ -5903,7 +6984,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 4x6 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 4x6 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 4x6 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z405",
@@ -5923,7 +7005,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 4x10 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 4x10 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 4x10 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z406",
@@ -5943,7 +7026,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 4x16 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 4x16 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 4x16 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z407",
@@ -5963,7 +7047,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 4x25 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 4x25 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 4x25 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z408",
@@ -5983,7 +7068,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 4x35 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 4x35 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 4x35 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z409",
@@ -6003,7 +7089,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 4x50 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 4x50 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 4x50 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z410",
@@ -6023,7 +7110,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 4x70 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 4x70 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 4x70 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z411",
@@ -6043,7 +7131,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 4x95 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 4x95 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 4x95 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z412",
@@ -6063,7 +7152,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 4x120 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 4x120 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 4x120 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z413",
@@ -6083,7 +7173,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 4x150 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 4x150 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 4x150 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z414",
@@ -6103,7 +7194,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 4x185 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 4x185 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 4x185 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z415",
@@ -6123,7 +7215,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp 4x240 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp 4x240 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp 4x240 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z500",
@@ -6143,7 +7236,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 2x2.5 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 2x2.5 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 2x2.5 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z501",
@@ -6163,7 +7257,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 2x4 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 2x4 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 2x4 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z502",
@@ -6183,7 +7278,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 2x6 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 2x6 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 2x6 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z503",
@@ -6203,7 +7299,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 2x10 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 2x10 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 2x10 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z504",
@@ -6223,7 +7320,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 2x16 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 2x16 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 2x16 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z505",
@@ -6243,7 +7341,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 2x25 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 2x25 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 2x25 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z506",
@@ -6263,7 +7362,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 2x35 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 2x35 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 2x35 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z507",
@@ -6283,7 +7383,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 2x50 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 2x50 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 2x50 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z520",
@@ -6303,7 +7404,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 4x2.5 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 4x2.5 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 4x2.5 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z521",
@@ -6323,7 +7425,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 4x4 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 4x4 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 4x4 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z522",
@@ -6343,7 +7446,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 4x6 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 4x6 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 4x6 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z523",
@@ -6363,7 +7467,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 4x10 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 4x10 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 4x10 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z524",
@@ -6383,7 +7488,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 4x16 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 4x16 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 4x16 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z525",
@@ -6403,7 +7509,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 4x25 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 4x25 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 4x25 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z526",
@@ -6423,7 +7530,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 4x35 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 4x35 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 4x35 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z527",
@@ -6443,7 +7551,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 4x50 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 4x50 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 4x50 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z528",
@@ -6463,7 +7572,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 4x70 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 4x70 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 4x70 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z529",
@@ -6483,7 +7593,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 4x95 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 4x95 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 4x95 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z530",
@@ -6503,7 +7614,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 4x120 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 4x120 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 4x120 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z531",
@@ -6523,7 +7635,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 4x150 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 4x150 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 4x150 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z532",
@@ -6543,7 +7656,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 4x185 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 4x185 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 4x185 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z533",
@@ -6563,7 +7677,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 4x240 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 4x240 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 4x240 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z534",
@@ -6583,7 +7698,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 3x2.5+1x1.5 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 3x2.5+1x1.5 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 3x2.5+1x1.5 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z535",
@@ -6603,7 +7719,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 3x4+1x2.5 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 3x4+1x2.5 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 3x4+1x2.5 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z536",
@@ -6623,7 +7740,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 3x6+1x4 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 3x6+1x4 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 3x6+1x4 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z537",
@@ -6643,7 +7761,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 3x10+1x6 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 3x10+1x6 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 3x10+1x6 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z538",
@@ -6663,7 +7782,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 3x16+1x10 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 3x16+1x10 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 3x16+1x10 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z539",
@@ -6683,7 +7803,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 3x25+1x16 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 3x25+1x16 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 3x25+1x16 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z540",
@@ -6703,7 +7824,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 3x35+1x16 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 3x35+1x16 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 3x35+1x16 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z5401",
@@ -6723,7 +7845,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 3x35+1x25 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 3x35+1x25 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 3x35+1x25 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z541",
@@ -6743,7 +7866,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 3x50+1x25 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 3x50+1x25 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 3x50+1x25 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z542",
@@ -6763,7 +7887,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 3x70+1x35 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 3x70+1x35 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 3x70+1x35 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-z543",
@@ -6783,7 +7908,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp ngầm 3x95+1x50 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp ngầm 3x95+1x50 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp ngầm 3x95+1x50 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-zm21",
@@ -6803,7 +7929,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 2x1.5 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 2x1.5 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 2x1.5 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-zm22",
@@ -6823,7 +7950,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 2x2.5 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 2x2.5 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 2x2.5 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-zm33",
@@ -6843,7 +7971,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 3x1 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 3x1 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 3x1 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-zm34",
@@ -6863,7 +7992,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 3x1.5 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 3x1.5 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 3x1.5 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-zm35",
@@ -6883,7 +8013,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 3x2.5 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 3x2.5 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 3x2.5 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-zm36",
@@ -6903,7 +8034,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 3x4 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 3x4 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 3x4 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-zm37",
@@ -6923,7 +8055,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 3x6 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 3x6 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 3x6 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-zm38",
@@ -6943,7 +8076,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 3x4+1x2.5 Cadi - Gold Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 3x4+1x2.5 Cadi - Gold Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 3x4+1x2.5 Cadi - Gold Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-zm39",
@@ -6963,7 +8097,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 3x6+1x4 Cadi - Gold Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 3x6+1x4 Cadi - Gold Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 3x6+1x4 Cadi - Gold Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-zm41",
@@ -6983,7 +8118,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 4x1.5 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 4x1.5 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 4x1.5 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-zm42",
@@ -7003,7 +8139,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 4x2.5 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 4x2.5 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 4x2.5 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-zm43",
@@ -7023,7 +8160,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 4x4 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 4x4 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 4x4 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-cadigold-zm44",
@@ -7043,7 +8181,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 4x6 Cadi-Gold (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 4x6 Cadi-Gold chính hãng Cadi-Gold. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 4x6 Cadi-Gold (Mét)"
   },
   {
     "id": "cb-trnph-tp11",
@@ -7063,7 +8202,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x0.75 TP Cơ Điện Đỏ (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x0.75 TP Cơ Điện Đỏ chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x0.75 TP Cơ Điện Đỏ (Mét)"
   },
   {
     "id": "cb-trnph-tp11a",
@@ -7083,7 +8223,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x0.75 TP Cơ Điện Vàng (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x0.75 TP Cơ Điện Vàng chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x0.75 TP Cơ Điện Vàng (Mét)"
   },
   {
     "id": "cb-trnph-tp11b",
@@ -7103,7 +8244,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x0.75 TP Cơ Điện Xanh Dương (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x0.75 TP Cơ Điện Xanh Dương chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x0.75 TP Cơ Điện Xanh Dương (Mét)"
   },
   {
     "id": "cb-trnph-tp12",
@@ -7123,7 +8265,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x1.0 TP Cơ Điện Đỏ (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x1.0 TP Cơ Điện Đỏ chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x1.0 TP Cơ Điện Đỏ (Mét)"
   },
   {
     "id": "cb-trnph-tp12a",
@@ -7143,7 +8286,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x1.0 TP Cơ Điện Vàng (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x1.0 TP Cơ Điện Vàng chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x1.0 TP Cơ Điện Vàng (Mét)"
   },
   {
     "id": "cb-trnph-tp12b",
@@ -7163,7 +8307,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x1.0 TP Cơ Điện Xanh Dương (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x1.0 TP Cơ Điện Xanh Dương chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x1.0 TP Cơ Điện Xanh Dương (Mét)"
   },
   {
     "id": "cb-trnph-tp13",
@@ -7183,7 +8328,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x1.5 TP Cơ Điện Đỏ (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x1.5 TP Cơ Điện Đỏ chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x1.5 TP Cơ Điện Đỏ (Mét)"
   },
   {
     "id": "cb-trnph-tp13a",
@@ -7203,7 +8349,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x1.5 TP Cơ Điện Vàng (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x1.5 TP Cơ Điện Vàng chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x1.5 TP Cơ Điện Vàng (Mét)"
   },
   {
     "id": "cb-trnph-tp13b",
@@ -7223,7 +8370,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x1.5 TP Cơ Điện Xanh Dương (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x1.5 TP Cơ Điện Xanh Dương chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x1.5 TP Cơ Điện Xanh Dương (Mét)"
   },
   {
     "id": "cb-trnph-tp14",
@@ -7243,7 +8391,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x2.5 TP Cơ Điện Đỏ (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x2.5 TP Cơ Điện Đỏ chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x2.5 TP Cơ Điện Đỏ (Mét)"
   },
   {
     "id": "cb-trnph-tp14a",
@@ -7263,7 +8412,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x2.5 TP Cơ Điện Vàng (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x2.5 TP Cơ Điện Vàng chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x2.5 TP Cơ Điện Vàng (Mét)"
   },
   {
     "id": "cb-trnph-tp14b",
@@ -7283,7 +8433,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x2.5 TP Cơ Điện Xanh Dương (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x2.5 TP Cơ Điện Xanh Dương chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x2.5 TP Cơ Điện Xanh Dương (Mét)"
   },
   {
     "id": "cb-trnph-tp15",
@@ -7303,7 +8454,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x4.0 TP Cơ Điện Đỏ (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x4.0 TP Cơ Điện Đỏ chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x4.0 TP Cơ Điện Đỏ (Mét)"
   },
   {
     "id": "cb-trnph-tp15a",
@@ -7323,7 +8475,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x4.0 TP Cơ Điện Vàng (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x4.0 TP Cơ Điện Vàng chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x4.0 TP Cơ Điện Vàng (Mét)"
   },
   {
     "id": "cb-trnph-tp15b",
@@ -7343,7 +8496,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x4.0 TP Cơ Điện Xanh Dương (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x4.0 TP Cơ Điện Xanh Dương chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x4.0 TP Cơ Điện Xanh Dương (Mét)"
   },
   {
     "id": "cb-trnph-tp16",
@@ -7363,7 +8517,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x6.0 TP Cơ Điện Đỏ (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x6.0 TP Cơ Điện Đỏ chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x6.0 TP Cơ Điện Đỏ (Mét)"
   },
   {
     "id": "cb-trnph-tp16a",
@@ -7383,7 +8538,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x6.0 TP Cơ Điện Vàng (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x6.0 TP Cơ Điện Vàng chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x6.0 TP Cơ Điện Vàng (Mét)"
   },
   {
     "id": "cb-trnph-tp16b",
@@ -7403,7 +8559,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x6.0 TP Cơ Điện Xanh Dương (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x6.0 TP Cơ Điện Xanh Dương chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x6.0 TP Cơ Điện Xanh Dương (Mét)"
   },
   {
     "id": "cb-trnph-tp18",
@@ -7423,7 +8580,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây tròn 1x10 TP Cơ Điện Đỏ (Mét)"
     ],
     "desc": "Sản phẩm Dây tròn 1x10 TP Cơ Điện Đỏ chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây tròn 1x10 TP Cơ Điện Đỏ (Mét)"
   },
   {
     "id": "cb-trnph-tp18a",
@@ -7443,7 +8601,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây tròn 1x10 TP Cơ điện Vàng (Mét)"
     ],
     "desc": "Sản phẩm Dây tròn 1x10 TP Cơ điện Vàng chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây tròn 1x10 TP Cơ điện Vàng (Mét)"
   },
   {
     "id": "cb-trnph-tp18b",
@@ -7463,7 +8622,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây tròn 1x10 TP Cơ Điện Xanh Dương (Mét)"
     ],
     "desc": "Sản phẩm Dây tròn 1x10 TP Cơ Điện Xanh Dương chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây tròn 1x10 TP Cơ Điện Xanh Dương (Mét)"
   },
   {
     "id": "cb-trnph-tp20",
@@ -7483,7 +8643,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 2x0.75 TP Cơ Điện (Mét)"
     ],
     "desc": "Sản phẩm Dây 2x0.75 TP Cơ Điện chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 2x0.75 TP Cơ Điện (Mét)"
   },
   {
     "id": "cb-trnph-tp21",
@@ -7503,7 +8664,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 2x1.0 TP Cơ Điện (Mét)"
     ],
     "desc": "Sản phẩm Dây 2x1.0 TP Cơ Điện chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 2x1.0 TP Cơ Điện (Mét)"
   },
   {
     "id": "cb-trnph-tp22",
@@ -7523,7 +8685,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 2x1.5 TP Cơ Điện (Mét)"
     ],
     "desc": "Sản phẩm Dây 2x1.5 TP Cơ Điện chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 2x1.5 TP Cơ Điện (Mét)"
   },
   {
     "id": "cb-trnph-tp23",
@@ -7543,7 +8706,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 2x2.5 TP Cơ Điện (Mét)"
     ],
     "desc": "Sản phẩm Dây 2x2.5 TP Cơ Điện chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 2x2.5 TP Cơ Điện (Mét)"
   },
   {
     "id": "cb-trnph-tp24",
@@ -7563,7 +8727,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 2x4.0 TP Cơ Điện (Mét)"
     ],
     "desc": "Sản phẩm Dây 2x4.0 TP Cơ Điện chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 2x4.0 TP Cơ Điện (Mét)"
   },
   {
     "id": "cb-trnph-tp25",
@@ -7583,7 +8748,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 2x6.0 TP Cơ Điện (Mét)"
     ],
     "desc": "Sản phẩm Dây 2x6.0 TP Cơ Điện chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 2x6.0 TP Cơ Điện (Mét)"
   },
   {
     "id": "cb-trnph-tp31",
@@ -7603,7 +8769,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 3x0.75 TP Cơ Điện (Mét)"
     ],
     "desc": "Sản phẩm Dây 3x0.75 TP Cơ Điện chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 3x0.75 TP Cơ Điện (Mét)"
   },
   {
     "id": "cb-trnph-tp82",
@@ -7623,7 +8790,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x1.5 TP cơ điện tiếp địa (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x1.5 TP cơ điện tiếp địa chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x1.5 TP cơ điện tiếp địa (Mét)"
   },
   {
     "id": "cb-trnph-tp83",
@@ -7643,7 +8811,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x2.5 TP cơ điện tiếp địa (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x2.5 TP cơ điện tiếp địa chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x2.5 TP cơ điện tiếp địa (Mét)"
   },
   {
     "id": "cb-trnph-tp84",
@@ -7663,7 +8832,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x4.0 TP cơ điện tiếp địa (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x4.0 TP cơ điện tiếp địa chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x4.0 TP cơ điện tiếp địa (Mét)"
   },
   {
     "id": "cb-trnph-tp85",
@@ -7683,7 +8853,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây 1x6.0 TP cơ điện tiếp địa (Mét)"
     ],
     "desc": "Sản phẩm Dây 1x6.0 TP cơ điện tiếp địa chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây 1x6.0 TP cơ điện tiếp địa (Mét)"
   },
   {
     "id": "cb-trnph-tp70",
@@ -7703,7 +8874,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây súp 2x0.75 TP cơ (Mét)"
     ],
     "desc": "Sản phẩm Dây súp 2x0.75 TP cơ chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây súp 2x0.75 TP cơ (Mét)"
   },
   {
     "id": "cb-trnph-tpd00",
@@ -7723,7 +8895,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây mạng  Cat5e U/UTP Trần Phú (Mét)"
     ],
     "desc": "Sản phẩm Dây mạng  Cat5e U/UTP Trần Phú chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây mạng  Cat5e U/UTP Trần Phú (Mét)"
   },
   {
     "id": "cb-trnph-tpd01",
@@ -7743,7 +8916,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Dây mạng Cat6 U/UTP Trần Phú (Mét)"
     ],
     "desc": "Sản phẩm Dây mạng Cat6 U/UTP Trần Phú chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Dây mạng Cat6 U/UTP Trần Phú (Mét)"
   },
   {
     "id": "cb-trnph-to00",
@@ -7763,7 +8937,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: ổ dây A40-4D-1.8m - Đen Trần Phú (Chiếc)"
     ],
     "desc": "Sản phẩm ổ dây A40-4D-1.8m - Đen Trần Phú chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: ổ dây A40-4D-1.8m - Đen Trần Phú (Chiếc)"
   },
   {
     "id": "cb-trnph-to01",
@@ -7783,7 +8958,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: ổ dây A40-4D-1.8m - trắng Trần Phú (Chiếc)"
     ],
     "desc": "Sản phẩm ổ dây A40-4D-1.8m - trắng Trần Phú chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: ổ dây A40-4D-1.8m - trắng Trần Phú (Chiếc)"
   },
   {
     "id": "cb-trnph-to02",
@@ -7803,7 +8979,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: ổ dây A33-3D3U-1.8m - Đen Trần Phú (Chiếc)"
     ],
     "desc": "Sản phẩm ổ dây A33-3D3U-1.8m - Đen Trần Phú chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: ổ dây A33-3D3U-1.8m - Đen Trần Phú (Chiếc)"
   },
   {
     "id": "cb-trnph-to03",
@@ -7823,7 +9000,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: ổ dây A33-3D3U-1.8m - trắng Trần Phú (Chiếc)"
     ],
     "desc": "Sản phẩm ổ dây A33-3D3U-1.8m - trắng Trần Phú chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: ổ dây A33-3D3U-1.8m - trắng Trần Phú (Chiếc)"
   },
   {
     "id": "cb-trnph-to04",
@@ -7843,7 +9021,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: ổ dây A63-3D3T3U-1.8m - đen Trần Phú (Chiếc)"
     ],
     "desc": "Sản phẩm ổ dây A63-3D3T3U-1.8m - đen Trần Phú chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: ổ dây A63-3D3T3U-1.8m - đen Trần Phú (Chiếc)"
   },
   {
     "id": "cb-trnph-to05",
@@ -7863,7 +9042,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: ổ dây A63-3D3T3U-1.8m - trắng Trần Phú (Chiếc)"
     ],
     "desc": "Sản phẩm ổ dây A63-3D3T3U-1.8m - trắng Trần Phú chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: ổ dây A63-3D3T3U-1.8m - trắng Trần Phú (Chiếc)"
   },
   {
     "id": "cb-trnph-to06",
@@ -7883,7 +9063,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: ổ dây A23-1D1T3U -1.5m - đen Trần Phú (Chiếc)"
     ],
     "desc": "Sản phẩm ổ dây A23-1D1T3U -1.5m - đen Trần Phú chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: ổ dây A23-1D1T3U -1.5m - đen Trần Phú (Chiếc)"
   },
   {
     "id": "cb-trnph-to07",
@@ -7903,7 +9084,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: ổ dây A23-1D1T3U -1.5m - trắng Trần Phú (Chiếc)"
     ],
     "desc": "Sản phẩm ổ dây A23-1D1T3U -1.5m - trắng Trần Phú chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: ổ dây A23-1D1T3U -1.5m - trắng Trần Phú (Chiếc)"
   },
   {
     "id": "cb-trnph-to10",
@@ -7923,7 +9105,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: ổ dây A40-4D-3m - Đen Trần Phú (Chiếc)"
     ],
     "desc": "Sản phẩm ổ dây A40-4D-3m - Đen Trần Phú chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: ổ dây A40-4D-3m - Đen Trần Phú (Chiếc)"
   },
   {
     "id": "cb-trnph-to11",
@@ -7943,7 +9126,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: ổ dây A40-4D-3m - Trắng Trần Phú (Chiếc)"
     ],
     "desc": "Sản phẩm ổ dây A40-4D-3m - Trắng Trần Phú chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: ổ dây A40-4D-3m - Trắng Trần Phú (Chiếc)"
   },
   {
     "id": "cb-trnph-to12",
@@ -7963,7 +9147,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: ổ dây A33-3D3U-3m - Đen Trần Phú (Chiếc)"
     ],
     "desc": "Sản phẩm ổ dây A33-3D3U-3m - Đen Trần Phú chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: ổ dây A33-3D3U-3m - Đen Trần Phú (Chiếc)"
   },
   {
     "id": "cb-trnph-to13",
@@ -7983,7 +9168,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: ổ dây A33-3D3U-3m - Trắng Trần Phú (Chiếc)"
     ],
     "desc": "Sản phẩm ổ dây A33-3D3U-3m - Trắng Trần Phú chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: ổ dây A33-3D3U-3m - Trắng Trần Phú (Chiếc)"
   },
   {
     "id": "cb-trnph-to14",
@@ -8003,7 +9189,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: ổ dây A63-3D3T3U-3m - đen Trần Phú (Chiếc)"
     ],
     "desc": "Sản phẩm ổ dây A63-3D3T3U-3m - đen Trần Phú chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: ổ dây A63-3D3T3U-3m - đen Trần Phú (Chiếc)"
   },
   {
     "id": "cb-trnph-to15",
@@ -8023,7 +9210,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: ổ dây A63-3D3T3U-3m - trắng Trần Phú (Chiếc)"
     ],
     "desc": "Sản phẩm ổ dây A63-3D3T3U-3m - trắng Trần Phú chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: ổ dây A63-3D3T3U-3m - trắng Trần Phú (Chiếc)"
   },
   {
     "id": "cb-trnph-tpm20",
@@ -8043,7 +9231,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 2x0.75 Trần Phú (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 2x0.75 Trần Phú chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 2x0.75 Trần Phú (Mét)"
   },
   {
     "id": "cb-trnph-tpm21",
@@ -8063,7 +9252,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 2x1 Trần Phú (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 2x1 Trần Phú chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 2x1 Trần Phú (Mét)"
   },
   {
     "id": "cb-trnph-tpm22",
@@ -8083,7 +9273,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 2x1.5 Trần Phú (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 2x1.5 Trần Phú chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 2x1.5 Trần Phú (Mét)"
   },
   {
     "id": "cb-trnph-tpm23",
@@ -8103,7 +9294,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 2x2.5 Trần Phú (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 2x2.5 Trần Phú chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 2x2.5 Trần Phú (Mét)"
   },
   {
     "id": "cb-trnph-tpm24",
@@ -8123,7 +9315,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 2x4 Trần Phú (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 2x4 Trần Phú chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 2x4 Trần Phú (Mét)"
   },
   {
     "id": "cb-trnph-tpm25",
@@ -8143,7 +9336,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 2x6 Trần Phú (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 2x6 Trần Phú chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 2x6 Trần Phú (Mét)"
   },
   {
     "id": "cb-trnph-tpm3a",
@@ -8163,7 +9357,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 3x0.75 Trần Phú (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 3x0.75 Trần Phú chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 3x0.75 Trần Phú (Mét)"
   },
   {
     "id": "cb-trnph-tpm3b",
@@ -8183,7 +9378,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 3x1 Trần Phú (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 3x1 Trần Phú chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 3x1 Trần Phú (Mét)"
   },
   {
     "id": "cb-trnph-tpm3c",
@@ -8203,7 +9399,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 3x1.5 Trần Phú (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 3x1.5 Trần Phú chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 3x1.5 Trần Phú (Mét)"
   },
   {
     "id": "cb-trnph-tpm3d",
@@ -8223,7 +9420,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 3x2.5 Trần Phú (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 3x2.5 Trần Phú chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 3x2.5 Trần Phú (Mét)"
   },
   {
     "id": "cb-trnph-tpm3e",
@@ -8243,7 +9441,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 3x4 Trần Phú (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 3x4 Trần Phú chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 3x4 Trần Phú (Mét)"
   },
   {
     "id": "cb-trnph-tpm3f",
@@ -8263,7 +9462,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 3x6 Trần Phú (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 3x6 Trần Phú chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 3x6 Trần Phú (Mét)"
   },
   {
     "id": "cb-trnph-tpm4a",
@@ -8283,7 +9483,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 4x0.75 Trần Phú (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 4x0.75 Trần Phú chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 4x0.75 Trần Phú (Mét)"
   },
   {
     "id": "cb-trnph-tpm4b",
@@ -8303,7 +9504,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 4x1 Trần Phú (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 4x1 Trần Phú chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 4x1 Trần Phú (Mét)"
   },
   {
     "id": "cb-trnph-tpm4c",
@@ -8323,7 +9525,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 4x1.5 Trần Phú (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 4x1.5 Trần Phú chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 4x1.5 Trần Phú (Mét)"
   },
   {
     "id": "cb-trnph-tpm4d",
@@ -8343,7 +9546,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 4x2.5  Trần Phú (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 4x2.5  Trần Phú chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 4x2.5  Trần Phú (Mét)"
   },
   {
     "id": "cb-trnph-tpm4e",
@@ -8363,7 +9567,8 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 4x4  Trần Phú (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 4x4  Trần Phú chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 4x4  Trần Phú (Mét)"
   },
   {
     "id": "cb-trnph-tpm4f",
@@ -8383,6 +9588,7 @@ window.ALL_PRODUCTS_DATA = [
       "Quy cách chuẩn: Cáp mềm 4x6 Trần Phú (Mét)"
     ],
     "desc": "Sản phẩm Cáp mềm 4x6 Trần Phú chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
-    "inStock": true
+    "inStock": true,
+    "spec": "Quy cách chuẩn: Cáp mềm 4x6 Trần Phú (Mét)"
   }
 ];

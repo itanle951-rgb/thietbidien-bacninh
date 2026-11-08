@@ -7,7 +7,7 @@
  */
 
 const STORAGE_KEYS = {
-    PRODUCTS: 'duyphong_athanhbn_products_v20261108_420',
+    PRODUCTS: 'duyphong_athanhbn_products_v20261108_465',
     CART_BOQ: 'duyphong_athanhbn_boq_v1',
     QUOTES:   'duyphong_athanhbn_quotes_v1'
 };
@@ -701,44 +701,44 @@ const PROJECT_COMBOS = {
         title: 'Gói Vật Tư Nhà Phố / Nhà Ống 2-3 Tầng',
         customerType: 'Chu-nha-xay-moi',
         items: [
-            { productId: 'dp-01', variant: 'Tiết diện 2.5mm² (Đỏ/Xanh/Đen)', qty: 6 },
-            { productId: 'dp-01', variant: 'Tiết diện 1.5mm² (Đỏ/Xanh/Vàng)', qty: 5 },
-            { productId: 'dp-02', variant: 'CV 4.0mm² - 450/750V', qty: 2 },
-            { productId: 'dp-06', variant: 'Bộ ổ cắm đôi 3 chấu có màn che', qty: 35 },
-            { productId: 'dp-06', variant: 'Bộ 2 công tắc 1 chiều', qty: 18 },
-            { productId: 'dp-07', variant: '9W Đổi 3 màu (Lỗ khoét Φ90mm)', qty: 45 },
-            { productId: 'dp-10', variant: 'MCB 2P 63A (Aptomat tổng từng tầng)', qty: 3 },
-            { productId: 'dp-10', variant: 'MCB 1P 16A/20A (Nhánh chiếu sáng/ổ cắm)', qty: 12 },
-            { productId: 'dp-12', variant: 'Tủ âm tường 8-12 Module nắp kim loại', qty: 3 },
-            { productId: 'dp-13', variant: 'Ống ruột gà chống cháy Φ20 (Cuộn 50m)', qty: 6 }
+            { productId: 'dp-tp-vcm-25', qty: 6 },
+            { productId: 'dp-tp-vcm-15', qty: 5 },
+            { productId: 'dp-cdv-cv-40', qty: 2 },
+            { productId: 'dp-pana-oc-doi', qty: 35 },
+            { productId: 'dp-pana-ct-2c', qty: 18 },
+            { productId: 'dp-led-nano-9w-3m', qty: 45 },
+            { productId: 'dp-mcb-sch-2p-63a', qty: 3 },
+            { productId: 'dp-mcb-sch-1p-20a', qty: 12 },
+            { productId: 'dp-tu-dien-am-12m', qty: 3 },
+            { productId: 'dp-ong-ruot-ga-d20', qty: 6 }
         ]
     },
     'biet-thu': {
         title: 'Gói Vật Tư Biệt Thự / Nhà Vườn Cao Cấp',
         customerType: 'Chu-nha-xay-moi',
         items: [
-            { productId: 'dp-02', variant: 'CV 6.0mm² - 450/750V', qty: 4 },
-            { productId: 'dp-01', variant: 'Tiết diện 2.5mm² (Đỏ/Xanh/Đen)', qty: 12 },
-            { productId: 'dp-04', variant: 'Ổ cắm đôi 3 chấu mặt Vàng Champagne', qty: 55 },
-            { productId: 'dp-04', variant: 'Công tắc 3 hạt mặt Xám Titan', qty: 28 },
-            { productId: 'dp-07', variant: '12W Đổi 3 màu (Lỗ khoét Φ110mm)', qty: 80 },
-            { productId: 'dp-10', variant: 'RCBO Chống giật 2P 40A/63A 30mA', qty: 6 },
-            { productId: 'dp-12', variant: 'Tủ âm tường 16-18 Module (Nhà 3 tầng)', qty: 4 },
-            { productId: 'dp-14', variant: 'Quạt trần 5 cánh động cơ DC tiết kiệm điện', qty: 3 }
+            { productId: 'dp-cdv-cv-60', qty: 4 },
+            { productId: 'dp-tp-vcm-25', qty: 12 },
+            { productId: 'dp-brt-oc-doi-vang', qty: 55 },
+            { productId: 'dp-brt-ct-3h-xam', qty: 28 },
+            { productId: 'dp-led-nano-12w-3m', qty: 80 },
+            { productId: 'dp-rcbo-sch-2p-40a', qty: 6 },
+            { productId: 'dp-tu-dien-am-18m', qty: 4 },
+            { productId: 'dp-quat-tran-5c-dc', qty: 3 }
         ]
     },
     'nha-xuong': {
         title: 'Gói Thi Công Nhà Xưởng Vừa & Nhỏ (200m² - 800m²)',
         customerType: 'Nha-thau-xuong',
         items: [
-            { productId: 'dp-03', variant: 'CVV 3x16 + 1x10 mm²', qty: 85 },
-            { productId: 'dp-02', variant: 'CV 4.0mm² - 450/750V', qty: 6 },
-            { productId: 'dp-09', variant: 'Highbay Nhà xưởng 150W (Chóa nhôm)', qty: 16 },
-            { productId: 'dp-08', variant: 'Bán nguyệt 1.2m - 50W Siêu sáng', qty: 20 },
-            { productId: 'dp-11', variant: 'MCCB ABN103c 3P 100A (18kA)', qty: 2 },
-            { productId: 'dp-11', variant: 'MCCB ABN103c 3P 63A (18kA)', qty: 6 },
-            { productId: 'dp-11', variant: 'Contactor MC-32a / MC-50a 380V', qty: 4 },
-            { productId: 'dp-12', variant: 'Vỏ tủ điện tổng xưởng 600x800x250mm', qty: 1 }
+            { productId: 'dp-cds-cvv-3x16-1x10', qty: 85 },
+            { productId: 'dp-cdv-cv-40', qty: 6 },
+            { productId: 'dp-highbay-rd-150w', qty: 16 },
+            { productId: 'dp-led-tube-bn-12m', qty: 20 },
+            { productId: 'dp-mccb-ls-3p-100a', qty: 2 },
+            { productId: 'dp-mccb-ls-3p-63a', qty: 6 },
+            { productId: 'dp-contactor-ls-mc32a', qty: 4 },
+            { productId: 'dp-vo-tu-dien-600x800', qty: 1 }
         ]
     }
 };
@@ -835,6 +835,15 @@ function initData() {
     if (savedCart) {
         try {
             state.boqCart = JSON.parse(savedCart);
+            // Cập nhật lại giá chính xác cho các mục nếu có
+            if (Array.isArray(state.boqCart)) {
+                state.boqCart.forEach(item => {
+                    const found = state.products.find(p => p.id === item.productId || p.sku === item.sku);
+                    if (found && found.price) {
+                        item.price = Number(found.price);
+                    }
+                });
+            }
         } catch (e) {
             state.boqCart = [];
         }
@@ -966,17 +975,15 @@ function renderCatalog() {
                         <h3 class="product-title">${p.name}</h3>
                         <p class="product-desc">${p.desc || ''}</p>
                         
-                        <div class="product-variant-box">
-                            <label><i class="fas fa-sliders-h"></i> Chọn phân loại / thông số kỹ thuật:</label>
-                            <select class="variant-select" id="variant-${p.id}" onchange="onVariantChange('${p.id}', this.value)">
-                                ${variants.map(v => `<option value="${v}">${v}</option>`).join('')}
-                            </select>
+                        <div class="product-variant-box" style="margin-bottom: 10px;">
+                            <div style="font-size: 0.75rem; color: var(--text-muted); margin-bottom: 4px;"><i class="fas fa-certificate" style="color: var(--primary);"></i> Thông số / Quy cách:</div>
+                            <div style="color: #F3E5AB; font-weight: 600; font-size: 0.88rem; background: rgba(212,175,55,0.08); padding: 6px 10px; border-radius: 6px; border: 1px solid rgba(212,175,55,0.2);">${p.spec || (p.variants && p.variants[0]) || 'Chính hãng'}</div>
                         </div>
 
                         <div class="product-price-row">
                             <div>
                                 <div style="font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 2px;">Giá Catalog niêm yết:</div>
-                                <span class="price-main" id="price-val-${p.id}">${formatVND(getVariantPrice(p, variants[0]))}</span>
+                                <span class="price-main" id="price-val-${p.id}">${formatVND(p.price)}</span>
                                 <span class="price-unit">/ ${p.unit}</span>
                             </div>
                             <span style="font-size: 0.76rem; color: var(--accent-green); font-weight: 600;">Sẵn hàng tại kho BN</span>
@@ -1024,13 +1031,11 @@ function renderCatalog() {
                         </div>
                     </td>
                     <td>
-                        <select class="variant-select" id="tbl-variant-${p.id}" style="min-width: 210px;" onchange="const tp = document.getElementById('tbl-price-' + '${p.id}'); if(tp) tp.textContent = formatVND(getVariantPrice(state.products.find(x => x.id === '${p.id}'), this.value));">
-                            ${variants.map(v => `<option value="${v}">${v}</option>`).join('')}
-                        </select>
+                        <div style="color: #F3E5AB; font-weight: 600; font-size: 0.88rem; line-height: 1.4;">${p.spec || (p.variants && p.variants[0]) || 'Chính hãng'}</div>
                     </td>
-                    <td><strong>${p.unit}</strong></td>
+                    <td style="text-align: center;"><strong>${p.unit}</strong></td>
                     <td>
-                        <div style="color: var(--primary-light); font-weight: 700;" id="tbl-price-${p.id}">${formatVND(getVariantPrice(p, variants[0]))}</div>
+                        <div style="color: var(--primary-light); font-weight: 700;" id="tbl-price-${p.id}">${formatVND(p.price)}</div>
                         <div style="font-size: 0.74rem; color: var(--text-muted);">Giá Catalog chính hãng</div>
                     </td>
                     <td>
@@ -1148,9 +1153,8 @@ function addToQuoteFromCard(productId) {
     const product = state.products.find(p => p.id === productId);
     if (!product) return;
 
-    const variantEl = document.getElementById(`variant-${productId}`);
     const qtyEl = document.getElementById(`qty-${productId}`);
-    const selectedVariant = variantEl ? variantEl.value : 'Tiêu chuẩn';
+    const selectedVariant = product.spec || (product.variants && product.variants[0]) || 'Chính hãng';
     const qty = Math.max(1, parseInt(qtyEl ? qtyEl.value : 1, 10) || 1);
 
     upsertBoqItem(product, selectedVariant, qty, true);
@@ -1163,9 +1167,8 @@ function addToQuoteFromCard(productId) {
 function addSingleFromTable(productId) {
     const product = state.products.find(p => p.id === productId);
     if (!product) return;
-    const variantEl = document.getElementById(`tbl-variant-${productId}`);
     const qtyEl = document.getElementById(`tbl-qty-${productId}`);
-    const selectedVariant = variantEl ? variantEl.value : 'Tiêu chuẩn';
+    const selectedVariant = product.spec || (product.variants && product.variants[0]) || 'Chính hãng';
     let qty = parseInt(qtyEl ? qtyEl.value : 1, 10) || 0;
     if (qty <= 0) qty = 1;
     if (qtyEl) qtyEl.value = qty;
@@ -1182,10 +1185,7 @@ function applyBulkTableSelection() {
 
     filtered.forEach(p => {
         const qtyEl = document.getElementById(`tbl-qty-${p.id}`);
-        const variantEl = document.getElementById(`tbl-variant-${p.id}`);
-        if (!qtyEl) return;
-        const qty = parseInt(qtyEl.value, 10) || 0;
-        const selectedVariant = variantEl ? variantEl.value : 'Tiêu chuẩn';
+        const selectedVariant = p.spec || (p.variants && p.variants[0]) || 'Chính hãng';
 
         if (qty > 0) {
             upsertBoqItem(p, selectedVariant, qty, false);
@@ -1207,7 +1207,7 @@ function applyBulkTableSelection() {
 function upsertBoqItem(product, variant, qty, accumulate = true) {
     const cartId = `${product.id}__${variant}`;
     const existing = state.boqCart.find(item => item.cartId === cartId);
-    const actualPrice = getVariantPrice(product, variant);
+    const actualPrice = Number(product.price) || 0;
 
     if (existing) {
         existing.qty = accumulate ? (existing.qty + qty) : qty;
@@ -1238,7 +1238,8 @@ function loadProjectCombo(comboKey) {
     combo.items.forEach(entry => {
         const product = state.products.find(p => p.id === entry.productId);
         if (product) {
-            upsertBoqItem(product, entry.variant, entry.qty, false);
+            const variant = product.spec || entry.variant || 'Chính hãng';
+            upsertBoqItem(product, variant, entry.qty, false);
         }
     });
 

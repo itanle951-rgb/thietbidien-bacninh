@@ -40,7 +40,7 @@ function createSvgDataUri(title, brand, code, accent = '#D4AF37') {
         <text x="400" y="125" font-family="Segoe UI Emoji, Arial" font-size="60" text-anchor="middle">⚡</text>
         <text x="35" y="165" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="20" font-weight="bold">${title}</text>
         <rect x="35" y="195" width="160" height="30" rx="5" fill="rgba(212,175,55,0.15)" stroke="${accent}" stroke-width="1"/>
-        <text x="115" y="215" fill="#F3E5AB" font-family="monospace" font-size="13" font-weight="bold" text-anchor="middle">SKU: ${code}</text>
+        <text x="115" y="215" fill="#F3E5AB" font-family="monospace" font-size="13" font-weight="bold" text-anchor="middle">CHÍNH HÃNG</text>
         <text x="35" y="265" fill="#94A3B8" font-family="Arial, sans-serif" font-size="12">549 Ngô Gia Tự, TP. Bắc Ninh • 0904.511.227</text>
     </svg>`;
     return 'data:image/svg+xml;utf8,' + encodeURIComponent(svg);
@@ -282,7 +282,7 @@ function renderCatalog() {
                             <div style="flex: 1; min-width: 0;">
                                 <div style="font-weight: 700; color: #fff; line-height: 1.4; font-size: 0.98rem;">${p.name}</div>
                                 <div style="font-size: 0.78rem; color: var(--accent-cyan); margin-top: 4px;">
-                                    Mã: <strong>${p.sku}</strong> • Hãng: <strong style="color: var(--primary);">${p.brand}</strong>
+                                    Hãng phân phối: <strong style="color: var(--primary); font-weight: 700;">${p.brand}</strong>
                                 </div>
                                 ${p.desc ? `<div style="font-size: 0.76rem; color: var(--text-muted); margin-top: 3px; line-height: 1.35;">${p.desc.slice(0, 75)}...</div>` : ''}
                             </div>
@@ -329,7 +329,7 @@ function renderCatalog() {
                         ${totalQty > 0 ? `<div class="in-quote-ribbon"><i class="fas fa-check-circle"></i> Đã chọn: ${totalQty} ${p.unit}</div>` : ''}
                     </div>
                     <div class="product-body">
-                        <div class="product-sku">MÃ: ${p.sku}</div>
+                        <div style="font-size: 0.76rem; color: var(--accent-cyan); font-weight: 600; margin-bottom: 4px;"><i class="fas fa-certificate" style="color: var(--primary);"></i> Phân phối chính hãng</div>
                         <h3 class="product-title">${p.name}</h3>
                         <p class="product-desc">${p.desc || ''}</p>
                         
@@ -446,21 +446,24 @@ function addFromCard(productId) {
 
 // Gom tất cả các dòng có số lượng > 0 trong bảng hiện tại
 function applyBulkTableSelection() {
-    const filtered = getFilteredCatalog();
     let countAdded = 0;
-
-    filtered.forEach(p => {
-        const qtyEl = document.getElementById('tbl-qty-' + p.id);
-        const variant = p.spec || (p.variants && p.variants[0]) || 'Chính hãng';
-
+    const inputs = document.querySelectorAll('input[id^="tbl-qty-"]');
+    
+    inputs.forEach(input => {
+        const qty = parseInt(input.value, 10) || 0;
         if (qty > 0) {
-            upsertCart(p, variant, qty, false);
-            countAdded++;
+            const prodId = input.id.replace('tbl-qty-', '');
+            const product = catalogState.products.find(p => p.id === prodId);
+            if (product) {
+                const variant = product.spec || (product.variants && product.variants[0]) || 'Chính hãng';
+                upsertCart(product, variant, qty, false);
+                countAdded++;
+            }
         }
     });
 
     if (countAdded === 0) {
-        showToast('Vui lòng nhập số lượng (>0) cho ít nhất 1 mặt hàng!', 'fa-exclamation-circle');
+        showToast('Vui lòng nhập số lượng (>0) cho ít nhất 1 mặt hàng đã chọn!', 'fa-exclamation-circle');
         return;
     }
 

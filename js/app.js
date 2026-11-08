@@ -751,7 +751,9 @@ let state = {
     activeCategory: 'all',
     activeBrand: 'all',
     searchQuery: '',
-    viewMode: 'grid', // 'grid' | 'table'
+    viewMode: 'table', // 'table' (chính mặc định) | 'grid'
+    currentPage: 1,    // Trang hiện tại
+    pageSize: 20,      // Giới hạn 20 dòng / trang
     uploadedImageDataUrl: ''
 };
 
@@ -899,84 +901,113 @@ function renderCatalog() {
     const tableWrapperEl = document.getElementById('productsTableWrapper') || document.getElementById('quickTableWrapper');
     const tableBodyEl = document.getElementById('productsTableBody') || document.getElementById('quickTableBody');
     const countLabel = document.getElementById('filteredProductCount') || document.getElementById('catalogCountLabel');
+    const paginationEl = document.getElementById('catalogPagination');
+
+    const totalItems = filtered.length;
+    const totalPages = Math.max(1, Math.ceil(totalItems / state.pageSize));
+    if (state.currentPage > totalPages) state.currentPage = totalPages;
+    if (state.currentPage < 1) state.currentPage = 1;
+
+    const startIdx = (state.currentPage - 1) * state.pageSize;
+    const endIdx = Math.min(startIdx + state.pageSize, totalItems);
+    const pagedProducts = filtered.slice(startIdx, endIdx);
 
     if (countLabel) {
-        countLabel.textContent = `Hiển thị ${filtered.length} / ${state.products.length} mặt hàng chính hãng`;
+        countLabel.innerHTML = totalItems > 0
+            ? `Hiển thị <strong>${startIdx + 1} - ${endIdx}</strong> / <strong>${totalItems}</strong> mặt hàng chính hãng (Trang <strong>${state.currentPage}</strong> / ${totalPages})`
+            : `Hiển thị 0 mặt hàng chính hãng`;
     }
 
-    if (filtered.length === 0) {
-        gridEl.innerHTML = `
-            <div style="grid-column: 1 / -1; text-align: center; padding: 48px 20px; background: var(--bg-card); border-radius: 12px; border: 1px dashed var(--border-gold);">
-                <i class="fas fa-box-open" style="font-size: 2.5rem; color: var(--primary); margin-bottom: 12px;"></i>
-                <h3>Không tìm thấy sản phẩm khớp bộ lọc</h3>
-                <p style="color: var(--text-secondary); margin: 8px 0 16px;">Bạn có thể xóa bộ lọc hoặc nhập trực tiếp tên vật tư vào ô "Thêm Vật Tư Ngoài Danh Mục" bên dưới.</p>
-                <button class="btn btn-outline-gold" onclick="resetCatalogFilters()"><i class="fas fa-sync"></i> Xem tất cả sản phẩm</button>
-            </div>
-        `;
-        if (tableBodyEl) tableBodyEl.innerHTML = '';
+    if (totalItems === 0) {
+        if (gridEl) {
+            gridEl.innerHTML = `
+                <div style="grid-column: 1 / -1; text-align: center; padding: 48px 20px; background: var(--bg-card); border-radius: 12px; border: 1px dashed var(--border-gold);">
+                    <i class="fas fa-box-open" style="font-size: 2.5rem; color: var(--primary); margin-bottom: 12px;"></i>
+                    <h3>Không tìm thấy sản phẩm khớp bộ lọc</h3>
+                    <p style="color: var(--text-secondary); margin: 8px 0 16px;">Bạn có thể xóa bộ lọc hoặc nhập trực tiếp tên vật tư vào ô "Thêm Vật Tư Ngoài Danh Mục" bên dưới.</p>
+                    <button class="btn btn-outline-gold" onclick="resetCatalogFilters()"><i class="fas fa-sync"></i> Xem tất cả sản phẩm</button>
+                </div>
+            `;
+        }
+        if (tableBodyEl) {
+            tableBodyEl.innerHTML = `
+                <tr>
+                    <td colspan="6" style="text-align: center; padding: 36px 16px; color: var(--text-secondary);">
+                        <i class="fas fa-box-open" style="font-size: 2rem; color: var(--primary); margin-bottom: 10px; display: block;"></i>
+                        Không tìm thấy sản phẩm khớp với từ khóa hoặc bộ lọc đã chọn.
+                        <div style="margin-top: 12px;">
+                            <button class="btn btn-outline-gold" onclick="resetCatalogFilters()"><i class="fas fa-sync"></i> Xem tất cả sản phẩm</button>
+                        </div>
+                    </td>
+                </tr>
+            `;
+        }
+        if (paginationEl) paginationEl.innerHTML = '';
         return;
     }
 
-    // 1. Render Grid Cards
-    gridEl.innerHTML = filtered.map(p => {
-        const variants = Array.isArray(p.variants) && p.variants.length > 0 ? p.variants : ['Tiêu chuẩn chính hãng'];
-        const inCartItems = state.boqCart.filter(item => item.productId === p.id);
-        const totalQtyInCart = inCartItems.reduce((sum, item) => sum + item.qty, 0);
+    // 1. Render Grid Cards (cho 20 sản phẩm trang hiện tại)
+    if (gridEl) {
+        gridEl.innerHTML = pagedProducts.map(p => {
+            const variants = Array.isArray(p.variants) && p.variants.length > 0 ? p.variants : ['Tiêu chuẩn chính hãng'];
+            const inCartItems = state.boqCart.filter(item => item.productId === p.id);
+            const totalQtyInCart = inCartItems.reduce((sum, item) => sum + item.qty, 0);
 
-        return `
-            <div class="product-card ${totalQtyInCart > 0 ? 'in-quote' : ''}" id="card-${p.id}">
-                <div class="product-thumb-wrap">
-                    <img src="${p.image}" alt="${p.name}" loading="lazy" onerror="this.onerror=null; this.src='${createProductSvgDataUri(p.name.slice(0,22), p.brand, p.sku, p.brandColor || '#D4AF37')}';"/>
-                    <span class="product-brand-tag">${p.brand}</span>
-                    <span class="product-catalog-badge" style="position: absolute; top: 12px; right: 12px; background: rgba(212,175,55,0.18); color: var(--primary-light); border: 1px solid rgba(212,175,55,0.35); font-size: 0.72rem; padding: 3px 8px; border-radius: 4px; font-weight: 600;"><i class="fas fa-certificate"></i> Giá Catalog</span>
-                    ${totalQtyInCart > 0 ? `<div class="in-quote-ribbon"><i class="fas fa-check-circle"></i> Đã chọn: ${totalQtyInCart} ${p.unit}</div>` : ''}
-                </div>
-                <div class="product-body">
-                    <div class="product-sku">MÃ: ${p.sku}</div>
-                    <h3 class="product-title">${p.name}</h3>
-                    <p class="product-desc">${p.desc || ''}</p>
-                    
-                    <div class="product-variant-box">
-                        <label><i class="fas fa-sliders-h"></i> Chọn phân loại / thông số kỹ thuật:</label>
-                        <select class="variant-select" id="variant-${p.id}" onchange="onVariantChange('${p.id}', this.value)">
-                            ${variants.map(v => `<option value="${v}">${v}</option>`).join('')}
-                        </select>
+            return `
+                <div class="product-card ${totalQtyInCart > 0 ? 'in-quote' : ''}" id="card-${p.id}">
+                    <div class="product-thumb-wrap">
+                        <img src="${p.image}" alt="${p.name}" loading="lazy" onerror="this.onerror=null; this.src='${createProductSvgDataUri(p.name.slice(0,22), p.brand, p.sku, p.brandColor || '#D4AF37')}';"/>
+                        <span class="product-brand-tag">${p.brand}</span>
+                        <span class="product-catalog-badge" style="position: absolute; top: 12px; right: 12px; background: rgba(212,175,55,0.18); color: var(--primary-light); border: 1px solid rgba(212,175,55,0.35); font-size: 0.72rem; padding: 3px 8px; border-radius: 4px; font-weight: 600;"><i class="fas fa-certificate"></i> Giá Catalog</span>
+                        ${totalQtyInCart > 0 ? `<div class="in-quote-ribbon"><i class="fas fa-check-circle"></i> Đã chọn: ${totalQtyInCart} ${p.unit}</div>` : ''}
                     </div>
-
-                    <div class="product-price-row">
-                        <div>
-                            <div style="font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 2px;">Giá Catalog niêm yết:</div>
-                            <span class="price-main" id="price-val-${p.id}">${formatVND(getVariantPrice(p, variants[0]))}</span>
-                            <span class="price-unit">/ ${p.unit}</span>
+                    <div class="product-body">
+                        <div class="product-sku">MÃ: ${p.sku}</div>
+                        <h3 class="product-title">${p.name}</h3>
+                        <p class="product-desc">${p.desc || ''}</p>
+                        
+                        <div class="product-variant-box">
+                            <label><i class="fas fa-sliders-h"></i> Chọn phân loại / thông số kỹ thuật:</label>
+                            <select class="variant-select" id="variant-${p.id}" onchange="onVariantChange('${p.id}', this.value)">
+                                ${variants.map(v => `<option value="${v}">${v}</option>`).join('')}
+                            </select>
                         </div>
-                        <span style="font-size: 0.76rem; color: var(--accent-green); font-weight: 600;">Sẵn hàng tại kho BN</span>
-                    </div>
 
-                    <div class="product-order-controls">
-                        <div class="qty-row">
-                            <div class="qty-stepper">
-                                <button type="button" class="qty-btn" onclick="stepProductQty('${p.id}', -1)">−</button>
-                                <input type="number" min="1" value="1" class="qty-input" id="qty-${p.id}" aria-label="Số lượng"/>
-                                <button type="button" class="qty-btn" onclick="stepProductQty('${p.id}', 1)">+</button>
+                        <div class="product-price-row">
+                            <div>
+                                <div style="font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 2px;">Giá Catalog niêm yết:</div>
+                                <span class="price-main" id="price-val-${p.id}">${formatVND(getVariantPrice(p, variants[0]))}</span>
+                                <span class="price-unit">/ ${p.unit}</span>
                             </div>
-                            <div class="quick-qty-chips">
-                                <button type="button" class="chip-qty" onclick="stepProductQty('${p.id}', 5)">+5</button>
-                                <button type="button" class="chip-qty" onclick="stepProductQty('${p.id}', 10)">+10</button>
-                                <button type="button" class="chip-qty" onclick="stepProductQty('${p.id}', 50)">+50</button>
-                            </div>
+                            <span style="font-size: 0.76rem; color: var(--accent-green); font-weight: 600;">Sẵn hàng tại kho BN</span>
                         </div>
-                        <button type="button" class="btn btn-gold" style="width: 100%;" onclick="addToQuoteFromCard('${p.id}')">
-                            <i class="fas fa-cart-plus"></i> Thêm Vào Danh Sách Báo Giá
-                        </button>
+
+                        <div class="product-order-controls">
+                            <div class="qty-row">
+                                <div class="qty-stepper">
+                                    <button type="button" class="qty-btn" onclick="stepProductQty('${p.id}', -1)">−</button>
+                                    <input type="number" min="1" value="1" class="qty-input" id="qty-${p.id}" aria-label="Số lượng"/>
+                                    <button type="button" class="qty-btn" onclick="stepProductQty('${p.id}', 1)">+</button>
+                                </div>
+                                <div class="quick-qty-chips">
+                                    <button type="button" class="chip-qty" onclick="stepProductQty('${p.id}', 5)">+5</button>
+                                    <button type="button" class="chip-qty" onclick="stepProductQty('${p.id}', 10)">+10</button>
+                                    <button type="button" class="chip-qty" onclick="stepProductQty('${p.id}', 50)">+50</button>
+                                </div>
+                            </div>
+                            <button type="button" class="btn btn-gold" style="width: 100%;" onclick="addToQuoteFromCard('${p.id}')">
+                                <i class="fas fa-cart-plus"></i> Thêm Vào Danh Sách Báo Giá
+                            </button>
+                        </div>
                     </div>
                 </div>
-            </div>
-        `;
-    }).join('');
+            `;
+        }).join('');
+    }
 
-    // 2. Render Quick Table Mode (Chế độ Bảng Chọn Nhanh Hàng Loạt)
+    // 2. Render Quick Table Mode (Chế độ Bảng Kê Nhanh Chính - 20 dòng trang hiện tại)
     if (tableBodyEl) {
-        tableBodyEl.innerHTML = filtered.map(p => {
+        tableBodyEl.innerHTML = pagedProducts.map(p => {
             const variants = Array.isArray(p.variants) && p.variants.length > 0 ? p.variants : ['Tiêu chuẩn chính hãng'];
             const inCartItems = state.boqCart.filter(item => item.productId === p.id);
             const currentQty = inCartItems.reduce((s, i) => s + i.qty, 0);
@@ -1020,12 +1051,86 @@ function renderCatalog() {
 
     // Chuyển đổi hiển thị giữa Grid và Table
     if (state.viewMode === 'table') {
-        gridEl.style.display = 'none';
-        tableWrapperEl.classList.add('active');
+        if (gridEl) gridEl.style.display = 'none';
+        if (tableWrapperEl) tableWrapperEl.classList.add('active');
     } else {
-        gridEl.style.display = 'grid';
-        tableWrapperEl.classList.remove('active');
+        if (gridEl) gridEl.style.display = 'grid';
+        if (tableWrapperEl) tableWrapperEl.classList.remove('active');
     }
+
+    // Render bộ điều khiển phân trang
+    renderCatalogPagination(totalItems, totalPages);
+}
+
+// Chuyển trang danh mục và cuộn mượt về đầu khu vực sản phẩm
+function changeCatalogPage(newPage) {
+    const filtered = getFilteredProducts();
+    const totalPages = Math.max(1, Math.ceil(filtered.length / state.pageSize));
+    if (newPage < 1) newPage = 1;
+    if (newPage > totalPages) newPage = totalPages;
+    state.currentPage = newPage;
+    renderCatalog();
+    const catalogEl = document.getElementById('catalog-section');
+    if (catalogEl) {
+        catalogEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+}
+
+// Render phân trang thanh lịch (Previous, 1, 2, 3 ... 21, Next)
+function renderCatalogPagination(totalItems, totalPages) {
+    const paginationEl = document.getElementById('catalogPagination');
+    if (!paginationEl) return;
+
+    if (totalItems <= state.pageSize) {
+        paginationEl.innerHTML = `
+            <div class="page-info-summary">
+                Hiển thị tất cả <strong>${totalItems}</strong> sản phẩm
+            </div>
+            <div></div>
+        `;
+        return;
+    }
+
+    const startItem = (state.currentPage - 1) * state.pageSize + 1;
+    const endItem = Math.min(state.currentPage * state.pageSize, totalItems);
+
+    // Tính toán các nút hiển thị số trang với dấu ...
+    let pages = [];
+    if (totalPages <= 7) {
+        for (let i = 1; i <= totalPages; i++) pages.push(i);
+    } else {
+        pages.push(1);
+        if (state.currentPage > 3) pages.push('...');
+        const start = Math.max(2, state.currentPage - 1);
+        const end = Math.min(totalPages - 1, state.currentPage + 1);
+        for (let i = start; i <= end; i++) {
+            if (!pages.includes(i)) pages.push(i);
+        }
+        if (state.currentPage < totalPages - 2) pages.push('...');
+        if (!pages.includes(totalPages)) pages.push(totalPages);
+    }
+
+    const pagesHtml = pages.map(p => {
+        if (p === '...') {
+            return `<span class="page-btn dots">…</span>`;
+        }
+        return `<button type="button" class="page-btn ${p === state.currentPage ? 'active' : ''}" onclick="changeCatalogPage(${p})">${p}</button>`;
+    }).join('');
+
+    paginationEl.innerHTML = `
+        <div class="page-info-summary">
+            Hiển thị dòng <strong>${startItem} - ${endItem}</strong> / <strong>${totalItems}</strong> sản phẩm (Trang <strong>${state.currentPage}</strong> / ${totalPages})
+        </div>
+        <div class="pagination-pages">
+            <button type="button" class="page-btn" ${state.currentPage <= 1 ? 'disabled' : ''} onclick="changeCatalogPage(${state.currentPage - 1})" title="Trang trước">
+                <i class="fas fa-chevron-left"></i> Trước
+            </button>
+            ${pagesHtml}
+            <button type="button" class="page-btn" ${state.currentPage >= totalPages ? 'disabled' : ''} onclick="changeCatalogPage(${state.currentPage + 1})" title="Trang sau">
+                Sau <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    `;
 }
 
 // Tăng/giảm số lượng trên thẻ sản phẩm
@@ -2260,6 +2365,7 @@ function exportProductsJson() {
 // Bộ lọc danh mục & chế độ hiển thị
 function setCategoryFilter(cat, btnEl) {
     state.activeCategory = cat;
+    state.currentPage = 1;
     document.querySelectorAll('.cat-tab').forEach(b => b.classList.remove('active'));
     if (btnEl) btnEl.classList.add('active');
     renderCatalog();
@@ -2267,8 +2373,10 @@ function setCategoryFilter(cat, btnEl) {
 
 function setViewMode(mode) {
     state.viewMode = mode;
-    document.getElementById('viewBtnGrid').classList.toggle('active', mode === 'grid');
-    document.getElementById('viewBtnTable').classList.toggle('active', mode === 'table');
+    const btnGrid = document.getElementById('viewModeGridBtn') || document.getElementById('viewBtnGrid');
+    const btnTable = document.getElementById('viewModeTableBtn') || document.getElementById('viewBtnTable');
+    if (btnGrid) btnGrid.classList.toggle('active', mode === 'grid');
+    if (btnTable) btnTable.classList.toggle('active', mode === 'table');
     renderCatalog();
 }
 
@@ -2276,6 +2384,7 @@ function resetCatalogFilters() {
     state.activeCategory = 'all';
     state.activeBrand = 'all';
     state.searchQuery = '';
+    state.currentPage = 1;
     const searchInput = document.getElementById('globalSearchInput');
     if (searchInput) searchInput.value = '';
     const brandSelect = document.getElementById('brandFilterSelect');
@@ -2406,6 +2515,7 @@ function initApplication() {
     if (searchInput) {
         searchInput.addEventListener('input', (e) => {
             state.searchQuery = e.target.value;
+            state.currentPage = 1;
             renderCatalog();
         });
     }
@@ -2415,6 +2525,7 @@ function initApplication() {
     if (brandSelect) {
         brandSelect.addEventListener('change', (e) => {
             state.activeBrand = e.target.value;
+            state.currentPage = 1;
             renderCatalog();
         });
     }

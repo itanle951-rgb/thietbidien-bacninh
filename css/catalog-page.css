@@ -3,10 +3,28 @@
    Địa chỉ: 549 Ngô Gia Tự, TP. Bắc Ninh | Hotline: 0904.511.227
    ========================================================================== */
 
+/* ==========================================================================
+   1. FLUID ULTRA-WIDE CONTAINER (KHẮC PHỤC KHOẢNG TRỐNG 2 BÊN)
+   ========================================================================== */
+body.catalog-body-wide .container {
+    max-width: 1720px !important;
+    width: 96% !important;
+    margin: 0 auto !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+}
+
+@media (min-width: 1920px) {
+    body.catalog-body-wide .container {
+        max-width: 1840px !important;
+        width: 97% !important;
+    }
+}
+
 /* Breadcrumb điều hướng */
 .catalog-breadcrumb {
-    padding: 16px 0 8px;
-    font-size: 0.86rem;
+    padding: 14px 0 8px;
+    font-size: 0.88rem;
     color: var(--text-muted);
 }
 .catalog-breadcrumb a {
@@ -27,11 +45,11 @@
 
 /* Banner giới thiệu ngắn đầu trang */
 .catalog-hero-strip {
-    background: linear-gradient(135deg, rgba(212, 175, 55, 0.12) 0%, rgba(15, 23, 42, 0.7) 100%);
+    background: linear-gradient(135deg, rgba(212, 175, 55, 0.14) 0%, rgba(15, 23, 42, 0.75) 100%);
     border: 1px solid var(--border-gold);
     border-radius: var(--radius-lg);
-    padding: 24px 28px;
-    margin-bottom: 24px;
+    padding: 22px 28px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,7 +58,7 @@
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
 }
 .catalog-hero-strip h1 {
-    font-size: 1.6rem;
+    font-size: 1.65rem;
     color: #fff;
     margin-bottom: 6px;
 }
@@ -49,9 +67,9 @@
 }
 .catalog-hero-strip p {
     color: var(--text-secondary);
-    font-size: 0.92rem;
-    max-width: 650px;
-    line-height: 1.5;
+    font-size: 0.94rem;
+    max-width: 720px;
+    line-height: 1.55;
 }
 
 /* Thanh chọn nhanh thương hiệu (Brand Chips Bar) */
@@ -60,7 +78,8 @@
     gap: 8px;
     overflow-x: auto;
     padding-bottom: 12px;
-    margin-bottom: 22px;
+    margin-bottom: 20px;
+    -webkit-overflow-scrolling: touch;
     scrollbar-width: thin;
     scrollbar-color: var(--primary-dark) #0E1422;
 }
@@ -77,7 +96,7 @@
     background: #111827;
     border: 1px solid var(--border-subtle);
     color: var(--text-primary);
-    font-size: 0.85rem;
+    font-size: 0.86rem;
     font-weight: 600;
     white-space: nowrap;
     cursor: pointer;
@@ -109,22 +128,25 @@
     color: #070A10;
 }
 
-/* Bố cục 2 cột chính (Tỷ lệ 280px / 1fr) */
+/* ==========================================================================
+   2. BỐ CỤC 2 CỘT CHÍNH (CÂN ĐỐI 300px / 1fr)
+   ========================================================================== */
 .catalog-two-col {
     display: grid;
-    grid-template-columns: 280px 1fr;
+    grid-template-columns: 300px 1fr;
     gap: 24px;
     align-items: start;
-    margin-bottom: 60px;
+    margin-bottom: 70px;
 }
 
 /* CỘT TRÁI: BỘ LỌC SIDEBAR */
 .catalog-sidebar {
     position: sticky;
-    top: 90px;
+    top: 86px;
     display: flex;
     flex-direction: column;
     gap: 16px;
+    z-index: 50;
 }
 
 .sidebar-box {
@@ -146,7 +168,6 @@
     justify-content: space-between;
     align-items: center;
 }
-
 .sidebar-box-title i {
     color: var(--primary);
 }
@@ -164,7 +185,7 @@
     background: transparent;
     border: none;
     color: var(--text-secondary);
-    padding: 8px 10px;
+    padding: 9px 12px;
     border-radius: 6px;
     font-size: 0.88rem;
     cursor: pointer;
@@ -176,7 +197,7 @@
 .side-cat-item button:hover {
     background: rgba(212, 175, 55, 0.08);
     color: #fff;
-    padding-left: 14px;
+    padding-left: 15px;
 }
 .side-cat-item.active button {
     background: rgba(212, 175, 55, 0.16);
@@ -202,11 +223,18 @@
     color: var(--text-primary);
     cursor: pointer;
     user-select: none;
+    padding: 4px 6px;
+    border-radius: 4px;
+    transition: background 0.15s;
+}
+.side-check-label:hover {
+    background: rgba(212, 175, 55, 0.06);
 }
 .side-check-label input {
     accent-color: var(--primary);
     margin-right: 8px;
     cursor: pointer;
+    transform: scale(1.1);
 }
 .side-check-count {
     font-size: 0.74rem;
@@ -220,8 +248,8 @@
     gap: 6px;
 }
 .spec-chip-btn {
-    padding: 5px 10px;
-    font-size: 0.78rem;
+    padding: 6px 12px;
+    font-size: 0.82rem;
     background: #0F172A;
     border: 1px solid var(--border-subtle);
     border-radius: 6px;
@@ -240,7 +268,9 @@
     font-weight: 700;
 }
 
-/* CỘT PHẢI: KHU VỰC HIỂN THỊ CHÍNH */
+/* ==========================================================================
+   3. CỘT PHẢI: KHU VỰC SẢN PHẨM & BẢNG KÊ NHANH
+   ========================================================================== */
 .catalog-main {
     min-width: 0;
 }
@@ -250,7 +280,7 @@
     background: var(--bg-card);
     border: 1px solid var(--border-gold);
     border-radius: var(--radius-md);
-    padding: 14px 18px;
+    padding: 14px 20px;
     margin-bottom: 18px;
     display: flex;
     justify-content: space-between;
@@ -261,7 +291,7 @@
 }
 
 .toolbar-summary {
-    font-size: 0.9rem;
+    font-size: 0.92rem;
     color: var(--text-secondary);
 }
 .toolbar-summary strong {
@@ -279,17 +309,107 @@
     background: #0F172A;
     border: 1px solid var(--border-subtle);
     color: #fff;
-    padding: 8px 14px;
+    padding: 9px 14px;
     border-radius: 6px;
-    font-size: 0.85rem;
+    font-size: 0.86rem;
     cursor: pointer;
     outline: none;
+    transition: border-color 0.2s;
 }
 .sort-select:focus {
     border-color: var(--primary);
 }
 
-/* THANH GHIM GIỎ HÀNG DƯỚI ĐÁY TRANG (STICKY BOTTOM DRAWER) */
+/* ==========================================================================
+   4. BẢNG SẢN PHẨM & ẢNH PHÓNG TO 200% (48px -> 96px)
+   ========================================================================== */
+.quick-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 900px;
+}
+
+.quick-table th {
+    background: #101726;
+    color: var(--primary-light);
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.88rem;
+    font-weight: 700;
+    padding: 15px 16px;
+    border-bottom: 1.5px solid var(--border-gold);
+    letter-spacing: 0.3px;
+}
+
+.quick-table td {
+    padding: 16px;
+    border-bottom: 1px solid var(--border-subtle);
+    font-size: 0.9rem;
+    vertical-align: middle;
+}
+
+.quick-table tr:hover {
+    background: rgba(212, 175, 55, 0.04);
+}
+
+/* ẢNH SẢN PHẨM PHÓNG TO 200% (48px -> 96px) */
+.quick-table .table-thumb {
+    width: 96px !important;
+    height: 96px !important;
+    min-width: 96px !important;
+    min-height: 96px !important;
+    border-radius: 10px !important;
+    object-fit: cover !important;
+    border: 1.5px solid rgba(212, 175, 55, 0.4) !important;
+    background: #0B0F17 !important;
+    padding: 3px !important;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.45) !important;
+    transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease !important;
+    cursor: pointer;
+}
+.quick-table .table-thumb:hover {
+    transform: scale(1.12);
+    border-color: var(--primary) !important;
+    box-shadow: 0 0 16px rgba(212, 175, 55, 0.5) !important;
+}
+
+/* Ô chọn quy cách trong bảng */
+.quick-table .variant-select {
+    width: 100%;
+    min-width: 230px;
+    padding: 10px 14px;
+    background: #0F172A;
+    border: 1px solid rgba(212, 175, 55, 0.35);
+    border-radius: 8px;
+    color: #F8FAFC;
+    font-size: 0.88rem;
+    font-weight: 600;
+    outline: none;
+    transition: all 0.2s;
+}
+.quick-table .variant-select:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 10px rgba(212, 175, 55, 0.25);
+}
+
+/* Đơn giá trong bảng */
+.table-price-wrap {
+    display: flex;
+    flex-direction: column;
+}
+.table-price-val {
+    color: var(--primary-light);
+    font-weight: 800;
+    font-size: 1.05rem;
+    font-family: 'Outfit', sans-serif;
+}
+.table-price-sub {
+    font-size: 0.74rem;
+    color: var(--text-muted);
+}
+
+/* ==========================================================================
+   5. THANH GHIM GIỎ HÀNG DƯỚI ĐÁY TRANG (STICKY BOTTOM DRAWER)
+   ========================================================================== */
 .sticky-quote-bar {
     position: fixed;
     bottom: 0;
@@ -350,16 +470,218 @@
     border: 2px solid #0B0F17;
 }
 
-/* Responsive */
+/* ==========================================================================
+   6. RESPONSIVE HOÀN HẢO CHO THIẾT BỊ MOBILE & TABLET
+   ========================================================================== */
+.mobile-filter-bar {
+    display: none;
+    margin-bottom: 14px;
+}
+
+.mobile-table-hint {
+    display: none;
+    background: rgba(212, 175, 55, 0.08);
+    border: 1px dashed var(--border-gold);
+    color: var(--primary-light);
+    font-size: 0.8rem;
+    padding: 8px 12px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Sidebar Backdrop on Mobile */
+.sidebar-backdrop {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(4px);
+    z-index: 998;
+}
+
 @media (max-width: 992px) {
+    /* Mở rộng tối đa màn hình tablet/mobile */
+    body.catalog-body-wide .container {
+        width: 100% !important;
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
+
     .catalog-two-col {
         grid-template-columns: 1fr;
+        gap: 16px;
     }
+
+    /* Nút mở bộ lọc trên mobile */
+    .mobile-filter-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+    .mobile-filter-btn {
+        flex: 1;
+        padding: 10px 16px;
+        font-size: 0.9rem;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    /* Sidebar chuyển thành Drawer trượt từ cạnh trái */
     .catalog-sidebar {
-        position: static;
-        order: 2;
+        position: fixed;
+        top: 0;
+        left: -320px;
+        width: 300px;
+        height: 100vh;
+        background: #0B0F17;
+        padding: 20px 16px;
+        overflow-y: auto;
+        z-index: 999;
+        transition: left 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        border-right: 1px solid var(--border-gold);
+        box-shadow: 10px 0 30px rgba(0, 0, 0, 0.8);
     }
-    .catalog-main {
-        order: 1;
+    .catalog-sidebar.mobile-open {
+        left: 0;
     }
+    .sidebar-backdrop.active {
+        display: block;
+    }
+
+    .catalog-sidebar-header-mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 16px;
+        padding-bottom: 12px;
+        border-bottom: 1px solid var(--border-gold);
+    }
+    .catalog-sidebar-header-mobile h3 {
+        color: var(--primary-light);
+        font-size: 1.1rem;
+    }
+    .catalog-sidebar-close-btn {
+        background: transparent;
+        border: none;
+        color: #fff;
+        font-size: 1.3rem;
+        cursor: pointer;
+        padding: 4px 8px;
+    }
+
+    /* Hiển thị gợi ý vuốt bảng trên mobile */
+    .mobile-table-hint {
+        display: block;
+    }
+
+    /* Điều hướng Header scroll ngang */
+    nav.header-nav {
+        width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+        padding-bottom: 6px;
+        scrollbar-width: none;
+        -webkit-overflow-scrolling: touch;
+    }
+    nav.header-nav::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+@media (max-width: 640px) {
+    /* Tối ưu thanh ghim giỏ hàng đáy trang trên điện thoại */
+    .sticky-quote-bar {
+        padding: 8px 0;
+    }
+    .sticky-quote-inner {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 8px;
+    }
+    .sticky-quote-info {
+        justify-content: space-between;
+    }
+    .sticky-quote-bar .btn-gold {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        padding: 9px 16px;
+        font-size: 0.88rem;
+    }
+
+    /* Ảnh sản phẩm trên màn hình nhỏ vừa vặn 80px */
+    .quick-table .table-thumb {
+        width: 80px !important;
+        height: 80px !important;
+        min-width: 80px !important;
+        min-height: 80px !important;
+    }
+    
+    .catalog-hero-strip {
+        padding: 16px;
+    }
+    .catalog-hero-strip h1 {
+        font-size: 1.35rem;
+    }
+}
+
+/* Modal Phóng To Ảnh Sản Phẩm */
+.image-zoom-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.88);
+    backdrop-filter: blur(8px);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.image-zoom-modal.active {
+    display: flex;
+}
+.image-zoom-box {
+    max-width: 600px;
+    width: 100%;
+    background: #111827;
+    border: 1px solid var(--border-gold);
+    border-radius: var(--radius-lg);
+    padding: 18px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.8);
+    text-align: center;
+    position: relative;
+}
+.image-zoom-box img {
+    max-width: 100%;
+    max-height: 65vh;
+    object-fit: contain;
+    border-radius: 8px;
+    background: #0B0F17;
+}
+.image-zoom-close {
+    position: absolute;
+    top: 12px;
+    right: 14px;
+    background: rgba(255, 255, 255, 0.15);
+    border: none;
+    color: #fff;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

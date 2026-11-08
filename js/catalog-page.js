@@ -51,6 +51,18 @@ function formatVND(amount) {
     return new Intl.NumberFormat('vi-VN').format(Math.round(amount || 0)) + ' đ';
 }
 
+// Xử lý đường dẫn ảnh cho trang con /san-pham/
+function getProductImageUrl(img) {
+    if (!img) return '';
+    if (img.startsWith('http://') || img.startsWith('https://') || img.startsWith('data:')) {
+        return img;
+    }
+    if (img.startsWith('/')) {
+        return img;
+    }
+    return '../' + img;
+}
+
 // Lấy đơn giá theo quy cách
 function getVariantPrice(product, variantText) {
     if (typeof variantText === 'string') {
@@ -266,7 +278,7 @@ function renderCatalog() {
                 <tr>
                     <td>
                         <div style="display: flex; align-items: center; gap: 12px;">
-                            <img src="${p.image}" class="table-thumb" alt="${p.name}" loading="lazy" onerror="this.onerror=null; this.src='${createSvgDataUri(p.name.slice(0,18), p.brand, p.sku)}';"/>
+                            <img src="${getProductImageUrl(p.image)}" class="table-thumb" alt="${p.name}" loading="lazy" onerror="this.onerror=null; this.src='${createSvgDataUri(p.name.slice(0,18), p.brand, p.sku)}';"/>
                             <div>
                                 <div style="font-weight: 700; color: #fff; line-height: 1.35; font-size: 0.92rem;">${p.name}</div>
                                 <div style="font-size: 0.76rem; color: var(--accent-cyan); margin-top: 2px;">
@@ -313,7 +325,7 @@ function renderCatalog() {
             return `
                 <div class="product-card ${totalQty > 0 ? 'in-quote' : ''}">
                     <div class="product-thumb-wrap">
-                        <img src="${p.image}" alt="${p.name}" loading="lazy" onerror="this.onerror=null; this.src='${createSvgDataUri(p.name.slice(0,20), p.brand, p.sku)}';"/>
+                        <img src="${getProductImageUrl(p.image)}" alt="${p.name}" loading="lazy" onerror="this.onerror=null; this.src='${createSvgDataUri(p.name.slice(0,20), p.brand, p.sku)}';"/>
                         <span class="product-brand-tag">${p.brand}</span>
                         ${totalQty > 0 ? `<div class="in-quote-ribbon"><i class="fas fa-check-circle"></i> Đã chọn: ${totalQty} ${p.unit}</div>` : ''}
                     </div>

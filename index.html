@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="css/style.css?v=20261108_06">
+    <link rel="stylesheet" href="css/style.css?v=20261108_07">
 
     <!-- Schema.org JSON-LD -->
     <script type="application/ld+json">
@@ -274,11 +274,11 @@
                     <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
                         <span style="font-size:0.84rem; color:var(--text-secondary);">Chế độ chọn hàng:</span>
                         <div class="view-mode-switch">
-                            <button type="button" class="view-btn active" id="viewModeGridBtn" onclick="setViewMode('grid')">
-                                <i class="fas fa-grip"></i> Thẻ Chi Tiết
+                            <button type="button" class="view-btn active" id="viewModeTableBtn" onclick="setViewMode('table')">
+                                <i class="fas fa-table-list"></i> Bảng Kê Nhanh (Chính)
                             </button>
-                            <button type="button" class="view-btn" id="viewModeTableBtn" onclick="setViewMode('table')">
-                                <i class="fas fa-table-list"></i> Bảng Kê Nhanh (Chọn Nhiều 1 Lần)
+                            <button type="button" class="view-btn" id="viewModeGridBtn" onclick="setViewMode('grid')">
+                                <i class="fas fa-grip"></i> Thẻ Chi Tiết
                             </button>
                         </div>
                     </div>
@@ -286,13 +286,13 @@
             </div>
 
             <!-- Chế độ 1: Lưới Thẻ Sản Phẩm Trực Quan -->
-            <div class="product-grid" id="productsGrid"></div>
+            <div class="product-grid" id="productsGrid" style="display: none;"></div>
 
-            <!-- Chế độ 2: Bảng Kê Nhanh (Điền số lượng 1 lần cho nhiều sản phẩm như bảng Excel) -->
-            <div class="quick-table-wrapper" id="productsTableWrapper">
+            <!-- Chế độ 2: Bảng Kê Nhanh (Chế độ chính - Điền số lượng 1 lần cho nhiều sản phẩm như bảng Excel) -->
+            <div class="quick-table-wrapper active" id="productsTableWrapper">
                 <div style="padding: 14px 16px; background: rgba(212, 175, 55, 0.1); border-bottom: 1px solid var(--border-gold); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
                     <div style="font-size: 0.9rem; color: var(--primary-light);">
-                        <i class="fas fa-bolt"></i> <strong>Mẹo cho Thợ Điện & Chủ Nhà:</strong> Nhập số lượng cần mua vào cột <em>"Số lượng cần mua"</em> của nhiều mặt hàng bên dưới, sau đó bấm nút <strong>"Gom Tất Cả Vào Phiếu Báo Giá"</strong>!
+                        <i class="fas fa-bolt"></i> <strong>Mẹo cho Thợ Điện & Chủ Nhà:</strong> Nhập số lượng cần mua vào cột <em>"Số lượng cần mua"</em> của các mặt hàng bên dưới, sau đó bấm nút <strong>"Gom Tất Cả Vào Phiếu Báo Giá"</strong>!
                     </div>
                     <button type="button" class="btn btn-gold" onclick="applyBulkTableSelection()">
                         <i class="fas fa-check-double"></i> Gom Tất Cả Mục Có Số Lượng (>0) Vào Báo Giá
@@ -317,6 +317,9 @@
                     </button>
                 </div>
             </div>
+
+            <!-- Phân Trang Danh Mục 20 Dòng / Trang -->
+            <div id="catalogPagination" class="catalog-pagination"></div>
         </div>
     </section>
 
@@ -539,8 +542,8 @@
     </footer>
 
     <!-- Product Catalog Data (420 Sản Phẩm Nhà Máy) -->
-    <script src="js/products.js?v=20261108_06"></script>
+    <script src="js/products.js?v=20261108_07"></script>
     <!-- Main Application Script -->
-    <script src="js/app.js?v=20261108_06"></script>
+    <script src="js/app.js?v=20261108_07"></script>
 </body>
 </html>

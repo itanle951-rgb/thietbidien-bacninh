@@ -39,15 +39,32 @@ html {
 }
 
 body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-    background-color: var(--bg-main);
+    font-family: 'Inter', 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #070B13;
+    background-image: 
+        /* 1. Lưới kỹ thuật vi mô sắc nét (Modern High-Tech Blueprint Grid) */
+        linear-gradient(to right, rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+        /* 2. Ánh hào quang Vàng Hoàng Gia góc trên trái */
+        radial-gradient(circle at 8% 12%, rgba(212, 175, 55, 0.14) 0%, transparent 40%),
+        /* 3. Ánh hào quang Xanh Cyan Công Nghệ góc trên phải */
+        radial-gradient(circle at 92% 16%, rgba(6, 182, 212, 0.12) 0%, transparent 45%),
+        /* 4. Chiều sâu màn đêm xanh Indigo trung tâm */
+        radial-gradient(circle at 50% 48%, rgba(28, 41, 70, 0.5) 0%, transparent 65%),
+        /* 5. Vùng sáng ấm Hoàng Kim khu vực bảng kê */
+        radial-gradient(circle at 85% 78%, rgba(212, 175, 55, 0.10) 0%, transparent 45%),
+        /* 6. Ánh Ngọc Lục Bảo thịnh vượng khu vực chân trang */
+        radial-gradient(circle at 15% 90%, rgba(16, 185, 129, 0.08) 0%, transparent 45%);
+    background-size: 44px 44px, 44px 44px, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%;
+    background-attachment: fixed;
     color: var(--text-primary);
     line-height: 1.6;
     overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, h6, .font-heading {
-    font-family: 'Outfit', sans-serif;
+h1, h2, h3, h4, h5, h6, .font-heading, .section-title, .hero-title, .modal-title {
+    font-family: 'Be Vietnam Pro', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    letter-spacing: -0.015em;
     line-height: 1.25;
 }
 
@@ -837,7 +854,7 @@ button, input, select, textarea {
     font-size: 1.15rem;
     font-weight: 800;
     color: var(--primary-light);
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Be Vietnam Pro', 'Inter', sans-serif;
 }
 
 .price-unit {
@@ -945,7 +962,7 @@ button, input, select, textarea {
 .quick-table th {
     background: #101726;
     color: var(--primary-light);
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Be Vietnam Pro', 'Inter', sans-serif;
     font-size: 0.86rem;
     text-align: left;
     padding: 13px 14px;
@@ -1566,5 +1583,38 @@ button, input, select, textarea {
         flex-direction: column;
         gap: 10px;
         padding: 12px;
+    }
+}
+
+/* Banner Thương Hiệu Trên Đầu Bảng Báo Giá (Tương phản cao & Luxury) */
+.boq-brand-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(135deg, rgba(22, 31, 48, 0.9) 0%, rgba(15, 23, 42, 0.98) 100%);
+    border: 1px solid rgba(212, 175, 55, 0.4);
+    border-radius: 12px;
+    padding: 18px 24px;
+    margin-bottom: 22px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+@media print {
+    .boq-brand-banner {
+        background: #FFFFFF !important;
+        border: none !important;
+        border-bottom: 2px solid #000000 !important;
+        box-shadow: none !important;
+        padding: 0 0 14px 0 !important;
+        margin-bottom: 20px !important;
+    }
+    .boq-brand-banner * {
+        color: #000000 !important;
+        text-shadow: none !important;
+        box-shadow: none !important;
+        border-color: #000000 !important;
+        background: transparent !important;
     }
 }

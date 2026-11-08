@@ -676,12 +676,13 @@
                             <table class="admin-table">
                                 <thead>
                                     <tr>
-                                        <th>STT</th>
-                                        <th>Thời Gian Khách Vào</th>
-                                        <th>Thiết Bị</th>
-                                        <th>Hệ Điều Hành & Trình Duyệt</th>
-                                        <th>Trang / Hành Động</th>
-                                        <th>Địa Chỉ Nguồn</th>
+                                        <th style="width: 4%;">STT</th>
+                                        <th style="width: 14%;">Thời Gian Vào</th>
+                                        <th style="width: 10%;">Thiết Bị</th>
+                                        <th style="width: 22%;">Vị Trí & Nhà Mạng</th>
+                                        <th style="width: 20%;">Hệ Điều Hành & Trình Duyệt</th>
+                                        <th style="width: 16%;">Trang Xem</th>
+                                        <th style="width: 14%;">Địa Chỉ Nguồn</th>
                                     </tr>
                                 </thead>
                                 <tbody id="trafficTableBody">
@@ -1269,6 +1270,10 @@
                             <i class="fas ${t.deviceType === 'Mobile' ? 'fa-mobile-screen-button' : 'fa-laptop'}"></i> ${t.deviceType || 'Desktop'}
                         </span>
                     </td>
+                    <td>
+                        <div style="font-weight: 700; color: #F3E5AB;"><i class="fas fa-location-dot" style="color: var(--primary);"></i> ${t.location || 'Bắc Ninh, VN'}</div>
+                        <div style="font-size: 0.74rem; color: var(--accent-cyan); margin-top: 2px;"><i class="fas fa-network-wired"></i> ${t.isp || 'Nhà mạng VN'} ${t.ip ? '(' + t.ip.slice(0, 15) + '...)' : ''}</div>
+                    </td>
                     <td>${t.browser || 'Chrome/Safari'} • ${t.os || 'Windows/iOS/Android'}</td>
                     <td><span style="color:var(--primary-light);">${t.page || 'Trang Chủ Báo Giá'}</span></td>
                     <td style="color:var(--text-muted); font-size:0.8rem;">${t.referrer || 'Trực tiếp (Direct)'}</td>
@@ -1281,9 +1286,9 @@
                 showToast('Chưa có dữ liệu truy cập để xuất!', 'fa-info-circle');
                 return;
             }
-            let csv = '\uFEFFSTT,Thoi Gian,Thiet Bi,He Dieu Hanh,Trinh Duyet,Trang Xem,Nguon Den\n';
+            let csv = '\uFEFFSTT,Thoi Gian,Thiet Bi,Vi Tri,Nha Mang,IP,He Dieu Hanh,Trinh Duyet,Trang Xem,Nguon Den\n';
             adminState.traffic.forEach((t, i) => {
-                csv += `${i + 1},"${t.time || t.timestamp}","${t.deviceType}","${t.os}","${t.browser}","${t.page}","${t.referrer}"\n`;
+                csv += `${i + 1},"${t.time || t.timestamp}","${t.deviceType}","${t.location || 'Việt Nam'}","${t.isp || 'VN'}","${t.ip || ''}","${t.os}","${t.browser}","${t.page}","${t.referrer}"\n`;
             });
             downloadBlob(csv, 'Nhat-Ky-Truy-Cap-DuyPhongBN.csv', 'text/csv;charset=utf-8;');
             showToast('Đã xuất báo cáo người vào web (.CSV)!');

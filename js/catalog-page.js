@@ -706,3 +706,67 @@ function toggleMobileSidebar() {
         backdrop.classList.toggle('active');
     }
 }
+
+async function trackVisitorTraffic(pageName = 'Trang Chủ Báo Giá Vật Tư') {
+    try {
+        const TRAFFIC_KEY = 'duyphong_traffic_logs_v1';
+        let logs = [];
+        try {
+            logs = JSON.parse(localStorage.getItem(TRAFFIC_KEY) || '[]');
+        } catch (e) { logs = []; }
+
+        const now = new Date();
+        const timeStr = now.toLocaleTimeString('vi-VN', { hour: '2-digit', minute: '2-digit', second: '2-digit' }) + ' ' + now.toLocaleDateString('vi-VN');
+        const ua = navigator.userAgent || '';
+        const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(ua);
+        const deviceType = isMobile ? 'Mobile' : 'Desktop';
+
+        let os = 'Windows';
+        if (/iPhone|iPad|iPod/i.test(ua)) os = 'iOS';
+        else if (/Android/i.test(ua)) os = 'Android';
+        else if (/Macintosh/i.test(ua)) os = 'macOS';
+        else if (/Linux/i.test(ua)) os = 'Linux';
+
+        let browser = 'Chrome';
+        if (/Safari/i.test(ua) && !/Chrome/i.test(ua)) browser = 'Safari';
+        else if (/Firefox/i.test(ua)) browser = 'Firefox';
+        else if (/Edg/i.test(ua)) browser = 'Edge';
+
+        let location = 'Bắc Ninh, VN';
+        let isp = 'Viettel/VNPT';
+        let ip = '';
+
+        try {
+            const geoRes = await fetch('https://ipwho.is/', { cache: 'no-store' });
+            if (geoRes.ok) {
+                const geoData = await geoRes.json();
+                if (geoData && geoData.success) {
+                    const city = geoData.city || geoData.region || 'Việt Nam';
+                    const country = geoData.country === 'Viet Nam' ? 'VN' : (geoData.country || '');
+                    location = city + ', ' + country;
+                    isp = geoData.connection ? (geoData.connection.isp || geoData.connection.org || 'Nhà mạng VN') : 'Nhà mạng VN';
+                    ip = geoData.ip || '';
+                }
+            }
+        } catch (e) {}
+
+        const record = {
+            id: 'trf-' + Date.now(),
+            time: timeStr,
+            timestamp: timeStr,
+            deviceType: deviceType,
+            os: os,
+            browser: browser,
+            location: location,
+            isp: isp,
+            ip: ip,
+            page: pageName,
+            referrer: document.referrer ? (new URL(document.referrer)).hostname : 'Trực tiếp (Direct)'
+        };
+
+        logs.push(record);
+        if (logs.length > 200) logs = logs.slice(-200);
+        localStorage.setItem(TRAFFIC_KEY, JSON.stringify(logs));
+    } catch (err) {}
+}
+document.addEventListener('DOMContentLoaded', () => { trackVisitorTraffic('Chuyên Trang Sản Phẩm'); });

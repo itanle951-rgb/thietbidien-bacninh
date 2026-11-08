@@ -1,6 +1,6 @@
 /**
  * TỔNG DANH MỤC SẢN PHẨM NHÀ MÁY CHÍNH HÃNG - DUY PHONG BẮC NINH
- * Đã tách riêng từng quy cách & đơn giá độc lập
+ * Đã cập nhật ảnh thực tế chính hãng cho từng thương hiệu
  */
 window.ALL_PRODUCTS_DATA = [
   {
@@ -86,7 +86,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 545000,
     "catalogPrice": 545000,
     "spec": "CV 1.5mm² - 450/750V",
-    "image": "assets/images/products/day-don-tran-phu.jpg",
+    "image": "assets/images/products/cap-cv-cadivi.jpg",
     "desc": "Cáp điện lực hạ thế CV 1 lõi đồng cứng Cadivi cách điện PVC 450/750V tiêu chuẩn AS/NZS 5000.1 và TCVN 6610-3.",
     "inStock": true,
     "variants": [
@@ -104,7 +104,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 890000,
     "catalogPrice": 890000,
     "spec": "CV 2.5mm² - 450/750V",
-    "image": "assets/images/products/day-don-tran-phu.jpg",
+    "image": "assets/images/products/cap-cv-cadivi.jpg",
     "desc": "Cáp đơn cứng Cadivi CV 2.5mm² dẫn điện tốt, chịu nhiệt vỏ 70°C, đi luồn ống gen cứng hoặc ống ruột gà an toàn tuyệt đối.",
     "inStock": true,
     "variants": [
@@ -122,7 +122,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 1395000,
     "catalogPrice": 1395000,
     "spec": "CV 4.0mm² - 450/750V",
-    "image": "assets/images/products/day-don-tran-phu.jpg",
+    "image": "assets/images/products/cap-cv-cadivi.jpg",
     "desc": "Cáp đơn cứng Cadivi CV 4.0mm² chuyên tải nặng, chống cháy chậm, giảm thiểu hao tổn điện năng.",
     "inStock": true,
     "variants": [
@@ -140,7 +140,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 2080000,
     "catalogPrice": 2080000,
     "spec": "CV 6.0mm² - 450/750V",
-    "image": "assets/images/products/day-don-tran-phu.jpg",
+    "image": "assets/images/products/cap-cv-cadivi.jpg",
     "desc": "Cáp đơn cứng Cadivi CV 6.0mm² dùng cho nguồn cấp điều hòa cây, thang máy gia đình, trục phân phối tầng.",
     "inStock": true,
     "variants": [
@@ -158,7 +158,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 36500,
     "catalogPrice": 36500,
     "spec": "CV 10.0mm² - Cáp nguồn tổng",
-    "image": "assets/images/products/day-don-tran-phu.jpg",
+    "image": "assets/images/products/cap-cv-cadivi.jpg",
     "desc": "Cáp đồng cứng Cadivi CV 10.0mm² kéo nguồn chính từ công tơ vào tủ điện tổng gia đình hoặc nhà xưởng.",
     "inStock": true,
     "variants": [
@@ -266,7 +266,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 145000,
     "catalogPrice": 145000,
     "spec": "Mặt Vàng Champagne viền kim loại",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "image": "assets/images/products/o-cam-bretina-vang.jpg",
     "desc": "Dòng công tắc ổ cắm Luxury viền nhôm phay xước mạ vàng Champagne, mặt cắm chống lỏng, chịu tải 16A cho biệt thự.",
     "inStock": true,
     "variants": [
@@ -284,7 +284,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 135000,
     "catalogPrice": 135000,
     "spec": "Công tắc 2 hạt mặt Vàng Champagne",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "image": "assets/images/products/cong-tac-bretina-vang.jpg",
     "desc": "Công tắc 2 phím bấm êm tay có dạ quang phát sáng ban đêm, tiếp điểm hợp kim bạc chống tia lửa điện.",
     "inStock": true,
     "variants": [
@@ -302,7 +302,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 165000,
     "catalogPrice": 165000,
     "spec": "Công tắc 3 hạt mặt Xám Titan",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "image": "assets/images/products/cong-tac-bretina-xam.jpg",
     "desc": "Mặt viền nhôm xước màu Xám Titan sang trọng cho nội thất hiện đại, 3 phím bấm độc lập 16A.",
     "inStock": true,
     "variants": [
@@ -320,7 +320,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 98000,
     "catalogPrice": 98000,
     "spec": "1 hạt 2 chiều (Cầu thang / Phòng ngủ)",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "image": "assets/images/products/cong-tac-bretina-vang.jpg",
     "desc": "Bộ công tắc đảo chiều chuyên dụng bật tắt 2 vị trí cầu thang và đầu giường ngủ, viền kim loại cao cấp.",
     "inStock": true,
     "variants": [
@@ -338,7 +338,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 185000,
     "catalogPrice": 185000,
     "spec": "Mạng LAN Cat6 + Cáp Tivi đồng bộ",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "image": "assets/images/products/hat-mang-bretina.jpg",
     "desc": "Bộ ổ cắm đa phương tiện mạng LAN tốc độ cao Gigabit kết hợp cổng cáp đồng trục Tivi gia đình.",
     "inStock": true,
     "variants": [
@@ -356,7 +356,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 125000,
     "catalogPrice": 125000,
     "spec": "Ổ cắm đôi 3 chấu đa năng",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "image": "assets/images/products/o-cam-vanni.jpg",
     "desc": "Ổ cắm Vanni chống cháy, lá đồng phốt-pho đàn hồi cao, cắm rút 15.000 lần không lỏng chân cắm.",
     "inStock": true,
     "variants": [
@@ -374,7 +374,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 75000,
     "catalogPrice": 75000,
     "spec": "Công tắc 1 hạt 1 chiều",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "image": "assets/images/products/cong-tac-vanni.jpg",
     "desc": "Bộ công tắc 1 phím lớn thiết kế viền bo cong tinh tế, nhựa Polycarbonate chống cháy va đập.",
     "inStock": true,
     "variants": [
@@ -392,7 +392,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 88000,
     "catalogPrice": 88000,
     "spec": "Công tắc 2 chiều (Cầu thang)",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "image": "assets/images/products/cong-tac-vanni.jpg",
     "desc": "Công tắc 2 chiều đảo mạch cầu thang Vanni độ bền cao, bảo hành chính hãng 24 tháng.",
     "inStock": true,
     "variants": [
@@ -410,7 +410,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 135000,
     "catalogPrice": 135000,
     "spec": "20A có đèn báo chuyên bình nóng lạnh",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "image": "assets/images/products/cong-tac-nong-lanh-vanni.jpg",
     "desc": "Bộ công tắc 2 cực chịu tải 20A chuyên dụng ngắt cả 2 dây pha và trung tính cho bình nóng lạnh an toàn.",
     "inStock": true,
     "variants": [
@@ -428,7 +428,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 118000,
     "catalogPrice": 118000,
     "spec": "Đôi 3 chấu có màn che an toàn",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
     "desc": "Dòng Panasonic Wide quốc dân bền bỉ, màn che an toàn chống giật cho trẻ nhỏ, cắm chân tròn hoặc dẹt.",
     "inStock": true,
     "variants": [
@@ -446,7 +446,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 98000,
     "catalogPrice": 98000,
     "spec": "1 công tắc + 1 ổ cắm tiện dụng",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
     "desc": "Thiết kế kết hợp 1 công tắc đèn và 1 ổ cắm tiện lợi cho khu vực nhà vệ sinh, ban công, hành lang.",
     "inStock": true,
     "variants": [
@@ -464,7 +464,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 92000,
     "catalogPrice": 92000,
     "spec": "2 công tắc 1 chiều",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
     "desc": "Bộ công tắc đôi Panasonic Wide màu trắng tuyết thanh lịch, phím gạt nhẹ nhàng, tuổi thọ trên 40.000 lần bật tắt.",
     "inStock": true,
     "variants": [
@@ -482,7 +482,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 125000,
     "catalogPrice": 125000,
     "spec": "3 công tắc 1 chiều",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
     "desc": "Bộ 3 công tắc 1 chiều Panasonic dòng Wide chuyên lắp cửa ra vào phòng khách, phòng ngủ điều khiển 3 nhóm đèn.",
     "inStock": true,
     "variants": [
@@ -500,7 +500,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 148000,
     "catalogPrice": 148000,
     "spec": "2 cực 20A đóng cắt an toàn",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
     "desc": "Công tắc đóng ngắt 2 cực 20A Panasonic có đèn báo ON/OFF, chuyên dụng cho bình nóng lạnh và điều hòa nhiệt độ.",
     "inStock": true,
     "variants": [
@@ -590,7 +590,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 165000,
     "catalogPrice": 165000,
     "spec": "Bán nguyệt 1.2m - 40W Trắng",
-    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "image": "assets/images/products/den-led-ban-nguyet-rang-dong.jpg",
     "desc": "Mẫu đèn bán nguyệt tràn viền siêu sáng Rạng Đông, thay thế hoàn toàn máng tuýp truyền thống cho phòng khách, văn phòng.",
     "inStock": true,
     "variants": [
@@ -608,7 +608,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 215000,
     "catalogPrice": 215000,
     "spec": "Bán nguyệt 1.2m - 50W Siêu sáng",
-    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "image": "assets/images/products/den-led-ban-nguyet-rang-dong.jpg",
     "desc": "Đèn bán nguyệt 50W hiệu suất quang cao >100 lm/W, chiếu sáng mạnh mẽ cho showroom, cửa hàng, phòng làm việc rộng.",
     "inStock": true,
     "variants": [
@@ -644,7 +644,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 115000,
     "catalogPrice": 115000,
     "spec": "Bán nguyệt 0.6m - 20W nhỏ gọn",
-    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "image": "assets/images/products/den-led-ban-nguyet-rang-dong.jpg",
     "desc": "Mẫu đèn bán nguyệt ngắn 60cm công suất 20W thích hợp lắp đặt bàn bếp, gương lavabo, cầu thang và hành lang hẹp.",
     "inStock": true,
     "variants": [
@@ -734,7 +734,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 68000,
     "catalogPrice": 68000,
     "spec": "MCB 1P 20A - Dòng cắt 4.5kA",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
     "desc": "Aptomat tép 1 pha Schneider Acti9 / Easy9 chính hãng Pháp, bảo vệ quá tải và ngắn mạch từng lộ chiếu sáng/ổ cắm.",
     "inStock": true,
     "variants": [
@@ -752,7 +752,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 145000,
     "catalogPrice": 145000,
     "spec": "MCB 2P 32A - Dòng cắt 4.5kA",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
     "desc": "Aptomat tép 2 cực ngắt cả pha lửa và nguội Schneider 32A, dùng cho lộ điều hòa tổng và bếp từ an toàn.",
     "inStock": true,
     "variants": [
@@ -770,7 +770,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 215000,
     "catalogPrice": 215000,
     "spec": "MCB 2P 63A - Dòng cắt 6.0kA",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
     "desc": "Aptomat tép 2P 63A Schneider làm aptomat tổng tầng cho nhà phố và biệt thự, khả năng cắt ngắn mạch 6kA bền bỉ.",
     "inStock": true,
     "variants": [
@@ -788,7 +788,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 465000,
     "catalogPrice": 465000,
     "spec": "RCBO 2P 40A dòng rò 30mA",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "image": "assets/images/products/aptomat-rcbo-schneider.jpg",
     "desc": "Aptomat chống rò chống giật tích hợp bảo vệ quá tải RCBO 30mA ngắt mạch siêu nhanh <0.03 giây bảo vệ tính mạng con người.",
     "inStock": true,
     "variants": [
@@ -806,7 +806,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 850000,
     "catalogPrice": 850000,
     "spec": "MCCB 3P 63A dòng cắt 18kA",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
     "desc": "Aptomat khối 3 pha LS Metasol/Susol xuất xứ Hàn Quốc, dòng cắt 18kA bảo vệ phụ tải công nghiệp.",
     "inStock": true,
     "variants": [
@@ -824,7 +824,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 980000,
     "catalogPrice": 980000,
     "spec": "MCCB 3P 100A dòng cắt 18kA",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
     "desc": "Aptomat khối LS 3P 100A chuẩn công nghiệp, tiếp điểm chịu mài mòn cao, độ tin cậy tuyệt đối.",
     "inStock": true,
     "variants": [
@@ -842,7 +842,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 1850000,
     "catalogPrice": 1850000,
     "spec": "MCCB 3P 150A dòng cắt 30kA",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
     "desc": "MCCB 3P 150A dòng cắt cực cao 30kA làm cầu dao tổng tủ điện nhà xưởng phân xưởng tại Bắc Ninh.",
     "inStock": true,
     "variants": [
@@ -860,7 +860,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 520000,
     "catalogPrice": 520000,
     "spec": "Contactor 3P 32A cuộn hút 380V",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
     "desc": "Khởi động từ 3 pha LS MC-32a điều khiển động cơ bơm nước công nghiệp, quạt hút thông gió nhà xưởng.",
     "inStock": true,
     "variants": [
@@ -878,7 +878,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 285000,
     "catalogPrice": 285000,
     "spec": "8-12 Module nắp kim loại sang trọng",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "image": "assets/images/products/tu-dien-am-tuong-nanoco.jpg",
     "desc": "Hộp tủ điện âm tường Nanoco mặt sơn tĩnh điện chống xước, nắp nhựa mở gập tiện dụng chứa 8-12 MCB tép.",
     "inStock": true,
     "variants": [
@@ -896,7 +896,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 420000,
     "catalogPrice": 420000,
     "spec": "16-18 Module cho nhà phố 3 tầng",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "image": "assets/images/products/tu-dien-am-tuong-nanoco.jpg",
     "desc": "Tủ điện âm tường cỡ lớn chứa 16-18 module aptomat, có thanh đồng tiếp địa và thanh trung tính mạ niken.",
     "inStock": true,
     "variants": [
@@ -914,7 +914,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 580000,
     "catalogPrice": 580000,
     "spec": "Kích thước 400x600x200mm tole 1.2mm",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "image": "assets/images/products/vo-tu-dien-cong-nghiep.jpg",
     "desc": "Vỏ tủ điện treo tường công nghiệp tole dập nguội sơn tĩnh điện màu ghi sáng, ron cao su chống bụi nước IP54.",
     "inStock": true,
     "variants": [
@@ -932,7 +932,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 950000,
     "catalogPrice": 950000,
     "spec": "Kích thước 600x800x250mm tole 1.5mm",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "image": "assets/images/products/vo-tu-dien-cong-nghiep.jpg",
     "desc": "Vỏ tủ điện tổng phân phối xưởng cơ khí, khóa bật nẹp góc chịu lực, cánh tủ mở 130 độ dễ đấu nối thiết bị.",
     "inStock": true,
     "variants": [
@@ -950,7 +950,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 185000,
     "catalogPrice": 185000,
     "spec": "Ống ruột gà Φ16 đàn hồi cuộn 50m",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "image": "assets/images/products/ong-ruot-ga-nanoco.jpg",
     "desc": "Ống luồn đàn hồi PVC tự chống cháy Φ16 Nanoco, dễ uốn cong luồn dây trên trần thạch cao và tường góc hẹp.",
     "inStock": true,
     "variants": [
@@ -968,7 +968,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 245000,
     "catalogPrice": 245000,
     "spec": "Ống ruột gà Φ20 đàn hồi cuộn 50m",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "image": "assets/images/products/ong-ruot-ga-nanoco.jpg",
     "desc": "Ống ruột gà chống cháy cỡ Φ20 luồn được 4-6 sợi dây điện 2.5mm² hoặc 4.0mm², tiêu chuẩn BS EN 61386.",
     "inStock": true,
     "variants": [
@@ -986,7 +986,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 225000,
     "catalogPrice": 225000,
     "spec": "Combo 50 đế âm đơn chống cháy có ốc",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "image": "assets/images/products/de-am-tuong-nanoco.jpg",
     "desc": "Đế âm tường đơn Nanoco lòng sâu 50mm, có tai bắt vít đồng chắc chắn, nhựa chống cháy không bị giòn vỡ khi chôn vữa.",
     "inStock": true,
     "variants": [
@@ -1004,7 +1004,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 465000,
     "catalogPrice": 465000,
     "spec": "Bó 25 cây PVC Φ20 x 2.92m chịu lực",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "image": "assets/images/products/ong-cung-luon-day-pvc.jpg",
     "desc": "Ống luồn dây cứng PVC Φ20 Nanoco chịu lực nén 750N, uốn cong bằng lò xo không gãy dập, chuyên đi âm sàn bê tông.",
     "inStock": true,
     "variants": [
@@ -1022,7 +1022,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 4650000,
     "catalogPrice": 4650000,
     "spec": "5 cánh động cơ DC tiết kiệm điện",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "image": "assets/images/products/quat-tran-panasonic.jpg",
     "desc": "Quạt trần cao cấp Panasonic động cơ DC êm ái, 9 cấp độ gió, chế độ gió tự nhiên 1/f Yuragi, điều khiển từ xa có màn hình LCD.",
     "inStock": true,
     "variants": [
@@ -1040,7 +1040,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 2480000,
     "catalogPrice": 2480000,
     "spec": "4 cánh có remote điều khiển",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "image": "assets/images/products/quat-tran-panasonic.jpg",
     "desc": "Quạt trần 4 cánh Panasonic sải cánh 140cm, công tắc an toàn tự ngắt dòng khi rung lắc, điều khiển từ xa 3 tốc độ.",
     "inStock": true,
     "variants": [
@@ -1058,7 +1058,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 850000,
     "catalogPrice": 850000,
     "spec": "Âm trần 240x240mm hút mùi êm",
-    "image": "assets/images/kho-day-cap-thiet-bi.jpg",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
     "desc": "Quạt hút âm trần Panasonic độ ồn cực thấp <26dB, động cơ bạc đạn bôi trơn vĩnh viễn, van đóng ngược ngăn mùi hiệu quả.",
     "inStock": true,
     "variants": [

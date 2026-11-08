@@ -34,7 +34,7 @@ function createProductSvgDataUri(title, brand, code, accentColor = '#D4AF37', ic
         <text x="405" y="135" font-family="Segoe UI Emoji, Arial" font-size="68" text-anchor="middle">${iconText}</text>
         <text x="45" y="175" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="22" font-weight="bold">${title}</text>
         <rect x="45" y="205" width="170" height="32" rx="6" fill="rgba(212,175,55,0.16)" stroke="${accentColor}" stroke-width="1"/>
-        <text x="130" y="226" fill="#F3E5AB" font-family="monospace" font-size="14" font-weight="bold" text-anchor="middle">SKU: ${code}</text>
+        <text x="130" y="226" fill="#F3E5AB" font-family="monospace" font-size="14" font-weight="bold" text-anchor="middle">CHÍNH HÃNG</text>
         <text x="45" y="272" fill="#94A3B8" font-family="Arial, sans-serif" font-size="13">549 Ngô Gia Tự, Ninh Xá, Bắc Ninh • 0904.511.227</text>
     </svg>`;
     return 'data:image/svg+xml;utf8,' + encodeURIComponent(svg);
@@ -971,7 +971,7 @@ function renderCatalog() {
                         ${totalQtyInCart > 0 ? `<div class="in-quote-ribbon"><i class="fas fa-check-circle"></i> Đã chọn: ${totalQtyInCart} ${p.unit}</div>` : ''}
                     </div>
                     <div class="product-body">
-                        <div class="product-sku">MÃ: ${p.sku}</div>
+                        <div style="font-size: 0.76rem; color: var(--accent-cyan); font-weight: 600; margin-bottom: 4px;"><i class="fas fa-certificate" style="color: var(--primary);"></i> Phân phối chính hãng</div>
                         <h3 class="product-title">${p.name}</h3>
                         <p class="product-desc">${p.desc || ''}</p>
                         
@@ -1026,7 +1026,7 @@ function renderCatalog() {
                             <img src="${p.image}" class="table-thumb" alt="${p.name}" loading="lazy" onerror="this.onerror=null; this.src='${createProductSvgDataUri(p.name.slice(0,18), p.brand, p.sku, p.brandColor || '#D4AF37')}';"/>
                             <div>
                                 <div style="font-weight: 700; color: var(--text-primary);">${p.name}</div>
-                                <div style="font-size: 0.76rem; color: var(--accent-cyan);">Mã: ${p.sku} • Hãng: <strong>${p.brand}</strong></div>
+                                <div style="font-size: 0.76rem; color: var(--accent-cyan); margin-top: 3px;">Hãng phân phối: <strong style="color: var(--primary); font-weight: 700;">${p.brand}</strong></div>
                             </div>
                         </div>
                     </td>
@@ -1180,27 +1180,31 @@ function addSingleFromTable(productId) {
 
 // Nút "Cập Nhật Hàng Loạt" tất cả các dòng có số lượng > 0 trong Chế độ Bảng Kê Nhanh
 function applyBulkTableSelection() {
-    const filtered = getFilteredProducts();
     let countAdded = 0;
+    const inputs = document.querySelectorAll('input[id^="tbl-qty-"]');
 
-    filtered.forEach(p => {
-        const qtyEl = document.getElementById(`tbl-qty-${p.id}`);
-        const selectedVariant = p.spec || (p.variants && p.variants[0]) || 'Chính hãng';
-
+    inputs.forEach(input => {
+        const qty = parseInt(input.value, 10) || 0;
         if (qty > 0) {
-            upsertBoqItem(p, selectedVariant, qty, false);
-            countAdded++;
+            const prodId = input.id.replace('tbl-qty-', '');
+            const product = state.products.find(p => p.id === prodId);
+            if (product) {
+                const selectedVariant = product.spec || (product.variants && product.variants[0]) || 'Chính hãng';
+                upsertBoqItem(product, selectedVariant, qty, false);
+                countAdded++;
+            }
         }
     });
 
     if (countAdded === 0) {
-        showToast('Vui lòng nhập số lượng (> 0) cho ít nhất 1 sản phẩm trong bảng!', 'fa-exclamation-circle');
+        showToast('Vui lòng nhập số lượng (>0) cho ít nhất 1 sản phẩm đã chọn!', 'fa-exclamation-circle');
         return;
     }
 
     renderCatalog();
     showToast(`Đã gom thành công <strong>${countAdded} mặt hàng</strong> vào Danh sách báo giá!`);
-    document.getElementById('boq-section').scrollIntoView({ behavior: 'smooth' });
+    const boqSection = document.getElementById('boq-section');
+    if (boqSection) boqSection.scrollIntoView({ behavior: 'smooth' });
 }
 
 // Hàm thêm hoặc cộng dồn sản phẩm vào giỏ BOQ
@@ -1388,7 +1392,7 @@ function renderBoqSection() {
                     <td style="text-align: left;">
                         <div style="font-weight: 700; color: #fff; line-height: 1.35; font-size: 0.92rem;">${item.name}</div>
                         <div style="font-size: 0.76rem; color: var(--text-muted); margin-top: 3px;">
-                            Hãng: <span style="color: var(--primary); font-weight: 600;">${item.brand}</span> ${item.sku ? `| SKU: ${item.sku}` : ''}
+                            Hãng phân phối: <span style="color: var(--primary); font-weight: 600;">${item.brand}</span>
                         </div>
                     </td>
                     <td style="text-align: left;">

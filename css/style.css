@@ -1990,3 +1990,30 @@ button, input, select, textarea {
         width: auto !important;
     }
 }
+
+
+.quick-call-numbers {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 1.05rem;
+    font-family: 'Be Vietnam Pro', -apple-system, sans-serif;
+    line-height: 1.2;
+}
+
+.call-num-link {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 800;
+    transition: color 0.2s;
+}
+
+.call-num-link:hover {
+    color: #F3E5AB;
+    text-decoration: underline;
+}
+
+.call-num-sep {
+    color: rgba(255, 255, 255, 0.4);
+    font-weight: 400;
+}

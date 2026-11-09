@@ -27,7 +27,7 @@
                 <h4 class="lead-title">Trọn Gói Vật Tư Điện Cho Ngôi Nhà Mới</h4>
                 
                 <p class="lead-desc">
-                    Tiết kiệm đến <strong style="color: #F3E5AB;">35% chi phí hoàn thiện</strong>! Nhận ngay file dự toán chi tiết toàn bộ vật tư điện từ móng đến mái:
+                    Chiết khấu trực tiếp <strong style="color: #F3E5AB;">5% – 15% theo khối lượng công trình</strong>! Nhận ngay file dự toán chi tiết toàn bộ vật tư điện từ móng đến mái:
                 </p>
 
                 <div class="lead-features">

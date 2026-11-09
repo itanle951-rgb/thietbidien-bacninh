@@ -10,6 +10,19 @@
         if (document.getElementById('floatingLeadCard')) return;
 
         const html = `
+            <!-- NÚT GỌI ĐIỆN THOẠI NỔI XUYÊN SUỐT GÓC DƯỚI BÊN PHẢI -->
+            <a href="tel:0904511227" class="floating-quick-call" id="floatingQuickCallBtn" title="Bấm gọi ngay cho A Thành: 0904.511.227 (Tổng Kho Duy Phong)">
+                <div class="quick-call-ripple"></div>
+                <div class="quick-call-ripple ripple-delay"></div>
+                <div class="quick-call-label">
+                    <span class="quick-call-sub"><i class="fas fa-headset"></i> Hotline 24/7 (A Thành)</span>
+                    <span class="quick-call-number">0904.511.227</span>
+                </div>
+                <div class="quick-call-circle">
+                    <i class="fas fa-phone-volume"></i>
+                </div>
+            </a>
+
             <!-- Mini Trigger Button khi Popup đang đóng -->
             <div class="floating-lead-trigger" id="floatingLeadTrigger" style="display: none;" onclick="openLeadPopup()" title="Bấm để nhận bảng giá chiết khấu trọn gói xây nhà">
                 <i class="fas fa-gift" style="color: var(--primary); font-size: 1.05rem;"></i>

@@ -2467,6 +2467,17 @@ async function trackVisitorTraffic(pageName = 'Trang Chủ Báo Giá Vật Tư')
 // CẨM NANG & KỸ THUẬT ĐIỆN BẮC NINH (6 BÀI VIẾT CHUẨN SEO)
 // ============================================================================
 const ALL_SEO_ARTICLES = [
+        {
+        "id": "art-1794239639",
+        "title": "Bí quyết chọn Aptomat chống giật RCBO: An toàn tuyệt đối cho gia đình bạn",
+        "category": "Kỹ Thuật Điện",
+        "author": "A Thành BN",
+        "createdAt": "09/11/2026",
+        "summary": "Bạn đang lo lắng về rò rỉ điện trong gia đình? Kỹ sư A Thành từ Tổng Kho Thiết Bị Điện Duy Phong Bắc Ninh chia sẻ bí quyết chọn Aptomat chống giật RCBO chuẩn kỹ thuật, giúp bảo vệ an toàn cho người thân và tài sản.",
+        "image": "assets/images/bi-quyet-chon-aptomat-chong-giat-rcbo-an-toan-tuyet-doi-cho-.jpg",
+        "content": "<h3>Tại sao RCBO là \"vệ sĩ\" không thể thiếu cho ngôi nhà hiện đại?</h3><p>Trong quá trình thi công điện cho hàng trăm biệt thự và nhà phố tại Bắc Ninh, tôi thường xuyên gặp tình trạng khách hàng chỉ dùng Aptomat thường (MCB). Điều này cực kỳ nguy hiểm. Aptomat chống giật RCBO là thiết bị thông minh kết hợp cả tính năng bảo vệ quá tải, ngắn mạch và chống rò dòng (chống giật), giúp ngắt điện ngay lập tức khi phát hiện dòng rò vượt ngưỡng an toàn (thường là 30mA).</p><h3>3 tiêu chí \"vàng\" để chọn RCBO chuẩn kỹ thuật</h3><ul><li><strong>Xác định cường độ dòng điện (Ampe):</strong> Tùy vào thiết bị đầu cuối như bình nóng lạnh, máy bơm hay tổng nguồn mà chọn loại 16A, 25A, 32A hay 40A. Tuyệt đối không chọn quá tải so với tiết diện dây dẫn.</li><li><strong>Độ nhạy của dòng rò:</strong> Đối với hộ gia đình, hãy ưu tiên loại RCBO có ngưỡng tác động 30mA. Đây là mức an toàn giúp bảo vệ con người trước các sự cố giật điện nguy hiểm.</li><li><strong>Thương hiệu uy tín:</strong> Tại Tổng Kho Duy Phong, chúng tôi khuyên dùng Panasonic hoặc các dòng cao cấp của Schneider. Đừng vì tiết kiệm vài trăm nghìn mà chọn hàng trôi nổi, không rõ nguồn gốc.</li></ul><h3>Lời khuyên từ Kỹ sư A Thành: Đừng tự lắp đặt nếu không có chuyên môn</h3><p>Việc lắp đặt RCBO đòi hỏi kỹ thuật đấu nối chính xác (đặc biệt là dây trung tính). Nhiều gia đình tự lắp dẫn đến tình trạng thiết bị nhảy liên tục hoặc không hoạt động khi có sự cố. Hãy nhớ: <strong>An toàn điện là số 1</strong>.</p><h3>Tại sao nên chọn mua tại Tổng Kho Thiết Bị Điện Duy Phong?</h3><p>Với kinh nghiệm cung cấp thiết bị cho các KCN lớn như Quế Võ, Yên Phong, chúng tôi cam kết:</p><ul><li>Hàng chính hãng 100%, nói không với hàng giả, hàng nhái.</li><li>Chiết khấu cực tốt cho công trình, biệt thự và nhà phố.</li><li>Hỗ trợ tư vấn kỹ thuật trực tiếp bởi Kỹ sư A Thành.</li></ul><p><strong>Bạn cần tư vấn giải pháp an toàn điện cho ngôi nhà?</strong> Hãy liên hệ ngay với chúng tôi để được khảo sát và báo giá tốt nhất thị trường.</p><p><strong>Tổng Kho Thiết Bị Điện Duy Phong Bắc Ninh</strong><br>Địa chỉ: 549 Ngô Gia Tự, P. Ninh Xá, TP. Bắc Ninh<br>Hotline: 0904.511.227</p>"
+},
+
     {
         "id": "art-01",
         "title": "Kinh nghiệm tính tiết diện dây điện cho nhà phố 3 tầng tại Bắc Ninh",

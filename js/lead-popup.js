@@ -10,18 +10,23 @@
         if (document.getElementById('floatingLeadCard')) return;
 
         const html = `
+            
             <!-- NÚT GỌI ĐIỆN THOẠI NỔI XUYÊN SUỐT GÓC DƯỚI BÊN PHẢI -->
-            <a href="tel:0904511227" class="floating-quick-call" id="floatingQuickCallBtn" title="Bấm gọi ngay cho A Thành: 0904.511.227 (Tổng Kho Duy Phong)">
+            <div class="floating-quick-call" id="floatingQuickCallBtn">
                 <div class="quick-call-ripple"></div>
                 <div class="quick-call-ripple ripple-delay"></div>
                 <div class="quick-call-label">
-                    <span class="quick-call-sub"><i class="fas fa-headset"></i> Hotline 24/7 (A Thành)</span>
-                    <span class="quick-call-number">0904.511.227</span>
+                    <span class="quick-call-sub"><i class="fas fa-headset"></i> Hotline 24/7 Báo Giá</span>
+                    <div class="quick-call-numbers">
+                        <a href="tel:0904511227" class="call-num-link" title="Gọi Hotline 0904.511.227">0904.511.227</a>
+                        <span class="call-num-sep">•</span>
+                        <a href="tel:0968599951" class="call-num-link" title="Gọi Hotline 0968.599.951">0968.599.951</a>
+                    </div>
                 </div>
-                <div class="quick-call-circle">
+                <a href="tel:0968599951" class="quick-call-circle" title="Bấm gọi ngay Hotline: 0968.599.951 / 0904.511.227">
                     <i class="fas fa-phone-volume"></i>
-                </div>
-            </a>
+                </a>
+            </div>
 
             <!-- Mini Trigger Button khi Popup đang đóng -->
             <div class="floating-lead-trigger" id="floatingLeadTrigger" style="display: none;" onclick="openLeadPopup()" title="Bấm để nhận bảng giá chiết khấu trọn gói xây nhà">
@@ -120,7 +125,7 @@
             localStorage.setItem(QUOTES_KEY, JSON.stringify(quotes));
         } catch(err){}
 
-        alert('Cảm ơn bạn! Tổng kho Thiết Bị Điện Duy Phong (Hotline/Zalo: 0904.511.227) đã nhận được thông tin và sẽ gửi trọn bộ file dự toán qua Zalo cho bạn ngay.');
+        alert('Cảm ơn bạn! Tổng kho Thiết Bị Điện Duy Phong (Hotline/Zalo: 0904.511.227 - 0968.599.951) đã nhận được thông tin và sẽ gửi trọn bộ file dự toán qua Zalo cho bạn ngay.');
 
         const zaloMsg = encodeURIComponent('Chào anh Thành Duy Phong, tôi đang hoàn thiện nhà và muốn nhận trọn bộ Báo giá chiết khấu vật tư điện xây nhà 2026 cho SĐT: ' + phone);
         window.open('https://zalo.me/0904511227?text=' + zaloMsg, '_blank');

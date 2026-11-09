@@ -2,7 +2,7 @@
  * ============================================================================
  * HỆ THỐNG WEBSITE & BÁO GIÁ VẬT TƯ ĐIỆN - THIẾT BỊ ĐIỆN CAO CẤP DUY PHONG
  * Mã Khách Hàng: A Thành BN
- * Địa chỉ: 549 Ngô Gia Tự, Ninh Xá, TP. Bắc Ninh | Hotline/Zalo: 0904.511.227
+ * Địa chỉ: 549 Ngô Gia Tự, Ninh Xá, TP. Bắc Ninh | Hotline/Zalo: 0904.511.227 - 0968.599.951
  * ============================================================================
  */
 
@@ -1480,7 +1480,7 @@ function buildQuoteTextPayload(quoteObj) {
     lines.push(`💰 Tạm tính giá niêm yết: ${formatVND(quoteObj.summary.subtotalListed)}`);
     lines.push(`🎁 Chiết khấu dự kiến: -${formatVND(quoteObj.summary.estimatedDiscount)}`);
     lines.push(`✅ TỔNG DỰ KIẾN SAU CHIẾT KHẤU: ${formatVND(quoteObj.summary.finalEstimated)}`);
-    lines.push(`(Nhờ A Thành BN - 0904.511.227 kiểm tra tồn kho và chốt giá chiết khấu tốt nhất giúp tôi!)`);
+    lines.push(`(Nhờ A Thành BN - 0904.511.227 / 0968.599.951 kiểm tra tồn kho và chốt giá chiết khấu tốt nhất giúp tôi!)`);
 
     return lines.join('\n');
 }
@@ -1816,7 +1816,7 @@ function downloadQuoteImageForZalo() {
 
     ctx.fillStyle = '#94A3B8';
     ctx.font = '15px Arial, sans-serif';
-    ctx.fillText('Đ/c: 549 Ngô Gia Tự - Ninh Xá - TP. Bắc Ninh  |  Hotline/Zalo: 0904.511.227', 40, 90);
+    ctx.fillText('Đ/c: 549 Ngô Gia Tự - Ninh Xá - TP. Bắc Ninh  |  Hotline/Zalo: 0904.511.227 - 0968.599.951', 40, 90);
 
     // Thông tin khách
     ctx.fillStyle = '#161F30';
@@ -2612,7 +2612,7 @@ window.openArticleModal = function(id) {
                         <h4 style="color:#F3E5AB; margin-bottom:8px;"><i class="fas fa-phone-alt"></i> Cần Tư Vấn Kỹ Thuật & Báo Giá Công Trình?</h4>
                         <p style="font-size:0.88rem; color:#94A3B8; margin-bottom:14px;">Liên hệ ngay với A Thành Duy Phong để nhận bóc tách khối lượng và bảng chiết khấu đại lý tốt nhất tại Bắc Ninh.</p>
                         <a href="https://zalo.me/0904511227" target="_blank" class="btn btn-primary" style="padding:10px 24px; font-weight:700; font-size:0.95rem;">
-                            <i class="fab fa-whatsapp"></i> Chat Zalo Ngay: 0904.511.227
+                            <i class="fab fa-whatsapp"></i> Hotline / Zalo: 0904.511.227 - 0968.599.951
                         </a>
                     </div>
                 </div>

@@ -2467,6 +2467,16 @@ async function trackVisitorTraffic(pageName = 'Trang Chủ Báo Giá Vật Tư')
 // CẨM NANG & KỸ THUẬT ĐIỆN BẮC NINH (6 BÀI VIẾT CHUẨN SEO)
 // ============================================================================
 const ALL_SEO_ARTICLES = [
+{
+    "id": "art-1794246002362",
+    "title": "Mẹo chọn aptomat chống giật RCBO cho bình nóng lạnh và bếp từ an toàn tuyệt đối",
+    "category": "An Toàn Điện Dân Dụng",
+    "author": "A Thành BN",
+    "createdAt": "10/11/2026",
+    "summary": "Hướng dẫn cách phân biệt MCB và RCBO, chọn độ nhạy dòng rò 30mA bảo vệ gia đình khi dùng bình nóng lạnh và thiết bị công suất cao trong mùa nồm ẩm.",
+    "image": "assets/images/tu-dien-chong-giat-gia-dinh.jpg",
+    "content": "\n            <h3>1. Đặt vấn đề & Lưu ý kỹ thuật từ thực tế công trình</h3>\n            <p>Hướng dẫn cách phân biệt MCB và RCBO, chọn độ nhạy dòng rò 30mA bảo vệ gia đình khi dùng bình nóng lạnh và thiết bị công suất cao trong mùa nồm ẩm.</p>\n            <h3>2. Lời khuyên vàng khi chọn vật tư tại Bắc Ninh</h3>\n            <p>Hệ thống điện là huyết mạch của ngôi nhà. Để đảm bảo vận hành êm ái, an toàn phòng chống cháy nổ, gia chủ nên chọn vật tư chính hãng có đầy đủ giấy tờ xuất xưởng.</p>\n            <h3>3. Tư vấn trực tiếp tại Tổng Kho Duy Phong</h3>\n            <p>Mời quý khách ghé qua <strong>549 Ngô Gia Tự, P. Ninh Xá, TP. Bắc Ninh</strong> hoặc liên hệ Hotline/Zalo: <strong>0904.511.227 - 0968.599.951</strong> để được hỗ trợ bóc tách khối lượng và nhận chiết khấu đại lý tốt nhất.</p>\n        "
+},
         {
         "id": "art-1794239639",
         "title": "Bí quyết chọn Aptomat chống giật RCBO: An toàn tuyệt đối cho gia đình bạn",

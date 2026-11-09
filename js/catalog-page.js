@@ -491,7 +491,7 @@ function upsertCart(product, variant, qty, accumulate = true) {
             variant: variant,
             unit: product.unit,
             price: actualPrice,
-            discount: product.discount || 30,
+            discount: Math.min(Math.max(Number(product.discount) || 10, 5), 15),
             qty: qty
         });
     }

@@ -36,6 +36,13 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+body {
+    overflow-x: hidden;
+    max-width: 100%;
 }
 
 body {
@@ -947,6 +954,8 @@ button, input, select, textarea {
     border-radius: var(--radius-md);
     overflow-x: auto;
     display: none;
+    max-width: 100%;
+    min-width: 0;
 }
 
 .quick-table-wrapper.active {
@@ -1105,6 +1114,12 @@ button, input, select, textarea {
     grid-template-columns: 1.35fr 0.65fr;
     gap: 24px;
     align-items: start;
+    min-width: 0;
+}
+
+.boq-layout > * {
+    min-width: 0;
+    max-width: 100%;
 }
 
 .boq-card {
@@ -1113,6 +1128,8 @@ button, input, select, textarea {
     border-radius: var(--radius-md);
     padding: 22px;
     box-shadow: var(--shadow-card);
+    min-width: 0;
+    max-width: 100%;
 }
 
 .boq-table-wrap {
@@ -1121,6 +1138,7 @@ button, input, select, textarea {
     border-radius: var(--radius-sm);
     border: 1px solid var(--border-subtle);
     background: #0E1626;
+    max-width: 100%;
 }
 
 .boq-table {
@@ -1804,5 +1822,171 @@ button, input, select, textarea {
         right: 14px;
         font-size: 0.78rem;
         padding: 7px 13px;
+    }
+}
+
+
+/* ==========================================================================
+   BIỂU TƯỢNG GỌI ĐIỆN THOẠI NỔI XUYÊN SUỐT GÓC DƯỚI BÊN PHẢI (HOTLINE)
+   ========================================================================== */
+.floating-quick-call {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 99998;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+    filter: drop-shadow(0 8px 24px rgba(0, 0, 0, 0.45));
+    transition: transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.floating-quick-call:hover {
+    transform: scale(1.05);
+}
+
+/* Nhãn hiển thị số Hotline & Tên A Thành */
+.quick-call-label {
+    background: rgba(15, 23, 42, 0.94);
+    border: 1.5px solid var(--border-gold);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 8px 20px 8px 18px;
+    border-radius: 30px;
+    margin-right: -24px;
+    padding-right: 34px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+    transition: all 0.25s ease;
+}
+
+.floating-quick-call:hover .quick-call-label {
+    border-color: #F3E5AB;
+    background: rgba(26, 38, 57, 0.98);
+}
+
+.quick-call-sub {
+    font-size: 0.72rem;
+    color: #F3E5AB;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 2px;
+}
+
+.quick-call-number {
+    font-size: 1.08rem;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-family: 'Be Vietnam Pro', -apple-system, sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+}
+
+/* Nút tròn rung lắc với icon ống nghe */
+.quick-call-circle {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #10B981 0%, #059669 100%);
+    border: 2px solid #F3E5AB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 1.6rem;
+    box-shadow: 0 0 20px rgba(16, 185, 129, 0.6), inset 0 2px 4px rgba(255, 255, 255, 0.4);
+    animation: quickPhoneShake 2.2s infinite ease-in-out;
+    z-index: 2;
+}
+
+/* Vòng sóng lan tỏa (Ripple Pulse) */
+.quick-call-ripple {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: rgba(16, 185, 129, 0.4);
+    pointer-events: none;
+    z-index: 1;
+    animation: quickPulseWave 2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.quick-call-ripple.ripple-delay {
+    animation-delay: 0.8s;
+}
+
+/* Animation vòng sóng lan tỏa */
+@keyframes quickPulseWave {
+    0% {
+        transform: scale(0.9);
+        opacity: 0.9;
+    }
+    100% {
+        transform: scale(2.1);
+        opacity: 0;
+    }
+}
+
+/* Animation rung lắc điện thoại chuông reo */
+@keyframes quickPhoneShake {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    10%, 30% {
+        transform: rotate(-16deg);
+    }
+    20%, 40% {
+        transform: rotate(16deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+}
+
+/* Điều chỉnh vị trí của Lead Card & Trigger để nằm ngay trên nút Gọi Hotline */
+.floating-lead-trigger {
+    bottom: 96px !important;
+    right: 24px !important;
+}
+
+.floating-lead-card {
+    bottom: 96px !important;
+    right: 24px !important;
+}
+
+/* Responsive trên thiết bị di động */
+@media (max-width: 768px) {
+    .floating-quick-call {
+        bottom: 20px;
+        right: 16px;
+    }
+    .quick-call-label {
+        display: none; /* Trên màn hình hẹp, chỉ hiển thị nút tròn rung sóng cực gọn */
+    }
+    .quick-call-circle {
+        width: 52px;
+        height: 52px;
+        font-size: 1.35rem;
+    }
+    .quick-call-ripple {
+        width: 52px;
+        height: 52px;
+    }
+    .floating-lead-trigger {
+        bottom: 84px !important;
+        right: 16px !important;
+    }
+    .floating-lead-card {
+        bottom: 84px !important;
+        right: 16px !important;
+        left: 16px !important;
+        width: auto !important;
     }
 }

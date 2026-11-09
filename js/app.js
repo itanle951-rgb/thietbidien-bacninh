@@ -2467,16 +2467,17 @@ async function trackVisitorTraffic(pageName = 'Trang Chủ Báo Giá Vật Tư')
 // CẨM NANG & KỸ THUẬT ĐIỆN BẮC NINH (6 BÀI VIẾT CHUẨN SEO)
 // ============================================================================
 const ALL_SEO_ARTICLES = [
-{
-    "id": "art-1794246002362",
-    "title": "Mẹo chọn aptomat chống giật RCBO cho bình nóng lạnh và bếp từ an toàn tuyệt đối",
-    "category": "An Toàn Điện Dân Dụng",
-    "author": "A Thành BN",
-    "createdAt": "10/11/2026",
-    "summary": "Hướng dẫn cách phân biệt MCB và RCBO, chọn độ nhạy dòng rò 30mA bảo vệ gia đình khi dùng bình nóng lạnh và thiết bị công suất cao trong mùa nồm ẩm.",
-    "image": "assets/images/tu-dien-chong-giat-gia-dinh.jpg",
-    "content": "\n            <h3>1. Đặt vấn đề & Lưu ý kỹ thuật từ thực tế công trình</h3>\n            <p>Hướng dẫn cách phân biệt MCB và RCBO, chọn độ nhạy dòng rò 30mA bảo vệ gia đình khi dùng bình nóng lạnh và thiết bị công suất cao trong mùa nồm ẩm.</p>\n            <h3>2. Lời khuyên vàng khi chọn vật tư tại Bắc Ninh</h3>\n            <p>Hệ thống điện là huyết mạch của ngôi nhà. Để đảm bảo vận hành êm ái, an toàn phòng chống cháy nổ, gia chủ nên chọn vật tư chính hãng có đầy đủ giấy tờ xuất xưởng.</p>\n            <h3>3. Tư vấn trực tiếp tại Tổng Kho Duy Phong</h3>\n            <p>Mời quý khách ghé qua <strong>549 Ngô Gia Tự, P. Ninh Xá, TP. Bắc Ninh</strong> hoặc liên hệ Hotline/Zalo: <strong>0904.511.227 - 0968.599.951</strong> để được hỗ trợ bóc tách khối lượng và nhận chiết khấu đại lý tốt nhất.</p>\n        "
+        {
+        "id": "art-1794246697",
+        "title": "Kinh Nghiệm Chọn Dây Cáp Điện Cadisun Chính Hãng Cho Thầu Thợ Bắc Ninh",
+        "category": "Kỹ Thuật Điện",
+        "author": "Lê Minh Tân",
+        "createdAt": "10/11/2026",
+        "summary": "Bạn đang tìm nguồn dây cáp điện Cadisun chính hãng với chiết khấu cao nhất tại Bắc Ninh? Kỹ sư A Thành chia sẻ kinh nghiệm thực chiến giúp nhà thầu phân biệt hàng thật và tối ưu chi phí cho công trình KCN.",
+        "image": "assets/images/kinh-nghiem-chon-day-cap-dien-cadisun-chinh-hang-cho-thau-th.jpg",
+        "content": "<h3>Tại sao dây cáp điện Cadisun là lựa chọn số 1 cho công trình tại Bắc Ninh?</h3><p>Với đặc thù khí hậu miền Bắc và nhu cầu khắt khe tại các KCN Quế Võ, Yên Phong, Cadisun khẳng định vị thế nhờ lõi đồng tinh khiết 99.99% và vỏ bọc PVC chống cháy đạt chuẩn. Tuy nhiên, thị trường hiện nay xuất hiện nhiều hàng giả, hàng nhái kém chất lượng gây nguy cơ cháy nổ cao.</p><h3>Kỹ sư A Thành chia sẻ 3 mẹo phân biệt Cadisun chính hãng</h3><ul><li><strong>Kiểm tra bề mặt vỏ:</strong> Dây Cadisun chính hãng có vỏ bọc mịn, in sắc nét thông số kỹ thuật, tên thương hiệu, mã sản phẩm và năm sản xuất. Hàng nhái thường in mờ, nét chữ nhòe, vỏ nhựa giòn dễ nứt.</li><li><strong>Kiểm tra lõi đồng:</strong> Lõi đồng của Cadisun có màu vàng sáng đặc trưng, độ dẻo cao. Nếu lõi có màu xỉn, cứng hoặc dễ gãy, đó là dấu hiệu của đồng tái chế.</li><li><strong>Kiểm tra tem nhãn và QR Code:</strong> Mọi cuộn dây Cadisun tại Tổng kho Duy Phong đều có tem chống hàng giả tích hợp mã QR, cho phép quét kiểm tra nguồn gốc xuất xứ nhanh chóng.</li></ul><h3>Lời khuyên từ chuyên gia cho nhà thầu công trình</h3><p>Đừng chỉ nhìn vào giá rẻ. Đối với các công trình biệt thự hay nhà xưởng công nghiệp, việc chọn sai dây dẫn không chỉ làm giảm hiệu suất thiết bị mà còn gây ra những rủi ro cháy nổ tiềm tàng. Tại <strong>Tổng kho Thiết bị điện Duy Phong</strong>, chúng tôi cam kết chiết khấu từ 30-35% cho các đơn hàng dự án, đi kèm chứng chỉ CO/CQ đầy đủ.</p><h3>Tại sao nên chọn Tổng kho Duy Phong - 549 Ngô Gia Tự?</h3><p>Chúng tôi không chỉ bán dây điện, chúng tôi mang đến giải pháp an toàn điện cho công trình của bạn. Với vị trí đắc địa tại trung tâm TP. Bắc Ninh, chúng tôi đảm bảo tiến độ giao hàng nhanh chóng đến chân công trình, hỗ trợ kỹ thuật 24/7 từ đội ngũ kỹ sư lành nghề.</p><p><strong>Liên hệ ngay Hotline: 0904.511.227 để nhận bảng giá chiết khấu ưu đãi nhất thị trường Bắc Ninh hôm nay!</strong></p>"
 },
+
         {
         "id": "art-1794239639",
         "title": "Bí quyết chọn Aptomat chống giật RCBO: An toàn tuyệt đối cho gia đình bạn",

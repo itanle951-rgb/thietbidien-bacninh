@@ -1,0 +1,40 @@
+name: Hermes Scheduled Article Publisher (8h00 T2 - T4 - T6)
+
+on:
+  schedule:
+    # 01:00 UTC = 08:00 AM VN (UTC+7) vào Thứ 2, Thứ 4, Thứ 6
+    - cron: '0 1 * * 1,3,5'
+  # Cho phép bấm nút chạy thử nghiệm thủ công bất cứ lúc nào
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish-article:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Mã Nguồn
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Cài Đặt Môi Trường Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Chạy Hermes Cron Runner (Tạo & Xuất Bản Bài Chuẩn SEO)
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          node scripts/hermes_cron_runner.js
+
+      - name: Tự Động Commit & Push Lên Website
+        run: |
+          git config --local user.email "hermes-bot@thietbidien-bacninh.com"
+          git config --local user.name "Hermes Auto-Article Bot"
+          git add js/app.js
+          git diff --quiet && git diff --staged --quiet || git commit -m "feat(hermes-cron): Tu dong dang bai viet chuan SEO dinh ky (8h00 T2-T4-T6)"
+          git push origin main

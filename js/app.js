@@ -50,7 +50,7 @@ const INITIAL_PRODUCTS = [
         "brand": "Trần Phú",
         "price": 11000,
         "unit": "Mét",
-        "discount": 30.5,
+        "discount": 12,
         "variants": [
             "1x0.75 mm² (5,900 đ/m)",
             "1x1.0 mm² (7,500 đ/m)",
@@ -71,7 +71,7 @@ const INITIAL_PRODUCTS = [
         "brand": "Trần Phú",
         "price": 11000,
         "unit": "Mét",
-        "discount": 30.5,
+        "discount": 12,
         "variants": [
             "1x1.5 mm² Tiếp địa (11,000 đ/m)",
             "1x2.5 mm² Tiếp địa (17,900 đ/m)",
@@ -89,7 +89,7 @@ const INITIAL_PRODUCTS = [
         "brand": "Trần Phú",
         "price": 23600,
         "unit": "Mét",
-        "discount": 30.5,
+        "discount": 12,
         "variants": [
             "Dây đôi tròn 2x0.75 mm² (13,500 đ/m)",
             "Dây đôi tròn 2x1.0 mm² (17,100 đ/m)",
@@ -111,7 +111,7 @@ const INITIAL_PRODUCTS = [
         "brand": "Trần Phú",
         "price": 25800,
         "unit": "Mét",
-        "discount": 29.2,
+        "discount": 12,
         "variants": [
             "Cáp mềm 2x0.75 mm² (15,200 đ/m)",
             "Cáp mềm 2x1.0 mm² (18,500 đ/m)",
@@ -139,7 +139,7 @@ const INITIAL_PRODUCTS = [
         "brand": "Trần Phú",
         "price": 15500,
         "unit": "Mét",
-        "discount": 19.8,
+        "discount": 10,
         "variants": [
             "Dây mạng Cat5e U/UTP (12,000 đ/m)",
             "Dây mạng Cat6 U/UTP (15,500 đ/m)"
@@ -155,7 +155,7 @@ const INITIAL_PRODUCTS = [
         "brand": "Trần Phú",
         "price": 205000,
         "unit": "Chiếc",
-        "discount": 63,
+        "discount": 12,
         "variants": [
             "A40-4D (Dây 1.8m, 4 ổ cắm) - 205,000 đ",
             "A40-4D (Dây 3.0m, 4 ổ cắm) - 255,000 đ",
@@ -176,7 +176,7 @@ const INITIAL_PRODUCTS = [
         "brand": "Cadisun",
         "price": 9079,
         "unit": "Mét",
-        "discount": 29.5,
+        "discount": 12,
         "variants": [
             "1x0.5 mm² (3,521 đ/m)",
             "1x0.75 mm² (5,107 đ/m)",
@@ -202,7 +202,7 @@ const INITIAL_PRODUCTS = [
         "brand": "Cadisun",
         "price": 19480,
         "unit": "Mét",
-        "discount": 29.5,
+        "discount": 12,
         "variants": [
             "Dây đôi 2x0.5 mm² (7,884 đ/m)",
             "Dây đôi 2x0.75 mm² (11,256 đ/m)",
@@ -223,7 +223,7 @@ const INITIAL_PRODUCTS = [
         "brand": "Cadisun",
         "price": 20941,
         "unit": "Mét",
-        "discount": 29.5,
+        "discount": 12,
         "variants": [
             "Cáp mềm 2x0.75 mm² VCTF (12,247 đ/m)",
             "Cáp mềm 2x1.0 mm² VCTF (15,053 đ/m)",
@@ -251,7 +251,7 @@ const INITIAL_PRODUCTS = [
         "brand": "Cadisun",
         "price": 27962,
         "unit": "Mét",
-        "discount": 29.5,
+        "discount": 12,
         "variants": [
             "Cáp CV 1x1.5 mm² (9,700 đ/m)",
             "Cáp CV 1x2.5 mm² (15,750 đ/m)",
@@ -284,7 +284,7 @@ const INITIAL_PRODUCTS = [
         "brand": "Cadisun",
         "price": 148064,
         "unit": "Mét",
-        "discount": 29.5,
+        "discount": 12,
         "variants": [
             "3x2.5 + 1x1.5 mm² (66,682 đ/m)",
             "3x4 + 1x2.5 mm² (103,818 đ/m)",
@@ -312,7 +312,7 @@ const INITIAL_PRODUCTS = [
         "brand": "Cadisun",
         "price": 112870,
         "unit": "Mét",
-        "discount": 29.5,
+        "discount": 12,
         "variants": [
             "Cáp 2x1.5 mm² (24,363 đ/m)",
             "Cáp 2x2.5 mm² (37,228 đ/m)",
@@ -341,7 +341,7 @@ const INITIAL_PRODUCTS = [
         "brand": "Cadisun",
         "price": 174353,
         "unit": "Mét",
-        "discount": 29.5,
+        "discount": 12,
         "variants": [
             "Cáp ngầm 2x2.5 mm² DSTA (48,808 đ/m)",
             "Cáp ngầm 2x4.0 mm² DSTA (69,786 đ/m)",
@@ -519,7 +519,7 @@ const INITIAL_PRODUCTS = [
         brand: 'Trần Phú',
         price: 685000,
         unit: 'Cuộn (100m)',
-        discount: 18,
+        discount: 10,
         variants: ['Tiết diện 1.5mm² (Đỏ/Xanh/Vàng)', 'Tiết diện 2.5mm² (Đỏ/Xanh/Đen)', 'Tiết diện 4.0mm² (Chạy nguồn chính)', 'Tiết diện 6.0mm² (Chạy trục tổng)'],
         desc: 'Dây đồng nguyên chất 99.99% dẫn điện tối ưu, vỏ PVC chống cháy lan chuyên dùng đi âm tường xây nhà mới.',
         image: 'assets/images/kho-day-cap-thiet-bi.jpg'
@@ -532,7 +532,7 @@ const INITIAL_PRODUCTS = [
         brand: 'Cadivi',
         price: 1120000,
         unit: 'Cuộn (100m)',
-        discount: 20,
+        discount: 10,
         variants: ['CV 1.5mm² - 450/750V', 'CV 2.5mm² - 450/750V', 'CV 4.0mm² - 450/750V', 'CV 6.0mm² - 450/750V', 'CV 10.0mm² - Cáp nguồn tổng'],
         desc: 'Thương hiệu quốc gia Cadivi, chịu tải cao cho điều hòa, bình nóng lạnh, bếp từ và trục đứng nhà ống 2-5 tầng.',
         image: createProductSvgDataUri('Dây Cáp Điện Cadivi CV', 'CADIVI', 'CDV-CV-4.0', '#D4AF37', '🔌')
@@ -545,7 +545,7 @@ const INITIAL_PRODUCTS = [
         brand: 'Cadisun',
         price: 165000,
         unit: 'Mét',
-        discount: 22,
+        discount: 10,
         variants: ['CVV 3x6 + 1x4 mm²', 'CVV 3x10 + 1x6 mm²', 'CVV 3x16 + 1x10 mm²', 'CVV 3x25 + 1x16 mm²', 'CVV 3x35 + 1x16 mm²'],
         desc: 'Cáp lực 3 pha cấp nguồn tổng cho tủ điện MSB/DB nhà xưởng vừa và nhỏ tại các KCN Bắc Ninh. Cắt lẻ theo số mét yêu cầu.',
         image: createProductSvgDataUri('Cáp Lực 3 Pha 4 Lõi Nhà Xưởng', 'CADISUN', 'CDS-3P-4x16', '#06B6D4', '🏭')
@@ -558,7 +558,7 @@ const INITIAL_PRODUCTS = [
         brand: 'Bretina',
         price: 145000,
         unit: 'Bộ',
-        discount: 25,
+        discount: 10,
         variants: ['Ổ cắm đôi 3 chấu mặt Vàng Champagne', 'Công tắc 2 hạt mặt Vàng Champagne', 'Công tắc 3 hạt mặt Xám Titan', 'Công tắc 1 hạt 2 chiều (Cầu thang)', 'Hạt mạng LAN + Tivi đồng bộ'],
         desc: 'Dòng thiết bị mặt viền sang trọng trưng bày trực tiếp tại Showroom Duy Phong, tiếp điểm đồng hợp kim đàn hồi chống đánh lửa.',
         image: 'assets/images/kho-day-cap-thiet-bi.jpg'
@@ -571,7 +571,7 @@ const INITIAL_PRODUCTS = [
         brand: 'Vanni',
         price: 125000,
         unit: 'Bộ',
-        discount: 25,
+        discount: 10,
         variants: ['Bộ ổ cắm đôi 3 chấu đa năng', 'Bộ công tắc 1 chiều (1-2-3 hạt)', 'Bộ công tắc cầu thang 2 chiều', 'Công tắc bình nóng lạnh 20A có đèn báo'],
         desc: 'Thiết kế hiện đại, mặt nhựa Polycarbonate chống ố vàng, bảo hành đổi mới dài hạn cho công trình nhà dân & biệt thự.',
         image: createProductSvgDataUri('Công Tắc & Ổ Cắm Cao Cấp VANNI', 'VANNI', 'VNI-PRO-S2', '#D4AF37', '✨')
@@ -584,7 +584,7 @@ const INITIAL_PRODUCTS = [
         brand: 'Panasonic',
         price: 118000,
         unit: 'Bộ',
-        discount: 22,
+        discount: 10,
         variants: ['Bộ ổ cắm đôi 3 chấu có màn che', 'Bộ 1 công tắc + 1 ổ cắm', 'Bộ 2 công tắc 1 chiều', 'Bộ 3 công tắc 1 chiều', 'Công tắc 2 cực 20A cho Điều hòa/Nóng lạnh'],
         desc: 'Dòng sản phẩm Panasonic bền bỉ theo năm tháng, được các thợ điện Bắc Ninh tin dùng nhiều nhất cho nhà xây mới.',
         image: createProductSvgDataUri('Công Tắc Ổ Cắm Panasonic Wide', 'PANASONIC', 'PANA-WIDE-W', '#10B981', '🔘')
@@ -597,7 +597,7 @@ const INITIAL_PRODUCTS = [
         brand: 'Nanoco',
         price: 115000,
         unit: 'Cái',
-        discount: 28,
+        discount: 10,
         variants: ['9W Đổi 3 màu (Lỗ khoét Φ90mm)', '12W Đổi 3 màu (Lỗ khoét Φ110mm)', '9W Ánh sáng Trắng 6500K (Φ90mm)', '9W Ánh sáng Vàng ấm 3000K (Φ90mm)'],
         desc: 'Đế nhôm đúc tản nhiệt nhanh, chip LED RG0 chống chói bảo vệ mắt, ánh sáng trung thực CRI > 80 cho phòng khách & phòng ngủ.',
         image: createProductSvgDataUri('Đèn LED Âm Trần Downlight 3 Màu', 'NANOCO', 'NNC-DL-9W', '#F59E0B', '💡')
@@ -610,7 +610,7 @@ const INITIAL_PRODUCTS = [
         brand: 'Rạng Đông',
         price: 168000,
         unit: 'Bộ',
-        discount: 20,
+        discount: 10,
         variants: ['Bán nguyệt 1.2m - 40W Trắng', 'Bán nguyệt 1.2m - 50W Siêu sáng', 'Bộ Tuýp LED đôi 1.2m - 2x20W', 'Bán nguyệt 0.6m - 20W'],
         desc: 'Giải pháp chiếu sáng tiết kiệm điện cho hành lang, bếp, phòng sinh hoạt chung, cửa hàng và văn phòng nhà xưởng.',
         image: createProductSvgDataUri('Đèn LED Bán Nguyệt 1.2m 40W', 'RẠNG ĐÔNG', 'RD-BN-40W', '#D4AF37', '🌟')
@@ -623,7 +623,7 @@ const INITIAL_PRODUCTS = [
         brand: 'MPE',
         price: 890000,
         unit: 'Bộ',
-        discount: 24,
+        discount: 10,
         variants: ['Highbay Nhà xưởng 100W (Chóa nhôm)', 'Highbay Nhà xưởng 150W (Chóa nhôm)', 'Highbay Nhà xưởng 200W (Trần cao >7m)', 'Đèn Pha LED Ngoài Trời 100W IP66'],
         desc: 'Chuyên dụng chiếu sáng nhà xưởng sản xuất, kho hàng, bãi xe KCN với tuổi thọ 30.000 giờ, chống bụi và ẩm IP65.',
         image: createProductSvgDataUri('Đèn LED Highbay Nhà Xưởng IP65', 'MPE INDUSTRIAL', 'HB-IND-150W', '#06B6D4', '🔦')
@@ -636,7 +636,7 @@ const INITIAL_PRODUCTS = [
         brand: 'Schneider',
         price: 155000,
         unit: 'Cái',
-        discount: 22,
+        discount: 10,
         variants: ['MCB 1P 16A/20A (Nhánh chiếu sáng/ổ cắm)', 'MCB 2P 32A/40A (Điều hòa/Bếp từ)', 'MCB 2P 63A (Aptomat tổng từng tầng)', 'RCBO Chống giật 2P 40A/63A 30mA'],
         desc: 'Thiết bị bảo vệ quá tải, ngắn mạch và chống dòng rò giật điện an toàn tuyệt đối cho từng phòng và từng tầng gia đình.',
         image: createProductSvgDataUri('Aptomat MCB & RCBO Chống Giật', 'SCHNEIDER', 'SCH-MCB-2P', '#10B981', '🛡️')
@@ -649,7 +649,7 @@ const INITIAL_PRODUCTS = [
         brand: 'LS',
         price: 980000,
         unit: 'Cái',
-        discount: 25,
+        discount: 10,
         variants: ['MCCB ABN103c 3P 63A (18kA)', 'MCCB ABN103c 3P 100A (18kA)', 'MCCB ABN203c 3P 150A/200A (30kA)', 'Contactor MC-32a / MC-50a 380V'],
         desc: 'Thiết bị đóng cắt công nghiệp chính hãng LS Hàn Quốc, đầy đủ CO/CQ dùng lắp tủ điện tổng nhà xưởng và máy sản xuất.',
         image: createProductSvgDataUri('Aptomat Khối 3 Pha MCCB LS', 'LS ELECTRIC', 'LS-MCCB-3P', '#06B6D4', '⚙️')
@@ -662,7 +662,7 @@ const INITIAL_PRODUCTS = [
         brand: 'Nanoco',
         price: 265000,
         unit: 'Cái',
-        discount: 20,
+        discount: 10,
         variants: ['Tủ âm tường 8-12 Module nắp kim loại', 'Tủ âm tường 16-18 Module (Nhà 3 tầng)', 'Vỏ tủ điện công nghiệp 400x600x200mm', 'Vỏ tủ điện tổng xưởng 600x800x250mm'],
         desc: 'Tủ điện thẩm mỹ cao cho gia đình và vỏ tủ thép sơn tĩnh điện dày 1.2mm - 1.5mm cho công trình nhà xưởng.',
         image: createProductSvgDataUri('Tủ Điện Âm Tường & Vỏ Tủ Xưởng', 'NANOCO', 'NNC-BOX-12M', '#D4AF37', '🗄️')
@@ -675,7 +675,7 @@ const INITIAL_PRODUCTS = [
         brand: 'Nanoco',
         price: 245000,
         unit: 'Cuộn / Lô',
-        discount: 25,
+        discount: 10,
         variants: ['Ống ruột gà chống cháy Φ16 (Cuộn 50m)', 'Ống ruột gà chống cháy Φ20 (Cuộn 50m)', 'Combo 50 Đế âm tường đơn chống cháy', 'Ống cứng luồn dây PVC Φ20 (Bó 25 cây)'],
         desc: 'Vật tư giai đoạn 1 (đi phần thô âm tường, âm sàn bê tông) không thể thiếu khi khởi công xây nhà mới.',
         image: createProductSvgDataUri('Ống Ruồn Dây & Đế Âm Chống Cháy', 'NANOCO / SINO', 'NNC-PIPE-20', '#F59E0B', '🛠️')
@@ -688,7 +688,7 @@ const INITIAL_PRODUCTS = [
         brand: 'Panasonic',
         price: 2150000,
         unit: 'Bộ',
-        discount: 18,
+        discount: 10,
         variants: ['Quạt trần 5 cánh động cơ DC tiết kiệm điện', 'Quạt trần 4 cánh có điều khiển từ xa', 'Quạt thông gió âm trần phòng vệ sinh 240x240'],
         desc: 'Lắp đặt hoàn thiện đồng bộ cho phòng khách, phòng ngủ và khu vệ sinh, vận hành êm ái, bảo hành chính hãng.',
         image: 'assets/images/cua-hang-mat-tien.jpg'
@@ -1226,7 +1226,7 @@ function upsertBoqItem(product, variant, qty, accumulate = true) {
             variant,
             unit: product.unit,
             price: actualPrice,
-            discount: Number(product.discount) || 15,
+            discount: Math.min(Math.max(Number(product.discount) || 10, 5), 15),
             qty: qty,
             isCustom: false
         });
@@ -1342,7 +1342,7 @@ function calculateBoqSummary() {
     const customerType = customerTypeEl ? customerTypeEl.value : 'Chu-nha-xay-moi';
 
     // Hệ số chiết khấu tham khảo theo phân khúc khách hàng
-    let bonusDiscountFactor = 0.75; // Chủ nhà xây mới hưởng ~75% mức CK tối đa
+    let bonusDiscountFactor = 0.7; // Chủ nhà xây mới hưởng ~75% mức CK tối đa
     if (customerType === 'Tho-dien-doi-tac') bonusDiscountFactor = 1.0; // Thợ điện Bắc Ninh hưởng tối đa CK đại lý
     if (customerType === 'Nha-thau-xuong') bonusDiscountFactor = 1.0;   // Nhà thầu nhà xưởng hưởng tối đa CK dự án
 
@@ -1355,7 +1355,7 @@ function calculateBoqSummary() {
         totalUnits += item.qty;
         const lineListed = (item.price || 0) * item.qty;
         subtotalListed += lineListed;
-        const effectiveRate = ((item.discount || 15) * bonusDiscountFactor) / 100;
+        const effectiveRate = (Math.min(Math.max(Number(item.discount) || 10, 5), 15) * bonusDiscountFactor) / 100;
         estimatedDiscount += lineListed * effectiveRate;
     });
 
@@ -2499,13 +2499,13 @@ const ALL_SEO_ARTICLES = [
     },
     {
         "id": "art-04",
-        "title": "Bảng dự toán trọn gói vật tư điện cho nhà phố 3 - 4 tầng 2026: Chiết khấu đại lý & mẹo tiết kiệm 30%",
+        "title": "Bảng dự toán trọn gói vật tư điện cho nhà phố 3 - 4 tầng 2026: Chiết khấu đại lý 5% - 15% & mẹo tối ưu chi phí",
         "category": "Báo Giá Công Trình",
         "author": "A Thành BN",
         "createdAt": "09/11/2026",
         "summary": "Bóc tách khối lượng mẫu: Dây cáp âm tường, ống luồn SP Sino, đế âm, tủ điện, ổ cắm công tắc và đèn LED âm trần. Hướng dẫn lấy chiết khấu kịch sàn tại kho Duy Phong.",
         "image": "assets/images/du-toan-vat-tu-dien-nha-pho.jpg",
-        "content": "\n            <h3>1. Tổng quan ngân sách vật tư điện cho nhà phố 80m² x 3.5 tầng</h3>\n            <p>Chi phí hoàn thiện vật tư điện cho một căn nhà phố tiêu chuẩn thường dao động từ <strong>35 triệu đến 65 triệu đồng</strong> tùy thuộc vào cấp độ thiết bị (phổ thông hay cao cấp viền kim loại). Bóc tách khối lượng chính xác giúp chủ nhà không bị dư thừa lãng phí hoặc mua nhầm giá lẻ đắt đỏ.</p>\n\n            <h3>2. Bóc tách danh mục vật tư cơ bản:</h3>\n            <ul>\n                <li><strong>Dây cáp điện (Trần Phú / Cadisun):</strong> Khoảng 12 - 18 cuộn các loại (1.5mm², 2.5mm², 4.0mm², 6.0mm²) và cáp nguồn tổng 2x10mm² hoặc 2x16mm². Chi phí ước tính: 18tr - 28tr.</li>\n                <li><strong>Ống luồn dây & phụ kiện âm tường:</strong> Ống luồn d16/d20 chống cháy, đế âm đơn/đôi Sino, hộp chia ngả, băng dính điện nano. Chi phí ước tính: 4tr - 6tr.</li>\n                <li><strong>Công tắc & Ổ cắm (Bretina / Panasonic):</strong> 35 - 50 bộ ổ cắm 3 chấu đa năng, 20 - 30 phím công tắc, mặt che điều hòa, bình nóng lạnh. Chi phí ước tính: 7tr - 15tr.</li>\n                <li><strong>Tủ điện & Aptomat đóng cắt:</strong> 1 tủ tổng tầng 1 + 3 tủ phân phối tầng, hệ thống RCBO chống giật. Chi phí: 4tr - 8tr.</li>\n                <li><strong>Đèn LED âm trần & Chiếu sáng:</strong> Đèn âm trần 7W/9W đổi 3 màu, đèn rọi ray trang trí, đèn ban công. Chi phí: 5tr - 12tr.</li>\n            </ul>\n\n            <h3>3. Mẹo nhận chiết khấu kịch sàn tại Cửa hàng Duy Phong</h3>\n            <p>Khi gom trọn gói toàn bộ vật tư từ phần thô đến phần hoàn thiện tại <strong>Tổng Kho Duy Phong (0904.511.227)</strong>, gia chủ sẽ được áp dụng mức giá chiết khấu dự án kịch sàn (tiết kiệm đến 30 - 35% so với giá niêm yết catalog), hỗ trợ vận chuyển tận chân công trình tại Bắc Ninh.</p>\n        "
+        "content": "\n            <h3>1. Tổng quan ngân sách vật tư điện cho nhà phố 80m² x 3.5 tầng</h3>\n            <p>Chi phí hoàn thiện vật tư điện cho một căn nhà phố tiêu chuẩn thường dao động từ <strong>35 triệu đến 65 triệu đồng</strong> tùy thuộc vào cấp độ thiết bị (phổ thông hay cao cấp viền kim loại). Bóc tách khối lượng chính xác giúp chủ nhà không bị dư thừa lãng phí hoặc mua nhầm giá lẻ đắt đỏ.</p>\n\n            <h3>2. Bóc tách danh mục vật tư cơ bản:</h3>\n            <ul>\n                <li><strong>Dây cáp điện (Trần Phú / Cadisun):</strong> Khoảng 12 - 18 cuộn các loại (1.5mm², 2.5mm², 4.0mm², 6.0mm²) và cáp nguồn tổng 2x10mm² hoặc 2x16mm². Chi phí ước tính: 18tr - 28tr.</li>\n                <li><strong>Ống luồn dây & phụ kiện âm tường:</strong> Ống luồn d16/d20 chống cháy, đế âm đơn/đôi Sino, hộp chia ngả, băng dính điện nano. Chi phí ước tính: 4tr - 6tr.</li>\n                <li><strong>Công tắc & Ổ cắm (Bretina / Panasonic):</strong> 35 - 50 bộ ổ cắm 3 chấu đa năng, 20 - 30 phím công tắc, mặt che điều hòa, bình nóng lạnh. Chi phí ước tính: 7tr - 15tr.</li>\n                <li><strong>Tủ điện & Aptomat đóng cắt:</strong> 1 tủ tổng tầng 1 + 3 tủ phân phối tầng, hệ thống RCBO chống giật. Chi phí: 4tr - 8tr.</li>\n                <li><strong>Đèn LED âm trần & Chiếu sáng:</strong> Đèn âm trần 7W/9W đổi 3 màu, đèn rọi ray trang trí, đèn ban công. Chi phí: 5tr - 12tr.</li>\n            </ul>\n\n            <h3>3. Mẹo nhận chiết khấu kịch sàn tại Cửa hàng Duy Phong</h3>\n            <p>Khi gom trọn gói toàn bộ vật tư từ phần thô đến phần hoàn thiện tại <strong>Tổng Kho Duy Phong (0904.511.227)</strong>, gia chủ sẽ được áp dụng mức giá chiết khấu dự án kịch sàn (chiết khấu trực tiếp từ 5% đến 15% so với giá niêm yết catalog tùy khối lượng), hỗ trợ vận chuyển tận chân công trình tại Bắc Ninh.</p>\n        "
     },
     {
         "id": "art-05",

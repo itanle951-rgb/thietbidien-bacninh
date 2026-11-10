@@ -2557,27 +2557,30 @@ function renderHomeArticles() {
     if (!container) return;
 
     const ARTICLES_KEY = 'duyphong_articles_v1';
-    let articles = ALL_SEO_ARTICLES;
+    let articles = [...ALL_SEO_ARTICLES];
     try {
         const saved = localStorage.getItem(ARTICLES_KEY);
         if (saved) {
             const parsed = JSON.parse(saved);
-            if (Array.isArray(parsed) && parsed.length >= 6) {
-                articles = parsed;
-            } else {
-                localStorage.setItem(ARTICLES_KEY, JSON.stringify(ALL_SEO_ARTICLES));
+            if (Array.isArray(parsed)) {
+                // Hợp nhất: Luôn ưu tiên các bài viết mới từ ALL_SEO_ARTICLES, đồng thời giữ lại bài admin tự thêm
+                parsed.forEach(p => {
+                    if (p && p.id && !articles.some(a => a.id === p.id)) {
+                        articles.push(p);
+                    }
+                });
             }
-        } else {
-            localStorage.setItem(ARTICLES_KEY, JSON.stringify(ALL_SEO_ARTICLES));
         }
+        // Luôn cập nhật lại localStorage để mọi người dùng đều thấy ngay bài viết mới
+        localStorage.setItem(ARTICLES_KEY, JSON.stringify(articles));
     } catch (e) {
         articles = ALL_SEO_ARTICLES;
     }
 
     container.innerHTML = articles.map(art => `
-        <div class="product-card" style="display:flex; flex-direction:column; justify-content:space-between; background: #131B2C; border: 1px solid rgba(212,175,55,0.22); border-radius: 12px; overflow: hidden; transition: transform 0.25s, box-shadow 0.25s;">
+        <div class="product-card" onclick="openArticleModal('${art.id}')" style="display:flex; flex-direction:column; justify-content:space-between; background: #131B2C; border: 1px solid rgba(212,175,55,0.22); border-radius: 12px; overflow: hidden; transition: transform 0.25s, box-shadow 0.25s; cursor: pointer;">
             <div>
-                <div style="position:relative; height:190px; overflow:hidden; background:#0B0F17; cursor: pointer;" onclick="openArticleModal('${art.id}')">
+                <div style="position:relative; height:190px; overflow:hidden; background:#0B0F17;">
                     <img src="${art.image}" alt="${art.title}" style="width:100%; height:100%; object-fit:cover; transition:transform 0.4s;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'">
                     <span class="product-badge-discount" style="top:10px; left:10px; right:auto; background: linear-gradient(135deg, #F3E5AB, #D4AF37); color: #0B0F17; font-weight: 700;">${art.category}</span>
                 </div>
@@ -2587,15 +2590,15 @@ function renderHomeArticles() {
                         <span>•</span>
                         <span><i class="fas fa-user-edit" style="color:var(--primary);"></i> ${art.author}</span>
                     </div>
-                    <h4 style="font-size:1.05rem; color:#FFFFFF; font-weight:700; line-height:1.45; margin-bottom:10px; cursor:pointer;" onclick="openArticleModal('${art.id}')">${art.title}</h4>
+                    <h4 style="font-size:1.05rem; color:#FFFFFF; font-weight:700; line-height:1.45; margin-bottom:10px;">${art.title}</h4>
                     <p style="font-size:0.86rem; color:#CBD5E1; line-height:1.55; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">${art.summary}</p>
                 </div>
             </div>
             <div style="padding: 14px 16px 16px; margin-top:14px; border-top:1px solid rgba(255,255,255,0.08); display:flex; justify-content:space-between; align-items:center;">
-                <button type="button" class="btn btn-outline-gold" style="padding:6px 12px; font-size:0.82rem; font-weight:600;" onclick="openArticleModal('${art.id}')">
+                <button type="button" class="btn btn-outline-gold" style="padding:6px 14px; font-size:0.82rem; font-weight:600;" onclick="event.stopPropagation(); openArticleModal('${art.id}')">
                     <i class="fas fa-book-reader"></i> Đọc Bài Viết
                 </button>
-                <a href="https://zalo.me/0904511227" target="_blank" class="btn btn-primary" style="padding:6px 12px; font-size:0.82rem;">
+                <a href="https://zalo.me/0904511227" target="_blank" class="btn btn-primary" style="padding:6px 12px; font-size:0.82rem;" onclick="event.stopPropagation()">
                     <i class="fab fa-whatsapp"></i> Hỏi A Thành
                 </a>
             </div>
@@ -2605,15 +2608,30 @@ function renderHomeArticles() {
 
 // Mở Modal Xem Toàn Bộ Nội Dung Bài Viết Chuẩn SEO
 window.openArticleModal = function(id) {
-    const art = ALL_SEO_ARTICLES.find(a => a.id === id);
-    if (!art) return;
+    // 1. Tìm trong ALL_SEO_ARTICLES trước, sau đó tìm trong localStorage
+    let art = ALL_SEO_ARTICLES.find(a => a.id === id);
+    if (!art) {
+        try {
+            const saved = localStorage.getItem('duyphong_articles_v1');
+            if (saved) {
+                const parsed = JSON.parse(saved);
+                if (Array.isArray(parsed)) {
+                    art = parsed.find(a => a.id === id);
+                }
+            }
+        } catch (e) {}
+    }
+    if (!art) {
+        console.warn('Không tìm thấy bài viết ID:', id);
+        return;
+    }
 
     let modal = document.getElementById('articleDetailModal');
     if (!modal) {
         const modalHtml = `
-            <div id="articleDetailModal" class="modal-overlay" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.85); z-index:99999; backdrop-filter:blur(6px); align-items:center; justify-content:center; padding:16px;">
+            <div id="articleDetailModal" class="modal-overlay" onclick="handleArticleBackdropClick(event)" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.85); z-index:99999; backdrop-filter:blur(6px); align-items:center; justify-content:center; padding:16px;">
                 <div class="modal-content" style="background:#131B2C; border:1px solid var(--border-gold); border-radius:14px; max-width:780px; width:100%; max-height:90vh; overflow-y:auto; padding:24px; position:relative; box-shadow:0 20px 50px rgba(0,0,0,0.7); color:#E2E8F0;">
-                    <button type="button" onclick="closeArticleModal()" style="position:sticky; top:0; float:right; background:#1E293B; border:1px solid var(--border-subtle); color:#FFF; font-size:1.4rem; width:36px; height:36px; border-radius:50%; cursor:pointer; line-height:1; z-index:10;">&times;</button>
+                    <button type="button" onclick="closeArticleModal()" style="position:sticky; top:0; float:right; background:#1E293B; border:1px solid var(--border-subtle); color:#FFF; font-size:1.4rem; width:36px; height:36px; border-radius:50%; cursor:pointer; line-height:1; z-index:10;" aria-label="Đóng">&times;</button>
                     
                     <span id="modalArtCategory" class="badge-pill" style="background:rgba(212,175,55,0.2); color:#F3E5AB; font-weight:700; margin-bottom:12px; display:inline-block;"></span>
                     <h2 id="modalArtTitle" style="color:#FFF; font-size:1.4rem; font-weight:800; line-height:1.4; margin-bottom:12px;"></h2>
@@ -2644,21 +2662,67 @@ window.openArticleModal = function(id) {
         modal = document.getElementById('articleDetailModal');
     }
 
-    document.getElementById('modalArtCategory').textContent = art.category;
-    document.getElementById('modalArtTitle').textContent = art.title;
-    document.getElementById('modalArtAuthor').innerHTML = '<i class="fas fa-user-edit" style="color:var(--primary);"></i> Tác giả: ' + art.author;
-    document.getElementById('modalArtDate').innerHTML = '<i class="far fa-calendar-alt" style="color:var(--primary);"></i> Ngày đăng: ' + art.createdAt;
-    document.getElementById('modalArtImage').src = art.image;
-    document.getElementById('modalArtImage').alt = art.title;
-    document.getElementById('modalArtBody').innerHTML = art.content;
+    document.getElementById('modalArtCategory').textContent = art.category || 'Cẩm nang';
+    document.getElementById('modalArtTitle').textContent = art.title || '';
+    document.getElementById('modalArtAuthor').innerHTML = '<i class="fas fa-user-edit" style="color:var(--primary);"></i> Tác giả: ' + (art.author || 'A Thành BN');
+    document.getElementById('modalArtDate').innerHTML = '<i class="far fa-calendar-alt" style="color:var(--primary);"></i> Ngày đăng: ' + (art.createdAt || '');
+    document.getElementById('modalArtImage').src = art.image || 'assets/images/kho-day-cap-thiet-bi.jpg';
+    document.getElementById('modalArtImage').alt = art.title || '';
+    document.getElementById('modalArtBody').innerHTML = art.content || '<p>' + (art.summary || '') + '</p>';
 
     modal.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+
+    // Cập nhật URL Hash để có thể copy gửi link trực tiếp
+    try {
+        if (window.location.hash !== '#' + id) {
+            history.replaceState(null, '', '#' + id);
+        }
+    } catch (e) {}
+};
+
+window.handleArticleBackdropClick = function(event) {
+    if (event.target && event.target.id === 'articleDetailModal') {
+        closeArticleModal();
+    }
 };
 
 window.closeArticleModal = function() {
     const modal = document.getElementById('articleDetailModal');
     if (modal) modal.style.display = 'none';
+    document.body.style.overflow = '';
+    try {
+        if (window.location.hash && window.location.hash.startsWith('#art-')) {
+            history.replaceState(null, '', window.location.pathname + window.location.search);
+        }
+    } catch (e) {}
 };
+
+// Đóng modal bằng phím ESC
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+        closeArticleModal();
+    }
+});
+
+// Tự động kiểm tra URL Hash hoặc Param để mở bài viết khi khách bấm link trực tiếp
+function checkUrlForArticle() {
+    try {
+        const hash = window.location.hash ? window.location.hash.replace('#', '') : '';
+        const params = new URLSearchParams(window.location.search);
+        const artParam = params.get('article');
+        const targetId = (hash && hash.startsWith('art-')) ? hash : (artParam && artParam.startsWith('art-') ? artParam : null);
+
+        if (targetId) {
+            setTimeout(() => {
+                const sec = document.getElementById('cam-nang-section') || document.getElementById('articlesGrid');
+                if (sec) sec.scrollIntoView({ behavior: 'smooth' });
+                openArticleModal(targetId);
+            }, 350);
+        }
+    } catch (e) {}
+}
+window.addEventListener('hashchange', checkUrlForArticle);
 
 
 // Hàm khởi động toàn bộ ứng dụng
@@ -2668,6 +2732,7 @@ function initApplication() {
     renderCatalog();
     renderBoqSection();
     renderHomeArticles();
+    checkUrlForArticle();
     trackVisitorTraffic();
     updateHeaderAndFloatingBadges();
     updateAdminQuoteBadge();

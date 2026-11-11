@@ -7,7 +7,7 @@
  */
 
 const STORAGE_KEYS = {
-    PRODUCTS: 'duyphong_athanhbn_products_v20261111_source',
+    PRODUCTS: 'duyphong_athanhbn_products_v20261112_full_real',
     CART_BOQ: 'duyphong_athanhbn_boq_v1',
     QUOTES:   'duyphong_athanhbn_quotes_v1'
 };
@@ -145,7 +145,7 @@ const INITIAL_PRODUCTS = [
             "Dây mạng Cat6 U/UTP (15,500 đ/m)"
         ],
         "desc": "Cáp mạng xoắn đôi 4 đôi 8 lõi đồng nguyên chất Trần Phú, băng thông truyền dữ liệu Gigabit tốc độ cao, không suy hao.",
-        "image": "https://cf.shopee.vn/file/f96bd59bbac1398c97d9aaeb7e8e22c5"
+        "image": "assets/images/products/day-mang-tran-phu.jpg"
     },
     {
         "id": "tp-06",
@@ -166,7 +166,7 @@ const INITIAL_PRODUCTS = [
             "A23-1D1T3U (Dây 1.5m, ổ cắm để bàn) - 315,000 đ"
         ],
         "desc": "Ổ cắm kéo dài thế hệ mới Trần Phú, rơ-le chống quá tải tự ngắt, cổng sạc nhanh USB/Type-C, vỏ nhựa chống cháy chịu nhiệt 750°C.",
-        "image": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lsh4opqooujd9d"
+        "image": "assets/images/products/o-cam-day-tran-phu.webp"
     },
     {
         "id": "cds-01",
@@ -397,7 +397,7 @@ const INITIAL_PRODUCTS = [
             "Cáp CXV 1x240 mm² (1,117,600 đ/m)"
         ],
         "desc": "Dòng sản phẩm Cadi-Gold cao cấp của Cadisun, ruột đồng tinh chất, cách điện XLPE 90°C tiêu chuẩn châu Âu.",
-        "image": "https://quydan.com.vn/upload/images/san-pham/Cadi-Sun/8_SWA-CTS-3x_2_980x980.png"
+        "image": "assets/images/products/day-don-cadisun.jpg"
     },
     {
         "id": "cdg-02",
@@ -425,7 +425,7 @@ const INITIAL_PRODUCTS = [
             "3x240 + 1x120 mm² (3,926,900 đ/m)"
         ],
         "desc": "Cáp treo 3 pha 4 lõi Cadi-Gold cấp điện trục đứng tòa nhà, xưởng sản xuất KCN Bắc Ninh, vận hành ổn định không phát nhiệt.",
-        "image": "https://quydan.com.vn/upload/images/san-pham/Cadi-Sun/8_SWA-CTS-3x_2_980x980.png"
+        "image": "assets/images/products/day-doi-cadisun.jpg"
     },
     {
         "id": "cdg-03",
@@ -453,7 +453,7 @@ const INITIAL_PRODUCTS = [
             "Cáp 4x50 mm² (898,500 đ/m)"
         ],
         "desc": "Cáp đồng hạ thế 2 ruột & 4 ruột Cadi-Gold độ tin cậy cao, chuyên dùng trạm bơm, điều hòa trung tâm VRV, chiller.",
-        "image": "https://quydan.com.vn/upload/images/san-pham/Cadi-Sun/8_SWA-CTS-3x_2_980x980.png"
+        "image": "assets/images/products/cap-3pha-4loi-cadisun.jpg"
     },
     {
         "id": "cdg-04",
@@ -483,7 +483,7 @@ const INITIAL_PRODUCTS = [
             "Cáp ngầm 3x70+1x35 mm² DSTA (1,161,200 đ/m)"
         ],
         "desc": "Cáp ngầm lực bọc giáp băng thép DSTA Cadi-Gold, chống ẩm ngập, côn trùng gặm nhấm, an toàn cho hệ thống điện ngầm đô thị & KCN.",
-        "image": "https://quydan.com.vn/upload/images/san-pham/Cadi-Sun/8_SWA-CTS-3x_2_980x980.png"
+        "image": "assets/images/products/cap-ngam-cadisun.jpg"
     },
     {
         "id": "cdg-05",
@@ -508,7 +508,7 @@ const INITIAL_PRODUCTS = [
             "Cáp mềm 4x6.0 mm² (116,100 đ/m)"
         ],
         "desc": "Cáp đồng mềm nhiều ruột Cadi-Gold vỏ PVC bền dẻo, dùng đấu nối tủ động lực và thiết bị di động trong nhà xưởng.",
-        "image": "https://quydan.com.vn/upload/images/san-pham/Cadi-Sun/8_SWA-CTS-3x_2_980x980.png"
+        "image": "assets/images/products/cap-mem-cadisun.jpg"
     }
 ,
 {
@@ -535,7 +535,7 @@ const INITIAL_PRODUCTS = [
         discount: 10,
         variants: ['CV 1.5mm² - 450/750V', 'CV 2.5mm² - 450/750V', 'CV 4.0mm² - 450/750V', 'CV 6.0mm² - 450/750V', 'CV 10.0mm² - Cáp nguồn tổng'],
         desc: 'Thương hiệu quốc gia Cadivi, chịu tải cao cho điều hòa, bình nóng lạnh, bếp từ và trục đứng nhà ống 2-5 tầng.',
-        image: createProductSvgDataUri('Dây Cáp Điện Cadivi CV', 'CADIVI', 'CDV-CV-4.0', '#D4AF37', '🔌')
+        image: 'assets/images/products/cap-cv-cadivi.jpg'
     },
     {
         id: 'dp-03',
@@ -561,7 +561,7 @@ const INITIAL_PRODUCTS = [
         discount: 10,
         variants: ['Ổ cắm đôi 3 chấu mặt Vàng Champagne', 'Công tắc 2 hạt mặt Vàng Champagne', 'Công tắc 3 hạt mặt Xám Titan', 'Công tắc 1 hạt 2 chiều (Cầu thang)', 'Hạt mạng LAN + Tivi đồng bộ'],
         desc: 'Dòng thiết bị mặt viền sang trọng trưng bày trực tiếp tại Showroom Duy Phong, tiếp điểm đồng hợp kim đàn hồi chống đánh lửa.',
-        image: 'assets/images/kho-day-cap-thiet-bi.jpg'
+        image: 'assets/images/products/cong-tac-bretina-vang.jpg'
     },
     {
         id: 'dp-05',
@@ -574,7 +574,7 @@ const INITIAL_PRODUCTS = [
         discount: 10,
         variants: ['Bộ ổ cắm đôi 3 chấu đa năng', 'Bộ công tắc 1 chiều (1-2-3 hạt)', 'Bộ công tắc cầu thang 2 chiều', 'Công tắc bình nóng lạnh 20A có đèn báo'],
         desc: 'Thiết kế hiện đại, mặt nhựa Polycarbonate chống ố vàng, bảo hành đổi mới dài hạn cho công trình nhà dân & biệt thự.',
-        image: createProductSvgDataUri('Công Tắc & Ổ Cắm Cao Cấp VANNI', 'VANNI', 'VNI-PRO-S2', '#D4AF37', '✨')
+        image: 'assets/images/products/cong-tac-vanni.jpg'
     },
     {
         id: 'dp-06',
@@ -587,7 +587,7 @@ const INITIAL_PRODUCTS = [
         discount: 10,
         variants: ['Bộ ổ cắm đôi 3 chấu có màn che', 'Bộ 1 công tắc + 1 ổ cắm', 'Bộ 2 công tắc 1 chiều', 'Bộ 3 công tắc 1 chiều', 'Công tắc 2 cực 20A cho Điều hòa/Nóng lạnh'],
         desc: 'Dòng sản phẩm Panasonic bền bỉ theo năm tháng, được các thợ điện Bắc Ninh tin dùng nhiều nhất cho nhà xây mới.',
-        image: createProductSvgDataUri('Công Tắc Ổ Cắm Panasonic Wide', 'PANASONIC', 'PANA-WIDE-W', '#10B981', '🔘')
+        image: 'assets/images/products/cong-tac-panasonic-wide.jpg'
     },
     {
         id: 'dp-07',
@@ -600,7 +600,7 @@ const INITIAL_PRODUCTS = [
         discount: 10,
         variants: ['9W Đổi 3 màu (Lỗ khoét Φ90mm)', '12W Đổi 3 màu (Lỗ khoét Φ110mm)', '9W Ánh sáng Trắng 6500K (Φ90mm)', '9W Ánh sáng Vàng ấm 3000K (Φ90mm)'],
         desc: 'Đế nhôm đúc tản nhiệt nhanh, chip LED RG0 chống chói bảo vệ mắt, ánh sáng trung thực CRI > 80 cho phòng khách & phòng ngủ.',
-        image: createProductSvgDataUri('Đèn LED Âm Trần Downlight 3 Màu', 'NANOCO', 'NNC-DL-9W', '#F59E0B', '💡')
+        image: 'assets/images/products/den-led-am-tran-downlight.jpg'
     },
     {
         id: 'dp-08',
@@ -613,7 +613,7 @@ const INITIAL_PRODUCTS = [
         discount: 10,
         variants: ['Bán nguyệt 1.2m - 40W Trắng', 'Bán nguyệt 1.2m - 50W Siêu sáng', 'Bộ Tuýp LED đôi 1.2m - 2x20W', 'Bán nguyệt 0.6m - 20W'],
         desc: 'Giải pháp chiếu sáng tiết kiệm điện cho hành lang, bếp, phòng sinh hoạt chung, cửa hàng và văn phòng nhà xưởng.',
-        image: createProductSvgDataUri('Đèn LED Bán Nguyệt 1.2m 40W', 'RẠNG ĐÔNG', 'RD-BN-40W', '#D4AF37', '🌟')
+        image: 'assets/images/products/den-led-ban-nguyet-rang-dong.jpg'
     },
     {
         id: 'dp-09',
@@ -626,7 +626,7 @@ const INITIAL_PRODUCTS = [
         discount: 10,
         variants: ['Highbay Nhà xưởng 100W (Chóa nhôm)', 'Highbay Nhà xưởng 150W (Chóa nhôm)', 'Highbay Nhà xưởng 200W (Trần cao >7m)', 'Đèn Pha LED Ngoài Trời 100W IP66'],
         desc: 'Chuyên dụng chiếu sáng nhà xưởng sản xuất, kho hàng, bãi xe KCN với tuổi thọ 30.000 giờ, chống bụi và ẩm IP65.',
-        image: createProductSvgDataUri('Đèn LED Highbay Nhà Xưởng IP65', 'MPE INDUSTRIAL', 'HB-IND-150W', '#06B6D4', '🔦')
+        image: 'assets/images/products/den-highbay-mpe.jpg'
     },
     {
         id: 'dp-10',
@@ -639,7 +639,7 @@ const INITIAL_PRODUCTS = [
         discount: 10,
         variants: ['MCB 1P 16A/20A (Nhánh chiếu sáng/ổ cắm)', 'MCB 2P 32A/40A (Điều hòa/Bếp từ)', 'MCB 2P 63A (Aptomat tổng từng tầng)', 'RCBO Chống giật 2P 40A/63A 30mA'],
         desc: 'Thiết bị bảo vệ quá tải, ngắn mạch và chống dòng rò giật điện an toàn tuyệt đối cho từng phòng và từng tầng gia đình.',
-        image: createProductSvgDataUri('Aptomat MCB & RCBO Chống Giật', 'SCHNEIDER', 'SCH-MCB-2P', '#10B981', '🛡️')
+        image: 'assets/images/products/aptomat-rcbo-schneider.jpg'
     },
     {
         id: 'dp-11',
@@ -652,7 +652,7 @@ const INITIAL_PRODUCTS = [
         discount: 10,
         variants: ['MCCB ABN103c 3P 63A (18kA)', 'MCCB ABN103c 3P 100A (18kA)', 'MCCB ABN203c 3P 150A/200A (30kA)', 'Contactor MC-32a / MC-50a 380V'],
         desc: 'Thiết bị đóng cắt công nghiệp chính hãng LS Hàn Quốc, đầy đủ CO/CQ dùng lắp tủ điện tổng nhà xưởng và máy sản xuất.',
-        image: createProductSvgDataUri('Aptomat Khối 3 Pha MCCB LS', 'LS ELECTRIC', 'LS-MCCB-3P', '#06B6D4', '⚙️')
+        image: 'assets/images/products/aptomat-khoi-mccb-ls.jpg'
     },
     {
         id: 'dp-12',
@@ -665,7 +665,7 @@ const INITIAL_PRODUCTS = [
         discount: 10,
         variants: ['Tủ âm tường 8-12 Module nắp kim loại', 'Tủ âm tường 16-18 Module (Nhà 3 tầng)', 'Vỏ tủ điện công nghiệp 400x600x200mm', 'Vỏ tủ điện tổng xưởng 600x800x250mm'],
         desc: 'Tủ điện thẩm mỹ cao cho gia đình và vỏ tủ thép sơn tĩnh điện dày 1.2mm - 1.5mm cho công trình nhà xưởng.',
-        image: createProductSvgDataUri('Tủ Điện Âm Tường & Vỏ Tủ Xưởng', 'NANOCO', 'NNC-BOX-12M', '#D4AF37', '🗄️')
+        image: 'assets/images/tu-dien-chong-giat-gia-dinh.jpg'
     },
     {
         id: 'dp-13',
@@ -678,7 +678,7 @@ const INITIAL_PRODUCTS = [
         discount: 10,
         variants: ['Ống ruột gà chống cháy Φ16 (Cuộn 50m)', 'Ống ruột gà chống cháy Φ20 (Cuộn 50m)', 'Combo 50 Đế âm tường đơn chống cháy', 'Ống cứng luồn dây PVC Φ20 (Bó 25 cây)'],
         desc: 'Vật tư giai đoạn 1 (đi phần thô âm tường, âm sàn bê tông) không thể thiếu khi khởi công xây nhà mới.',
-        image: createProductSvgDataUri('Ống Ruồn Dây & Đế Âm Chống Cháy', 'NANOCO / SINO', 'NNC-PIPE-20', '#F59E0B', '🛠️')
+        image: 'assets/images/products/ong-luon-tran-phu.jpg'
     },
     {
         id: 'dp-14',
@@ -691,7 +691,7 @@ const INITIAL_PRODUCTS = [
         discount: 10,
         variants: ['Quạt trần 5 cánh động cơ DC tiết kiệm điện', 'Quạt trần 4 cánh có điều khiển từ xa', 'Quạt thông gió âm trần phòng vệ sinh 240x240'],
         desc: 'Lắp đặt hoàn thiện đồng bộ cho phòng khách, phòng ngủ và khu vệ sinh, vận hành êm ái, bảo hành chính hãng.',
-        image: 'assets/images/cua-hang-mat-tien.jpg'
+        image: 'assets/images/products/quat-tran-panasonic.jpg'
     }
 ];
 
@@ -2474,7 +2474,7 @@ const ALL_SEO_ARTICLES = [
         "author": "A Thành BN",
         "createdAt": "10/11/2026",
         "summary": "Bạn đang tìm nguồn dây cáp điện Cadisun chính hãng với chiết khấu cao nhất tại Bắc Ninh? Kỹ sư A Thành chia sẻ kinh nghiệm thực chiến giúp nhà thầu phân biệt hàng thật và tối ưu chi phí cho công trình KCN.",
-        "image": "assets/images/kinh-nghiem-chon-day-cap-dien-cadisun-chinh-hang-cho-thau-th.jpg?v=20261110_03",
+        "image": "assets/images/kinh-nghiem-chon-day-cap-dien-cadisun-chinh-hang-cho-thau-th.jpg?v=20261112_cadi",
         "content": "<h3>Tại sao dây cáp điện Cadisun là lựa chọn số 1 cho công trình tại Bắc Ninh?</h3><p>Với đặc thù khí hậu miền Bắc và nhu cầu khắt khe tại các KCN Quế Võ, Yên Phong, Cadisun khẳng định vị thế nhờ lõi đồng tinh khiết 99.99% và vỏ bọc PVC chống cháy đạt chuẩn. Tuy nhiên, thị trường hiện nay xuất hiện nhiều hàng giả, hàng nhái kém chất lượng gây nguy cơ cháy nổ cao.</p><h3>Kỹ sư A Thành chia sẻ 3 mẹo phân biệt Cadisun chính hãng</h3><ul><li><strong>Kiểm tra bề mặt vỏ:</strong> Dây Cadisun chính hãng có vỏ bọc mịn, in sắc nét thông số kỹ thuật, tên thương hiệu, mã sản phẩm và năm sản xuất. Hàng nhái thường in mờ, nét chữ nhòe, vỏ nhựa giòn dễ nứt.</li><li><strong>Kiểm tra lõi đồng:</strong> Lõi đồng của Cadisun có màu vàng sáng đặc trưng, độ dẻo cao. Nếu lõi có màu xỉn, cứng hoặc dễ gãy, đó là dấu hiệu của đồng tái chế.</li><li><strong>Kiểm tra tem nhãn và QR Code:</strong> Mọi cuộn dây Cadisun tại Tổng kho Duy Phong đều có tem chống hàng giả tích hợp mã QR, cho phép quét kiểm tra nguồn gốc xuất xứ nhanh chóng.</li></ul><h3>Lời khuyên từ chuyên gia cho nhà thầu công trình</h3><p>Đừng chỉ nhìn vào giá rẻ. Đối với các công trình biệt thự hay nhà xưởng công nghiệp, việc chọn sai dây dẫn không chỉ làm giảm hiệu suất thiết bị mà còn gây ra những rủi ro cháy nổ tiềm tàng. Tại <strong>Tổng kho Thiết bị điện Duy Phong</strong>, chúng tôi cam kết chiết khấu trực tiếp 5% – 15% (theo khối lượng công trình) cho các đơn hàng dự án, đi kèm chứng chỉ CO/CQ đầy đủ.</p><h3>Tại sao nên chọn Tổng kho Duy Phong - 549 Ngô Gia Tự?</h3><p>Chúng tôi không chỉ bán dây điện, chúng tôi mang đến giải pháp an toàn điện cho công trình của bạn. Với vị trí đắc địa tại trung tâm TP. Bắc Ninh, chúng tôi đảm bảo tiến độ giao hàng nhanh chóng đến chân công trình, hỗ trợ kỹ thuật 24/7 từ đội ngũ kỹ sư lành nghề.</p><p><strong>Liên hệ ngay Hotline: 0904.511.227 để nhận bảng giá chiết khấu ưu đãi nhất thị trường Bắc Ninh hôm nay!</strong></p>"
 },
 
@@ -2485,7 +2485,7 @@ const ALL_SEO_ARTICLES = [
         "author": "A Thành BN",
         "createdAt": "09/11/2026",
         "summary": "Bạn đang lo lắng về rò rỉ điện trong gia đình? Kỹ sư A Thành từ Tổng Kho Thiết Bị Điện Duy Phong Bắc Ninh chia sẻ bí quyết chọn Aptomat chống giật RCBO chuẩn kỹ thuật, giúp bảo vệ an toàn cho người thân và tài sản.",
-        "image": "assets/images/bi-quyet-chon-aptomat-chong-giat-rcbo-an-toan-tuyet-doi-cho-.jpg",
+        "image": "assets/images/bi-quyet-chon-aptomat-chong-giat-rcbo-an-toan-tuyet-doi-cho-.jpg?v=20261112_rcbo",
         "content": "<h3>Tại sao RCBO là \"vệ sĩ\" không thể thiếu cho ngôi nhà hiện đại?</h3><p>Trong quá trình thi công điện cho hàng trăm biệt thự và nhà phố tại Bắc Ninh, tôi thường xuyên gặp tình trạng khách hàng chỉ dùng Aptomat thường (MCB). Điều này cực kỳ nguy hiểm. Aptomat chống giật RCBO là thiết bị thông minh kết hợp cả tính năng bảo vệ quá tải, ngắn mạch và chống rò dòng (chống giật), giúp ngắt điện ngay lập tức khi phát hiện dòng rò vượt ngưỡng an toàn (thường là 30mA).</p><h3>3 tiêu chí \"vàng\" để chọn RCBO chuẩn kỹ thuật</h3><ul><li><strong>Xác định cường độ dòng điện (Ampe):</strong> Tùy vào thiết bị đầu cuối như bình nóng lạnh, máy bơm hay tổng nguồn mà chọn loại 16A, 25A, 32A hay 40A. Tuyệt đối không chọn quá tải so với tiết diện dây dẫn.</li><li><strong>Độ nhạy của dòng rò:</strong> Đối với hộ gia đình, hãy ưu tiên loại RCBO có ngưỡng tác động 30mA. Đây là mức an toàn giúp bảo vệ con người trước các sự cố giật điện nguy hiểm.</li><li><strong>Thương hiệu uy tín:</strong> Tại Tổng Kho Duy Phong, chúng tôi khuyên dùng Panasonic hoặc các dòng cao cấp của Schneider. Đừng vì tiết kiệm vài trăm nghìn mà chọn hàng trôi nổi, không rõ nguồn gốc.</li></ul><h3>Lời khuyên từ Kỹ sư A Thành: Đừng tự lắp đặt nếu không có chuyên môn</h3><p>Việc lắp đặt RCBO đòi hỏi kỹ thuật đấu nối chính xác (đặc biệt là dây trung tính). Nhiều gia đình tự lắp dẫn đến tình trạng thiết bị nhảy liên tục hoặc không hoạt động khi có sự cố. Hãy nhớ: <strong>An toàn điện là số 1</strong>.</p><h3>Tại sao nên chọn mua tại Tổng Kho Thiết Bị Điện Duy Phong?</h3><p>Với kinh nghiệm cung cấp thiết bị cho các KCN lớn như Quế Võ, Yên Phong, chúng tôi cam kết:</p><ul><li>Hàng chính hãng 100%, nói không với hàng giả, hàng nhái.</li><li>Chiết khấu cực tốt cho công trình, biệt thự và nhà phố.</li><li>Hỗ trợ tư vấn kỹ thuật trực tiếp bởi Kỹ sư A Thành.</li></ul><p><strong>Bạn cần tư vấn giải pháp an toàn điện cho ngôi nhà?</strong> Hãy liên hệ ngay với chúng tôi để được khảo sát và báo giá tốt nhất thị trường.</p><p><strong>Tổng Kho Thiết Bị Điện Duy Phong Bắc Ninh</strong><br>Địa chỉ: 549 Ngô Gia Tự, P. Ninh Xá, TP. Bắc Ninh<br>Hotline: 0904.511.227</p>"
 },
 

@@ -7,7 +7,7 @@
  */
 
 const STORAGE_KEYS = {
-    PRODUCTS: 'duyphong_athanhbn_products_v20261108_465',
+    PRODUCTS: 'duyphong_athanhbn_products_v20261111_source',
     CART_BOQ: 'duyphong_athanhbn_boq_v1',
     QUOTES:   'duyphong_athanhbn_quotes_v1'
 };
@@ -61,7 +61,7 @@ const INITIAL_PRODUCTS = [
             "1x10.0 mm² tròn (72,500 đ/m)"
         ],
         "desc": "Dây đơn tròn 1 ruột đồng tinh khiết 99.99% Trần Phú, vỏ PVC chống cháy. Đầy đủ màu Đỏ, Vàng, Xanh dương, Đen.",
-        "image": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lsh4opqooujd9d"
+        "image": "assets/images/products/day-don-tran-phu.jpg"
     },
     {
         "id": "tp-02",
@@ -79,7 +79,7 @@ const INITIAL_PRODUCTS = [
             "1x6.0 mm² Tiếp địa (40,800 đ/m)"
         ],
         "desc": "Dây tiếp địa Trần Phú sọc vàng/xanh tiêu chuẩn kỹ thuật an toàn điện lực, triệt tiêu dòng rò và chống sét lan truyền.",
-        "image": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lsh4opqooujd9d"
+        "image": "assets/images/products/day-tiep-dia-tran-phu.jpg"
     },
     {
         "id": "tp-03",
@@ -101,7 +101,7 @@ const INITIAL_PRODUCTS = [
             "Dây súp dẹt 2x0.75 mm² (11,700 đ/m)"
         ],
         "desc": "Dây điện đôi 2 ruột đồng Trần Phú bọc PVC cách điện kép, thích hợp chạy dây bóng điện, quạt, ổ cắm gia đình.",
-        "image": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lsh4opqooujd9d"
+        "image": "assets/images/products/day-doi-tran-phu.jpg"
     },
     {
         "id": "tp-04",
@@ -129,7 +129,7 @@ const INITIAL_PRODUCTS = [
             "Cáp mềm 4x6.0 mm² (175,400 đ/m)"
         ],
         "desc": "Cáp điện tròn nhiều ruột đồng mềm bện xoắn Trần Phú, mềm dẻo chịu lực cơ học, chuyên dùng cấp nguồn điều hòa, động cơ.",
-        "image": "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m3ysa8xic0hcb2"
+        "image": "assets/images/products/cap-mem-tran-phu.jpg"
     },
     {
         "id": "tp-05",
@@ -192,7 +192,7 @@ const INITIAL_PRODUCTS = [
             "1x6.0 mm² VCSH Chống sét (37,074 đ/m)"
         ],
         "desc": "Dây điện đơn 1 ruột đồng mềm Cadisun chính hãng bọc nhựa PVC cách điện cao cấp, đủ kích cỡ và màu sắc thi công nhà ở gia đình.",
-        "image": "https://down-vn.img.susercontent.com/file/vn-11134201-7r98o-lm0mlxq284bjc7"
+        "image": "assets/images/products/day-don-cadisun.jpg"
     },
     {
         "id": "cds-02",
@@ -213,7 +213,7 @@ const INITIAL_PRODUCTS = [
             "Dây đôi 2x6.0 mm² (76,339 đ/m)"
         ],
         "desc": "Dây điện đôi 2 ruột đồng Cadisun vỏ bọc dẻo dai, dễ bóc tách đấu nối cho các thiết bị đèn chiếu sáng, quạt trần, ổ cắm.",
-        "image": "https://down-vn.img.susercontent.com/file/vn-11134201-7r98o-lm0mlxq284bjc7"
+        "image": "assets/images/products/day-doi-cadisun.jpg"
     },
     {
         "id": "cds-03",
@@ -241,7 +241,7 @@ const INITIAL_PRODUCTS = [
             "Cáp mềm 4x6.0 mm² VCTF (154,312 đ/m)"
         ],
         "desc": "Cáp tròn mềm VCTF Cadisun chịu uốn gập di động cao, dùng đấu nối máy móc cơ khí, thiết bị xưởng sản xuất, quạt hút.",
-        "image": "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m3ysa8xic0hcb2"
+        "image": "assets/images/products/cap-mem-cadisun.jpg"
     },
     {
         "id": "cds-04",
@@ -274,7 +274,7 @@ const INITIAL_PRODUCTS = [
             "Cáp CXV 1x240 mm² (1,422,257 đ/m)"
         ],
         "desc": "Cáp lực hạ thế 1 ruột đồng Cadisun cách điện XLPE/PVC 0.6/1kV, tải dòng lớn kéo trục chính từ trạm biến áp vào tủ điện tổng.",
-        "image": "https://sudospaces.com/super-mro/2022/10/day-dien-cadisun-cxv-3x16-600v1kv.jpg"
+        "image": "assets/images/products/cap-cv-cadisun.jpg"
     },
     {
         "id": "cds-05",
@@ -302,7 +302,7 @@ const INITIAL_PRODUCTS = [
             "3x240 + 1x150 mm² (5,188,933 đ/m)"
         ],
         "desc": "Cáp đồng treo hạ thế 3 pha 4 lõi Cadisun cấp nguồn tủ phân phối MSB/DB cho nhà xưởng, trạm máy công nghiệp Bắc Ninh.",
-        "image": "https://thietbidienhanoi.vn/media/product/1477_0_cap_nhom_4_ruot_xlpe_abc_4x_cadisun.jpg"
+        "image": "assets/images/products/cap-3pha-4loi-cadisun.jpg"
     },
     {
         "id": "cds-06",
@@ -331,7 +331,7 @@ const INITIAL_PRODUCTS = [
             "Cáp 4x50 mm² (1,150,811 đ/m)"
         ],
         "desc": "Cáp đồng hạ thế treo Cadisun 2 ruột & 4 ruột bằng nhau cách điện XLPE/PVC bền chắc, vận hành an toàn tuyệt đối.",
-        "image": "https://thietbidienhanoi.vn/media/product/1477_0_cap_nhom_4_ruot_xlpe_abc_4x_cadisun.jpg"
+        "image": "assets/images/products/cap-3pha-4loi-cadisun.jpg"
     },
     {
         "id": "cds-07",
@@ -365,7 +365,7 @@ const INITIAL_PRODUCTS = [
             "Cáp ngầm 3x95+1x50 mm² DSTA (2,019,834 đ/m)"
         ],
         "desc": "Cáp ngầm bọc 2 lớp giáp băng thép mạ kẽm DSTA Cadisun, chôn trực tiếp dưới đất, chống chuột gặm nhấm và ẩm ngập.",
-        "image": "https://capvienthong.vn/media/lib/2549_day-cap-dien-cadisun-cap-ngam-dsta-4x25.jpg"
+        "image": "assets/images/products/cap-ngam-cadisun.jpg"
     },
     {
         "id": "cdg-01",
@@ -522,7 +522,7 @@ const INITIAL_PRODUCTS = [
         discount: 10,
         variants: ['Tiết diện 1.5mm² (Đỏ/Xanh/Vàng)', 'Tiết diện 2.5mm² (Đỏ/Xanh/Đen)', 'Tiết diện 4.0mm² (Chạy nguồn chính)', 'Tiết diện 6.0mm² (Chạy trục tổng)'],
         desc: 'Dây đồng nguyên chất 99.99% dẫn điện tối ưu, vỏ PVC chống cháy lan chuyên dùng đi âm tường xây nhà mới.',
-        image: 'assets/images/kho-day-cap-thiet-bi.jpg'
+        image: 'assets/images/products/day-don-tran-phu.jpg'
     },
     {
         id: 'dp-02',
@@ -548,7 +548,7 @@ const INITIAL_PRODUCTS = [
         discount: 10,
         variants: ['CVV 3x6 + 1x4 mm²', 'CVV 3x10 + 1x6 mm²', 'CVV 3x16 + 1x10 mm²', 'CVV 3x25 + 1x16 mm²', 'CVV 3x35 + 1x16 mm²'],
         desc: 'Cáp lực 3 pha cấp nguồn tổng cho tủ điện MSB/DB nhà xưởng vừa và nhỏ tại các KCN Bắc Ninh. Cắt lẻ theo số mét yêu cầu.',
-        image: createProductSvgDataUri('Cáp Lực 3 Pha 4 Lõi Nhà Xưởng', 'CADISUN', 'CDS-3P-4x16', '#06B6D4', '🏭')
+        image: 'assets/images/products/cap-3pha-4loi-cadisun.jpg'
     },
     {
         id: 'dp-04',

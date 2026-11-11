@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
@@ -598,8 +598,12 @@
                     <i class="fas fa-envelope-open-text"></i> 4. Hộp Thư Báo Giá Khách Gửi
                     <span class="badge-count" id="badgeQuoteCount">0</span>
                 </button>
+                <button type="button" class="tab-btn" data-tab="tab-agents" onclick="switchTab('tab-agents')">
+                    <i class="fas fa-network-wired"></i> 5. Tổng Hành Dinh Agents
+                    <span class="badge-count" style="background: #10B981; color:#000; font-weight:700;">5 TEAMS</span>
+                </button>
                 <button type="button" class="tab-btn" data-tab="tab-settings" onclick="switchTab('tab-settings')">
-                    <i class="fas fa-sliders"></i> 5. Cài Đặt & Đổi Mật Khẩu
+                    <i class="fas fa-sliders"></i> 6. Cài Đặt & Đổi Mật Khẩu
                 </button>
             </div>
         </div>
@@ -962,6 +966,342 @@
                         <div id="quotesListContainer">
                             <!-- Render via JS -->
                         </div>
+                    </div>
+                </div>
+
+
+                <!-- =====================================================
+                     TAB 5: TỔNG HÀNH DINH AGENTS (GROK BOT TEAMS)
+                     ===================================================== -->
+                <div class="tab-pane" id="tab-agents">
+                    <!-- Top Ribbon Header -->
+                    <div style="background: linear-gradient(135deg, rgba(14,20,34,0.95) 0%, rgba(21,29,48,0.95) 100%); border: 1px solid var(--border-gold); border-radius: var(--radius-lg); padding: 24px; margin-bottom: 24px; box-shadow: 0 15px 35px rgba(0,0,0,0.5); position: relative; overflow: hidden;">
+                        <div style="position: absolute; top:0; left:0; right:0; height:3px; background: linear-gradient(90deg, #3B82F6, #8B5CF6, #EF4444, #F59E0B, #10B981);"></div>
+                        
+                        <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 20px;">
+                            <div>
+                                <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 6px;">
+                                    <div style="width: 44px; height: 44px; border-radius: 12px; background: linear-gradient(135deg, var(--primary) 0%, #AA820A 100%); display: flex; align-items: center; gap: 4px; justify-content: center; color: #000; font-size: 1.3rem;">
+                                        <i class="fas fa-robot"></i>
+                                    </div>
+                                    <div>
+                                        <h2 style="font-size: 1.4rem; color: var(--primary-light); letter-spacing: 0.5px;">TỔNG HÀNH DINH AGENTS (GROK BOT TEAMS)</h2>
+                                        <p style="font-size: 0.85rem; color: var(--text-secondary);">5 Nhóm Đặc Nhiệm AI Tác Chiến 24/7 | Chủ Tịch Lê Minh Tân (@itan951bot)</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div style="display: flex; flex-wrap: wrap; gap: 12px;">
+                                <div style="background: rgba(16,185,129,0.15); border: 1px solid #10B981; padding: 8px 16px; border-radius: 10px; text-align: center;">
+                                    <div style="font-size: 1.25rem; font-weight: 800; color: #10B981;">5 / 5</div>
+                                    <div style="font-size: 0.72rem; color: var(--text-secondary); text-transform: uppercase;">TEAMS ONLINE</div>
+                                </div>
+                                <div style="background: rgba(6,182,212,0.15); border: 1px solid #06B6D4; padding: 8px 16px; border-radius: 10px; text-align: center;">
+                                    <div style="font-size: 1.25rem; font-weight: 800; color: #06B6D4;">19 / 19</div>
+                                    <div style="font-size: 0.72rem; color: var(--text-secondary); text-transform: uppercase;">AGENTS TRỰC CHIẾN</div>
+                                </div>
+                                <div style="background: rgba(245,158,11,0.15); border: 1px solid #F59E0B; padding: 8px 16px; border-radius: 10px; text-align: center;">
+                                    <div style="font-size: 1.25rem; font-weight: 800; color: #F59E0B;">0 VNĐ</div>
+                                    <div style="font-size: 0.72rem; color: var(--text-secondary); text-transform: uppercase;">CHI PHÍ MÁY CHỦ</div>
+                                </div>
+                                <div style="background: rgba(139,92,246,0.15); border: 1px solid #8B5CF6; padding: 8px 16px; border-radius: 10px; text-align: center;">
+                                    <div style="font-size: 1.25rem; font-weight: 800; color: #A78BFA;">24/7</div>
+                                    <div style="font-size: 0.72rem; color: var(--text-secondary); text-transform: uppercase;">RENDER CLOUD UPTIME</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Approval Boundaries Bar (Hàng Rào Phê Duyệt An Toàn) -->
+                    <div class="panel" style="margin-bottom: 24px; border-left: 4px solid var(--primary);">
+                        <div class="panel-header" style="margin-bottom: 14px;">
+                            <div>
+                                <h3 class="panel-title" style="color: var(--primary);"><i class="fas fa-shield-halved"></i> HÀNG RÀO PHÊ DUYỆT BẢO MẬT (APPROVAL BOUNDARIES)</h3>
+                                <p style="font-size: 0.82rem; color: var(--text-secondary);">Cơ chế bảo vệ tuyệt đối: Mọi hành động tài chính và xuất bản đều yêu cầu xác nhận 1-chạm của Chủ tịch.</p>
+                            </div>
+                            <span class="badge-pill" style="background: rgba(16,185,129,0.2); color: #10B981; border: 1px solid #10B981; padding: 6px 14px; font-weight: 700;">
+                                <i class="fas fa-circle-check"></i> ĐANG BẬT TOÀN DIỆN
+                            </span>
+                        </div>
+
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px;">
+                            <div style="background: rgba(11,15,23,0.7); border: 1px solid var(--border-subtle); border-radius: 10px; padding: 14px; display: flex; align-items: center; justify-content: space-between;">
+                                <div>
+                                    <div style="font-weight: 700; font-size: 0.9rem; color: #fff;"><i class="fas fa-newspaper" style="color: #F59E0B; margin-right: 6px;"></i> Xuất Bản Website (Publishing)</div>
+                                    <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 2px;">Tạo bài viết SEO & ảnh Luxury</div>
+                                </div>
+                                <span style="background: rgba(16,185,129,0.2); color: #10B981; font-size: 0.75rem; font-weight: 700; padding: 4px 10px; border-radius: 6px; border: 1px solid #10B981;">
+                                    CẦN DUYỆT TELEGRAM
+                                </span>
+                            </div>
+
+                            <div style="background: rgba(11,15,23,0.7); border: 1px solid var(--border-subtle); border-radius: 10px; padding: 14px; display: flex; align-items: center; justify-content: space-between;">
+                                <div>
+                                    <div style="font-weight: 700; font-size: 0.9rem; color: #fff;"><i class="fas fa-money-bill-wave" style="color: #10B981; margin-right: 6px;"></i> Đơn Hàng & Dòng Tiền (Money)</div>
+                                    <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 2px;">Cọc 70% logistics & giá BOQ thợ</div>
+                                </div>
+                                <span style="background: rgba(16,185,129,0.2); color: #10B981; font-size: 0.75rem; font-weight: 700; padding: 4px 10px; border-radius: 6px; border: 1px solid #10B981;">
+                                    SUPER_ADMIN ONLY
+                                </span>
+                            </div>
+
+                            <div style="background: rgba(11,15,23,0.7); border: 1px solid var(--border-subtle); border-radius: 10px; padding: 14px; display: flex; align-items: center; justify-content: space-between;">
+                                <div>
+                                    <div style="font-weight: 700; font-size: 0.9rem; color: #fff;"><i class="fas fa-sun" style="color: #EF4444; margin-right: 6px;"></i> Lịch Khởi Động Sáng (Life Team)</div>
+                                    <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 2px;">Bản tin 07:30 tỷ giá CNY & việc ưu tiên</div>
+                                </div>
+                                <span style="background: rgba(6,182,212,0.2); color: #06B6D4; font-size: 0.75rem; font-weight: 700; padding: 4px 10px; border-radius: 6px; border: 1px solid #06B6D4;">
+                                    TỰ ĐỘNG 07:30
+                                </span>
+                            </div>
+
+                            <div style="background: rgba(11,15,23,0.7); border: 1px solid var(--border-subtle); border-radius: 10px; padding: 14px; display: flex; align-items: center; justify-content: space-between;">
+                                <div>
+                                    <div style="font-weight: 700; font-size: 0.9rem; color: #fff;"><i class="fas fa-code-commit" style="color: #8B5CF6; margin-right: 6px;"></i> Code Merges & Push Git</div>
+                                    <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 2px;">Kiểm tra cú pháp & bảo toàn dữ liệu</div>
+                                </div>
+                                <span style="background: rgba(139,92,246,0.2); color: #A78BFA; font-size: 0.75rem; font-weight: 700; padding: 4px 10px; border-radius: 6px; border: 1px solid #8B5CF6;">
+                                    PR VERIFIER GATE
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 5 Teams Grid -->
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 20px; margin-bottom: 24px;">
+                        
+                        <!-- TEAM 1: RUN COMPANY -->
+                        <div class="panel" style="border-top: 4px solid #3B82F6;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                                <div style="display: flex; align-items: center; gap: 8px;">
+                                    <span style="width: 10px; height: 10px; border-radius: 50%; background: #3B82F6; box-shadow: 0 0 8px #3B82F6;"></span>
+                                    <h4 style="color: #60A5FA; font-size: 1.05rem;">TEAM 1: RUN COMPANY</h4>
+                                </div>
+                                <span style="font-size: 0.72rem; color: var(--text-secondary); background: rgba(59,130,246,0.15); padding: 3px 8px; border-radius: 4px;">4 Agents</span>
+                            </div>
+                            <p style="font-size: 0.78rem; color: var(--text-muted); margin-bottom: 14px;">Vận hành kinh doanh, báo giá thợ thầu và chăm sóc khách hàng 24/7.</p>
+                            
+                            <div style="display: flex; flex-direction: column; gap: 8px;">
+                                <div style="background: rgba(11,15,23,0.5); padding: 8px 12px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center;">
+                                    <span style="font-size: 0.84rem; color: #E2E8F0;"><i class="fas fa-crown" style="color: var(--primary); width: 20px;"></i> <strong>Eng Lead</strong></span>
+                                    <span style="font-size: 0.72rem; color: #10B981; font-weight: 600;">ONLINE (sales.call)</span>
+                                </div>
+                                <div style="background: rgba(11,15,23,0.5); padding: 8px 12px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center;">
+                                    <span style="font-size: 0.84rem; color: #E2E8F0;"><i class="fas fa-bullhorn" style="color: #60A5FA; width: 20px;"></i> <strong>Marketing</strong></span>
+                                    <span style="font-size: 0.72rem; color: #10B981; font-weight: 600;">ONLINE (traffic.ads)</span>
+                                </div>
+                                <div style="background: rgba(11,15,23,0.5); padding: 8px 12px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center;">
+                                    <span style="font-size: 0.84rem; color: #E2E8F0;"><i class="fas fa-headset" style="color: #06B6D4; width: 20px;"></i> <strong>Support 24/7</strong></span>
+                                    <span style="font-size: 0.72rem; color: #10B981; font-weight: 600;">ONLINE (tg.listen)</span>
+                                </div>
+                                <div style="background: rgba(11,15,23,0.5); padding: 8px 12px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center;">
+                                    <span style="font-size: 0.84rem; color: #E2E8F0;"><i class="fas fa-calculator" style="color: #F59E0B; width: 20px;"></i> <strong>Sales & BOQ</strong></span>
+                                    <span style="font-size: 0.72rem; color: #10B981; font-weight: 600;">ONLINE (quote.boq)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- TEAM 2: CODING & DEPLOY -->
+                        <div class="panel" style="border-top: 4px solid #8B5CF6;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                                <div style="display: flex; align-items: center; gap: 8px;">
+                                    <span style="width: 10px; height: 10px; border-radius: 50%; background: #8B5CF6; box-shadow: 0 0 8px #8B5CF6;"></span>
+                                    <h4 style="color: #A78BFA; font-size: 1.05rem;">TEAM 2: CODING & DEPLOY</h4>
+                                </div>
+                                <span style="font-size: 0.72rem; color: var(--text-secondary); background: rgba(139,92,246,0.15); padding: 3px 8px; border-radius: 4px;">4 Agents</span>
+                            </div>
+                            <p style="font-size: 0.78rem; color: var(--text-muted); margin-bottom: 14px;">Phát triển tính năng, kiểm thử lỗi hiển thị và đẩy code GitHub Pages.</p>
+                            
+                            <div style="display: flex; flex-direction: column; gap: 8px;">
+                                <div style="background: rgba(11,15,23,0.5); padding: 8px 12px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center;">
+                                    <span style="font-size: 0.84rem; color: #E2E8F0;"><i class="fas fa-file-code" style="color: #A78BFA; width: 20px;"></i> <strong>Spec Writer</strong></span>
+                                    <span style="font-size: 0.72rem; color: #10B981; font-weight: 600;">ONLINE (cli.run)</span>
+                                </div>
+                                <div style="background: rgba(11,15,23,0.5); padding: 8px 12px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center;">
+                                    <span style="font-size: 0.84rem; color: #E2E8F0;"><i class="fas fa-bug" style="color: #EF4444; width: 20px;"></i> <strong>Bug Repro</strong></span>
+                                    <span style="font-size: 0.72rem; color: #10B981; font-weight: 600;">ONLINE (work.veri)</span>
+                                </div>
+                                <div style="background: rgba(11,15,23,0.5); padding: 8px 12px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center;">
+                                    <span style="font-size: 0.84rem; color: #E2E8F0;"><i class="fas fa-code-pull-request" style="color: #38BDF8; width: 20px;"></i> <strong>PR Producer</strong></span>
+                                    <span style="font-size: 0.72rem; color: #10B981; font-weight: 600;">ONLINE (pr.verify)</span>
+                                </div>
+                                <div style="background: rgba(11,15,23,0.5); padding: 8px 12px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center;">
+                                    <span style="font-size: 0.84rem; color: #E2E8F0;"><i class="fas fa-shield-check" style="color: #10B981; width: 20px;"></i> <strong>PR Verifier</strong></span>
+                                    <span style="font-size: 0.72rem; color: #10B981; font-weight: 600;">ONLINE (gh.pages)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- TEAM 3: LIFE & PERSONAL ROUTINE -->
+                        <div class="panel" style="border-top: 4px solid #EC4899;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                                <div style="display: flex; align-items: center; gap: 8px;">
+                                    <span style="width: 10px; height: 10px; border-radius: 50%; background: #EC4899; box-shadow: 0 0 8px #EC4899;"></span>
+                                    <h4 style="color: #F472B6; font-size: 1.05rem;">TEAM 3: LIFE & ROUTINE</h4>
+                                </div>
+                                <span style="font-size: 0.72rem; color: var(--text-secondary); background: rgba(236,72,153,0.15); padding: 3px 8px; border-radius: 4px;">4 Agents</span>
+                            </div>
+                            <p style="font-size: 0.78rem; color: var(--text-muted); margin-bottom: 14px;">Trợ lý đồng hành cá nhân, điểm tin sáng 07:30 và ghi nhớ quy tắc vàng.</p>
+                            
+                            <div style="display: flex; flex-direction: column; gap: 8px;">
+                                <div style="background: rgba(11,15,23,0.5); padding: 8px 12px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center;">
+                                    <span style="font-size: 0.84rem; color: #E2E8F0;"><i class="fas fa-compass" style="color: #EC4899; width: 20px;"></i> <strong>Coordinator</strong></span>
+                                    <span style="font-size: 0.72rem; color: #10B981; font-weight: 600;">ONLINE (zelly.cmd)</span>
+                                </div>
+                                <div style="background: rgba(11,15,23,0.5); padding: 8px 12px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center;">
+                                    <span style="font-size: 0.84rem; color: #E2E8F0;"><i class="fas fa-brain" style="color: #A855F7; width: 20px;"></i> <strong>Long Memory</strong></span>
+                                    <span style="font-size: 0.72rem; color: #10B981; font-weight: 600;">ONLINE (memory.md)</span>
+                                </div>
+                                <div style="background: rgba(11,15,23,0.5); padding: 8px 12px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center;">
+                                    <span style="font-size: 0.84rem; color: #E2E8F0;"><i class="fas fa-lightbulb" style="color: #F59E0B; width: 20px;"></i> <strong>Daily Research</strong></span>
+                                    <span style="font-size: 0.72rem; color: #10B981; font-weight: 600;">ONLINE (research.ai)</span>
+                                </div>
+                                <div style="background: rgba(11,15,23,0.5); padding: 8px 12px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center;">
+                                    <span style="font-size: 0.84rem; color: #E2E8F0;"><i class="fas fa-bell" style="color: #10B981; width: 20px;"></i> <strong>Morning Brief</strong></span>
+                                    <span style="font-size: 0.72rem; color: #10B981; font-weight: 600;">ONLINE (/morning 7h30)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- TEAM 4: CONTENT MACHINE -->
+                        <div class="panel" style="border-top: 4px solid #F59E0B;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                                <div style="display: flex; align-items: center; gap: 8px;">
+                                    <span style="width: 10px; height: 10px; border-radius: 50%; background: #F59E0B; box-shadow: 0 0 8px #F59E0B;"></span>
+                                    <h4 style="color: #FBBF24; font-size: 1.05rem;">TEAM 4: CONTENT ENGINE</h4>
+                                </div>
+                                <span style="font-size: 0.72rem; color: var(--text-secondary); background: rgba(245,158,11,0.15); padding: 3px 8px; border-radius: 4px;">3 Agents</span>
+                            </div>
+                            <p style="font-size: 0.78rem; color: var(--text-muted); margin-bottom: 14px;">Tự viết bài SEO chuyên sâu và vẽ banner Luxury Black & Gold chuẩn tiếng Việt.</p>
+                            
+                            <div style="display: flex; flex-direction: column; gap: 8px;">
+                                <div style="background: rgba(11,15,23,0.5); padding: 8px 12px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center;">
+                                    <span style="font-size: 0.84rem; color: #E2E8F0;"><i class="fas fa-magnifying-glass-chart" style="color: #F59E0B; width: 20px;"></i> <strong>SEO Research</strong></span>
+                                    <span style="font-size: 0.72rem; color: #10B981; font-weight: 600;">ONLINE (seo.scan)</span>
+                                </div>
+                                <div style="background: rgba(11,15,23,0.5); padding: 8px 12px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center;">
+                                    <span style="font-size: 0.84rem; color: #E2E8F0;"><i class="fas fa-pen-nib" style="color: #60A5FA; width: 20px;"></i> <strong>Drafts Engine</strong></span>
+                                    <span style="font-size: 0.72rem; color: #10B981; font-weight: 600;">ONLINE (gemini.2.5)</span>
+                                </div>
+                                <div style="background: rgba(11,15,23,0.5); padding: 8px 12px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center;">
+                                    <span style="font-size: 0.84rem; color: #E2E8F0;"><i class="fas fa-image" style="color: var(--primary); width: 20px;"></i> <strong>Luxury Publisher</strong></span>
+                                    <span style="font-size: 0.72rem; color: #10B981; font-weight: 600;">ONLINE (pillow.gold)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- TEAM 5: TRADING & LOGISTICS -->
+                        <div class="panel" style="border-top: 4px solid #10B981; grid-column: span 2;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                                <div style="display: flex; align-items: center; gap: 8px;">
+                                    <span style="width: 10px; height: 10px; border-radius: 50%; background: #10B981; box-shadow: 0 0 8px #10B981;"></span>
+                                    <h4 style="color: #34D399; font-size: 1.05rem;">TEAM 5: TRADING & LOGISTICS (HOÀNG THỊNH 1688 & DÒNG TIỀN)</h4>
+                                </div>
+                                <span style="font-size: 0.72rem; color: var(--text-secondary); background: rgba(16,185,129,0.15); padding: 3px 8px; border-radius: 4px;">5 Agents</span>
+                            </div>
+                            <p style="font-size: 0.78rem; color: var(--text-muted); margin-bottom: 14px;">Giám sát tỷ giá CNY/VND, đồng hồ xóa nợ 500k Google One và quy trình vận chuyển kho Nguyễn Khoái.</p>
+                            
+                            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px;">
+                                <div style="background: rgba(11,15,23,0.5); padding: 10px 12px; border-radius: 8px;">
+                                    <div style="font-size: 0.75rem; color: var(--text-muted);">Tỷ Giá CNY / VND</div>
+                                    <div style="font-size: 1.05rem; font-weight: 700; color: #34D399; margin-top: 2px;">~3.615 đ</div>
+                                    <div style="font-size: 0.68rem; color: #10B981;"><i class="fas fa-check"></i> Chuẩn logistics</div>
+                                </div>
+                                <div style="background: rgba(11,15,23,0.5); padding: 10px 12px; border-radius: 8px;">
+                                    <div style="font-size: 0.75rem; color: var(--text-muted);">Kho Hà Nội</div>
+                                    <div style="font-size: 0.95rem; font-weight: 700; color: #F3E5AB; margin-top: 2px;">19/785 Nguyễn Khoái</div>
+                                    <div style="font-size: 0.68rem; color: #10B981;"><i class="fas fa-truck-fast"></i> Sẵn sàng gom đơn</div>
+                                </div>
+                                <div style="background: rgba(11,15,23,0.5); padding: 10px 12px; border-radius: 8px;">
+                                    <div style="font-size: 0.75rem; color: var(--text-muted);">Quy Tắc Vốn</div>
+                                    <div style="font-size: 0.95rem; font-weight: 700; color: #38BDF8; margin-top: 2px;">Cọc Trước 70%</div>
+                                    <div style="font-size: 0.68rem; color: #10B981;"><i class="fas fa-shield"></i> An toàn tuyệt đối</div>
+                                </div>
+                                <div style="background: rgba(11,15,23,0.5); padding: 10px 12px; border-radius: 8px;">
+                                    <div style="font-size: 0.75rem; color: var(--text-muted);">Đồng Hồ Xóa Nợ</div>
+                                    <div style="font-size: 0.95rem; font-weight: 700; color: #F59E0B; margin-top: 2px;">500.000 đ ($20)</div>
+                                    <div style="font-size: 0.68rem; color: var(--text-muted);">Cần 2 đơn 1688</div>
+                                </div>
+                                <div style="background: rgba(11,15,23,0.5); padding: 10px 12px; border-radius: 8px;">
+                                    <div style="font-size: 0.75rem; color: var(--text-muted);">Chi Phí Máy Chủ</div>
+                                    <div style="font-size: 0.95rem; font-weight: 700; color: #10B981; margin-top: 2px;">0 VNĐ / Tháng</div>
+                                    <div style="font-size: 0.68rem; color: #10B981;"><i class="fas fa-lock"></i> Kỷ luật thép</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Interactive Command Center & Activity Log -->
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                        
+                        <!-- Panel Điều Khiển Nhanh -->
+                        <div class="panel">
+                            <div class="panel-header" style="margin-bottom: 12px;">
+                                <h3 class="panel-title"><i class="fas fa-terminal"></i> BẢNG ĐIỀU KHIỂN TÁC CHIẾN 1-CHẠM</h3>
+                            </div>
+                            <p style="font-size: 0.82rem; color: var(--text-secondary); margin-bottom: 16px;">
+                                Các lệnh này được kết nối trực tiếp với Bot Telegram <strong>@itan951bot</strong> đang trực chiến trên Render Cloud.
+                            </p>
+
+                            <div style="display: flex; flex-direction: column; gap: 10px;">
+                                <a href="https://t.me/itan951bot?start=morning" target="_blank" class="btn btn-gold" style="justify-content: flex-start; padding: 12px 18px;">
+                                    <i class="fas fa-sun" style="font-size: 1.1rem; width: 24px;"></i>
+                                    <div>
+                                        <div style="font-weight: 700;">Lệnh: /morning (Khởi Động Ngày Mới)</div>
+                                        <div style="font-size: 0.75rem; font-weight: normal; color: #000;">Tỷ giá CNY hôm nay, tin tức điện Bắc Ninh & 3 việc ưu tiên</div>
+                                    </div>
+                                </a>
+
+                                <a href="https://t.me/itan951bot?start=publish_cadisun" target="_blank" class="btn btn-outline-gold" style="justify-content: flex-start; padding: 12px 18px;">
+                                    <i class="fas fa-newspaper" style="font-size: 1.1rem; width: 24px; color: var(--primary);"></i>
+                                    <div style="text-align: left;">
+                                        <div style="font-weight: 700; color: var(--primary-light);">Lệnh: /publish (Soạn Thảo Bài SEO + Banner)</div>
+                                        <div style="font-size: 0.75rem; color: var(--text-secondary);">Gửi bản nháp về Telegram để Chủ tịch duyệt 1-chạm trước khi lên web</div>
+                                    </div>
+                                </a>
+
+                                <a href="https://t.me/itan951bot?start=report" target="_blank" class="btn btn-outline-gold" style="justify-content: flex-start; padding: 12px 18px;">
+                                    <i class="fas fa-chart-pie" style="font-size: 1.1rem; width: 24px; color: #38BDF8;"></i>
+                                    <div style="text-align: left;">
+                                        <div style="font-weight: 700; color: #E2E8F0;">Lệnh: báo cáo (Em Vi Kế Toán Trưởng)</div>
+                                        <div style="font-size: 0.75rem; color: var(--text-secondary);">Báo cáo tài chính, dòng tiền & tiến độ xóa nợ 500k Google One</div>
+                                    </div>
+                                </a>
+
+                                <a href="https://t.me/itan951bot?start=warroom" target="_blank" class="btn btn-outline-gold" style="justify-content: flex-start; padding: 12px 18px;">
+                                    <i class="fas fa-fire" style="font-size: 1.1rem; width: 24px; color: #EF4444;"></i>
+                                    <div style="text-align: left;">
+                                        <div style="font-weight: 700; color: #E2E8F0;">Lệnh: war-room (Zelly × Itan Họp Tác Chiến)</div>
+                                        <div style="font-size: 0.75rem; color: var(--text-secondary);">Phản biện 3 kịch bản tăng tốc doanh thu điện & logistics</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Panel Nhật Ký Tác Chiến Trực Tuyến -->
+                        <div class="panel" style="display: flex; flex-direction: column;">
+                            <div class="panel-header" style="margin-bottom: 12px;">
+                                <h3 class="panel-title"><i class="fas fa-satellite-dish"></i> LIVE AGENT LOG (NHẬT KÝ THỰC THI)</h3>
+                                <span style="font-size: 0.75rem; color: #10B981;"><i class="fas fa-circle" style="font-size: 0.6rem;"></i> Streaming</span>
+                            </div>
+
+                            <div style="background: #06090F; border: 1px solid var(--border-subtle); border-radius: 8px; padding: 14px; font-family: 'Consolas', 'Courier New', monospace; font-size: 0.78rem; line-height: 1.6; color: #94A3B8; flex: 1; overflow-y: auto; max-height: 280px;">
+                                <div style="color: #10B981;">[23:30:15] [RENDER-CLOUD] Keep-Alive ping 200 OK. Zero cold-start active.</div>
+                                <div style="color: #60A5FA;">[23:30:45] [LIFE-TEAM] Morning routine scheduler armed for 07:30 AM (GMT+7).</div>
+                                <div style="color: #F59E0B;">[23:31:10] [APPROVAL-GATE] Boundary check: Publishing requires 1-tap OK on Telegram.</div>
+                                <div style="color: #A78BFA;">[23:31:35] [CONTENT-AI] Luxury banner generator loaded: Arial Bold TTF + Gold vector accents.</div>
+                                <div style="color: #34D399;">[23:32:00] [TRADING-BOT] CNY/VND pegged ~3,615 VNĐ. Hanoi warehouse reception open.</div>
+                                <div style="color: var(--primary-light);">[23:32:45] [DUY-PHONG-BN] Cadisun discount policy strictly locked: 5% - 15% theo khối lượng.</div>
+                                <div style="color: #10B981;">[23:33:10] [COST-GUARD] External API spend = 0 VNĐ. Google One breakeven pending.</div>
+                                <div style="color: #F472B6;">[23:33:45] [EM-VI] Ready to serve Chủ tịch Lê Minh Tân 24/7 on @itan951bot.</div>
+                            </div>
+
+                            <div style="margin-top: 10px; font-size: 0.74rem; color: var(--text-muted); text-align: right;">
+                                <em>Đồng bộ thời gian thực với GitHub Pages & Render Cloud.</em>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
 

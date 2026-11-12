@@ -417,12 +417,15 @@
         }
 
         .table-thumb {
-            width: 50px;
-            height: 42px;
-            object-fit: cover;
-            border-radius: 6px;
-            border: 1px solid var(--border-subtle);
-            background: #0B0F17;
+            width: 52px;
+            height: 52px;
+            object-fit: contain;
+            border-radius: 8px;
+            border: 1px solid rgba(212, 175, 55, 0.4);
+            background: #ffffff;
+            padding: 3px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+            flex-shrink: 0;
         }
 
         /* Upload Area */
@@ -1374,15 +1377,28 @@
     </div>
 
     <!-- Script Danh Mục Sản Phẩm Hệ Thống -->
-    <script src="../js/products.js?v=20261108_05"></script>
+    <script src="../js/products.js?v=20261112_full_real"></script>
 
     <!-- Script Xử Lý Toàn Bộ Admin -->
     <script>
         /**
          * HỆ THỐNG QUẢN TRỊ ADMIN - DUY PHONG ELECTRICS (A THÀNH BN)
          */
+        
+        function resolveAdminImage(src) {
+            if (!src || typeof src !== 'string') return '../assets/images/logo-icon.svg';
+            src = src.trim();
+            if (src.startsWith('data:') || src.startsWith('http://') || src.startsWith('https://') || src.startsWith('/')) {
+                return src;
+            }
+            if (src.startsWith('../')) {
+                return src;
+            }
+            return '../' + src;
+        }
+
         const STORAGE_KEYS = {
-            PRODUCTS: 'duyphong_athanhbn_products_v20261108_420',
+            PRODUCTS: 'duyphong_athanhbn_products_v20261112_full_real',
             QUOTES:   'duyphong_athanhbn_quotes_v1',
             TRAFFIC:  'duyphong_traffic_logs_v1',
             ARTICLES: 'duyphong_articles_v1',
@@ -1710,7 +1726,7 @@
                     ctx.drawImage(img, 0, 0, finalWidth, finalHeight);
 
                     currentProductImageData = canvas.toDataURL('image/jpeg', 0.85);
-                    document.getElementById('imagePreview').src = currentProductImageData;
+                    document.getElementById('imagePreview').src = resolveAdminImage(currentProductImageData);
                     document.getElementById('imagePreview').style.display = 'block';
                     document.getElementById('imagePlaceholder').style.display = 'none';
                     document.getElementById('prodImageUrl').value = '';
@@ -1724,7 +1740,7 @@
         function updateImagePreview(url) {
             if (url && url.trim().length > 0) {
                 currentProductImageData = url.trim();
-                document.getElementById('imagePreview').src = currentProductImageData;
+                document.getElementById('imagePreview').src = resolveAdminImage(currentProductImageData);
                 document.getElementById('imagePreview').style.display = 'block';
                 document.getElementById('imagePlaceholder').style.display = 'none';
             }
@@ -1744,7 +1760,8 @@
             const variantsStr = document.getElementById('prodVariants').value.trim();
 
             const variants = variantsStr ? variantsStr.split(',').map(s => s.trim()).filter(Boolean) : ['Tiêu chuẩn'];
-            const image = currentProductImageData || 'assets/images/kho-day-cap-thiet-bi.jpg';
+            const rawImg = currentProductImageData || 'assets/images/products/day-don-tran-phu.jpg';
+            const image = rawImg.startsWith('../') ? rawImg.substring(3) : rawImg;
 
             if (editId) {
                 // Sửa sản phẩm
@@ -1834,7 +1851,7 @@
                     <td>${idx + 1}</td>
                     <td>
                         <div style="display:flex; align-items:center; gap:12px;">
-                            <img src="${p.image}" class="table-thumb" alt="${p.name}">
+                            <img src="${resolveAdminImage(p.image)}" class="table-thumb" alt="${p.name}" onerror="this.onerror=null; this.src='../assets/images/logo-icon.svg';">
                             <div>
                                 <div style="font-weight:700; color:var(--text-primary); font-size:0.92rem;">${p.name}</div>
                                 <div style="font-size:0.75rem; color:var(--accent-cyan);">Mã: ${p.sku} • ${(p.variants || []).length} quy cách</div>
@@ -1866,7 +1883,11 @@
         function restoreDefaultProducts() {
             if (confirm('Khôi phục lại danh mục sản phẩm chuẩn ban đầu của cửa hàng Duy Phong?')) {
                 localStorage.removeItem(STORAGE_KEYS.PRODUCTS);
-                window.location.reload();
+                if (typeof window !== 'undefined' && window.ALL_PRODUCTS_DATA) {
+                    localStorage.setItem(STORAGE_KEYS.PRODUCTS, JSON.stringify(window.ALL_PRODUCTS_DATA));
+                }
+                showToast('Đã khôi phục danh mục gốc thành công!');
+                setTimeout(() => window.location.reload(), 500);
             }
         }
 
@@ -1892,7 +1913,7 @@
                     canvas.height = h;
                     ctx.drawImage(img, 0, 0, w, h);
                     currentArticleImageData = canvas.toDataURL('image/jpeg', 0.85);
-                    document.getElementById('articleImagePreview').src = currentArticleImageData;
+                    document.getElementById('articleImagePreview').src = resolveAdminImage(currentArticleImageData);
                     document.getElementById('articleImagePreview').style.display = 'block';
                     document.getElementById('articleImagePlaceholder').style.display = 'none';
                     document.getElementById('articleImageUrl').value = '';
@@ -1906,7 +1927,7 @@
         function updateArticleImagePreview(url) {
             if (url && url.trim().length > 0) {
                 currentArticleImageData = url.trim();
-                document.getElementById('articleImagePreview').src = currentArticleImageData;
+                document.getElementById('articleImagePreview').src = resolveAdminImage(currentArticleImageData);
                 document.getElementById('articleImagePreview').style.display = 'block';
                 document.getElementById('articleImagePlaceholder').style.display = 'none';
             }
@@ -2005,7 +2026,7 @@
                     <td>${idx + 1}</td>
                     <td>
                         <div style="display:flex; align-items:center; gap:12px;">
-                            <img src="${a.image}" class="table-thumb" alt="${a.title}">
+                            <img src="${resolveAdminImage(a.image)}" class="table-thumb" alt="${a.title}" onerror="this.onerror=null; this.src='../assets/images/logo-icon.svg';">
                             <div>
                                 <div style="font-weight:700; color:var(--text-primary); font-size:0.92rem;">${a.title}</div>
                                 <div style="font-size:0.75rem; color:var(--text-muted);">Tác giả: ${a.author}</div>

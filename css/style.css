@@ -4,24 +4,28 @@
    ========================================================================== */
 
 :root {
-    --bg-main:       #0B0F17; /* Đen Obsidian sâu sang trọng */
-    --bg-card:       #161F30; /* Nền thẻ nổi Glassmorphism */
-    --bg-elevated:   #1E293B; /* Nền nổi cấp 2 */
-    --bg-input:      #0F172A; /* Nền ô nhập liệu */
-    --primary:       #D4AF37; /* Vàng Hoàng Gia (Royal Gold - CTA & Highlights) */
-    --primary-light: #F3E5AB; /* Vàng Ánh Kim sáng */
-    --primary-dark:  #AA820A; /* Vàng Đậm */
+    /* THEME: RƯỢU VANG NỬA ĐÊM (MIDNIGHT WINE & CHAMPAGNE GOLD) */
+    --bg-main:       #130510; /* Màn đêm Rượu Vang Velvet sâu thẳm quý phái */
+    --bg-card:       #1F0A1B; /* Nền thẻ nhung Bordeaux ủ lâu năm */
+    --bg-elevated:   #2C1026; /* Nền nổi cấp 2 sang trọng */
+    --bg-input:      #180614; /* Nền ô nhập liệu */
+    --primary:       #E5A93C; /* Vàng Champagne Hoàng Gia (CTA & Highlights) */
+    --primary-light: #FDE68A; /* Vàng Ánh Kim sáng rực rỡ */
+    --primary-dark:  #B45309; /* Vàng Hổ Phách trầm ấm */
+    --accent-wine:   #BE123C; /* Đỏ Ruby Rượu Vang quý tộc */
     --accent-green:  #10B981; /* Xanh Ngọc Lục Bảo (Thành công / Chiết khấu) */
-    --accent-cyan:   #06B6D4; /* Xanh Công Nghệ (Thông số kỹ thuật) */
-    --accent-red:    #EF4444; /* Đỏ cảnh báo / Xóa */
-    --accent-amber:  #F59E0B; /* Cam vàng (Nổi bật) */
-    --text-primary:  #F8FAFC; /* Chữ chính trắng sáng */
-    --text-secondary:#94A3B8; /* Chữ phụ xám bạc */
-    --text-muted:    #64748B; /* Chữ mờ */
-    --border-gold:   rgba(212, 175, 55, 0.28);
-    --border-subtle: rgba(148, 163, 184, 0.16);
-    --shadow-gold:   0 10px 30px -5px rgba(212, 175, 55, 0.2);
-    --shadow-card:   0 12px 32px rgba(0, 0, 0, 0.45);
+    --accent-cyan:   #38BDF8; /* Xanh Băng Công Nghệ (Thông số kỹ thuật) */
+    --accent-red:    #E11D48; /* Đỏ Cánh Hồng / Cảnh báo */
+    --accent-amber:  #F59E0B; /* Cam Hổ Phách (Nổi bật) */
+    --text-primary:  #FFF1F2; /* Chữ chính trắng ánh hồng ngọc trai cao cấp */
+    --text-secondary:#E2CBD4; /* Chữ phụ xám bạc ánh hồng dịu mắt */
+    --text-muted:    #9E8691; /* Chữ mờ tro hoa hồng cổ điển */
+    --border-gold:   rgba(229, 169, 60, 0.32); /* Viền vàng kim Champagne */
+    --border-wine:   rgba(190, 18, 60, 0.35);  /* Viền nhung rượu vang */
+    --border-subtle: rgba(225, 29, 72, 0.18);  /* Viền vi mô ánh ruby */
+    --shadow-gold:   0 10px 30px -5px rgba(229, 169, 60, 0.25);
+    --shadow-wine:   0 12px 35px rgba(136, 19, 55, 0.35);
+    --shadow-card:   0 14px 36px rgba(13, 3, 9, 0.65);
     --radius-sm:     8px;
     --radius-md:     12px;
     --radius-lg:     18px;
@@ -41,27 +45,22 @@ html {
 }
 
 body {
-    overflow-x: hidden;
-    max-width: 100%;
-}
-
-body {
     font-family: 'Inter', 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    background-color: #070B13;
+    background-color: #0E040C;
     background-image: 
-        /* 1. Lưới kỹ thuật vi mô sắc nét (Modern High-Tech Blueprint Grid) */
-        linear-gradient(to right, rgba(255, 255, 255, 0.025) 1px, transparent 1px),
-        linear-gradient(to bottom, rgba(255, 255, 255, 0.025) 1px, transparent 1px),
-        /* 2. Ánh hào quang Vàng Hoàng Gia góc trên trái */
-        radial-gradient(circle at 8% 12%, rgba(212, 175, 55, 0.14) 0%, transparent 40%),
-        /* 3. Ánh hào quang Xanh Cyan Công Nghệ góc trên phải */
-        radial-gradient(circle at 92% 16%, rgba(6, 182, 212, 0.12) 0%, transparent 45%),
-        /* 4. Chiều sâu màn đêm xanh Indigo trung tâm */
-        radial-gradient(circle at 50% 48%, rgba(28, 41, 70, 0.5) 0%, transparent 65%),
-        /* 5. Vùng sáng ấm Hoàng Kim khu vực bảng kê */
-        radial-gradient(circle at 85% 78%, rgba(212, 175, 55, 0.10) 0%, transparent 45%),
-        /* 6. Ánh Ngọc Lục Bảo thịnh vượng khu vực chân trang */
-        radial-gradient(circle at 15% 90%, rgba(16, 185, 129, 0.08) 0%, transparent 45%);
+        /* 1. Lưới kỹ thuật vi mô ánh ruby huyền bí */
+        linear-gradient(to right, rgba(244, 63, 94, 0.035) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(244, 63, 94, 0.035) 1px, transparent 1px),
+        /* 2. Hào quang Rượu Vang Bordeaux thượng hạng góc trên trái */
+        radial-gradient(circle at 10% 12%, rgba(190, 18, 60, 0.24) 0%, transparent 45%),
+        /* 3. Ánh Champagne Hoàng Kim ấm áp góc trên phải */
+        radial-gradient(circle at 90% 16%, rgba(229, 169, 60, 0.18) 0%, transparent 45%),
+        /* 4. Chiều sâu hầm rượu nhung tím than trung tâm */
+        radial-gradient(circle at 50% 48%, rgba(88, 11, 42, 0.45) 0%, transparent 65%),
+        /* 5. Vùng sáng ấm Hoàng Kim hổ phách khu vực bảng kê */
+        radial-gradient(circle at 85% 78%, rgba(245, 158, 11, 0.15) 0%, transparent 45%),
+        /* 6. Ánh Ruby quyền quý chân trang */
+        radial-gradient(circle at 15% 90%, rgba(225, 29, 72, 0.15) 0%, transparent 45%);
     background-size: 44px 44px, 44px 44px, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%;
     background-attachment: fixed;
     color: var(--text-primary);
@@ -96,7 +95,7 @@ button, input, select, textarea {
    1. TOPBAR & STICKY HEADER
    ========================================================================== */
 .topbar {
-    background: linear-gradient(90deg, #070A10 0%, #131B2E 50%, #070A10 100%);
+    background: linear-gradient(90deg, #0E040C 0%, #260C1F 50%, #0E040C 100%);
     border-bottom: 1px solid var(--border-gold);
     padding: 8px 0;
     font-size: 0.85rem;
@@ -142,7 +141,7 @@ button, input, select, textarea {
     position: sticky;
     top: 0;
     z-index: 900;
-    background: rgba(11, 15, 23, 0.92);
+    background: rgba(19, 6, 17, 0.94);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     border-bottom: 1px solid var(--border-gold);
@@ -403,7 +402,7 @@ button, input, select, textarea {
 }
 
 .pillar-card {
-    background: rgba(22, 31, 48, 0.8);
+    background: rgba(31, 10, 27, 0.8);
     border: 1px solid var(--border-subtle);
     border-left: 3px solid var(--primary);
     padding: 12px 14px;
@@ -471,7 +470,7 @@ button, input, select, textarea {
     bottom: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(to top, rgba(11, 15, 23, 0.95), transparent);
+    background: linear-gradient(to top, rgba(19, 5, 16, 0.95), transparent);
     padding: 24px 10px 8px;
     font-size: 0.78rem;
     font-weight: 600;
@@ -586,7 +585,7 @@ button, input, select, textarea {
 .combo-items-preview {
     list-style: none;
     margin-bottom: 18px;
-    background: rgba(11, 15, 23, 0.55);
+    background: rgba(19, 5, 16, 0.55);
     padding: 10px 12px;
     border-radius: var(--radius-sm);
     border: 1px solid var(--border-subtle);
@@ -762,7 +761,7 @@ button, input, select, textarea {
     position: absolute;
     top: 10px;
     left: 10px;
-    background: rgba(11, 15, 23, 0.85);
+    background: rgba(19, 5, 16, 0.85);
     border: 1px solid var(--border-gold);
     color: var(--primary-light);
     padding: 3px 10px;
@@ -1103,7 +1102,7 @@ button, input, select, textarea {
    7. INLINE BOQ / QUOTE BUILDER SECTION (DANH SÁCH YÊU CẦU BÁO GIÁ)
    ========================================================================== */
 .boq-section {
-    background: linear-gradient(180deg, rgba(22, 31, 48, 0.6) 0%, rgba(11, 15, 23, 0.95) 100%);
+    background: linear-gradient(180deg, rgba(31, 10, 27, 0.6) 0%, rgba(19, 5, 16, 0.95) 100%);
     border-top: 1px solid var(--border-gold);
     border-bottom: 1px solid var(--border-gold);
     padding: 44px 0;
@@ -1324,7 +1323,7 @@ button, input, select, textarea {
     left: 50%;
     transform: translateX(-50%);
     z-index: 850;
-    background: rgba(22, 31, 48, 0.96);
+    background: rgba(31, 10, 27, 0.96);
     backdrop-filter: blur(14px);
     border: 2px solid var(--primary);
     border-radius: 999px;
@@ -1438,7 +1437,7 @@ button, input, select, textarea {
 
 .upload-dropzone {
     border: 2px dashed var(--border-gold);
-    background: rgba(15, 23, 42, 0.7);
+    background: rgba(26, 8, 22, 0.7);
     border-radius: var(--radius-md);
     padding: 20px;
     text-align: center;
@@ -1609,7 +1608,7 @@ button, input, select, textarea {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(135deg, rgba(22, 31, 48, 0.9) 0%, rgba(15, 23, 42, 0.98) 100%);
+    background: linear-gradient(135deg, rgba(31, 10, 27, 0.9) 0%, rgba(26, 8, 22, 0.98) 100%);
     border: 1px solid rgba(212, 175, 55, 0.4);
     border-radius: 12px;
     padding: 18px 24px;
@@ -1646,7 +1645,7 @@ button, input, select, textarea {
     right: 24px;
     width: 360px;
     max-width: calc(100vw - 32px);
-    background: linear-gradient(145deg, rgba(22, 31, 48, 0.96) 0%, rgba(11, 15, 23, 0.98) 100%);
+    background: linear-gradient(145deg, rgba(31, 10, 27, 0.96) 0%, rgba(19, 5, 16, 0.98) 100%);
     border: 1px solid rgba(212, 175, 55, 0.5);
     border-radius: 16px;
     padding: 20px 22px;
@@ -1848,7 +1847,7 @@ button, input, select, textarea {
 
 /* Nhãn hiển thị số Hotline & Tên A Thành */
 .quick-call-label {
-    background: rgba(15, 23, 42, 0.94);
+    background: rgba(26, 8, 22, 0.94);
     border: 1.5px solid var(--border-gold);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);

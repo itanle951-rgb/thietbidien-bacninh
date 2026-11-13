@@ -13,7 +13,7 @@ const STORAGE_KEYS = {
 };
 
 // Hàm tạo ảnh minh họa SVG sắc nét chuẩn Luxury Black & Gold cho sản phẩm (Đảm bảo 100% không bao giờ lỗi ảnh kể cả khi offline)
-function createProductSvgDataUri(title, brand, code, accentColor = '#D4AF37', iconText = '⚡') {
+function createProductSvgDataUri(title, brand, code, accentColor = '#E09F3E', iconText = '⚡') {
     const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="480" height="320" viewBox="0 0 480 320">
         <defs>
             <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -23,18 +23,18 @@ function createProductSvgDataUri(title, brand, code, accentColor = '#D4AF37', ic
             </linearGradient>
             <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
                 <stop offset="0%" stop-color="${accentColor}"/>
-                <stop offset="100%" stop-color="#F3E5AB"/>
+                <stop offset="100%" stop-color="#FCD34D"/>
             </linearGradient>
         </defs>
         <rect width="480" height="320" fill="url(#bg)"/>
         <circle cx="400" cy="60" r="110" fill="${accentColor}" opacity="0.08"/>
         <circle cx="70" cy="260" r="90" fill="#06B6D4" opacity="0.07"/>
         <rect x="20" y="20" width="440" height="280" rx="14" fill="none" stroke="${accentColor}" stroke-opacity="0.35" stroke-width="1.5"/>
-        <text x="45" y="65" fill="#F3E5AB" font-family="Arial, sans-serif" font-size="15" font-weight="bold" letter-spacing="1">${brand.toUpperCase()} • DUY PHONG ELECTRICS</text>
+        <text x="45" y="65" fill="#FCD34D" font-family="Arial, sans-serif" font-size="15" font-weight="bold" letter-spacing="1">${brand.toUpperCase()} • DUY PHONG ELECTRICS</text>
         <text x="405" y="135" font-family="Segoe UI Emoji, Arial" font-size="68" text-anchor="middle">${iconText}</text>
         <text x="45" y="175" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="22" font-weight="bold">${title}</text>
         <rect x="45" y="205" width="170" height="32" rx="6" fill="rgba(212,175,55,0.16)" stroke="${accentColor}" stroke-width="1"/>
-        <text x="130" y="226" fill="#F3E5AB" font-family="monospace" font-size="14" font-weight="bold" text-anchor="middle">CHÍNH HÃNG</text>
+        <text x="130" y="226" fill="#FCD34D" font-family="monospace" font-size="14" font-weight="bold" text-anchor="middle">CHÍNH HÃNG</text>
         <text x="45" y="272" fill="#94A3B8" font-family="Arial, sans-serif" font-size="13">549 Ngô Gia Tự, Ninh Xá, Bắc Ninh • 0904.511.227</text>
     </svg>`;
     return 'data:image/svg+xml;utf8,' + encodeURIComponent(svg);
@@ -965,7 +965,7 @@ function renderCatalog() {
             return `
                 <div class="product-card ${totalQtyInCart > 0 ? 'in-quote' : ''}" id="card-${p.id}">
                     <div class="product-thumb-wrap">
-                        <img src="${p.image}" alt="${p.name}" loading="lazy" onerror="this.onerror=null; this.src='${createProductSvgDataUri(p.name.slice(0,22), p.brand, p.sku, p.brandColor || '#D4AF37')}';"/>
+                        <img src="${p.image}" alt="${p.name}" loading="lazy" onerror="this.onerror=null; this.src='${createProductSvgDataUri(p.name.slice(0,22), p.brand, p.sku, p.brandColor || '#E09F3E')}';"/>
                         <span class="product-brand-tag">${p.brand}</span>
                         <span class="product-catalog-badge" style="position: absolute; top: 12px; right: 12px; background: rgba(212,175,55,0.18); color: var(--primary-light); border: 1px solid rgba(212,175,55,0.35); font-size: 0.72rem; padding: 3px 8px; border-radius: 4px; font-weight: 600;"><i class="fas fa-certificate"></i> Giá Catalog</span>
                         ${totalQtyInCart > 0 ? `<div class="in-quote-ribbon"><i class="fas fa-check-circle"></i> Đã chọn: ${totalQtyInCart} ${p.unit}</div>` : ''}
@@ -977,7 +977,7 @@ function renderCatalog() {
                         
                         <div class="product-variant-box" style="margin-bottom: 10px;">
                             <div style="font-size: 0.75rem; color: var(--text-muted); margin-bottom: 4px;"><i class="fas fa-certificate" style="color: var(--primary);"></i> Thông số / Quy cách:</div>
-                            <div style="color: #F3E5AB; font-weight: 600; font-size: 0.88rem; background: rgba(212,175,55,0.08); padding: 6px 10px; border-radius: 6px; border: 1px solid rgba(212,175,55,0.2);">${p.spec || (p.variants && p.variants[0]) || 'Chính hãng'}</div>
+                            <div style="color: #FFF8F0; font-weight: 600; font-size: 0.88rem; background: #281F19; padding: 6px 10px; border-radius: 6px; border: 1px solid rgba(224,159,62,0.3);">${p.spec || (p.variants && p.variants[0]) || 'Chính hãng'}</div>
                         </div>
 
                         <div class="product-price-row">
@@ -1023,7 +1023,7 @@ function renderCatalog() {
                 <tr>
                     <td>
                         <div style="display: flex; align-items: center; gap: 10px;">
-                            <img src="${p.image}" class="table-thumb" alt="${p.name}" loading="lazy" onerror="this.onerror=null; this.src='${createProductSvgDataUri(p.name.slice(0,18), p.brand, p.sku, p.brandColor || '#D4AF37')}';"/>
+                            <img src="${p.image}" class="table-thumb" alt="${p.name}" loading="lazy" onerror="this.onerror=null; this.src='${createProductSvgDataUri(p.name.slice(0,18), p.brand, p.sku, p.brandColor || '#E09F3E')}';"/>
                             <div>
                                 <div style="font-weight: 700; color: var(--text-primary);">${p.name}</div>
                                 <div style="font-size: 0.76rem; color: var(--accent-cyan); margin-top: 3px;">Hãng phân phối: <strong style="color: var(--primary); font-weight: 700;">${p.brand}</strong></div>
@@ -1031,7 +1031,7 @@ function renderCatalog() {
                         </div>
                     </td>
                     <td>
-                        <div style="color: #F3E5AB; font-weight: 600; font-size: 0.88rem; line-height: 1.4;">${p.spec || (p.variants && p.variants[0]) || 'Chính hãng'}</div>
+                        <div style="color: #FFF8F0; font-weight: 600; font-size: 0.88rem; line-height: 1.4;"><span style="display:inline-block; background: #281F19; color: #FFF8F0; padding: 4px 10px; border-radius: 6px; border: 1px solid rgba(224,159,62,0.3); font-weight: 600;">${p.spec || (p.variants && p.variants[0]) || 'Chính hãng'}</div></span></div>
                     </td>
                     <td style="text-align: center;"><strong>${p.unit}</strong></td>
                     <td>
@@ -1390,18 +1390,18 @@ function renderBoqSection() {
                 <tr>
                     <td style="text-align: center; color: var(--text-muted); font-weight: 700;">${idx + 1}</td>
                     <td style="text-align: left;">
-                        <div style="font-weight: 700; color: #fff; line-height: 1.35; font-size: 0.92rem;">${item.name}</div>
+                        <div style="font-weight: 700; color: #FFF8F0; line-height: 1.35; font-size: 0.95rem;">${item.name}</div>
                         <div style="font-size: 0.76rem; color: var(--text-muted); margin-top: 3px;">
                             Hãng phân phối: <span style="color: var(--primary); font-weight: 600;">${item.brand}</span>
                         </div>
                     </td>
                     <td style="text-align: left;">
-                        <span style="color: #F3E5AB; font-weight: 600; font-size: 0.88rem; line-height: 1.4; display: inline-block;">
+                        <span style="color: #E8D5C4; font-weight: 600; font-size: 0.88rem; line-height: 1.4; display: inline-block;">
                             ${item.variant}
                         </span>
                     </td>
-                    <td style="text-align: center; color: #cbd5e1; font-weight: 600;">${item.unit}</td>
-                    <td style="text-align: right; font-weight: 600; color: #cbd5e1; white-space: nowrap;">
+                    <td style="text-align: center; color: #E8D5C4; font-weight: 600;">${item.unit}</td>
+                    <td style="text-align: right; font-weight: 600; color: #E8D5C4; white-space: nowrap;">
                         ${item.isCustom ? '<em style="color:var(--accent-cyan)">Báo giá sau</em>' : (item.price > 0 ? formatVND(item.price) : '<span style="color: var(--accent-gold); font-style: italic;">Chờ báo giá</span>')}
                     </td>
                     <td style="text-align: center;">
@@ -1805,12 +1805,12 @@ function downloadQuoteImageForZalo() {
     ctx.fillStyle = '#0B0F17';
     ctx.fillRect(0, 0, width, height);
 
-    ctx.strokeStyle = '#D4AF37';
+    ctx.strokeStyle = '#E09F3E';
     ctx.lineWidth = 3;
     ctx.strokeRect(16, 16, width - 32, height - 32);
 
     // Header phiếu
-    ctx.fillStyle = '#D4AF37';
+    ctx.fillStyle = '#E09F3E';
     ctx.font = 'bold 24px Arial, sans-serif';
     ctx.fillText('THIẾT BỊ ĐIỆN CAO CẤP DUY PHONG (A THÀNH BN)', 40, 62);
 
@@ -1829,7 +1829,7 @@ function downloadQuoteImageForZalo() {
     ctx.font = 'bold 17px Arial, sans-serif';
     ctx.fillText(`PHIẾU YÊU CẦU BÁO GIÁ: ${q.code}   (${q.createdAt})`, 56, 138);
     ctx.font = '15px Arial, sans-serif';
-    ctx.fillStyle = '#F3E5AB';
+    ctx.fillStyle = '#FCD34D';
     ctx.fillText(`Khách hàng: ${q.customerName}   |   SĐT/Zalo: ${q.customerPhone}`, 56, 164);
     ctx.fillStyle = '#94A3B8';
     ctx.fillText(`Phân loại: ${q.customerTypeLabel}   |   Công trình: ${q.projectAddress}`, 56, 188);
@@ -1838,7 +1838,7 @@ function downloadQuoteImageForZalo() {
     let y = 235;
     ctx.fillStyle = '#1E293B';
     ctx.fillRect(40, y - 24, width - 80, 34);
-    ctx.fillStyle = '#D4AF37';
+    ctx.fillStyle = '#E09F3E';
     ctx.font = 'bold 14px Arial, sans-serif';
     ctx.fillText('STT', 52, y);
     ctx.fillText('TÊN VẬT TƯ / THIẾT BỊ ĐIỆN', 95, y);
@@ -1857,7 +1857,7 @@ function downloadQuoteImageForZalo() {
         ctx.fillText((item.name || '').slice(0, 38), 95, y + 6);
         ctx.fillStyle = '#22D3EE';
         ctx.fillText((item.variant || '').slice(0, 22), 450, y + 6);
-        ctx.fillStyle = '#F3E5AB';
+        ctx.fillStyle = '#FCD34D';
         ctx.fillText(`${item.qty} ${item.unit}`, 640, y + 6);
         ctx.fillStyle = '#10B981';
         ctx.fillText(item.isCustom ? 'Báo giá sau' : formatVND(item.price * item.qty), 735, y + 6);
@@ -2578,11 +2578,11 @@ function renderHomeArticles() {
     }
 
     container.innerHTML = articles.map(art => `
-        <div class="product-card" onclick="openArticleModal('${art.id}')" style="display:flex; flex-direction:column; justify-content:space-between; background: #131B2C; border: 1px solid rgba(212,175,55,0.22); border-radius: 12px; overflow: hidden; transition: transform 0.25s, box-shadow 0.25s; cursor: pointer;">
+        <div class="product-card" onclick="openArticleModal('${art.id}')" style="display:flex; flex-direction:column; justify-content:space-between; background: #1C1612; border: 1px solid rgba(224,159,62,0.3); box-shadow: 0 8px 25px rgba(0,0,0,0.5); border-radius: 12px; overflow: hidden; transition: transform 0.25s, box-shadow 0.25s; cursor: pointer;">
             <div>
-                <div style="position:relative; height:190px; overflow:hidden; background:#0B0F17;">
+                <div style="position:relative; height:190px; overflow:hidden; background: #140E0A;">
                     <img src="${art.image}" alt="${art.title}" style="width:100%; height:100%; object-fit:cover; transition:transform 0.4s;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'">
-                    <span class="product-badge-discount" style="top:10px; left:10px; right:auto; background: linear-gradient(135deg, #F3E5AB, #D4AF37); color: #0B0F17; font-weight: 700;">${art.category}</span>
+                    <span class="product-badge-discount" style="top:10px; left:10px; right:auto; background: linear-gradient(135deg, #FCD34D, #E09F3E); color: #0B0F17; font-weight: 700;">${art.category}</span>
                 </div>
                 <div style="padding: 16px 16px 0;">
                     <div style="font-size:0.78rem; color:#94A3B8; margin-bottom:8px; display:flex; align-items:center; gap:10px;">
@@ -2590,8 +2590,8 @@ function renderHomeArticles() {
                         <span>•</span>
                         <span><i class="fas fa-user-edit" style="color:var(--primary);"></i> ${art.author}</span>
                     </div>
-                    <h4 style="font-size:1.05rem; color:#FFFFFF; font-weight:700; line-height:1.45; margin-bottom:10px;">${art.title}</h4>
-                    <p style="font-size:0.86rem; color:#CBD5E1; line-height:1.55; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">${art.summary}</p>
+                    <h4 style="font-size:1.05rem; color:#FFF8F0; font-weight:700; line-height:1.45; margin-bottom:10px;">${art.title}</h4>
+                    <p style="font-size:0.86rem; color:#E8D5C4; line-height:1.55; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">${art.summary}</p>
                 </div>
             </div>
             <div style="padding: 14px 16px 16px; margin-top:14px; border-top:1px solid rgba(255,255,255,0.08); display:flex; justify-content:space-between; align-items:center;">
@@ -2630,11 +2630,11 @@ window.openArticleModal = function(id) {
     if (!modal) {
         const modalHtml = `
             <div id="articleDetailModal" class="modal-overlay" onclick="handleArticleBackdropClick(event)" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.85); z-index:99999; backdrop-filter:blur(6px); align-items:center; justify-content:center; padding:16px;">
-                <div class="modal-content" style="background:#131B2C; border:1px solid var(--border-gold); border-radius:14px; max-width:780px; width:100%; max-height:90vh; overflow-y:auto; padding:24px; position:relative; box-shadow:0 20px 50px rgba(0,0,0,0.7); color:#E2E8F0;">
-                    <button type="button" onclick="closeArticleModal()" style="position:sticky; top:0; float:right; background:#1E293B; border:1px solid var(--border-subtle); color:#FFF; font-size:1.4rem; width:36px; height:36px; border-radius:50%; cursor:pointer; line-height:1; z-index:10;" aria-label="Đóng">&times;</button>
+                <div class="modal-content" style="background:#1C1612; border:1.5px solid var(--primary); border-radius:14px; max-width:780px; width:100%; max-height:90vh; overflow-y:auto; padding:24px; position:relative; box-shadow:0 25px 60px rgba(0,0,0,0.85); color:#FFF8F0;">
+                    <button type="button" onclick="closeArticleModal()" style="position:sticky; top:0; float:right; background:#281F19; border:1px solid var(--border-gold); color:#FFF8F0; font-size:1.4rem; width:36px; height:36px; border-radius:50%; cursor:pointer; line-height:1; z-index:10;" aria-label="Đóng">&times;</button>
                     
-                    <span id="modalArtCategory" class="badge-pill" style="background:rgba(212,175,55,0.2); color:#F3E5AB; font-weight:700; margin-bottom:12px; display:inline-block;"></span>
-                    <h2 id="modalArtTitle" style="color:#FFF; font-size:1.4rem; font-weight:800; line-height:1.4; margin-bottom:12px;"></h2>
+                    <span id="modalArtCategory" class="badge-pill" style="background:rgba(224,159,62,0.22); color:#FCD34D; font-weight:700; margin-bottom:12px; display:inline-block;"></span>
+                    <h2 id="modalArtTitle" style="color:#FFF8F0; font-size:1.4rem; font-weight:800; line-height:1.4; margin-bottom:12px;"></h2>
                     
                     <div style="font-size:0.82rem; color:#94A3B8; margin-bottom:18px; padding-bottom:12px; border-bottom:1px solid rgba(255,255,255,0.1); display:flex; gap:16px; flex-wrap:wrap;">
                         <span id="modalArtAuthor"><i class="fas fa-user-edit" style="color:var(--primary);"></i> </span>
@@ -2646,11 +2646,11 @@ window.openArticleModal = function(id) {
                         <img id="modalArtImage" src="" alt="" style="width:100%; height:auto; object-fit:cover;">
                     </div>
 
-                    <div id="modalArtBody" style="line-height:1.75; font-size:0.96rem; color:#CBD5E1;"></div>
+                    <div id="modalArtBody" style="line-height:1.75; font-size:0.96rem; color:#E8D5C4;"></div>
 
-                    <div style="margin-top:28px; padding:18px; background:#0B0F17; border-radius:10px; border:1px dashed var(--border-gold); text-align:center;">
-                        <h4 style="color:#F3E5AB; margin-bottom:8px;"><i class="fas fa-phone-alt"></i> Cần Tư Vấn Kỹ Thuật & Báo Giá Công Trình?</h4>
-                        <p style="font-size:0.88rem; color:#94A3B8; margin-bottom:14px;">Liên hệ ngay với A Thành Duy Phong để nhận bóc tách khối lượng và bảng chiết khấu đại lý tốt nhất tại Bắc Ninh.</p>
+                    <div style="margin-top:28px; padding:18px; background:#281F19; border-radius:10px; border:1px dashed var(--border-gold); text-align:center;">
+                        <h4 style="color:#FCD34D; font-size:1.1rem; margin-bottom:8px;"><i class="fas fa-phone-alt"></i> Cần Tư Vấn Kỹ Thuật & Báo Giá Công Trình?</h4>
+                        <p style="font-size:0.88rem; color:#E8D5C4; margin-bottom:14px;">Liên hệ ngay với A Thành Duy Phong để nhận bóc tách khối lượng và bảng chiết khấu đại lý tốt nhất tại Bắc Ninh.</p>
                         <a href="https://zalo.me/0904511227" target="_blank" class="btn btn-primary" style="padding:10px 24px; font-weight:700; font-size:0.95rem;">
                             <i class="fab fa-whatsapp"></i> Hotline / Zalo: 0904.511.227 - 0968.599.951
                         </a>

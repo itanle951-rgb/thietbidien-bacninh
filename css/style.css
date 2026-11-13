@@ -144,22 +144,46 @@ button, input, select, textarea {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 14px 0;
-    gap: 20px;
+    padding: 12px 0;
+    gap: 14px;
     flex-wrap: wrap;
+}
+
+.header-nav {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.header-nav a {
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    white-space: nowrap;
+    padding-bottom: 3px;
+    border-bottom: 2px solid transparent;
+    transition: var(--transition);
+}
+
+.header-nav a:hover,
+.header-nav a.nav-active {
+    color: var(--primary-light);
+    border-bottom-color: var(--primary);
+    font-weight: 700;
 }
 
 .brand-logo {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 10px;
     text-decoration: none;
+    flex-shrink: 0;
 }
 
 .site-logo-img {
-    height: 52px;
+    height: 44px;
     width: auto;
-    max-width: 290px;
+    max-width: 240px;
     display: block;
     object-fit: contain;
     transition: transform 0.25s ease, filter 0.25s ease;
@@ -208,7 +232,8 @@ button, input, select, textarea {
 
 .header-search {
     flex: 1;
-    max-width: 480px;
+    min-width: 210px;
+    max-width: 340px;
     position: relative;
     background: var(--bg-input);
     border: 1px solid var(--border-gold);
@@ -282,6 +307,144 @@ button, input, select, textarea {
     color: #120E0B;
     transform: translateY(-2px);
     box-shadow: 0 6px 22px rgba(224, 159, 62, 0.5);
+}
+
+.btn-outline-gold {
+    background: rgba(224, 159, 62, 0.1);
+    color: var(--primary-light);
+    border: 1px solid var(--border-gold);
+    font-weight: 700;
+}
+
+.btn-outline-gold:hover {
+    background: var(--primary);
+    color: #120E0B;
+    border-color: var(--primary);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-gold);
+}
+
+.btn-green {
+    background: linear-gradient(135deg, #10B981 0%, #059669 100%);
+    color: #FFFFFF;
+    font-weight: 700;
+    border: none;
+    box-shadow: 0 4px 14px rgba(16, 185, 129, 0.35);
+}
+
+.btn-green:hover {
+    background: linear-gradient(135deg, #34D399 0%, #10B981 100%);
+    transform: translateY(-1px);
+    box-shadow: 0 6px 20px rgba(16, 185, 129, 0.5);
+}
+
+.btn-danger {
+    background: rgba(239, 68, 68, 0.15);
+    color: #FCA5A5;
+    border: 1px solid rgba(239, 68, 68, 0.4);
+    font-weight: 700;
+}
+
+.btn-danger:hover {
+    background: #EF4444;
+    color: #FFFFFF;
+    border-color: #EF4444;
+}
+
+.badge-count {
+    background: #120E0B;
+    color: var(--primary-light);
+    border-radius: 999px;
+    padding: 2px 8px;
+    font-size: 0.78rem;
+    font-weight: 800;
+    min-width: 22px;
+    text-align: center;
+}
+
+/* ==========================================================================
+   3. HERO SECTION & SÂN KHẤU TỔNG KHO DUY PHONG
+   ========================================================================== */
+.hero-section {
+    padding: 42px 0 36px;
+    position: relative;
+    background:
+        radial-gradient(circle at 15% 25%, rgba(224, 159, 62, 0.14) 0%, transparent 45%),
+        radial-gradient(circle at 85% 30%, rgba(150, 79, 32, 0.16) 0%, transparent 45%);
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1.12fr 0.88fr;
+    gap: 32px;
+    align-items: center;
+}
+
+.hero-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(224, 159, 62, 0.14);
+    border: 1px solid rgba(224, 159, 62, 0.4);
+    color: var(--primary-light);
+    padding: 5px 14px;
+    border-radius: 999px;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.hero-title {
+    font-size: 2.3rem;
+    font-weight: 800;
+    color: var(--text-primary);
+    line-height: 1.24;
+    margin-bottom: 14px;
+}
+
+.hero-title span {
+    background: linear-gradient(135deg, #FCD34D 0%, #E09F3E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.hero-desc {
+    font-size: 0.96rem;
+    color: var(--text-secondary);
+    line-height: 1.65;
+    margin-bottom: 22px;
+}
+
+.hero-desc strong {
+    color: var(--text-primary);
+}
+
+.hero-pillars {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.pillar-card {
+    background: rgba(40, 31, 25, 0.78);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(224, 159, 62, 0.26);
+    border-radius: var(--radius-md);
+    padding: 14px;
+    transition: var(--transition);
+}
+
+.pillar-card:hover {
+    border-color: var(--primary);
+    background: rgba(40, 31, 25, 0.95);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.45);
 }
 
 .pillar-card h4 {
@@ -1899,4 +2062,309 @@ button, input, select, textarea {
 .call-num-sep {
     color: rgba(255, 255, 255, 0.4);
     font-weight: 400;
+}
+
+
+/* ==========================================================================
+   8. PHƯƠNG ÁN A: HERO STATS, BRAND TRUST BAR, MÁY TÍNH DỰ TOÁN m² & CAM KẾT
+   ========================================================================== */
+.hero-stats-strip {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.hero-stat-box {
+    background: #140E0A;
+    border: 1px solid rgba(224, 159, 62, 0.25);
+    border-radius: var(--radius-sm);
+    padding: 10px 8px;
+    text-align: center;
+}
+
+.hero-stat-val {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: var(--primary-light);
+    font-family: 'Be Vietnam Pro', sans-serif;
+    line-height: 1.2;
+}
+
+.hero-stat-lbl {
+    font-size: 0.72rem;
+    color: var(--text-secondary);
+    margin-top: 2px;
+}
+
+/* Interactive Brand Trust Bar */
+.brand-trust-strip {
+    background: #18120E;
+    border-bottom: 1px solid var(--border-subtle);
+    padding: 18px 0;
+}
+
+.brand-trust-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.brand-trust-title {
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: var(--text-muted);
+    white-space: nowrap;
+}
+
+.brand-trust-list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.brand-trust-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    background: var(--bg-card);
+    border: 1px solid rgba(224, 159, 62, 0.28);
+    color: var(--text-primary);
+    padding: 7px 14px;
+    border-radius: 999px;
+    font-size: 0.84rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.brand-trust-pill:hover {
+    background: var(--primary);
+    color: #120E0B;
+    border-color: var(--primary);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 14px rgba(224, 159, 62, 0.35);
+}
+
+.brand-trust-pill i {
+    color: var(--primary-light);
+    font-size: 0.78rem;
+}
+
+.brand-trust-pill:hover i {
+    color: #120E0B;
+}
+
+/* Smart m2 Estimator Section */
+.estimator-section {
+    padding: 40px 0;
+    background: linear-gradient(180deg, #16110D 0%, #120E0B 100%);
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+.estimator-card {
+    background: linear-gradient(145deg, #1C1612 0%, #241B15 100%);
+    border: 1.5px solid var(--border-gold);
+    border-radius: var(--radius-lg);
+    padding: 26px;
+    box-shadow: var(--shadow-card);
+    display: grid;
+    grid-template-columns: 1.05fr 0.95fr;
+    gap: 28px;
+    align-items: center;
+}
+
+.estimator-type-tabs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.est-type-btn {
+    background: #140E0A;
+    border: 1px solid var(--border-subtle);
+    color: var(--text-secondary);
+    padding: 12px 10px;
+    border-radius: var(--radius-sm);
+    font-size: 0.85rem;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    transition: var(--transition);
+}
+
+.est-type-btn i {
+    font-size: 1.2rem;
+    color: var(--primary);
+}
+
+.est-type-btn.active {
+    background: rgba(224, 159, 62, 0.16);
+    border-color: var(--primary);
+    color: var(--primary-light);
+    box-shadow: 0 0 16px rgba(224, 159, 62, 0.2);
+}
+
+.est-slider-group {
+    margin-bottom: 18px;
+}
+
+.est-slider-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.est-slider-header strong {
+    color: var(--primary-light);
+    font-size: 1.08rem;
+}
+
+.est-range {
+    width: 100%;
+    accent-color: var(--primary);
+    height: 7px;
+    cursor: pointer;
+}
+
+.estimator-result-box {
+    background: #140E0A;
+    border: 1px solid rgba(224, 159, 62, 0.35);
+    border-radius: var(--radius-md);
+    padding: 20px;
+}
+
+.est-res-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 14px 0 18px;
+}
+
+.est-res-item {
+    background: var(--bg-elevated);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-sm);
+    padding: 10px 12px;
+}
+
+.est-res-item span {
+    display: block;
+    font-size: 0.76rem;
+    color: var(--text-muted);
+    margin-bottom: 3px;
+}
+
+.est-res-item strong {
+    font-size: 0.96rem;
+    color: var(--text-primary);
+}
+
+.est-budget-banner {
+    background: rgba(224, 159, 62, 0.12);
+    border: 1px dashed var(--primary);
+    border-radius: var(--radius-sm);
+    padding: 12px 14px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+/* 4-Card Bắc Ninh Trust Guarantees */
+.trust-guarantees-section {
+    padding: 36px 0 10px;
+}
+
+.trust-guarantees-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+
+.trust-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-gold);
+    border-radius: var(--radius-md);
+    padding: 18px;
+    transition: var(--transition);
+}
+
+.trust-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-gold);
+}
+
+.trust-icon-wrap {
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    background: rgba(224, 159, 62, 0.15);
+    border: 1px solid rgba(224, 159, 62, 0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-light);
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+}
+
+.trust-card h4 {
+    font-size: 0.98rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 6px;
+}
+
+.trust-card p {
+    font-size: 0.84rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+.site-footer {
+    padding-bottom: 96px !important;
+}
+
+@media (max-width: 1024px) {
+    .hero-grid,
+    .estimator-card {
+        grid-template-columns: 1fr;
+    }
+    .trust-guarantees-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .brand-trust-list {
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-pillars,
+    .estimator-type-tabs,
+    .trust-guarantees-grid {
+        grid-template-columns: 1fr;
+    }
+    .hero-title {
+        font-size: 1.7rem;
+    }
+    .header-nav {
+        display: none;
+    }
 }

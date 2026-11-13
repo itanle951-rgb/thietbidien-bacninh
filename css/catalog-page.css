@@ -45,7 +45,7 @@ body.catalog-body-wide .container {
 
 /* Banner giới thiệu ngắn đầu trang */
 .catalog-hero-strip {
-    background: linear-gradient(135deg, rgba(229, 169, 60, 0.20) 0%, rgba(38, 11, 31, 0.88) 100%);
+    background: linear-gradient(135deg, rgba(211, 47, 47, 0.08) 0%, rgba(241, 245, 249, 0.95) 100%);
     border: 1px solid var(--border-gold);
     border-radius: var(--radius-lg);
     padding: 22px 28px;
@@ -81,7 +81,7 @@ body.catalog-body-wide .container {
     margin-bottom: 20px;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: thin;
-    scrollbar-color: var(--primary-dark) #190615;
+    scrollbar-color: var(--primary-dark) #FFFFFF;
 }
 .brand-chips-scroll::-webkit-scrollbar {
     height: 5px;
@@ -93,7 +93,7 @@ body.catalog-body-wide .container {
 .brand-chip-btn {
     padding: 8px 16px;
     border-radius: 30px;
-    background: #240C20;
+    background: #F1F5F9;
     border: 1px solid var(--border-subtle);
     color: var(--text-primary);
     font-size: 0.86rem;
@@ -654,7 +654,7 @@ body.catalog-body-wide .container {
 .image-zoom-box {
     max-width: 600px;
     width: 100%;
-    background: #240C20;
+    background: #F1F5F9;
     border: 1px solid var(--border-gold);
     border-radius: var(--radius-lg);
     padding: 18px;

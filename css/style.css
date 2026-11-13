@@ -4,31 +4,29 @@
    ========================================================================== */
 
 :root {
-    /* THEME: RƯỢU VANG NỬA ĐÊM (MIDNIGHT WINE & CHAMPAGNE GOLD) */
-    --bg-main:       #130510; /* Màn đêm Rượu Vang Velvet sâu thẳm quý phái */
-    --bg-card:       #1F0A1B; /* Nền thẻ nhung Bordeaux ủ lâu năm */
-    --bg-elevated:   #2C1026; /* Nền nổi cấp 2 sang trọng */
-    --bg-input:      #180614; /* Nền ô nhập liệu */
-    --primary:       #E5A93C; /* Vàng Champagne Hoàng Gia (CTA & Highlights) */
-    --primary-light: #FDE68A; /* Vàng Ánh Kim sáng rực rỡ */
-    --primary-dark:  #B45309; /* Vàng Hổ Phách trầm ấm */
-    --accent-wine:   #BE123C; /* Đỏ Ruby Rượu Vang quý tộc */
-    --accent-green:  #10B981; /* Xanh Ngọc Lục Bảo (Thành công / Chiết khấu) */
-    --accent-cyan:   #38BDF8; /* Xanh Băng Công Nghệ (Thông số kỹ thuật) */
-    --accent-red:    #E11D48; /* Đỏ Cánh Hồng / Cảnh báo */
-    --accent-amber:  #F59E0B; /* Cam Hổ Phách (Nổi bật) */
-    --text-primary:  #FFF1F2; /* Chữ chính trắng ánh hồng ngọc trai cao cấp */
-    --text-secondary:#E2CBD4; /* Chữ phụ xám bạc ánh hồng dịu mắt */
-    --text-muted:    #9E8691; /* Chữ mờ tro hoa hồng cổ điển */
-    --border-gold:   rgba(229, 169, 60, 0.32); /* Viền vàng kim Champagne */
-    --border-wine:   rgba(190, 18, 60, 0.35);  /* Viền nhung rượu vang */
-    --border-subtle: rgba(225, 29, 72, 0.18);  /* Viền vi mô ánh ruby */
-    --shadow-gold:   0 10px 30px -5px rgba(229, 169, 60, 0.25);
-    --shadow-wine:   0 12px 35px rgba(136, 19, 55, 0.35);
-    --shadow-card:   0 14px 36px rgba(13, 3, 9, 0.65);
+    /* THEME: ĐỎ NĂNG LƯỢNG & XÁM KIM LOẠI (ENERGY RED & SLATE SILVER - CADISUN & TRẦN PHÚ) */
+    --bg-main:       #F8FAFC; /* Nền sáng sạch sẽ, chuẩn công nghiệp */
+    --bg-card:       #FFFFFF; /* Thẻ trắng tinh khiết nổi khối */
+    --bg-elevated:   #F1F5F9; /* Nền khối xám titan cấp 2 */
+    --bg-input:      #FFFFFF; /* Nền ô nhập liệu trắng */
+    --primary:       #D32F2F; /* Đỏ Năng Lượng Cadisun & Trần Phú */
+    --primary-light: #EF4444; /* Đỏ cờ tươi sáng */
+    --primary-dark:  #B71C1C; /* Đỏ đậm chiều sâu */
+    --accent-gold:   #D97706; /* Vàng đồng kim loại (Huy hiệu & Đánh giá) */
+    --accent-green:  #16A34A; /* Xanh lá còn hàng / Thành công */
+    --accent-cyan:   #0284C7; /* Xanh kỹ thuật thông số */
+    --accent-red:    #DC2626; /* Đỏ cảnh báo / Hot */
+    --accent-amber:  #EA580C; /* Cam năng lượng */
+    --text-primary:  #0F172A; /* Chữ chính than đen đậm cực kỳ sắc nét */
+    --text-secondary:#475569; /* Chữ phụ xám chì rõ ràng */
+    --text-muted:    #64748B; /* Chữ mờ xám trung tính */
+    --border-gold:   rgba(211, 47, 47, 0.28); /* Viền nhấn đỏ năng lượng */
+    --border-subtle: #E2E8F0; /* Viền xám mảnh tinh tế */
+    --shadow-gold:   0 10px 25px -5px rgba(211, 47, 47, 0.25);
+    --shadow-card:   0 4px 20px -2px rgba(15, 23, 42, 0.08), 0 2px 6px -1px rgba(15, 23, 42, 0.04);
     --radius-sm:     8px;
     --radius-md:     12px;
-    --radius-lg:     18px;
+    --radius-lg:     16px;
     --transition:    all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -46,22 +44,18 @@ html {
 
 body {
     font-family: 'Inter', 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    background-color: #0E040C;
+    background-color: #F8FAFC;
     background-image: 
-        /* 1. Lưới kỹ thuật vi mô ánh ruby huyền bí */
-        linear-gradient(to right, rgba(244, 63, 94, 0.035) 1px, transparent 1px),
-        linear-gradient(to bottom, rgba(244, 63, 94, 0.035) 1px, transparent 1px),
-        /* 2. Hào quang Rượu Vang Bordeaux thượng hạng góc trên trái */
-        radial-gradient(circle at 10% 12%, rgba(190, 18, 60, 0.24) 0%, transparent 45%),
-        /* 3. Ánh Champagne Hoàng Kim ấm áp góc trên phải */
-        radial-gradient(circle at 90% 16%, rgba(229, 169, 60, 0.18) 0%, transparent 45%),
-        /* 4. Chiều sâu hầm rượu nhung tím than trung tâm */
-        radial-gradient(circle at 50% 48%, rgba(88, 11, 42, 0.45) 0%, transparent 65%),
-        /* 5. Vùng sáng ấm Hoàng Kim hổ phách khu vực bảng kê */
-        radial-gradient(circle at 85% 78%, rgba(245, 158, 11, 0.15) 0%, transparent 45%),
-        /* 6. Ánh Ruby quyền quý chân trang */
-        radial-gradient(circle at 15% 90%, rgba(225, 29, 72, 0.15) 0%, transparent 45%);
-    background-size: 44px 44px, 44px 44px, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%;
+        /* 1. Lưới kỹ thuật vi mô xám bạc thanh lịch */
+        linear-gradient(to right, rgba(148, 163, 184, 0.08) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(148, 163, 184, 0.08) 1px, transparent 1px),
+        /* 2. Ánh hào quang Đỏ Năng Lượng góc trên trái */
+        radial-gradient(circle at 10% 12%, rgba(211, 47, 47, 0.06) 0%, transparent 45%),
+        /* 3. Ánh Vàng Đồng ấm áp góc trên phải */
+        radial-gradient(circle at 90% 16%, rgba(245, 158, 11, 0.05) 0%, transparent 45%),
+        /* 4. Vệt sáng trung tâm */
+        radial-gradient(circle at 50% 48%, rgba(241, 245, 249, 0.8) 0%, transparent 65%);
+    background-size: 36px 36px, 36px 36px, 100% 100%, 100% 100%, 100% 100%;
     background-attachment: fixed;
     color: var(--text-primary);
     line-height: 1.6;
@@ -95,11 +89,11 @@ button, input, select, textarea {
    1. TOPBAR & STICKY HEADER
    ========================================================================== */
 .topbar {
-    background: linear-gradient(90deg, #0E040C 0%, #260C1F 50%, #0E040C 100%);
+    background: linear-gradient(90deg, #991B1B 0%, #B71C1C 50%, #7F1D1D 100%);
     border-bottom: 1px solid var(--border-gold);
     padding: 8px 0;
     font-size: 0.85rem;
-    color: var(--text-secondary);
+    color: #FEE2E2;
 }
 
 .topbar-inner {
@@ -123,14 +117,12 @@ button, input, select, textarea {
     gap: 6px;
 }
 
-.topbar-item i {
-    color: var(--primary);
-}
+.topbar-item i { color: #FDE047; }
 
 .topbar-badge {
-    background: rgba(212, 175, 55, 0.15);
-    color: var(--primary-light);
-    border: 1px solid var(--border-gold);
+    background: rgba(255, 255, 255, 0.18);
+    color: #FFFFFF;
+    border: 1px solid rgba(255, 255, 255, 0.3);
     padding: 2px 10px;
     border-radius: 999px;
     font-weight: 600;
@@ -141,11 +133,11 @@ button, input, select, textarea {
     position: sticky;
     top: 0;
     z-index: 900;
-    background: rgba(19, 6, 17, 0.94);
+    background: rgba(255, 255, 255, 0.96);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
-    border-bottom: 1px solid var(--border-gold);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid var(--primary);
+    box-shadow: 0 4px 20px rgba(15, 23, 42, 0.08);
 }
 
 .header-inner {
@@ -203,9 +195,7 @@ button, input, select, textarea {
     font-size: 1.35rem;
     font-weight: 800;
     letter-spacing: 0.5px;
-    background: linear-gradient(90deg, #FFFFFF 0%, var(--primary-light) 60%, var(--primary) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--primary);
     text-transform: uppercase;
 }
 
@@ -235,7 +225,7 @@ button, input, select, textarea {
 .header-search input:focus {
     outline: none;
     border-color: var(--primary);
-    box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.2);
+    box-shadow: 0 0 0 3px rgba(211, 47, 47, 0.15);
 }
 
 .header-search i {
@@ -271,25 +261,27 @@ button, input, select, textarea {
 }
 
 .btn-gold {
-    background: linear-gradient(135deg, var(--primary) 0%, #B8860B 100%);
-    color: #0B0F17;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    color: #FFFFFF;
     font-weight: 700;
     box-shadow: var(--shadow-gold);
 }
 
 .btn-gold:hover {
     background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary) 100%);
+    color: #FFFFFF;
     transform: translateY(-2px);
 }
 
 .btn-outline-gold {
-    background: rgba(212, 175, 55, 0.08);
-    color: var(--primary-light);
-    border-color: var(--border-gold);
+    background: rgba(211, 47, 47, 0.06);
+    color: var(--primary);
+    border-color: var(--primary);
 }
 
 .btn-outline-gold:hover {
-    background: rgba(212, 175, 55, 0.2);
+    background: var(--primary);
+    color: #FFFFFF;
     border-color: var(--primary);
     transform: translateY(-1px);
 }
@@ -402,11 +394,12 @@ button, input, select, textarea {
 }
 
 .pillar-card {
-    background: rgba(31, 10, 27, 0.8);
+    background: #FFFFFF;
     border: 1px solid var(--border-subtle);
     border-left: 3px solid var(--primary);
     padding: 12px 14px;
     border-radius: var(--radius-sm);
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.05);
 }
 
 .pillar-card h4 {
@@ -649,7 +642,7 @@ button, input, select, textarea {
 
 .cat-tab:hover, .cat-tab.active {
     background: var(--primary);
-    color: #0B0F17;
+    color: #FFFFFF;
     border-color: var(--primary);
     font-weight: 700;
 }
@@ -703,7 +696,7 @@ button, input, select, textarea {
 
 .view-btn.active {
     background: var(--primary);
-    color: #0B0F17;
+    color: #FFFFFF;
     font-weight: 700;
 }
 
@@ -741,9 +734,7 @@ button, input, select, textarea {
 .product-thumb-wrap {
     position: relative;
     height: 195px;
-    background: #0F172A;
-    overflow: hidden;
-    border-bottom: 1px solid var(--border-subtle);
+    background: #FFFFFF; overflow: hidden; border-bottom: 1px solid var(--border-subtle);
 }
 
 .product-thumb-wrap img {
@@ -761,25 +752,27 @@ button, input, select, textarea {
     position: absolute;
     top: 10px;
     left: 10px;
-    background: rgba(19, 5, 16, 0.85);
+    background: rgba(255, 255, 255, 0.94);
     border: 1px solid var(--border-gold);
-    color: var(--primary-light);
+    color: var(--primary);
     padding: 3px 10px;
     border-radius: 999px;
     font-size: 0.75rem;
     font-weight: 700;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
 
 .product-discount-tag {
     position: absolute;
     top: 10px;
     right: 10px;
-    background: var(--accent-green);
-    color: #0B0F17;
+    background: var(--primary);
+    color: #FFFFFF;
     padding: 3px 9px;
     border-radius: 999px;
     font-size: 0.75rem;
     font-weight: 800;
+    box-shadow: 0 2px 6px rgba(211, 47, 47, 0.3);
 }
 
 .in-quote-ribbon {
@@ -859,7 +852,7 @@ button, input, select, textarea {
 .price-main {
     font-size: 1.15rem;
     font-weight: 800;
-    color: var(--primary-light);
+    color: var(--primary);
     font-family: 'Be Vietnam Pro', 'Inter', sans-serif;
 }
 
@@ -968,13 +961,13 @@ button, input, select, textarea {
 }
 
 .quick-table th {
-    background: #101726;
-    color: var(--primary-light);
+    background: #F1F5F9;
+    color: var(--text-primary);
     font-family: 'Be Vietnam Pro', 'Inter', sans-serif;
     font-size: 0.86rem;
     text-align: left;
     padding: 13px 14px;
-    border-bottom: 1px solid var(--border-gold);
+    border-bottom: 2px solid var(--primary);
 }
 
 .quick-table td {
@@ -985,7 +978,7 @@ button, input, select, textarea {
 }
 
 .quick-table tr:hover {
-    background: rgba(212, 175, 55, 0.04);
+    background: rgba(211, 47, 47, 0.04);
 }
 
 .table-thumb {
@@ -994,11 +987,11 @@ button, input, select, textarea {
     min-width: 96px;
     min-height: 96px;
     border-radius: 10px;
-    object-fit: cover;
-    border: 1.5px solid rgba(212, 175, 55, 0.4);
-    background: #0B0F17;
+    object-fit: contain;
+    border: 1.5px solid #E2E8F0;
+    background: #FFFFFF;
     padding: 3px;
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.45);
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.08);
     transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
     cursor: pointer;
 }
@@ -1057,9 +1050,9 @@ button, input, select, textarea {
     height: 38px;
     padding: 0 12px;
     border-radius: 6px;
-    background: #101726;
+    background: #FFFFFF;
     border: 1px solid var(--border-subtle);
-    color: #e2e8f0;
+    color: var(--text-primary);
     font-size: 0.88rem;
     font-weight: 600;
     cursor: pointer;
@@ -1078,11 +1071,11 @@ button, input, select, textarea {
 }
 
 .page-btn.active {
-    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
-    color: #070A10;
-    border-color: var(--primary-light);
+    background: var(--primary);
+    color: #FFFFFF;
+    border-color: var(--primary);
     font-weight: 800;
-    box-shadow: 0 0 12px rgba(212, 175, 55, 0.4);
+    box-shadow: 0 4px 12px rgba(211, 47, 47, 0.35);
 }
 
 .page-btn:disabled {
@@ -1102,9 +1095,9 @@ button, input, select, textarea {
    7. INLINE BOQ / QUOTE BUILDER SECTION (DANH SÁCH YÊU CẦU BÁO GIÁ)
    ========================================================================== */
 .boq-section {
-    background: linear-gradient(180deg, rgba(31, 10, 27, 0.6) 0%, rgba(19, 5, 16, 0.95) 100%);
-    border-top: 1px solid var(--border-gold);
-    border-bottom: 1px solid var(--border-gold);
+    background: #F1F5F9;
+    border-top: 1px solid var(--border-subtle);
+    border-bottom: 1px solid var(--border-subtle);
     padding: 44px 0;
 }
 
@@ -1136,7 +1129,7 @@ button, input, select, textarea {
     margin-bottom: 18px;
     border-radius: var(--radius-sm);
     border: 1px solid var(--border-subtle);
-    background: #0E1626;
+    background: #FFFFFF;
     max-width: 100%;
 }
 
@@ -1148,20 +1141,21 @@ button, input, select, textarea {
 }
 
 .boq-table th {
-    background: #111B2D;
-    color: var(--primary-light);
+    background: #F8FAFC;
+    color: var(--primary);
     padding: 12px 10px;
     font-size: 0.82rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.3px;
-    border-bottom: 2px solid var(--border-gold);
+    border-bottom: 2px solid var(--primary);
     vertical-align: middle;
 }
 
 .boq-table td {
     padding: 12px 10px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    border-bottom: 1px solid var(--border-subtle);
+    color: var(--text-primary);
     font-size: 0.88rem;
     vertical-align: middle;
 }
@@ -1175,8 +1169,8 @@ button, input, select, textarea {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background: #090D16;
-    border: 1px solid var(--border-gold);
+    background: #F8FAFC;
+    border: 1px solid #CBD5E1;
     border-radius: 6px;
     overflow: hidden;
     height: 32px;
@@ -1184,8 +1178,8 @@ button, input, select, textarea {
 }
 
 .boq-qty-btn {
-    background: rgba(255, 255, 255, 0.05);
-    color: #fff;
+    background: #F1F5F9;
+    color: var(--text-primary);
     border: none;
     width: 27px;
     height: 100%;
@@ -1210,7 +1204,7 @@ button, input, select, textarea {
     height: 100%;
     background: transparent;
     border: none;
-    color: #fff;
+    color: var(--text-primary);
     text-align: center;
     font-size: 0.88rem;
     font-weight: 700;
@@ -1504,10 +1498,10 @@ button, input, select, textarea {
 
 /* Footer */
 .site-footer {
-    background: #070A10;
-    border-top: 1px solid var(--border-gold);
+    background: #0F172A;
+    border-top: 3px solid var(--primary);
     padding: 48px 0 90px;
-    color: var(--text-secondary);
+    color: #94A3B8;
     font-size: 0.9rem;
 }
 
@@ -1518,7 +1512,7 @@ button, input, select, textarea {
 }
 
 .footer-title {
-    color: var(--primary-light);
+    color: #FFFFFF;
     font-size: 1.1rem;
     margin-bottom: 14px;
 }
@@ -1645,8 +1639,8 @@ button, input, select, textarea {
     right: 24px;
     width: 360px;
     max-width: calc(100vw - 32px);
-    background: linear-gradient(145deg, rgba(31, 10, 27, 0.96) 0%, rgba(19, 5, 16, 0.98) 100%);
-    border: 1px solid rgba(212, 175, 55, 0.5);
+    background: #FFFFFF;
+    border: 2px solid var(--primary);
     border-radius: 16px;
     padding: 20px 22px;
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.75), 0 0 30px rgba(212, 175, 55, 0.22);

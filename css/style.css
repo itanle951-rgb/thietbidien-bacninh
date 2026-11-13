@@ -2356,15 +2356,80 @@ button, input, select, textarea {
 }
 
 @media (max-width: 768px) {
+    html, body {
+        overflow-x: hidden;
+        max-width: 100%;
+    }
+    .container {
+        padding: 0 14px;
+    }
+    .btn {
+        white-space: normal;
+        text-align: center;
+        line-height: 1.35;
+    }
+    .hero-grid > *,
+    .estimator-card > *,
+    .combo-grid > *,
+    .boq-layout > * {
+        min-width: 0;
+        max-width: 100%;
+    }
     .hero-pillars,
-    .estimator-type-tabs,
     .trust-guarantees-grid {
         grid-template-columns: 1fr;
     }
     .hero-title {
-        font-size: 1.7rem;
+        font-size: 1.65rem;
     }
     .header-nav {
         display: none;
+    }
+    .header-search {
+        min-width: 100%;
+        order: 3;
+    }
+    .estimator-card {
+        padding: 14px;
+        gap: 16px;
+    }
+    .estimator-type-tabs {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 6px;
+    }
+    .est-type-btn {
+        padding: 10px 6px;
+        font-size: 0.74rem;
+        text-align: center;
+    }
+    .est-type-btn i {
+        font-size: 1rem;
+    }
+    .estimator-result-box {
+        padding: 14px;
+    }
+    .est-res-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+    }
+    .est-res-item {
+        padding: 8px 10px;
+        min-width: 0;
+    }
+    .est-res-item strong {
+        font-size: 0.85rem;
+        word-break: break-word;
+    }
+    .hero-stats-strip {
+        gap: 6px;
+    }
+    .hero-stat-val {
+        font-size: 0.92rem;
+    }
+    .hero-stat-lbl {
+        font-size: 0.68rem;
+    }
+    .store-photo-item {
+        height: 160px;
     }
 }

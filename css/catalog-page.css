@@ -330,7 +330,7 @@ body.catalog-body-wide .container {
 }
 
 .quick-table th {
-    background: #101726;
+    background: #1C1612;
     color: var(--primary-light);
     font-family: 'Be Vietnam Pro', 'Inter', sans-serif;
     font-size: 0.88rem;
@@ -360,7 +360,7 @@ body.catalog-body-wide .container {
     border-radius: 10px !important;
     object-fit: cover !important;
     border: 1.5px solid rgba(212, 175, 55, 0.4) !important;
-    background: #0B0F17 !important;
+    background: #120E0B !important;
     padding: 3px !important;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.45) !important;
     transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease !important;
@@ -467,7 +467,7 @@ body.catalog-body-wide .container {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid #0B0F17;
+    border: 2px solid #120E0B;
 }
 
 /* ==========================================================================
@@ -541,7 +541,7 @@ body.catalog-body-wide .container {
         left: -320px;
         width: 300px;
         height: 100vh;
-        background: #0B0F17;
+        background: #120E0B;
         padding: 20px 16px;
         overflow-y: auto;
         z-index: 999;
@@ -667,7 +667,7 @@ body.catalog-body-wide .container {
     max-height: 65vh;
     object-fit: contain;
     border-radius: 8px;
-    background: #0B0F17;
+    background: #120E0B;
 }
 .image-zoom-close {
     position: absolute;

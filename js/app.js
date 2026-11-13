@@ -1441,7 +1441,7 @@ function updateHeaderAndFloatingBadges() {
     const summary = calculateBoqSummary();
     const headerBadge = document.getElementById('headerBoqCount') || document.getElementById('headerQuoteBadge');
     const floatBar = document.getElementById('floatingQuoteBar');
-    const floatCount = document.getElementById('floatingItemCount');
+    const floatCount = document.getElementById('floatingItemCount') || document.getElementById('floatingBoqBadge');
     const floatTotal = document.getElementById('floatingTotalAmount');
 
     if (headerBadge) headerBadge.textContent = summary.totalItems;
@@ -2506,7 +2506,7 @@ const ALL_SEO_ARTICLES = [
         "author": "A Thành BN",
         "createdAt": "08/11/2026",
         "summary": "Đánh giá thực tế về tiếp điểm hợp kim bạc đồng, viền kim loại Champagne / Xám Titan, độ nhạy phím bấm và độ bền 40.000 lần bật tắt cho biệt thự và nhà phố hiện đại.",
-        "image": "assets/images/cong-tac-o-cam-cao-cap-biet-thu.jpg",
+        "image": "assets/images/products/cong-tac-bretina-vang.jpg",
         "content": "\n            <h3>1. Xu hướng thiết bị điện cao cấp cho công trình hiện đại 2026</h3>\n            <p>Thời đại ngày nay, công tắc và ổ cắm không chỉ đơn thuần là phụ kiện dẫn điện mà còn là điểm nhấn nội thất thể hiện gu thẩm mỹ sang trọng của chủ nhà. Các dòng viền kim loại phay xước cao cấp đang dần thay thế hoàn toàn các loại mặt nhựa thông thường.</p>\n\n            <h3>2. Đánh giá chi tiết 4 thương hiệu hàng đầu:</h3>\n            <ul>\n                <li><strong>Bretina (Viền hợp kim nhôm xước - Mặt Vàng Champagne & Xám Titan):</strong> Đang là dòng bán chạy số 1 tại Bắc Ninh cho các công trình nhà phố liền kề và biệt thự. Cảm giác bấm êm ái, tiếp điểm hợp kim bạc chịu tải 16A chống tóe lửa, lá đồng đàn hồi cao cắm rút 10.000 lần không lỏng.</li>\n                <li><strong>Vanni:</strong> Thiết kế mặt vuông phẳng tinh giản, góc cạnh vuông vắn mang phong cách kiến trúc Châu Âu tối giản, độ hoàn thiện tinh xảo.</li>\n                <li><strong>Panasonic (Dòng Wide & Halumie):</strong> Thương hiệu quốc dân bền bỉ, dễ mua dễ thay thế, độ tin cậy đã được kiểm chứng qua hàng chục năm.</li>\n                <li><strong>Schneider (AvatarOn / Zencelo):</strong> Đỉnh cao công nghệ bấm phẳng hoàn toàn, cơ chế phím nảy phẳng ấn tượng, giá thành thuộc phân khúc cao cấp.</li>\n            </ul>\n\n            <h3>3. Trải nghiệm trực tiếp tại Showroom Duy Phong</h3>\n            <p>Mời quý khách và các bác thợ điện ghé qua số <strong>549 Ngô Gia Tự, P. Ninh Xá, TP. Bắc Ninh</strong> để trực tiếp cầm trên tay, bấm thử các mẫu công tắc thực tế trên bảng demo và nhận bảng báo giá chiết khấu đại lý tốt nhất.</p>\n        "
     },
     {
@@ -2773,3 +2773,167 @@ if (document.readyState === 'loading') {
 } else {
     initApplication();
 }
+
+// ==========================================================================
+// 9. PHƯƠNG ÁN A: LỌC THƯƠNG HIỆU NHANH & MÁY TÍNH DỰ TOÁN VẬT TƯ THEO m²
+// ==========================================================================
+window.filterByBrandQuick = function(brandName) {
+    if (typeof state !== 'undefined') {
+        state.brandFilter = brandName;
+        state.categoryFilter = 'all';
+        state.currentPage = 1;
+        const searchInput = document.getElementById('globalSearchInput');
+        if (searchInput) searchInput.value = '';
+        state.searchQuery = '';
+        // Sync brand select or brand chips if present
+        document.querySelectorAll('.brand-chip').forEach(btn => {
+            btn.classList.toggle('active', btn.dataset.brand === brandName);
+        });
+        if (typeof renderCatalog === 'function') renderCatalog();
+    }
+    const target = document.getElementById('catalog-section');
+    if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+};
+
+let currentEstimatorType = 'nhapho';
+
+window.selectEstimatorType = function(type) {
+    currentEstimatorType = type;
+    ['nhapho', 'bietthu', 'xuong'].forEach(t => {
+        const el = document.getElementById('est-type-' + t);
+        if (el) el.classList.toggle('active', t === type);
+    });
+
+    const areaEl = document.getElementById('estAreaRange');
+    const floorsGroup = document.getElementById('estFloorsGroup');
+    const floorsEl = document.getElementById('estFloorsRange');
+
+    if (type === 'xuong') {
+        if (areaEl) { areaEl.min = 100; areaEl.max = 2000; areaEl.value = 400; }
+        if (floorsEl) floorsEl.value = 1;
+        if (floorsGroup) floorsGroup.style.opacity = '0.5';
+    } else if (type === 'bietthu') {
+        if (areaEl) { areaEl.min = 80; areaEl.max = 600; areaEl.value = 150; }
+        if (floorsEl) floorsEl.value = 3;
+        if (floorsGroup) floorsGroup.style.opacity = '1';
+    } else {
+        if (areaEl) { areaEl.min = 40; areaEl.max = 300; areaEl.value = 90; }
+        if (floorsEl) floorsEl.value = 3;
+        if (floorsGroup) floorsGroup.style.opacity = '1';
+    }
+    window.updateEstimator();
+};
+
+window.updateEstimator = function() {
+    const areaEl = document.getElementById('estAreaRange');
+    const floorsEl = document.getElementById('estFloorsRange');
+    if (!areaEl || !floorsEl) return;
+
+    const area = parseInt(areaEl.value, 10) || 100;
+    const floors = currentEstimatorType === 'xuong' ? 1 : (parseInt(floorsEl.value, 10) || 3);
+    const totalArea = area * floors;
+
+    const areaValEl = document.getElementById('estAreaVal');
+    const floorsValEl = document.getElementById('estFloorsVal');
+    const totalAreaEl = document.getElementById('estTotalArea');
+    if (areaValEl) areaValEl.textContent = area + ' m²';
+    if (floorsValEl) floorsValEl.textContent = floors + ' tầng';
+    if (totalAreaEl) totalAreaEl.textContent = totalArea.toLocaleString('vi-VN') + ' m² sàn';
+
+    let wireCoils = 0, switchSets = 0, ledQty = 0, breakerQty = 0, minCost = 0, maxCost = 0;
+
+    if (currentEstimatorType === 'xuong') {
+        wireCoils = Math.max(4, Math.round(totalArea / 45));
+        switchSets = Math.max(8, Math.round(totalArea / 25));
+        ledQty = Math.max(8, Math.round(totalArea / 22));
+        breakerQty = Math.max(4, Math.round(totalArea / 40));
+        minCost = totalArea * 95000;
+        maxCost = totalArea * 135000;
+    } else if (currentEstimatorType === 'bietthu') {
+        wireCoils = Math.max(8, Math.round(totalArea / 20));
+        switchSets = Math.max(25, Math.round(totalArea / 4.5));
+        ledQty = Math.max(24, Math.round(totalArea / 5));
+        breakerQty = Math.max(10, Math.round(floors * 6));
+        minCost = totalArea * 115000;
+        maxCost = totalArea * 155000;
+    } else {
+        wireCoils = Math.max(5, Math.round(totalArea / 24));
+        switchSets = Math.max(18, Math.round(totalArea / 5.5));
+        ledQty = Math.max(16, Math.round(totalArea / 6));
+        breakerQty = Math.max(6, Math.round(floors * 5));
+        minCost = totalArea * 78000;
+        maxCost = totalArea * 105000;
+    }
+
+    const fmt = (n) => Math.round(n / 100000) * 100000;
+    const wireEl = document.getElementById('estWireQty');
+    const switchEl = document.getElementById('estSwitchQty');
+    const ledEl = document.getElementById('estLedQty');
+    const brkEl = document.getElementById('estBreakerQty');
+    const budEl = document.getElementById('estBudgetText');
+
+    if (wireEl) wireEl.textContent = currentEstimatorType === 'xuong' ? (wireCoils * 15) + ' Mét cáp + ' + Math.round(wireCoils/2) + ' Cuộn' : wireCoils + ' Cuộn (100m)';
+    if (switchEl) switchEl.textContent = switchSets + ' Bộ';
+    if (ledEl) ledEl.textContent = ledQty + (currentEstimatorType === 'xuong' ? ' Bộ Highbay/Bán nguyệt' : ' Cái');
+    if (brkEl) brkEl.textContent = breakerQty + ' Cái / Bộ';
+    if (budEl) budEl.textContent = formatVND(fmt(minCost)) + ' – ' + formatVND(fmt(maxCost));
+};
+
+window.applyEstimatorToBoq = function() {
+    if (typeof state === 'undefined' || !Array.isArray(state.products)) return;
+    const area = parseInt((document.getElementById('estAreaRange') || {}).value, 10) || 100;
+    const floors = currentEstimatorType === 'xuong' ? 1 : (parseInt((document.getElementById('estFloorsRange') || {}).value, 10) || 3);
+    const totalArea = area * floors;
+
+    const pick = (kw) => state.products.find(pr => pr.name.toLowerCase().includes(kw.toLowerCase())) || state.products[0];
+    const itemsToAdd = [];
+
+    if (currentEstimatorType === 'xuong') {
+        const pCable = pick('Cadisun') || pick('Cadivi');
+        const pLed = pick('Highbay') || pick('Bán nguyệt') || pick('LED');
+        const pMccb = pick('MCCB') || pick('Aptomat');
+        if (pCable) itemsToAdd.push({ product: pCable, qty: Math.max(40, Math.round(totalArea / 4)) });
+        if (pLed) itemsToAdd.push({ product: pLed, qty: Math.max(8, Math.round(totalArea / 22)) });
+        if (pMccb) itemsToAdd.push({ product: pMccb, qty: Math.max(4, Math.round(totalArea / 40)) });
+    } else {
+        const wireCoils = Math.max(5, Math.round(totalArea / 24));
+        const pWire25 = pick('2.5mm');
+        const pWire15 = pick('1.5mm');
+        const pSwitch = currentEstimatorType === 'bietthu' ? (pick('Bretina') || pick('Vanni') || pick('Panasonic')) : (pick('Panasonic') || pick('Sino'));
+        const pLed = pick('Âm trần') || pick('Downlight') || pick('LED');
+        const pRcbo = pick('RCBO') || pick('Aptomat');
+
+        if (pWire25) itemsToAdd.push({ product: pWire25, qty: Math.ceil(wireCoils * 0.55) });
+        if (pWire15) itemsToAdd.push({ product: pWire15, qty: Math.max(2, Math.floor(wireCoils * 0.45)) });
+        if (pSwitch) itemsToAdd.push({ product: pSwitch, qty: Math.max(18, Math.round(totalArea / 5.5)) });
+        if (pLed) itemsToAdd.push({ product: pLed, qty: Math.max(16, Math.round(totalArea / 6)) });
+        if (pRcbo) itemsToAdd.push({ product: pRcbo, qty: Math.max(4, floors * 2) });
+    }
+
+    state.boqCart = [];
+    itemsToAdd.forEach(entry => {
+        const pr = entry.product;
+        state.boqCart.push({
+            cartId: pr.id + '_est_' + Date.now() + Math.random().toString(36).slice(2, 6),
+            productId: pr.id,
+            name: pr.name,
+            brand: pr.brand,
+            variant: pr.spec || (pr.variants && pr.variants[0]) || 'Tiêu chuẩn chính hãng',
+            unit: pr.unit,
+            price: pr.price || 0,
+            qty: entry.qty,
+            isCustom: false
+        });
+    });
+
+    if (typeof saveBoqCart === 'function') saveBoqCart();
+    if (typeof renderBoqSection === 'function') renderBoqSection();
+    if (typeof updateHeaderAndFloatingBadges === 'function') updateHeaderAndFloatingBadges();
+
+    const boqEl = document.getElementById('boq-section');
+    if (boqEl) boqEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+    if (typeof window.updateEstimator === 'function') window.updateEstimator();
+});

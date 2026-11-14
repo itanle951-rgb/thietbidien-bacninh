@@ -1,6 +1,6 @@
 /**
- * TỔNG DANH MỤC SẢN PHẨM NHÀ MÁY CHÍNH HÃNG - DUY PHONG BẮC NINH
- * Đã cập nhật ảnh thực tế chính hãng cho từng thương hiệu
+ * Danh mục sản phẩm Thiết Bị Điện Cao Cấp Duy Phong - A Thành BN
+ * Tổng số: 1629 sản phẩm (Cập nhật bảng giá 13/11/2026)
  */
 window.ALL_PRODUCTS_DATA = [
   {
@@ -9590,5 +9590,20957 @@ window.ALL_PRODUCTS_DATA = [
     "desc": "Sản phẩm Cáp mềm 4x6 Trần Phú chính hãng Trần Phú. Tiêu chuẩn kỹ thuật TCVN / IEC, ruột đồng tinh chất dẫn điện tối ưu, an toàn và bền bỉ.",
     "inStock": true,
     "spec": "Quy cách chuẩn: Cáp mềm 4x6 Trần Phú (Mét)"
+  },
+  {
+    "id": "sino-sgh01",
+    "sku": "SGH01",
+    "name": "Hộp chia SP 16 (3 ngả) (E240/16/3)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 5843,
+    "catalogPrice": 5843,
+    "spec": "Mã SGH01 - Chính hãng Sino",
+    "image": "assets/images/products/de-am-tuong-nanoco.jpg",
+    "desc": "Hộp chia SP 16 (3 ngả) (E240/16/3) (Mã SGH01) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGH01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgh02",
+    "sku": "SGH02",
+    "name": "Hộp chia SP 20 (3 ngả) (E240/20/3)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 6343,
+    "catalogPrice": 6343,
+    "spec": "Mã SGH02 - Chính hãng Sino",
+    "image": "assets/images/products/de-am-tuong-nanoco.jpg",
+    "desc": "Hộp chia SP 20 (3 ngả) (E240/20/3) (Mã SGH02) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGH02 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgh02c",
+    "sku": "SGH02C",
+    "name": "Hộp chia SP 20 (3 ngả-cao) (E240/20/3D)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 17778,
+    "catalogPrice": 17778,
+    "spec": "Mã SGH02C - Chính hãng Sino",
+    "image": "assets/images/products/de-am-tuong-nanoco.jpg",
+    "desc": "Hộp chia SP 20 (3 ngả-cao) (E240/20/3D) (Mã SGH02C) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGH02C (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgh03",
+    "sku": "SGH03",
+    "name": "Hộp chia SP 25 (3 ngả) (E240/25/3)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 6677,
+    "catalogPrice": 6677,
+    "spec": "Mã SGH03 - Chính hãng Sino",
+    "image": "assets/images/products/de-am-tuong-nanoco.jpg",
+    "desc": "Hộp chia SP 25 (3 ngả) (E240/25/3) (Mã SGH03) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGH03 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgh03c",
+    "sku": "SGH03C",
+    "name": "Hộp chia SP 25 (3 ngả-cao) (E240/25/3D)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 20448,
+    "catalogPrice": 20448,
+    "spec": "Mã SGH03C - Chính hãng Sino",
+    "image": "assets/images/products/de-am-tuong-nanoco.jpg",
+    "desc": "Hộp chia SP 25 (3 ngả-cao) (E240/25/3D) (Mã SGH03C) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGH03C (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgh03d",
+    "sku": "SGH03D",
+    "name": "Hộp chia SP 32 (3 ngả) (V240/32/3)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 9431,
+    "catalogPrice": 9431,
+    "spec": "Mã SGH03D - Chính hãng Sino",
+    "image": "assets/images/products/de-am-tuong-nanoco.jpg",
+    "desc": "Hộp chia SP 32 (3 ngả) (V240/32/3) (Mã SGH03D) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGH03D (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgh04",
+    "sku": "SGH04",
+    "name": "Nắp đậy hộp chia tròn SP (E240LS)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 1669,
+    "catalogPrice": 1669,
+    "spec": "Mã SGH04 - Chính hãng Sino",
+    "image": "assets/images/products/de-am-tuong-nanoco.jpg",
+    "desc": "Nắp đậy hộp chia tròn SP (E240LS) (Mã SGH04) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGH04 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgh05",
+    "sku": "SGH05",
+    "name": "Hộp chia 16 SP (4ngả) (E240/16/4)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 5843,
+    "catalogPrice": 5843,
+    "spec": "Mã SGH05 - Chính hãng Sino",
+    "image": "assets/images/products/de-am-tuong-nanoco.jpg",
+    "desc": "Hộp chia 16 SP (4ngả) (E240/16/4) (Mã SGH05) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGH05 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgh06",
+    "sku": "SGH06",
+    "name": "Hộp chia 20 SP (4ngả) (E240/20/4)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 6343,
+    "catalogPrice": 6343,
+    "spec": "Mã SGH06 - Chính hãng Sino",
+    "image": "assets/images/products/de-am-tuong-nanoco.jpg",
+    "desc": "Hộp chia 20 SP (4ngả) (E240/20/4) (Mã SGH06) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGH06 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgh07",
+    "sku": "SGH07",
+    "name": "Hộp chia 25 SP (4ngả) (E240/25/4)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 6677,
+    "catalogPrice": 6677,
+    "spec": "Mã SGH07 - Chính hãng Sino",
+    "image": "assets/images/products/de-am-tuong-nanoco.jpg",
+    "desc": "Hộp chia 25 SP (4ngả) (E240/25/4) (Mã SGH07) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGH07 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgh07d",
+    "sku": "SGH07D",
+    "name": "Hộp chia 32 SP (4ngả) (V240/32/4)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 9431,
+    "catalogPrice": 9431,
+    "spec": "Mã SGH07D - Chính hãng Sino",
+    "image": "assets/images/products/de-am-tuong-nanoco.jpg",
+    "desc": "Hộp chia 32 SP (4ngả) (V240/32/4) (Mã SGH07D) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGH07D (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgh08",
+    "sku": "SGH08",
+    "name": "Hộp chia 16 SP (2ngả-vuông) (E240/16/2A)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 5843,
+    "catalogPrice": 5843,
+    "spec": "Mã SGH08 - Chính hãng Sino",
+    "image": "assets/images/products/de-am-tuong-nanoco.jpg",
+    "desc": "Hộp chia 16 SP (2ngả-vuông) (E240/16/2A) (Mã SGH08) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGH08 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgh08t",
+    "sku": "SGH08T",
+    "name": "Hộp chia 16 SP (2ngả-thẳng) (E240/16/2)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 5843,
+    "catalogPrice": 5843,
+    "spec": "Mã SGH08T - Chính hãng Sino",
+    "image": "assets/images/products/de-am-tuong-nanoco.jpg",
+    "desc": "Hộp chia 16 SP (2ngả-thẳng) (E240/16/2) (Mã SGH08T) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGH08T (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgh09",
+    "sku": "SGH09",
+    "name": "Hộp chia 20 SP (2ngả-vuông) (E240/20/2A)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 6343,
+    "catalogPrice": 6343,
+    "spec": "Mã SGH09 - Chính hãng Sino",
+    "image": "assets/images/products/de-am-tuong-nanoco.jpg",
+    "desc": "Hộp chia 20 SP (2ngả-vuông) (E240/20/2A) (Mã SGH09) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGH09 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgh09t",
+    "sku": "SGH09T",
+    "name": "Hộp chia 20 SP (2ngả-thẳng) (E240/20/2)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 6343,
+    "catalogPrice": 6343,
+    "spec": "Mã SGH09T - Chính hãng Sino",
+    "image": "assets/images/products/de-am-tuong-nanoco.jpg",
+    "desc": "Hộp chia 20 SP (2ngả-thẳng) (E240/20/2) (Mã SGH09T) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGH09T (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgh10",
+    "sku": "SGH10",
+    "name": "Hộp chia 25 SP (2ngả-vuông) (E240/25/2A)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 6677,
+    "catalogPrice": 6677,
+    "spec": "Mã SGH10 - Chính hãng Sino",
+    "image": "assets/images/products/de-am-tuong-nanoco.jpg",
+    "desc": "Hộp chia 25 SP (2ngả-vuông) (E240/25/2A) (Mã SGH10) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGH10 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgh10t",
+    "sku": "SGH10T",
+    "name": "Hộp chia 25 SP (2ngả-thẳng) (E240/25/2)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 6677,
+    "catalogPrice": 6677,
+    "spec": "Mã SGH10T - Chính hãng Sino",
+    "image": "assets/images/products/de-am-tuong-nanoco.jpg",
+    "desc": "Hộp chia 25 SP (2ngả-thẳng) (E240/25/2) (Mã SGH10T) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGH10T (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgh11",
+    "sku": "SGH11",
+    "name": "Hộp chia 32 SP (2ngả-vuông) (V240/32/2A)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 9431,
+    "catalogPrice": 9431,
+    "spec": "Mã SGH11 - Chính hãng Sino",
+    "image": "assets/images/products/de-am-tuong-nanoco.jpg",
+    "desc": "Hộp chia 32 SP (2ngả-vuông) (V240/32/2A) (Mã SGH11) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGH11 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgh12",
+    "sku": "SGH12",
+    "name": "Hộp chia 32 SP (2ngả-thẳng) (E240/32/2)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 9431,
+    "catalogPrice": 9431,
+    "spec": "Mã SGH12 - Chính hãng Sino",
+    "image": "assets/images/products/de-am-tuong-nanoco.jpg",
+    "desc": "Hộp chia 32 SP (2ngả-thẳng) (E240/32/2) (Mã SGH12) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGH12 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgh13",
+    "sku": "SGH13",
+    "name": "Hộp chia 16 SP (1ngả) (E240/16/1)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 5843,
+    "catalogPrice": 5843,
+    "spec": "Mã SGH13 - Chính hãng Sino",
+    "image": "assets/images/products/de-am-tuong-nanoco.jpg",
+    "desc": "Hộp chia 16 SP (1ngả) (E240/16/1) (Mã SGH13) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGH13 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgh14",
+    "sku": "SGH14",
+    "name": "Hộp chia 20 SP (1ngả) (E240/20/1)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 6343,
+    "catalogPrice": 6343,
+    "spec": "Mã SGH14 - Chính hãng Sino",
+    "image": "assets/images/products/de-am-tuong-nanoco.jpg",
+    "desc": "Hộp chia 20 SP (1ngả) (E240/20/1) (Mã SGH14) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGH14 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgh15",
+    "sku": "SGH15",
+    "name": "Hộp chia 25 SP (1ngả) (E240/25/1)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 6677,
+    "catalogPrice": 6677,
+    "spec": "Mã SGH15 - Chính hãng Sino",
+    "image": "assets/images/products/de-am-tuong-nanoco.jpg",
+    "desc": "Hộp chia 25 SP (1ngả) (E240/25/1) (Mã SGH15) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGH15 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgh16",
+    "sku": "SGH16",
+    "name": "Hộp chia 32 SP (1ngả) (V240/32/1)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 9431,
+    "catalogPrice": 9431,
+    "spec": "Mã SGH16 - Chính hãng Sino",
+    "image": "assets/images/products/de-am-tuong-nanoco.jpg",
+    "desc": "Hộp chia 32 SP (1ngả) (V240/32/1) (Mã SGH16) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGH16 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgk01",
+    "sku": "SGK01",
+    "name": "Khớp nối SP 16 (E242/16)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 918,
+    "catalogPrice": 918,
+    "spec": "Mã SGK01 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Khớp nối SP 16 (E242/16) (Mã SGK01) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGK01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgk02",
+    "sku": "SGK02",
+    "name": "Khớp nối SP 20 (E242/20)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 1002,
+    "catalogPrice": 1002,
+    "spec": "Mã SGK02 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Khớp nối SP 20 (E242/20) (Mã SGK02) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGK02 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgk03",
+    "sku": "SGK03",
+    "name": "Khớp nối SP 25 (E242/25)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 1669,
+    "catalogPrice": 1669,
+    "spec": "Mã SGK03 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Khớp nối SP 25 (E242/25) (Mã SGK03) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGK03 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgk04",
+    "sku": "SGK04",
+    "name": "Khớp nối SP 32 (E242/32)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 2921,
+    "catalogPrice": 2921,
+    "spec": "Mã SGK04 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Khớp nối SP 32 (E242/32) (Mã SGK04) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGK04 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgk05",
+    "sku": "SGK05",
+    "name": "Khớp nối SP 40 (E242/40)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 7928,
+    "catalogPrice": 7928,
+    "spec": "Mã SGK05 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Khớp nối SP 40 (E242/40) (Mã SGK05) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGK05 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgk06",
+    "sku": "SGK06",
+    "name": "Khớp nối SP 50 (E242/50)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 10850,
+    "catalogPrice": 10850,
+    "spec": "Mã SGK06 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Khớp nối SP 50 (E242/50) (Mã SGK06) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGK06 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgk07",
+    "sku": "SGK07",
+    "name": "Khớp nối vặn răng SP 16 (E258+281/16)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 2754,
+    "catalogPrice": 2754,
+    "spec": "Mã SGK07 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Khớp nối vặn răng SP 16 (E258+281/16) (Mã SGK07) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGK07 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgk08",
+    "sku": "SGK08",
+    "name": "Khớp nối vặn răng SP 20 (E258+281/20)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 2921,
+    "catalogPrice": 2921,
+    "spec": "Mã SGK08 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Khớp nối vặn răng SP 20 (E258+281/20) (Mã SGK08) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGK08 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgk09",
+    "sku": "SGK09",
+    "name": "Khớp nối vặn răng SP 25 (E258+281/25)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 3338,
+    "catalogPrice": 3338,
+    "spec": "Mã SGK09 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Khớp nối vặn răng SP 25 (E258+281/25) (Mã SGK09) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGK09 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgk10",
+    "sku": "SGK10",
+    "name": "Khớp nối vặn răng SP 32 (E258+281/32)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 4423,
+    "catalogPrice": 4423,
+    "spec": "Mã SGK10 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Khớp nối vặn răng SP 32 (E258+281/32) (Mã SGK10) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGK10 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgk10d",
+    "sku": "SGK10D",
+    "name": "Khớp nối vặn răng SP 40 (E258+281/40)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 8764,
+    "catalogPrice": 8764,
+    "spec": "Mã SGK10D - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Khớp nối vặn răng SP 40 (E258+281/40) (Mã SGK10D) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGK10D (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgk11",
+    "sku": "SGK11",
+    "name": "Kẹp đỡ ống PVC 16 (E280/16)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 793,
+    "catalogPrice": 793,
+    "spec": "Mã SGK11 - Chính hãng Sino",
+    "image": "assets/images/products/ong-cung-luon-day-pvc.jpg",
+    "desc": "Kẹp đỡ ống PVC 16 (E280/16) (Mã SGK11) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGK11 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgk12",
+    "sku": "SGK12",
+    "name": "Kẹp đỡ ống PVC 20 (E280/20)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 1002,
+    "catalogPrice": 1002,
+    "spec": "Mã SGK12 - Chính hãng Sino",
+    "image": "assets/images/products/ong-cung-luon-day-pvc.jpg",
+    "desc": "Kẹp đỡ ống PVC 20 (E280/20) (Mã SGK12) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGK12 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgk13",
+    "sku": "SGK13",
+    "name": "Kẹp đỡ ống PVC 25 (E280/25)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 1669,
+    "catalogPrice": 1669,
+    "spec": "Mã SGK13 - Chính hãng Sino",
+    "image": "assets/images/products/ong-cung-luon-day-pvc.jpg",
+    "desc": "Kẹp đỡ ống PVC 25 (E280/25) (Mã SGK13) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGK13 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgk14",
+    "sku": "SGK14",
+    "name": "Kẹp đỡ ống PVC 32 (E280/32)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 2504,
+    "catalogPrice": 2504,
+    "spec": "Mã SGK14 - Chính hãng Sino",
+    "image": "assets/images/products/ong-cung-luon-day-pvc.jpg",
+    "desc": "Kẹp đỡ ống PVC 32 (E280/32) (Mã SGK14) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGK14 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgk15",
+    "sku": "SGK15",
+    "name": "Kẹp đỡ ống PVC 40 (E280/40)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 4174,
+    "catalogPrice": 4174,
+    "spec": "Mã SGK15 - Chính hãng Sino",
+    "image": "assets/images/products/ong-cung-luon-day-pvc.jpg",
+    "desc": "Kẹp đỡ ống PVC 40 (E280/40) (Mã SGK15) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGK15 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgl01",
+    "sku": "SGL01",
+    "name": "Lò xo uốn ống SP 16 (LSS16)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 74183,
+    "catalogPrice": 74183,
+    "spec": "Mã SGL01 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Lò xo uốn ống SP 16 (LSS16) (Mã SGL01) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGL01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgl02",
+    "sku": "SGL02",
+    "name": "Lò xo uốn ống SP 20 (LSS20)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 85730,
+    "catalogPrice": 85730,
+    "spec": "Mã SGL02 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Lò xo uốn ống SP 20 (LSS20) (Mã SGL02) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGL02 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgl03",
+    "sku": "SGL03",
+    "name": "Lò xo uốn ống SP 25 (LSS25)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 112558,
+    "catalogPrice": 112558,
+    "spec": "Mã SGL03 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Lò xo uốn ống SP 25 (LSS25) (Mã SGL03) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGL03 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgl04",
+    "sku": "SGL04",
+    "name": "Lò xo uốn ống SP 32 (LSS32)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 144634,
+    "catalogPrice": 144634,
+    "spec": "Mã SGL04 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Lò xo uốn ống SP 32 (LSS32) (Mã SGL04) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGL04 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgl05",
+    "sku": "SGL05",
+    "name": "Lò xo uốn ống SP 40 (LSS40)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 267106,
+    "catalogPrice": 267106,
+    "spec": "Mã SGL05 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Lò xo uốn ống SP 40 (LSS40) (Mã SGL05) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGL05 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgl11",
+    "sku": "SGL11",
+    "name": "Cút chữ \"L\" SP 16 có nắp (E244/16)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 2821,
+    "catalogPrice": 2821,
+    "spec": "Mã SGL11 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Cút chữ \"L\" SP 16 có nắp (E244/16) (Mã SGL11) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGL11 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgl12",
+    "sku": "SGL12",
+    "name": "Cút chữ \"L\" SP 20 có nắp (E244/20)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 5008,
+    "catalogPrice": 5008,
+    "spec": "Mã SGL12 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Cút chữ \"L\" SP 20 có nắp (E244/20) (Mã SGL12) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGL12 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgl13",
+    "sku": "SGL13",
+    "name": "Cút chữ \"L\" SP 25 có nắp (E244/25)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 8764,
+    "catalogPrice": 8764,
+    "spec": "Mã SGL13 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Cút chữ \"L\" SP 25 có nắp (E244/25) (Mã SGL13) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGL13 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgl14",
+    "sku": "SGL14",
+    "name": "Cút chữ \"L\" SP 32 có nắp (E244/32)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 13354,
+    "catalogPrice": 13354,
+    "spec": "Mã SGL14 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Cút chữ \"L\" SP 32 có nắp (E244/32) (Mã SGL14) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGL14 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgl17",
+    "sku": "SGL17",
+    "name": "Cút chữ \"L\" 16 ko nắp (E244/16S)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 1836,
+    "catalogPrice": 1836,
+    "spec": "Mã SGL17 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Cút chữ \"L\" 16 ko nắp (E244/16S) (Mã SGL17) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGL17 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgl18",
+    "sku": "SGL18",
+    "name": "Cút chữ \"L\" 20 ko nắp (E244/20S)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 2671,
+    "catalogPrice": 2671,
+    "spec": "Mã SGL18 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Cút chữ \"L\" 20 ko nắp (E244/20S) (Mã SGL18) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGL18 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgl19",
+    "sku": "SGL19",
+    "name": "Cút chữ \"L\" 25 ko nắp (E244/25S)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 4340,
+    "catalogPrice": 4340,
+    "spec": "Mã SGL19 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Cút chữ \"L\" 25 ko nắp (E244/25S) (Mã SGL19) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGL19 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgl20",
+    "sku": "SGL20",
+    "name": "Cút chữ \"L\" 32 ko nắp (E244/32S)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 6259,
+    "catalogPrice": 6259,
+    "spec": "Mã SGL20 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Cút chữ \"L\" 32 ko nắp (E244/32S) (Mã SGL20) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGL20 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgl21",
+    "sku": "SGL21",
+    "name": "Cút chữ \"L\" 40 ko nắp (E244/40S)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 10850,
+    "catalogPrice": 10850,
+    "spec": "Mã SGL21 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Cút chữ \"L\" 40 ko nắp (E244/40S) (Mã SGL21) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGL21 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgl22",
+    "sku": "SGL22",
+    "name": "Cút chữ \"L\" 50 ko nắp (E244/50S)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 14856,
+    "catalogPrice": 14856,
+    "spec": "Mã SGL22 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Cút chữ \"L\" 50 ko nắp (E244/50S) (Mã SGL22) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGL22 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgt01",
+    "sku": "SGT01",
+    "name": "Cút chữ \"T\" SP 16 có nắp (E246/16)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 4090,
+    "catalogPrice": 4090,
+    "spec": "Mã SGT01 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Cút chữ \"T\" SP 16 có nắp (E246/16) (Mã SGT01) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGT01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgt02",
+    "sku": "SGT02",
+    "name": "Cút chữ \"T\" SP 20 có nắp (E246/20)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 7928,
+    "catalogPrice": 7928,
+    "spec": "Mã SGT02 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Cút chữ \"T\" SP 20 có nắp (E246/20) (Mã SGT02) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGT02 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgt03",
+    "sku": "SGT03",
+    "name": "Cút chữ \"T\" SP 25 có nắp (E246/25)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 12520,
+    "catalogPrice": 12520,
+    "spec": "Mã SGT03 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Cút chữ \"T\" SP 25 có nắp (E246/25) (Mã SGT03) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGT03 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgt04",
+    "sku": "SGT04",
+    "name": "Cút chữ \"T\" SP 32 có nắp (E246/32)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 15023,
+    "catalogPrice": 15023,
+    "spec": "Mã SGT04 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Cút chữ \"T\" SP 32 có nắp (E246/32) (Mã SGT04) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGT04 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgt11",
+    "sku": "SGT11",
+    "name": "Cút chữ \"T\" SP 16 ko nắp (E246/16S)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 2545,
+    "catalogPrice": 2545,
+    "spec": "Mã SGT11 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Cút chữ \"T\" SP 16 ko nắp (E246/16S) (Mã SGT11) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGT11 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgt12",
+    "sku": "SGT12",
+    "name": "Cút chữ \"T\" SP 20 ko nắp (E246/20S)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 3338,
+    "catalogPrice": 3338,
+    "spec": "Mã SGT12 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Cút chữ \"T\" SP 20 ko nắp (E246/20S) (Mã SGT12) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGT12 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgt13",
+    "sku": "SGT13",
+    "name": "Cút chữ \"T\" SP 25 ko nắp (E246/25S)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 4841,
+    "catalogPrice": 4841,
+    "spec": "Mã SGT13 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Cút chữ \"T\" SP 25 ko nắp (E246/25S) (Mã SGT13) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGT13 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgt14",
+    "sku": "SGT14",
+    "name": "Cút chữ \"T\" SP 32 ko nắp (E246/32S)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 6677,
+    "catalogPrice": 6677,
+    "spec": "Mã SGT14 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Cút chữ \"T\" SP 32 ko nắp (E246/32S) (Mã SGT14) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGT14 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgt15",
+    "sku": "SGT15",
+    "name": "Cút chữ \"T\" SP 40 ko nắp (E246/40S)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 12520,
+    "catalogPrice": 12520,
+    "spec": "Mã SGT15 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Cút chữ \"T\" SP 40 ko nắp (E246/40S) (Mã SGT15) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGT15 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sh01",
+    "sku": "SH01",
+    "name": "Hộp nối SP 80x80x50 (E265/1X)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 12472,
+    "catalogPrice": 12472,
+    "spec": "Mã SH01 - Chính hãng Sino",
+    "image": "assets/images/products/de-am-tuong-nanoco.jpg",
+    "desc": "Hộp nối SP 80x80x50 (E265/1X) (Mã SH01) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SH01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sh11",
+    "sku": "SH11",
+    "name": "Hộp nối SP 80x80x50 kín (E265/1)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 12472,
+    "catalogPrice": 12472,
+    "spec": "Mã SH11 - Chính hãng Sino",
+    "image": "assets/images/products/de-am-tuong-nanoco.jpg",
+    "desc": "Hộp nối SP 80x80x50 kín (E265/1) (Mã SH11) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SH11 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sh02",
+    "sku": "SH02",
+    "name": "Hộp nối SP 110x110x50 (E265/2X)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 15984,
+    "catalogPrice": 15984,
+    "spec": "Mã SH02 - Chính hãng Sino",
+    "image": "assets/images/products/de-am-tuong-nanoco.jpg",
+    "desc": "Hộp nối SP 110x110x50 (E265/2X) (Mã SH02) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SH02 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sh12",
+    "sku": "SH12",
+    "name": "Hộp nối SP 110x110x50 kín (E265/2)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 15984,
+    "catalogPrice": 15984,
+    "spec": "Mã SH12 - Chính hãng Sino",
+    "image": "assets/images/products/de-am-tuong-nanoco.jpg",
+    "desc": "Hộp nối SP 110x110x50 kín (E265/2) (Mã SH12) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SH12 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sh03",
+    "sku": "SH03",
+    "name": "Hộp nối SP 160x160x50 (E265/3X)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 33023,
+    "catalogPrice": 33023,
+    "spec": "Mã SH03 - Chính hãng Sino",
+    "image": "assets/images/products/de-am-tuong-nanoco.jpg",
+    "desc": "Hộp nối SP 160x160x50 (E265/3X) (Mã SH03) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SH03 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sh13",
+    "sku": "SH13",
+    "name": "Hộp nối SP 160x160x50 kín (E265/3)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 33023,
+    "catalogPrice": 33023,
+    "spec": "Mã SH13 - Chính hãng Sino",
+    "image": "assets/images/products/de-am-tuong-nanoco.jpg",
+    "desc": "Hộp nối SP 160x160x50 kín (E265/3) (Mã SH13) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SH13 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sh04",
+    "sku": "SH04",
+    "name": "Hộp nối SP 185x185x80 (E265/43)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 59722,
+    "catalogPrice": 59722,
+    "spec": "Mã SH04 - Chính hãng Sino",
+    "image": "assets/images/products/de-am-tuong-nanoco.jpg",
+    "desc": "Hộp nối SP 185x185x80 (E265/43) (Mã SH04) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SH04 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sh05",
+    "sku": "SH05",
+    "name": "Hộp nối SP 235x235x80 (E265/53)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 91339,
+    "catalogPrice": 91339,
+    "spec": "Mã SH05 - Chính hãng Sino",
+    "image": "assets/images/products/de-am-tuong-nanoco.jpg",
+    "desc": "Hộp nối SP 235x235x80 (E265/53) (Mã SH05) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SH05 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-sgs11",
+    "sku": "SGS11",
+    "name": "Ống ghen SP tròn 16 (SP 9016)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 14630,
+    "catalogPrice": 14630,
+    "spec": "Mã SGS11 - Chính hãng Sino",
+    "image": "assets/images/products/ong-cung-luon-day-pvc.jpg",
+    "desc": "Ống ghen SP tròn 16 (SP 9016) (Mã SGS11) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGS11 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgs12",
+    "sku": "SGS12",
+    "name": "Ống ghen SP tròn 20 (SP 9020)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 21479,
+    "catalogPrice": 21479,
+    "spec": "Mã SGS12 - Chính hãng Sino",
+    "image": "assets/images/products/ong-cung-luon-day-pvc.jpg",
+    "desc": "Ống ghen SP tròn 20 (SP 9020) (Mã SGS12) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGS12 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgs13",
+    "sku": "SGS13",
+    "name": "Ống ghen SP tròn 25 (SP 9025)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 29339,
+    "catalogPrice": 29339,
+    "spec": "Mã SGS13 - Chính hãng Sino",
+    "image": "assets/images/products/ong-cung-luon-day-pvc.jpg",
+    "desc": "Ống ghen SP tròn 25 (SP 9025) (Mã SGS13) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGS13 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgs14",
+    "sku": "SGS14",
+    "name": "Ống ghen SP tròn 32 (SP 9032)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 60934,
+    "catalogPrice": 60934,
+    "spec": "Mã SGS14 - Chính hãng Sino",
+    "image": "assets/images/products/ong-cung-luon-day-pvc.jpg",
+    "desc": "Ống ghen SP tròn 32 (SP 9032) (Mã SGS14) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGS14 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgs15",
+    "sku": "SGS15",
+    "name": "Ống ghen SP tròn 40 (SP 9040)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 86381,
+    "catalogPrice": 86381,
+    "spec": "Mã SGS15 - Chính hãng Sino",
+    "image": "assets/images/products/ong-cung-luon-day-pvc.jpg",
+    "desc": "Ống ghen SP tròn 40 (SP 9040) (Mã SGS15) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGS15 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgs16",
+    "sku": "SGS16",
+    "name": "Ống ghen SP tròn 50 (SP 9050)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 115175,
+    "catalogPrice": 115175,
+    "spec": "Mã SGS16 - Chính hãng Sino",
+    "image": "assets/images/products/ong-cung-luon-day-pvc.jpg",
+    "desc": "Ống ghen SP tròn 50 (SP 9050) (Mã SGS16) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGS16 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgs18",
+    "sku": "SGS18",
+    "name": "Ống ghen SP 16LS (SP 9016LS)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 11906,
+    "catalogPrice": 11906,
+    "spec": "Mã SGS18 - Chính hãng Sino",
+    "image": "assets/images/products/ong-cung-luon-day-pvc.jpg",
+    "desc": "Ống ghen SP 16LS (SP 9016LS) (Mã SGS18) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGS18 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgs180",
+    "sku": "SGS180",
+    "name": "Ống ghen SP 20LS (SP 9020LS)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 15564,
+    "catalogPrice": 15564,
+    "spec": "Mã SGS180 - Chính hãng Sino",
+    "image": "assets/images/products/ong-cung-luon-day-pvc.jpg",
+    "desc": "Ống ghen SP 20LS (SP 9020LS) (Mã SGS180) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGS180 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgs181",
+    "sku": "SGS181",
+    "name": "Ống ghen SP 25LS (SP 9025LS)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 24125,
+    "catalogPrice": 24125,
+    "spec": "Mã SGS181 - Chính hãng Sino",
+    "image": "assets/images/products/ong-cung-luon-day-pvc.jpg",
+    "desc": "Ống ghen SP 25LS (SP 9025LS) (Mã SGS181) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGS181 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgs182",
+    "sku": "SGS182",
+    "name": "Ống ghen SP 32LS (SP 9032LS)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 47082,
+    "catalogPrice": 47082,
+    "spec": "Mã SGS182 - Chính hãng Sino",
+    "image": "assets/images/products/ong-cung-luon-day-pvc.jpg",
+    "desc": "Ống ghen SP 32LS (SP 9032LS) (Mã SGS182) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGS182 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgs06",
+    "sku": "SGS06",
+    "name": "Ghen tròn 16 MS (SP 16MS)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 13852,
+    "catalogPrice": 13852,
+    "spec": "Mã SGS06 - Chính hãng Sino",
+    "image": "assets/images/products/ong-cung-luon-day-pvc.jpg",
+    "desc": "Ghen tròn 16 MS (SP 16MS) (Mã SGS06) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGS06 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgs07",
+    "sku": "SGS07",
+    "name": "Ghen tròn 20 MS (SP 20MS)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 18911,
+    "catalogPrice": 18911,
+    "spec": "Mã SGS07 - Chính hãng Sino",
+    "image": "assets/images/products/ong-cung-luon-day-pvc.jpg",
+    "desc": "Ghen tròn 20 MS (SP 20MS) (Mã SGS07) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGS07 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgs08",
+    "sku": "SGS08",
+    "name": "Ghen tròn 25 MS (SP 25MS)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 29261,
+    "catalogPrice": 29261,
+    "spec": "Mã SGS08 - Chính hãng Sino",
+    "image": "assets/images/products/ong-cung-luon-day-pvc.jpg",
+    "desc": "Ghen tròn 25 MS (SP 25MS) (Mã SGS08) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGS08 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgs09",
+    "sku": "SGS09",
+    "name": "Ghen tròn 32 MS (SP 32MS)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 52140,
+    "catalogPrice": 52140,
+    "spec": "Mã SGS09 - Chính hãng Sino",
+    "image": "assets/images/products/ong-cung-luon-day-pvc.jpg",
+    "desc": "Ghen tròn 32 MS (SP 32MS) (Mã SGS09) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGS09 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgs20",
+    "sku": "SGS20",
+    "name": "Ghen dẹt SP 14x8 (GA14)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 9305,
+    "catalogPrice": 9305,
+    "spec": "Mã SGS20 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Ghen dẹt SP 14x8 (GA14) (Mã SGS20) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGS20 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgs21",
+    "sku": "SGS21",
+    "name": "Ghen dẹt SP 15x10 (GA15)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 9558,
+    "catalogPrice": 9558,
+    "spec": "Mã SGS21 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Ghen dẹt SP 15x10 (GA15) (Mã SGS21) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGS21 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgs22",
+    "sku": "SGS22",
+    "name": "Ghen dẹt SP 16x14 (GA16)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 13111,
+    "catalogPrice": 13111,
+    "spec": "Mã SGS22 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Ghen dẹt SP 16x14 (GA16) (Mã SGS22) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGS22 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgs23",
+    "sku": "SGS23",
+    "name": "Ghen dẹt SP 24x14 (GA24)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 17087,
+    "catalogPrice": 17087,
+    "spec": "Mã SGS23 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Ghen dẹt SP 24x14 (GA24) (Mã SGS23) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGS23 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgs24",
+    "sku": "SGS24",
+    "name": "Ghen dẹt SP 28x10 (GA28)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 18271,
+    "catalogPrice": 18271,
+    "spec": "Mã SGS24 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Ghen dẹt SP 28x10 (GA28) (Mã SGS24) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGS24 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgs25",
+    "sku": "SGS25",
+    "name": "Ghen dẹt SP 30x14 (GA30)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 23346,
+    "catalogPrice": 23346,
+    "spec": "Mã SGS25 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Ghen dẹt SP 30x14 (GA30) (Mã SGS25) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGS25 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgs26",
+    "sku": "SGS26",
+    "name": "Ghen dẹt SP 39x18 (GA39/01)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 24108,
+    "catalogPrice": 24108,
+    "spec": "Mã SGS26 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Ghen dẹt SP 39x18 (GA39/01) (Mã SGS26) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGS26 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgs27",
+    "sku": "SGS27",
+    "name": "Ghen dẹt SP 60x22 (GA60/01)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 50584,
+    "catalogPrice": 50584,
+    "spec": "Mã SGS27 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Ghen dẹt SP 60x22 (GA60/01) (Mã SGS27) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGS27 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgs28",
+    "sku": "SGS28",
+    "name": "Ghen dẹt SP 60x40 (GA60/02)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 62172,
+    "catalogPrice": 62172,
+    "spec": "Mã SGS28 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Ghen dẹt SP 60x40 (GA60/02) (Mã SGS28) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGS28 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgs29",
+    "sku": "SGS29",
+    "name": "Ghen dẹt SP 100x40 (GA100/02)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 133649,
+    "catalogPrice": 133649,
+    "spec": "Mã SGS29 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Ghen dẹt SP 100x40 (GA100/02) (Mã SGS29) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGS29 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgs30",
+    "sku": "SGS30",
+    "name": "Ghen dẹt SP 80x60 (GA80/02)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 122230,
+    "catalogPrice": 122230,
+    "spec": "Mã SGS30 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Ghen dẹt SP 80x60 (GA80/02) (Mã SGS30) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGS30 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgs31",
+    "sku": "SGS31",
+    "name": "Ghen dẹt SP 80x40 (GA80)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 79766,
+    "catalogPrice": 79766,
+    "spec": "Mã SGS31 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Ghen dẹt SP 80x40 (GA80) (Mã SGS31) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGS31 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgs32",
+    "sku": "SGS32",
+    "name": "Ghen dẹt SP 100x60",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 152935,
+    "catalogPrice": 152935,
+    "spec": "Mã SGS32 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Ghen dẹt SP 100x60 (Mã SGS32) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGS32 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgs33",
+    "sku": "SGS33",
+    "name": "Ghen dẹt SP 120x40 (GA120)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 182879,
+    "catalogPrice": 182879,
+    "spec": "Mã SGS33 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Ghen dẹt SP 120x40 (GA120) (Mã SGS33) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGS33 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgv11",
+    "sku": "SGV11",
+    "name": "Ghen tròn 16 Vanlock (VL9016)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 12295,
+    "catalogPrice": 12295,
+    "spec": "Mã SGV11 - Chính hãng Sino",
+    "image": "assets/images/products/ong-cung-luon-day-pvc.jpg",
+    "desc": "Ghen tròn 16 Vanlock (VL9016) (Mã SGV11) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGV11 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgv12",
+    "sku": "SGV12",
+    "name": "Ghen tròn 20 Vanlock (VL9020)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 15564,
+    "catalogPrice": 15564,
+    "spec": "Mã SGV12 - Chính hãng Sino",
+    "image": "assets/images/products/ong-cung-luon-day-pvc.jpg",
+    "desc": "Ghen tròn 20 Vanlock (VL9020) (Mã SGV12) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGV12 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgv13",
+    "sku": "SGV13",
+    "name": "Ghen tròn 25 Vanlock (VL9025)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 25525,
+    "catalogPrice": 25525,
+    "spec": "Mã SGV13 - Chính hãng Sino",
+    "image": "assets/images/products/ong-cung-luon-day-pvc.jpg",
+    "desc": "Ghen tròn 25 Vanlock (VL9025) (Mã SGV13) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGV13 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgv14",
+    "sku": "SGV14",
+    "name": "Ghen tròn 32 Vanlock (VL9032)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 49027,
+    "catalogPrice": 49027,
+    "spec": "Mã SGV14 - Chính hãng Sino",
+    "image": "assets/images/products/ong-cung-luon-day-pvc.jpg",
+    "desc": "Ghen tròn 32 Vanlock (VL9032) (Mã SGV14) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGV14 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgv17",
+    "sku": "SGV17",
+    "name": "Ghen tròn VL 16 LS (VL9016)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 11906,
+    "catalogPrice": 11906,
+    "spec": "Mã SGV17 - Chính hãng Sino",
+    "image": "assets/images/products/ong-cung-luon-day-pvc.jpg",
+    "desc": "Ghen tròn VL 16 LS (VL9016) (Mã SGV17) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGV17 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgv18",
+    "sku": "SGV18",
+    "name": "Ghen tròn VL 20 LS (VL9020)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 15564,
+    "catalogPrice": 15564,
+    "spec": "Mã SGV18 - Chính hãng Sino",
+    "image": "assets/images/products/ong-cung-luon-day-pvc.jpg",
+    "desc": "Ghen tròn VL 20 LS (VL9020) (Mã SGV18) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGV18 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgv19",
+    "sku": "SGV19",
+    "name": "Ghen tròn VL 25 LS (VL9025)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 24125,
+    "catalogPrice": 24125,
+    "spec": "Mã SGV19 - Chính hãng Sino",
+    "image": "assets/images/products/ong-cung-luon-day-pvc.jpg",
+    "desc": "Ghen tròn VL 25 LS (VL9025) (Mã SGV19) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGV19 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgv20",
+    "sku": "SGV20",
+    "name": "Ghen 60x22 Vanlock(VGA60/01)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 40602,
+    "catalogPrice": 40602,
+    "spec": "Mã SGV20 - Chính hãng Sino",
+    "image": "assets/images/products/ong-cung-luon-day-pvc.jpg",
+    "desc": "Ghen 60x22 Vanlock(VGA60/01) (Mã SGV20) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGV20 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgv21",
+    "sku": "SGV21",
+    "name": "Ghen 60x40 Vanlock(VGA60/02)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 47369,
+    "catalogPrice": 47369,
+    "spec": "Mã SGV21 - Chính hãng Sino",
+    "image": "assets/images/products/ong-cung-luon-day-pvc.jpg",
+    "desc": "Ghen 60x40 Vanlock(VGA60/02) (Mã SGV21) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGV21 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgv25",
+    "sku": "SGV25",
+    "name": "Ghen 100x40 Vanlock(VGA100/02)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 86280,
+    "catalogPrice": 86280,
+    "spec": "Mã SGV25 - Chính hãng Sino",
+    "image": "assets/images/products/ong-cung-luon-day-pvc.jpg",
+    "desc": "Ghen 100x40 Vanlock(VGA100/02) (Mã SGV25) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGV25 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgv26",
+    "sku": "SGV26",
+    "name": "Ghen 100x60 Vanlock(VGA100/03)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 133649,
+    "catalogPrice": 133649,
+    "spec": "Mã SGV26 - Chính hãng Sino",
+    "image": "assets/images/products/ong-cung-luon-day-pvc.jpg",
+    "desc": "Ghen 100x60 Vanlock(VGA100/03) (Mã SGV26) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGV26 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgs40",
+    "sku": "SGS40",
+    "name": "Ghen 20x9 Bán Nguyệt (GA20/BN)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 38024,
+    "catalogPrice": 38024,
+    "spec": "Mã SGS40 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Ghen 20x9 Bán Nguyệt (GA20/BN) (Mã SGS40) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGS40 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgs41",
+    "sku": "SGS41",
+    "name": "Ghen 30x12 Bán Nguyệt (GA30/BN)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 67651,
+    "catalogPrice": 67651,
+    "spec": "Mã SGS41 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Ghen 30x12 Bán Nguyệt (GA30/BN) (Mã SGS41) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGS41 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgs42",
+    "sku": "SGS42",
+    "name": "Ghen 45x12 Bán Nguyệt (GA45/BN)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 80015,
+    "catalogPrice": 80015,
+    "spec": "Mã SGS42 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Ghen 45x12 Bán Nguyệt (GA45/BN) (Mã SGS42) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGS42 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgs43",
+    "sku": "SGS43",
+    "name": "Ghen 60x16 Bán Nguyệt (GA60/BN)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 115007,
+    "catalogPrice": 115007,
+    "spec": "Mã SGS43 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Ghen 60x16 Bán Nguyệt (GA60/BN) (Mã SGS43) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGS43 (Cây)"
+    ]
+  },
+  {
+    "id": "sino-sgs44",
+    "sku": "SGS44",
+    "name": "Ghen 80x18 Bán Nguyệt (GA80/BN)",
+    "brand": "Sino",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Cây",
+    "price": 170294,
+    "catalogPrice": 170294,
+    "spec": "Mã SGS44 - Chính hãng Sino",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Ghen 80x18 Bán Nguyệt (GA80/BN) (Mã SGS44) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã SGS44 (Cây)"
+    ]
+  },
+  {
+    "id": "vinakip-ob01",
+    "sku": "OB01",
+    "name": "Bảng điện 2 Vinakip (BĐ2)",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 48587,
+    "catalogPrice": 48587,
+    "spec": "Mã OB01 - Chính hãng Vinakip",
+    "image": "assets/images/products/tu-dien-am-tuong-nanoco.jpg",
+    "desc": "Bảng điện 2 Vinakip (BĐ2) (Mã OB01) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OB01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-ob02",
+    "sku": "OB02",
+    "name": "Bảng điện 3 Vinakip (BĐ3)",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 75977,
+    "catalogPrice": 75977,
+    "spec": "Mã OB02 - Chính hãng Vinakip",
+    "image": "assets/images/products/tu-dien-am-tuong-nanoco.jpg",
+    "desc": "Bảng điện 3 Vinakip (BĐ3) (Mã OB02) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OB02 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-ob05",
+    "sku": "OB05",
+    "name": "Bảng điện 5 Vinakip (BĐ5)",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 88639,
+    "catalogPrice": 88639,
+    "spec": "Mã OB05 - Chính hãng Vinakip",
+    "image": "assets/images/products/tu-dien-am-tuong-nanoco.jpg",
+    "desc": "Bảng điện 5 Vinakip (BĐ5) (Mã OB05) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OB05 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-ob06",
+    "sku": "OB06",
+    "name": "Bảng điện 6 Vinakip (BĐ6)",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 61250,
+    "catalogPrice": 61250,
+    "spec": "Mã OB06 - Chính hãng Vinakip",
+    "image": "assets/images/products/tu-dien-am-tuong-nanoco.jpg",
+    "desc": "Bảng điện 6 Vinakip (BĐ6) (Mã OB06) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OB06 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-ob070",
+    "sku": "OB070",
+    "name": "Bảng điện 7 Vinakip (BD23-atomat)",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 103459,
+    "catalogPrice": 103459,
+    "spec": "Mã OB070 - Chính hãng Vinakip",
+    "image": "assets/images/products/tu-dien-am-tuong-nanoco.jpg",
+    "desc": "Bảng điện 7 Vinakip (BD23-atomat) (Mã OB070) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OB070 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-ob07",
+    "sku": "OB07",
+    "name": "Bảng điện 7 Vinakip (BD28 cầu dao)",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 88170,
+    "catalogPrice": 88170,
+    "spec": "Mã OB07 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "Bảng điện 7 Vinakip (BD28 cầu dao) (Mã OB07) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OB07 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oc10",
+    "sku": "OC10",
+    "name": "CD 2F-15A VinaKip cực đúc",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 44123,
+    "catalogPrice": 44123,
+    "spec": "Mã OC10 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD 2F-15A VinaKip cực đúc (Mã OC10) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OC10 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oc11",
+    "sku": "OC11",
+    "name": "CD 2F-20A Vinakip cực đúc",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 58430,
+    "catalogPrice": 58430,
+    "spec": "Mã OC11 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD 2F-20A Vinakip cực đúc (Mã OC11) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OC11 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oc12",
+    "sku": "OC12",
+    "name": "CD 2F-30A Vinakip cực đúc",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 60530,
+    "catalogPrice": 60530,
+    "spec": "Mã OC12 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD 2F-30A Vinakip cực đúc (Mã OC12) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OC12 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oc13",
+    "sku": "OC13",
+    "name": "CD 2F-60A Vinakip cực đúc",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 113358,
+    "catalogPrice": 113358,
+    "spec": "Mã OC13 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD 2F-60A Vinakip cực đúc (Mã OC13) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OC13 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oc14",
+    "sku": "OC14",
+    "name": "CD 2F-30A-2N Vinakip cực đúc",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 71737,
+    "catalogPrice": 71737,
+    "spec": "Mã OC14 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD 2F-30A-2N Vinakip cực đúc (Mã OC14) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OC14 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oc15",
+    "sku": "OC15",
+    "name": "CD 2F-60A-2N Vinakip cực đúc",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 131467,
+    "catalogPrice": 131467,
+    "spec": "Mã OC15 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD 2F-60A-2N Vinakip cực đúc (Mã OC15) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OC15 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oc32",
+    "sku": "OC32",
+    "name": "CD 3F-30A Vinakip CĐ",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 89792,
+    "catalogPrice": 89792,
+    "spec": "Mã OC32 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD 3F-30A Vinakip CĐ (Mã OC32) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OC32 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oc33",
+    "sku": "OC33",
+    "name": "CD 3F-60A Vinakip CĐ",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 161382,
+    "catalogPrice": 161382,
+    "spec": "Mã OC33 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD 3F-60A Vinakip CĐ (Mã OC33) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OC33 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oc34",
+    "sku": "OC34",
+    "name": "CD 3F-30A-2N Vinakip cực đúc",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 100351,
+    "catalogPrice": 100351,
+    "spec": "Mã OC34 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD 3F-30A-2N Vinakip cực đúc (Mã OC34) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OC34 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oc35",
+    "sku": "OC35",
+    "name": "CD 3F-60A-2N Vinakip C.đúc",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 191698,
+    "catalogPrice": 191698,
+    "spec": "Mã OC35 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD 3F-60A-2N Vinakip C.đúc (Mã OC35) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OC35 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oc16",
+    "sku": "OC16",
+    "name": "CD 2F-100A Vinakip cực đúc",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 344958,
+    "catalogPrice": 344958,
+    "spec": "Mã OC16 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD 2F-100A Vinakip cực đúc (Mã OC16) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OC16 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oc17",
+    "sku": "OC17",
+    "name": "CD 2F-100A-2N Vinakip cực đúc",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 421603,
+    "catalogPrice": 421603,
+    "spec": "Mã OC17 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD 2F-100A-2N Vinakip cực đúc (Mã OC17) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OC17 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oc36",
+    "sku": "OC36",
+    "name": "CD 3F-100A Vinakip C.đúc",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 538963,
+    "catalogPrice": 538963,
+    "spec": "Mã OC36 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD 3F-100A Vinakip C.đúc (Mã OC36) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OC36 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oc37",
+    "sku": "OC37",
+    "name": "CD 3F-150A Vinakip C.đúc",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 580315,
+    "catalogPrice": 580315,
+    "spec": "Mã OC37 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD 3F-150A Vinakip C.đúc (Mã OC37) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OC37 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oc39",
+    "sku": "OC39",
+    "name": "CD 3F-100A-2N Vinakip C.đúc",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 648563,
+    "catalogPrice": 648563,
+    "spec": "Mã OC39 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD 3F-100A-2N Vinakip C.đúc (Mã OC39) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OC39 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oc51",
+    "sku": "OC51",
+    "name": "CD hộp 3F 100A-1ngả",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 1327368,
+    "catalogPrice": 1327368,
+    "spec": "Mã OC51 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD hộp 3F 100A-1ngả (Mã OC51) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OC51 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oc50",
+    "sku": "OC50",
+    "name": "CD hộp 3F 100A-2ngả",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 1495069,
+    "catalogPrice": 1495069,
+    "spec": "Mã OC50 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD hộp 3F 100A-2ngả (Mã OC50) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OC50 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oc54",
+    "sku": "OC54",
+    "name": "CD hộp 3F 150A-1ngả",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 1495069,
+    "catalogPrice": 1495069,
+    "spec": "Mã OC54 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD hộp 3F 150A-1ngả (Mã OC54) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OC54 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oc53",
+    "sku": "OC53",
+    "name": "CD hộp 3F 150A-2ngả",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 1685790,
+    "catalogPrice": 1685790,
+    "spec": "Mã OC53 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD hộp 3F 150A-2ngả (Mã OC53) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OC53 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oc541",
+    "sku": "OC541",
+    "name": "CD hộp 3F 200A-1ngả",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 1627697,
+    "catalogPrice": 1627697,
+    "spec": "Mã OC541 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD hộp 3F 200A-1ngả (Mã OC541) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OC541 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oc542",
+    "sku": "OC542",
+    "name": "CD hộp 3F 200A-2ngả",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 2150532,
+    "catalogPrice": 2150532,
+    "spec": "Mã OC542 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD hộp 3F 200A-2ngả (Mã OC542) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OC542 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oc60",
+    "sku": "OC60",
+    "name": "CD hộp 3F-4 cực 100A - 1 ngả",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 1817321,
+    "catalogPrice": 1817321,
+    "spec": "Mã OC60 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD hộp 3F-4 cực 100A - 1 ngả (Mã OC60) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OC60 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oc601",
+    "sku": "OC601",
+    "name": "CD hộp 3F-4 cực 100A - 2 ngả",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 2011328,
+    "catalogPrice": 2011328,
+    "spec": "Mã OC601 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD hộp 3F-4 cực 100A - 2 ngả (Mã OC601) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OC601 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oc61",
+    "sku": "OC61",
+    "name": "CD hộp 3F-4 cực 150A - 1 ngả",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 2115457,
+    "catalogPrice": 2115457,
+    "spec": "Mã OC61 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD hộp 3F-4 cực 150A - 1 ngả (Mã OC61) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OC61 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oc611",
+    "sku": "OC611",
+    "name": "CD hộp 3F-4 cực 150A - 2 ngả",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 2220683,
+    "catalogPrice": 2220683,
+    "spec": "Mã OC611 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD hộp 3F-4 cực 150A - 2 ngả (Mã OC611) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OC611 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oc62",
+    "sku": "OC62",
+    "name": "CD hộp 3F-4 cực 200A - 1 ngả",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 2324812,
+    "catalogPrice": 2324812,
+    "spec": "Mã OC62 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD hộp 3F-4 cực 200A - 1 ngả (Mã OC62) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OC62 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oc621",
+    "sku": "OC621",
+    "name": "CD hộp 3F-4 cực 200A - 2 ngả",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 2754479,
+    "catalogPrice": 2754479,
+    "spec": "Mã OC621 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD hộp 3F-4 cực 200A - 2 ngả (Mã OC621) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OC621 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-vinakip-34",
+    "sku": "VINAKIP-34",
+    "name": "CD hộp 3F-4 cực 250A - 1 ngả",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 6149076,
+    "catalogPrice": 6149076,
+    "spec": "Mã VINAKIP-34 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD hộp 3F-4 cực 250A - 1 ngả (Mã VINAKIP-34) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã VINAKIP-34 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-vinakip-35",
+    "sku": "VINAKIP-35",
+    "name": "CD hộp 3F-4 cực 250A - 2 ngả",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 8450869,
+    "catalogPrice": 8450869,
+    "spec": "Mã VINAKIP-35 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD hộp 3F-4 cực 250A - 2 ngả (Mã VINAKIP-35) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã VINAKIP-35 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-vinakip-36",
+    "sku": "VINAKIP-36",
+    "name": "CD hộp 3F-4 cực 300A - 1 ngả",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 6474616,
+    "catalogPrice": 6474616,
+    "spec": "Mã VINAKIP-36 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD hộp 3F-4 cực 300A - 1 ngả (Mã VINAKIP-36) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã VINAKIP-36 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oc63",
+    "sku": "OC63",
+    "name": "CD hộp 3F-4 cực 300A - 2 ngả",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 8718316,
+    "catalogPrice": 8718316,
+    "spec": "Mã OC63 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD hộp 3F-4 cực 300A - 2 ngả (Mã OC63) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OC63 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oc64",
+    "sku": "OC64",
+    "name": "CD hộp 3F-4 cực 400A - 1 ngả",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 7055544,
+    "catalogPrice": 7055544,
+    "spec": "Mã OC64 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD hộp 3F-4 cực 400A - 1 ngả (Mã OC64) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OC64 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oc641",
+    "sku": "OC641",
+    "name": "CD hộp 3F-4 cực 400A - 2 ngả",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 11194387,
+    "catalogPrice": 11194387,
+    "spec": "Mã OC641 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD hộp 3F-4 cực 400A - 2 ngả (Mã OC641) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OC641 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-vinakip-40",
+    "sku": "VINAKIP-40",
+    "name": "CD hộp 3F-4 cực 500A - 1 ngả",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 8973706,
+    "catalogPrice": 8973706,
+    "spec": "Mã VINAKIP-40 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD hộp 3F-4 cực 500A - 1 ngả (Mã VINAKIP-40) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã VINAKIP-40 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-vinakip-41",
+    "sku": "VINAKIP-41",
+    "name": "CD hộp 3F-4 cực 500A - 2 ngả",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 13286827,
+    "catalogPrice": 13286827,
+    "spec": "Mã VINAKIP-41 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD hộp 3F-4 cực 500A - 2 ngả (Mã VINAKIP-41) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã VINAKIP-41 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oc66",
+    "sku": "OC66",
+    "name": "CD hộp 3F-4 cực 630A - 1 ngả",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 17889318,
+    "catalogPrice": 17889318,
+    "spec": "Mã OC66 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD hộp 3F-4 cực 630A - 1 ngả (Mã OC66) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OC66 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oc661",
+    "sku": "OC661",
+    "name": "CD hộp 3F-4 cực 630A - 2 ngả",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 19237511,
+    "catalogPrice": 19237511,
+    "spec": "Mã OC661 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD hộp 3F-4 cực 630A - 2 ngả (Mã OC661) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OC661 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-vinakip-44",
+    "sku": "VINAKIP-44",
+    "name": "CD hộp 3F-4 cực 800A - 1 ngả",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 20632836,
+    "catalogPrice": 20632836,
+    "spec": "Mã VINAKIP-44 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD hộp 3F-4 cực 800A - 1 ngả (Mã VINAKIP-44) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã VINAKIP-44 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-vinakip-45",
+    "sku": "VINAKIP-45",
+    "name": "CD hộp 3F-4 cực 800A - 2 ngả",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 22051178,
+    "catalogPrice": 22051178,
+    "spec": "Mã VINAKIP-45 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD hộp 3F-4 cực 800A - 2 ngả (Mã VINAKIP-45) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã VINAKIP-45 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oc68",
+    "sku": "OC68",
+    "name": "CD hộp 3F-4 cực 1000A - 1 ngả",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 22109272,
+    "catalogPrice": 22109272,
+    "spec": "Mã OC68 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD hộp 3F-4 cực 1000A - 1 ngả (Mã OC68) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OC68 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oc681",
+    "sku": "OC681",
+    "name": "CD hộp 3F-4 cực 1000A - 2 ngả",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 30560141,
+    "catalogPrice": 30560141,
+    "spec": "Mã OC681 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "CD hộp 3F-4 cực 1000A - 2 ngả (Mã OC681) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OC681 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oo11",
+    "sku": "OO11",
+    "name": "Ổ đôi Vinakip ĐN",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 14070,
+    "catalogPrice": 14070,
+    "spec": "Mã OO11 - Chính hãng Vinakip",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ đôi Vinakip ĐN (Mã OO11) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OO11 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oo12",
+    "sku": "OO12",
+    "name": "Ổ đôi Vinakip ĐN - K2",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 14351,
+    "catalogPrice": 14351,
+    "spec": "Mã OO12 - Chính hãng Vinakip",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ đôi Vinakip ĐN - K2 (Mã OO12) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OO12 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oo12d",
+    "sku": "OO12D",
+    "name": "Ổ đôi Vinakip ĐN - K3",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 16978,
+    "catalogPrice": 16978,
+    "spec": "Mã OO12D - Chính hãng Vinakip",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ đôi Vinakip ĐN - K3 (Mã OO12D) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OO12D (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oo14",
+    "sku": "OO14",
+    "name": "Æ ba Vinakip",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 17813,
+    "catalogPrice": 17813,
+    "spec": "Mã OO14 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Æ ba Vinakip (Mã OO14) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OO14 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oo14d",
+    "sku": "OO14D",
+    "name": "Æ ba Vinakip - K3",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 21104,
+    "catalogPrice": 21104,
+    "spec": "Mã OO14D - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Æ ba Vinakip - K3 (Mã OO14D) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OO14D (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oo15",
+    "sku": "OO15",
+    "name": "Đầu nối ổ cắm 3 ngả ĐN (ổ ba chạc)",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 18760,
+    "catalogPrice": 18760,
+    "spec": "Mã OO15 - Chính hãng Vinakip",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Đầu nối ổ cắm 3 ngả ĐN (ổ ba chạc) (Mã OO15) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OO15 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oo15e",
+    "sku": "OO15E",
+    "name": "Đầu nối 3 ngả đen ĐN kiểu 3 (DN06)",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 23825,
+    "catalogPrice": 23825,
+    "spec": "Mã OO15E - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Đầu nối 3 ngả đen ĐN kiểu 3 (DN06) (Mã OO15E) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OO15E (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oo15d",
+    "sku": "OO15D",
+    "name": "Đầu nối 3 ngả ĐN kiểu 4 (DN07)",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 32360,
+    "catalogPrice": 32360,
+    "spec": "Mã OO15D - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Đầu nối 3 ngả ĐN kiểu 4 (DN07) (Mã OO15D) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OO15D (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oo15f",
+    "sku": "OO15F",
+    "name": "Đầu nối 5 Ngả ĐN Vinakip (DN 08)",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 27482,
+    "catalogPrice": 27482,
+    "spec": "Mã OO15F - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Đầu nối 5 Ngả ĐN Vinakip (DN 08) (Mã OO15F) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OO15F (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oo16",
+    "sku": "OO16",
+    "name": "Đầu nối ổ cắm 3 cực ĐN (phích cắm ĐN)",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 9192,
+    "catalogPrice": 9192,
+    "spec": "Mã OO16 - Chính hãng Vinakip",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Đầu nối ổ cắm 3 cực ĐN (phích cắm ĐN) (Mã OO16) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OO16 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oo17",
+    "sku": "OO17",
+    "name": "Æ bèn (OC13) Vinakip",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 20917,
+    "catalogPrice": 20917,
+    "spec": "Mã OO17 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Æ bèn (OC13) Vinakip (Mã OO17) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OO17 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-op03",
+    "sku": "OP03",
+    "name": "Phích cắm cá K4 Vinakip",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 5222,
+    "catalogPrice": 5222,
+    "spec": "Mã OP03 - Chính hãng Vinakip",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Phích cắm cá K4 Vinakip (Mã OP03) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OP03 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-op06",
+    "sku": "OP06",
+    "name": "Phích cắm âm 16A (DN09) Vinakip",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 8285,
+    "catalogPrice": 8285,
+    "spec": "Mã OP06 - Chính hãng Vinakip",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Phích cắm âm 16A (DN09) Vinakip (Mã OP06) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OP06 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-op07",
+    "sku": "OP07",
+    "name": "Phích cắm 32A K10 (PC46) Vinakip",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 13507,
+    "catalogPrice": 13507,
+    "spec": "Mã OP07 - Chính hãng Vinakip",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Phích cắm 32A K10 (PC46) Vinakip (Mã OP07) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OP07 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-op071",
+    "sku": "OP071",
+    "name": "Phích cắm 32A K10 vàng (PC44) Vinakip",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 13507,
+    "catalogPrice": 13507,
+    "spec": "Mã OP071 - Chính hãng Vinakip",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Phích cắm 32A K10 vàng (PC44) Vinakip (Mã OP071) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OP071 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-op072",
+    "sku": "OP072",
+    "name": "Phích cắm 32A K10 cam (PC50) Vinakip",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 13507,
+    "catalogPrice": 13507,
+    "spec": "Mã OP072 - Chính hãng Vinakip",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Phích cắm 32A K10 cam (PC50) Vinakip (Mã OP072) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OP072 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-op08",
+    "sku": "OP08",
+    "name": "Phích cắm 16A kiểu 7 (PC10)Vinakip",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 8465,
+    "catalogPrice": 8465,
+    "spec": "Mã OP08 - Chính hãng Vinakip",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Phích cắm 16A kiểu 7 (PC10)Vinakip (Mã OP08) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OP08 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-od40",
+    "sku": "OD40",
+    "name": "Dây nồi Vinakip",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 28045,
+    "catalogPrice": 28045,
+    "spec": "Mã OD40 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Dây nồi Vinakip (Mã OD40) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OD40 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-od41",
+    "sku": "OD41",
+    "name": "Dây ấm Vinakip",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 30390,
+    "catalogPrice": 30390,
+    "spec": "Mã OD41 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Dây ấm Vinakip (Mã OD41) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OD41 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-od44",
+    "sku": "OD44",
+    "name": "Bộ nối dây 3ngả ĐN 2m USA (ND07) Vinakip",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 33767,
+    "catalogPrice": 33767,
+    "spec": "Mã OD44 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ nối dây 3ngả ĐN 2m USA (ND07) Vinakip (Mã OD44) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OD44 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-od50",
+    "sku": "OD50",
+    "name": "Đui treo cài Vinakip",
+    "brand": "Vinakip",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 2542,
+    "catalogPrice": 2542,
+    "spec": "Mã OD50 - Chính hãng Vinakip",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Đui treo cài Vinakip (Mã OD50) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OD50 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-od511",
+    "sku": "OD511",
+    "name": "Đui treo xoáy đen (DU03) Vinakip",
+    "brand": "Vinakip",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 5436,
+    "catalogPrice": 5436,
+    "spec": "Mã OD511 - Chính hãng Vinakip",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Đui treo xoáy đen (DU03) Vinakip (Mã OD511) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OD511 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-od51",
+    "sku": "OD51",
+    "name": "Đui treo xoáy trắng (DU04) Vinakip",
+    "brand": "Vinakip",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 5881,
+    "catalogPrice": 5881,
+    "spec": "Mã OD51 - Chính hãng Vinakip",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Đui treo xoáy trắng (DU04) Vinakip (Mã OD51) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OD51 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-od52",
+    "sku": "OD52",
+    "name": "Đui vÁt xoáy(DU15) Vinakip",
+    "brand": "Vinakip",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 7574,
+    "catalogPrice": 7574,
+    "spec": "Mã OD52 - Chính hãng Vinakip",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Đui vÁt xoáy(DU15) Vinakip (Mã OD52) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OD52 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-od53",
+    "sku": "OD53",
+    "name": "Đui xoáy ốp trần(DU14) Vinakip",
+    "brand": "Vinakip",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 7574,
+    "catalogPrice": 7574,
+    "spec": "Mã OD53 - Chính hãng Vinakip",
+    "image": "assets/images/products/ong-luon-tran-phu.jpg",
+    "desc": "Đui xoáy ốp trần(DU14) Vinakip (Mã OD53) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OD53 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oo36",
+    "sku": "OO36",
+    "name": "Cầu trì 5A Vinakip",
+    "brand": "Vinakip",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 7316,
+    "catalogPrice": 7316,
+    "spec": "Mã OO36 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-nong-lanh-panasonic.jpg",
+    "desc": "Cầu trì 5A Vinakip (Mã OO36) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OO36 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oo21",
+    "sku": "OO21",
+    "name": "Công tắc đơn (CT01) Vinakip",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 7316,
+    "catalogPrice": 7316,
+    "spec": "Mã OO21 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Công tắc đơn (CT01) Vinakip (Mã OO21) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OO21 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oo22",
+    "sku": "OO22",
+    "name": "Công tắc đôi (CT02) Vinakip",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 10600,
+    "catalogPrice": 10600,
+    "spec": "Mã OO22 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Công tắc đôi (CT02) Vinakip (Mã OO22) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OO22 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oo23",
+    "sku": "OO23",
+    "name": "Công tắc liền ổ cắm (CT09) Vinakip",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 15383,
+    "catalogPrice": 15383,
+    "spec": "Mã OO23 - Chính hãng Vinakip",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Công tắc liền ổ cắm (CT09) Vinakip (Mã OO23) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OO23 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oo23a",
+    "sku": "OO23A",
+    "name": "Công tắc liền ổ 10A K2 (CT10) Vinakip",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 18853,
+    "catalogPrice": 18853,
+    "spec": "Mã OO23A - Chính hãng Vinakip",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Công tắc liền ổ 10A K2 (CT10) Vinakip (Mã OO23A) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OO23A (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oo25",
+    "sku": "OO25",
+    "name": "Công tắc quả nhót (CT07) Vinakip",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 5159,
+    "catalogPrice": 5159,
+    "spec": "Mã OO25 - Chính hãng Vinakip",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Công tắc quả nhót (CT07) Vinakip (Mã OO25) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OO25 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oo10",
+    "sku": "OO10",
+    "name": "Ổ đơn Vinakip ĐN",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 8629,
+    "catalogPrice": 8629,
+    "spec": "Mã OO10 - Chính hãng Vinakip",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ đơn Vinakip ĐN (Mã OO10) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OO10 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oo10d",
+    "sku": "OO10D",
+    "name": "Ổ đơn thái Vinakip",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 10600,
+    "catalogPrice": 10600,
+    "spec": "Mã OO10D - Chính hãng Vinakip",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ đơn thái Vinakip (Mã OO10D) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OO10D (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oo10e",
+    "sku": "OO10E",
+    "name": "Ổ đơn 3 cực ĐN (OC03) Vinakip",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 11443,
+    "catalogPrice": 11443,
+    "spec": "Mã OO10E - Chính hãng Vinakip",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ đơn 3 cực ĐN (OC03) Vinakip (Mã OO10E) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OO10E (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oo13",
+    "sku": "OO13",
+    "name": "Ổ đôi S011 8000w (OC112) Vinakip",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 48306,
+    "catalogPrice": 48306,
+    "spec": "Mã OO13 - Chính hãng Vinakip",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ đôi S011 8000w (OC112) Vinakip (Mã OO13) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OO13 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oo14e",
+    "sku": "OO14E",
+    "name": "Ổ ba S021 8000w (OC113) Vinakip",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 68567,
+    "catalogPrice": 68567,
+    "spec": "Mã OO14E - Chính hãng Vinakip",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ ba S021 8000w (OC113) Vinakip (Mã OO14E) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OO14E (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oo17d",
+    "sku": "OO17D",
+    "name": "Ổ bốn S031 8000w (OC15) Vinakip",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 76164,
+    "catalogPrice": 76164,
+    "spec": "Mã OO17D - Chính hãng Vinakip",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ bốn S031 8000w (OC15) Vinakip (Mã OO17D) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OO17D (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-oc170",
+    "sku": "OC170",
+    "name": "Ổ bốn 6600w cam (OC170) Vinakip",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 63782,
+    "catalogPrice": 63782,
+    "spec": "Mã OC170 - Chính hãng Vinakip",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ bốn 6600w cam (OC170) Vinakip (Mã OC170) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OC170 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-od00",
+    "sku": "OD00",
+    "name": "Ổ dây 2 ngả 3m S11 (OC17) Vinakip",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 45635,
+    "catalogPrice": 45635,
+    "spec": "Mã OD00 - Chính hãng Vinakip",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Ổ dây 2 ngả 3m S11 (OC17) Vinakip (Mã OD00) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OD00 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-od00a",
+    "sku": "OD00A",
+    "name": "Ổ dây 2 ngả 2m S11 (OC16) Vinakip",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 39169,
+    "catalogPrice": 39169,
+    "spec": "Mã OD00A - Chính hãng Vinakip",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Ổ dây 2 ngả 2m S11 (OC16) Vinakip (Mã OD00A) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OD00A (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-od01",
+    "sku": "OD01",
+    "name": "Ổ dây 2 ngả - 2m Đỏ (OC135) Vinakip",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 35566,
+    "catalogPrice": 35566,
+    "spec": "Mã OD01 - Chính hãng Vinakip",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Ổ dây 2 ngả - 2m Đỏ (OC135) Vinakip (Mã OD01) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OD01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-od02",
+    "sku": "OD02",
+    "name": "Ổ dây 3 ngả 3m Đỏ (OC132) Vinakip",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 74180,
+    "catalogPrice": 74180,
+    "spec": "Mã OD02 - Chính hãng Vinakip",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Ổ dây 3 ngả 3m Đỏ (OC132) Vinakip (Mã OD02) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OD02 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-od021",
+    "sku": "OD021",
+    "name": "Ổ dây 3 ngả 5m Đỏ (OC133) Vinakip",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 92101,
+    "catalogPrice": 92101,
+    "spec": "Mã OD021 - Chính hãng Vinakip",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Ổ dây 3 ngả 5m Đỏ (OC133) Vinakip (Mã OD021) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OD021 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-od06",
+    "sku": "OD06",
+    "name": "Ổ dây 5 ngả -3m -CT (OC72) Vinakip",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 113718,
+    "catalogPrice": 113718,
+    "spec": "Mã OD06 - Chính hãng Vinakip",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Ổ dây 5 ngả -3m -CT (OC72) Vinakip (Mã OD06) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OD06 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-od10",
+    "sku": "OD10",
+    "name": "Ổ dây 6 ngả ĐN 3m CT (OC56) Vinakip",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 108637,
+    "catalogPrice": 108637,
+    "spec": "Mã OD10 - Chính hãng Vinakip",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Ổ dây 6 ngả ĐN 3m CT (OC56) Vinakip (Mã OD10) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OD10 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-od11",
+    "sku": "OD11",
+    "name": "Ổ dây 6 ngả ĐN 5m CT (OC57) Vinakip",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 138846,
+    "catalogPrice": 138846,
+    "spec": "Mã OD11 - Chính hãng Vinakip",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Ổ dây 6 ngả ĐN 5m CT (OC57) Vinakip (Mã OD11) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OD11 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-od14",
+    "sku": "OD14",
+    "name": "Ổ dây 7 ngả 3m CT (OC52) Vinakip",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 130901,
+    "catalogPrice": 130901,
+    "spec": "Mã OD14 - Chính hãng Vinakip",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Ổ dây 7 ngả 3m CT (OC52) Vinakip (Mã OD14) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OD14 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-od03",
+    "sku": "OD03",
+    "name": "Ổ dây 3 ngả 3m 6600w (OC137) Vinakip",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 117044,
+    "catalogPrice": 117044,
+    "spec": "Mã OD03 - Chính hãng Vinakip",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Ổ dây 3 ngả 3m 6600w (OC137) Vinakip (Mã OD03) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OD03 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-od031",
+    "sku": "OD031",
+    "name": "Ổ dây 3 ngả 5m 6600w (OC138) Vinakip",
+    "brand": "Vinakip",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 145034,
+    "catalogPrice": 145034,
+    "spec": "Mã OD031 - Chính hãng Vinakip",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Ổ dây 3 ngả 5m 6600w (OC138) Vinakip (Mã OD031) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OD031 (Chiếc)"
+    ]
+  },
+  {
+    "id": "vinakip-od30",
+    "sku": "OD30",
+    "name": "Dây Súp 2x0.5 Vinakip",
+    "brand": "Vinakip",
+    "category": "day-cap",
+    "categoryName": "Dây & Cáp Điện",
+    "unit": "Mét",
+    "price": 6566,
+    "catalogPrice": 6566,
+    "spec": "Mã OD30 - Chính hãng Vinakip",
+    "image": "assets/images/products/day-doi-tran-phu.jpg",
+    "desc": "Dây Súp 2x0.5 Vinakip (Mã OD30) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OD30 (Mét)"
+    ]
+  },
+  {
+    "id": "vinakip-od301",
+    "sku": "OD301",
+    "name": "Dây Súp 2x0.75 Vinakip",
+    "brand": "Vinakip",
+    "category": "day-cap",
+    "categoryName": "Dây & Cáp Điện",
+    "unit": "Mét",
+    "price": 9114,
+    "catalogPrice": 9114,
+    "spec": "Mã OD301 - Chính hãng Vinakip",
+    "image": "assets/images/products/day-doi-tran-phu.jpg",
+    "desc": "Dây Súp 2x0.75 Vinakip (Mã OD301) chính hãng Vinakip, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã OD301 (Mét)"
+    ]
+  },
+  {
+    "id": "ls-ya01",
+    "sku": "YA01",
+    "name": "Át chống giật 20A LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 325944,
+    "catalogPrice": 325944,
+    "spec": "Mã YA01 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-rcbo-schneider.jpg",
+    "desc": "Át chống giật 20A LS (Mã YA01) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YA01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-ya02",
+    "sku": "YA02",
+    "name": "Át chống giật 30A LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 325944,
+    "catalogPrice": 325944,
+    "spec": "Mã YA02 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-rcbo-schneider.jpg",
+    "desc": "Át chống giật 30A LS (Mã YA02) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YA02 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-ya50",
+    "sku": "YA50",
+    "name": "Át đen có vỏ 15A LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 119947,
+    "catalogPrice": 119947,
+    "spec": "Mã YA50 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át đen có vỏ 15A LS (Mã YA50) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YA50 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-ya51",
+    "sku": "YA51",
+    "name": "Át đen có vỏ 20A LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 119947,
+    "catalogPrice": 119947,
+    "spec": "Mã YA51 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át đen có vỏ 20A LS (Mã YA51) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YA51 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-ya52",
+    "sku": "YA52",
+    "name": "Át đen có vỏ 30A LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 119947,
+    "catalogPrice": 119947,
+    "spec": "Mã YA52 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át đen có vỏ 30A LS (Mã YA52) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YA52 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-ya53",
+    "sku": "YA53",
+    "name": "Át đen không vỏ 15A LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 83442,
+    "catalogPrice": 83442,
+    "spec": "Mã YA53 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át đen không vỏ 15A LS (Mã YA53) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YA53 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-ya54",
+    "sku": "YA54",
+    "name": "Át đen không vỏ 20A LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 83442,
+    "catalogPrice": 83442,
+    "spec": "Mã YA54 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át đen không vỏ 20A LS (Mã YA54) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YA54 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-ya55",
+    "sku": "YA55",
+    "name": "Át đen không vỏ 30A LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 83442,
+    "catalogPrice": 83442,
+    "spec": "Mã YA55 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át đen không vỏ 30A LS (Mã YA55) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YA55 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl201",
+    "sku": "YL201",
+    "name": "Át LS 2 pha 15A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 717077,
+    "catalogPrice": 717077,
+    "spec": "Mã YL201 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 2 pha 15A (Mã YL201) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL201 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl202",
+    "sku": "YL202",
+    "name": "Át LS 2 pha 20A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 717077,
+    "catalogPrice": 717077,
+    "spec": "Mã YL202 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 2 pha 20A (Mã YL202) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL202 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl203",
+    "sku": "YL203",
+    "name": "Át LS 2 pha 25A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 717077,
+    "catalogPrice": 717077,
+    "spec": "Mã YL203 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 2 pha 25A (Mã YL203) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL203 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl204",
+    "sku": "YL204",
+    "name": "Át LS 2 pha 30A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 717077,
+    "catalogPrice": 717077,
+    "spec": "Mã YL204 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 2 pha 30A (Mã YL204) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL204 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl205",
+    "sku": "YL205",
+    "name": "Át LS 2 pha 40A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 717077,
+    "catalogPrice": 717077,
+    "spec": "Mã YL205 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 2 pha 40A (Mã YL205) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL205 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl206",
+    "sku": "YL206",
+    "name": "Át LS 2 pha 50A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 717077,
+    "catalogPrice": 717077,
+    "spec": "Mã YL206 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 2 pha 50A (Mã YL206) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL206 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl207",
+    "sku": "YL207",
+    "name": "Át LS 2 pha 60A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 782266,
+    "catalogPrice": 782266,
+    "spec": "Mã YL207 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 2 pha 60A (Mã YL207) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL207 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl208",
+    "sku": "YL208",
+    "name": "Át LS 2 pha 75A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 912643,
+    "catalogPrice": 912643,
+    "spec": "Mã YL208 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 2 pha 75A (Mã YL208) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL208 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl209",
+    "sku": "YL209",
+    "name": "Át LS 2 pha 100A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 912643,
+    "catalogPrice": 912643,
+    "spec": "Mã YL209 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 2 pha 100A (Mã YL209) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL209 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl210",
+    "sku": "YL210",
+    "name": "Át LS 2 pha 125A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 1734022,
+    "catalogPrice": 1734022,
+    "spec": "Mã YL210 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 2 pha 125A (Mã YL210) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL210 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl211",
+    "sku": "YL211",
+    "name": "Át LS 2 pha 150A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 1734022,
+    "catalogPrice": 1734022,
+    "spec": "Mã YL211 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 2 pha 150A (Mã YL211) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL211 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl212",
+    "sku": "YL212",
+    "name": "Át LS 2 pha 175A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 1734022,
+    "catalogPrice": 1734022,
+    "spec": "Mã YL212 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 2 pha 175A (Mã YL212) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL212 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl213",
+    "sku": "YL213",
+    "name": "Át LS 2 pha 200A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 1734022,
+    "catalogPrice": 1734022,
+    "spec": "Mã YL213 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 2 pha 200A (Mã YL213) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL213 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl214",
+    "sku": "YL214",
+    "name": "Át LS 2 pha 250A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 1734022,
+    "catalogPrice": 1734022,
+    "spec": "Mã YL214 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 2 pha 250A (Mã YL214) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL214 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl300",
+    "sku": "YL300",
+    "name": "Át LS 3 pha 20A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 827898,
+    "catalogPrice": 827898,
+    "spec": "Mã YL300 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 3 pha 20A (Mã YL300) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL300 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl301",
+    "sku": "YL301",
+    "name": "Át LS 3 pha 30A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 827898,
+    "catalogPrice": 827898,
+    "spec": "Mã YL301 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 3 pha 30A (Mã YL301) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL301 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl302",
+    "sku": "YL302",
+    "name": "Át LS 3 pha 40A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 827898,
+    "catalogPrice": 827898,
+    "spec": "Mã YL302 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 3 pha 40A (Mã YL302) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL302 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl303",
+    "sku": "YL303",
+    "name": "Át LS 3 pha 50A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 827898,
+    "catalogPrice": 827898,
+    "spec": "Mã YL303 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 3 pha 50A (Mã YL303) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL303 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl304",
+    "sku": "YL304",
+    "name": "Át LS 3 pha 60A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 938719,
+    "catalogPrice": 938719,
+    "spec": "Mã YL304 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 3 pha 60A (Mã YL304) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL304 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl305",
+    "sku": "YL305",
+    "name": "Át LS 3 pha 75A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 1082134,
+    "catalogPrice": 1082134,
+    "spec": "Mã YL305 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 3 pha 75A (Mã YL305) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL305 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl306",
+    "sku": "YL306",
+    "name": "Át LS 3 pha 100A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 1082134,
+    "catalogPrice": 1082134,
+    "spec": "Mã YL306 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 3 pha 100A (Mã YL306) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL306 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl307",
+    "sku": "YL307",
+    "name": "Át LS 3 pha 125A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 2059966,
+    "catalogPrice": 2059966,
+    "spec": "Mã YL307 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 3 pha 125A (Mã YL307) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL307 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl308",
+    "sku": "YL308",
+    "name": "Át LS 3 pha 150A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 2059966,
+    "catalogPrice": 2059966,
+    "spec": "Mã YL308 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 3 pha 150A (Mã YL308) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL308 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl309",
+    "sku": "YL309",
+    "name": "Át LS 3 pha 175A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 2059966,
+    "catalogPrice": 2059966,
+    "spec": "Mã YL309 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 3 pha 175A (Mã YL309) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL309 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl310",
+    "sku": "YL310",
+    "name": "Át LS 3 pha 200A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 2059966,
+    "catalogPrice": 2059966,
+    "spec": "Mã YL310 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 3 pha 200A (Mã YL310) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL310 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl311",
+    "sku": "YL311",
+    "name": "Át LS 3 pha 225A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 2059966,
+    "catalogPrice": 2059966,
+    "spec": "Mã YL311 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 3 pha 225A (Mã YL311) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL311 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl312",
+    "sku": "YL312",
+    "name": "Át LS 3 pha 250A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 2059966,
+    "catalogPrice": 2059966,
+    "spec": "Mã YL312 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 3 pha 250A (Mã YL312) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL312 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl313",
+    "sku": "YL313",
+    "name": "Át LS 3 pha 300A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 5149915,
+    "catalogPrice": 5149915,
+    "spec": "Mã YL313 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 3 pha 300A (Mã YL313) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL313 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl314",
+    "sku": "YL314",
+    "name": "Át LS 3 pha 400A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 5149915,
+    "catalogPrice": 5149915,
+    "spec": "Mã YL314 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 3 pha 400A (Mã YL314) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL314 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl315",
+    "sku": "YL315",
+    "name": "Át LS 3 pha 500A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 9778320,
+    "catalogPrice": 9778320,
+    "spec": "Mã YL315 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 3 pha 500A (Mã YL315) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL315 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl318",
+    "sku": "YL318",
+    "name": "Át LS 3 pha 630A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 9778320,
+    "catalogPrice": 9778320,
+    "spec": "Mã YL318 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 3 pha 630A (Mã YL318) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL318 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl319",
+    "sku": "YL319",
+    "name": "Át LS 3 pha 1000A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 24119856,
+    "catalogPrice": 24119856,
+    "spec": "Mã YL319 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 3 pha 1000A (Mã YL319) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL319 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl321",
+    "sku": "YL321",
+    "name": "Át LS 3 pha 4 cực 30A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 1075615,
+    "catalogPrice": 1075615,
+    "spec": "Mã YL321 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 3 pha 4 cực 30A (Mã YL321) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL321 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl322",
+    "sku": "YL322",
+    "name": "Át LS 3 pha 4 cực 40A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 1075615,
+    "catalogPrice": 1075615,
+    "spec": "Mã YL322 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 3 pha 4 cực 40A (Mã YL322) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL322 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl323",
+    "sku": "YL323",
+    "name": "Át LS 3 pha 4 cực 50A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 1075615,
+    "catalogPrice": 1075615,
+    "spec": "Mã YL323 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 3 pha 4 cực 50A (Mã YL323) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL323 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl324",
+    "sku": "YL324",
+    "name": "Át LS 3 pha 4 cực 60A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 1329852,
+    "catalogPrice": 1329852,
+    "spec": "Mã YL324 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 3 pha 4 cực 60A (Mã YL324) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL324 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl325",
+    "sku": "YL325",
+    "name": "Át LS 3 pha 4 cực 75A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 1329852,
+    "catalogPrice": 1329852,
+    "spec": "Mã YL325 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 3 pha 4 cực 75A (Mã YL325) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL325 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl326",
+    "sku": "YL326",
+    "name": "Át LS 3 pha 4 cực 100A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 1329852,
+    "catalogPrice": 1329852,
+    "spec": "Mã YL326 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 3 pha 4 cực 100A (Mã YL326) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL326 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl326d",
+    "sku": "YL326D",
+    "name": "Át LS 3 pha 4 cực 125A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 2477174,
+    "catalogPrice": 2477174,
+    "spec": "Mã YL326D - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 3 pha 4 cực 125A (Mã YL326D) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL326D (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl327",
+    "sku": "YL327",
+    "name": "Át LS 3 pha 4 cực 150A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 2477174,
+    "catalogPrice": 2477174,
+    "spec": "Mã YL327 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 3 pha 4 cực 150A (Mã YL327) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL327 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yl328",
+    "sku": "YL328",
+    "name": "Át LS 3 pha 4 cực 200A",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 2477174,
+    "catalogPrice": 2477174,
+    "spec": "Mã YL328 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-khoi-mccb-ls.jpg",
+    "desc": "Át LS 3 pha 4 cực 200A (Mã YL328) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YL328 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-ya12",
+    "sku": "YA12",
+    "name": "Át cài 1 cực 10A 6kA LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 79530,
+    "catalogPrice": 79530,
+    "spec": "Mã YA12 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át cài 1 cực 10A 6kA LS (Mã YA12) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YA12 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-ya13",
+    "sku": "YA13",
+    "name": "Át cài 1 cực 16A 6kA LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 79530,
+    "catalogPrice": 79530,
+    "spec": "Mã YA13 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át cài 1 cực 16A 6kA LS (Mã YA13) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YA13 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-ya14",
+    "sku": "YA14",
+    "name": "Át cài 1 cực 20A 6kA LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 79530,
+    "catalogPrice": 79530,
+    "spec": "Mã YA14 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át cài 1 cực 20A 6kA LS (Mã YA14) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YA14 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-ya15",
+    "sku": "YA15",
+    "name": "Át cài 1 cực 25A 6kA LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 79530,
+    "catalogPrice": 79530,
+    "spec": "Mã YA15 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át cài 1 cực 25A 6kA LS (Mã YA15) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YA15 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-ya16",
+    "sku": "YA16",
+    "name": "Át cài 1 cực 32A 6kA LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 79530,
+    "catalogPrice": 79530,
+    "spec": "Mã YA16 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át cài 1 cực 32A 6kA LS (Mã YA16) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YA16 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-ya17",
+    "sku": "YA17",
+    "name": "Át cài 1 cực 40A 6kA LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 82789,
+    "catalogPrice": 82789,
+    "spec": "Mã YA17 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át cài 1 cực 40A 6kA LS (Mã YA17) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YA17 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-ya18",
+    "sku": "YA18",
+    "name": "Át cài 1 cực 50A 6kA LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 82789,
+    "catalogPrice": 82789,
+    "spec": "Mã YA18 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át cài 1 cực 50A 6kA LS (Mã YA18) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YA18 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-ya19",
+    "sku": "YA19",
+    "name": "Át cài 1 cực 63A 6kA LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 82789,
+    "catalogPrice": 82789,
+    "spec": "Mã YA19 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át cài 1 cực 63A 6kA LS (Mã YA19) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YA19 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-ya22",
+    "sku": "YA22",
+    "name": "Át cài 2 cực 10A 6kA LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 174706,
+    "catalogPrice": 174706,
+    "spec": "Mã YA22 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át cài 2 cực 10A 6kA LS (Mã YA22) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YA22 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-ya23",
+    "sku": "YA23",
+    "name": "Át cài 2 cực 16A 6kA LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 174706,
+    "catalogPrice": 174706,
+    "spec": "Mã YA23 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át cài 2 cực 16A 6kA LS (Mã YA23) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YA23 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-ya24",
+    "sku": "YA24",
+    "name": "Át cài 2 cực 20A 6kA LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 174706,
+    "catalogPrice": 174706,
+    "spec": "Mã YA24 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át cài 2 cực 20A 6kA LS (Mã YA24) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YA24 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-ya25",
+    "sku": "YA25",
+    "name": "Át cài 2 cực 25A 6kA LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 174706,
+    "catalogPrice": 174706,
+    "spec": "Mã YA25 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át cài 2 cực 25A 6kA LS (Mã YA25) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YA25 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-ya26",
+    "sku": "YA26",
+    "name": "Át cài 2 cực 32A 6kA LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 174706,
+    "catalogPrice": 174706,
+    "spec": "Mã YA26 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át cài 2 cực 32A 6kA LS (Mã YA26) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YA26 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-ya27",
+    "sku": "YA27",
+    "name": "Át cài 2 cực 40A 6kA LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 178618,
+    "catalogPrice": 178618,
+    "spec": "Mã YA27 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át cài 2 cực 40A 6kA LS (Mã YA27) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YA27 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-ya28",
+    "sku": "YA28",
+    "name": "Át cài 2 cực 50A 6kA LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 178618,
+    "catalogPrice": 178618,
+    "spec": "Mã YA28 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át cài 2 cực 50A 6kA LS (Mã YA28) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YA28 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-ya29",
+    "sku": "YA29",
+    "name": "Át cài 2 cực 63A 6kA LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 178618,
+    "catalogPrice": 178618,
+    "spec": "Mã YA29 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át cài 2 cực 63A 6kA LS (Mã YA29) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YA29 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-ya31",
+    "sku": "YA31",
+    "name": "Át cài 3 cực 6A 6kA LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 279008,
+    "catalogPrice": 279008,
+    "spec": "Mã YA31 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át cài 3 cực 6A 6kA LS (Mã YA31) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YA31 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-ya32",
+    "sku": "YA32",
+    "name": "Át cài 3 cực 10A 6kA LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 279008,
+    "catalogPrice": 279008,
+    "spec": "Mã YA32 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át cài 3 cực 10A 6kA LS (Mã YA32) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YA32 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-ya33",
+    "sku": "YA33",
+    "name": "Át cài 3 cực 16A 6kA LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 279008,
+    "catalogPrice": 279008,
+    "spec": "Mã YA33 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át cài 3 cực 16A 6kA LS (Mã YA33) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YA33 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-ya34",
+    "sku": "YA34",
+    "name": "Át cài 3 cực 20A 6kA LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 279008,
+    "catalogPrice": 279008,
+    "spec": "Mã YA34 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át cài 3 cực 20A 6kA LS (Mã YA34) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YA34 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-ya35",
+    "sku": "YA35",
+    "name": "Át cài 3 cực 25A 6kA LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 279008,
+    "catalogPrice": 279008,
+    "spec": "Mã YA35 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át cài 3 cực 25A 6kA LS (Mã YA35) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YA35 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-ya36",
+    "sku": "YA36",
+    "name": "Át cài 3 cực 32A 6kA LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 279008,
+    "catalogPrice": 279008,
+    "spec": "Mã YA36 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át cài 3 cực 32A 6kA LS (Mã YA36) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YA36 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-ya37",
+    "sku": "YA37",
+    "name": "Át cài 3 cực 40A 6kA LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 286831,
+    "catalogPrice": 286831,
+    "spec": "Mã YA37 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át cài 3 cực 40A 6kA LS (Mã YA37) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YA37 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-ya38",
+    "sku": "YA38",
+    "name": "Át cài 3 cực 50A 6kA LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 286831,
+    "catalogPrice": 286831,
+    "spec": "Mã YA38 - Chính hãng LS",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át cài 3 cực 50A 6kA LS (Mã YA38) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YA38 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-ya38a",
+    "sku": "YA38A",
+    "name": "Át cài 3 cực 63A 6kA LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 286831,
+    "catalogPrice": 286831,
+    "spec": "Mã YA38A - Chính hãng LS",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át cài 3 cực 63A 6kA LS (Mã YA38A) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YA38A (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yg00",
+    "sku": "YG00",
+    "name": "Rơ le nhiệt MT32 (2.5-4A)",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 378095,
+    "catalogPrice": 378095,
+    "spec": "Mã YG00 - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Rơ le nhiệt MT32 (2.5-4A) (Mã YG00) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YG00 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yg01",
+    "sku": "YG01",
+    "name": "Rơ le nhiệt MT32 (4-6A)",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 378095,
+    "catalogPrice": 378095,
+    "spec": "Mã YG01 - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Rơ le nhiệt MT32 (4-6A) (Mã YG01) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YG01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yg02",
+    "sku": "YG02",
+    "name": "Rơ le nhiệt MT32 (5-8A)",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 378095,
+    "catalogPrice": 378095,
+    "spec": "Mã YG02 - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Rơ le nhiệt MT32 (5-8A) (Mã YG02) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YG02 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yg03",
+    "sku": "YG03",
+    "name": "Rơ le nhiệt MT32 (7-10A)",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 378095,
+    "catalogPrice": 378095,
+    "spec": "Mã YG03 - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Rơ le nhiệt MT32 (7-10A) (Mã YG03) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YG03 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yg08",
+    "sku": "YG08",
+    "name": "Rơ le nhiệt MT32 (16-22A)",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 378095,
+    "catalogPrice": 378095,
+    "spec": "Mã YG08 - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Rơ le nhiệt MT32 (16-22A) (Mã YG08) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YG08 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-21-5-40a",
+    "sku": "21.5-40A",
+    "name": "Rơ le nhiệt MT32(21.5-40A)",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 378095,
+    "catalogPrice": 378095,
+    "spec": "Mã 21.5-40A - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Rơ le nhiệt MT32(21.5-40A) (Mã 21.5-40A) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã 21.5-40A (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-34-65a",
+    "sku": "34-65A",
+    "name": "Rơ le nhiệt MT63(34-65A)",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 730115,
+    "catalogPrice": 730115,
+    "spec": "Mã 34-65A - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Rơ le nhiệt MT63(34-65A) (Mã 34-65A) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã 34-65A (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-54-100a",
+    "sku": "54-100A",
+    "name": "Rơ le nhiệt MT95(54-100A)",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 1225549,
+    "catalogPrice": 1225549,
+    "spec": "Mã 54-100A - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Rơ le nhiệt MT95(54-100A) (Mã 54-100A) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã 54-100A (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-80-150a",
+    "sku": "80-150A",
+    "name": "Rơ le nhiệt MT150(80-150A)",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 1799210,
+    "catalogPrice": 1799210,
+    "spec": "Mã 80-150A - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Rơ le nhiệt MT150(80-150A) (Mã 80-150A) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã 80-150A (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-80-100a",
+    "sku": "80-100A",
+    "name": "Rơ le nhiệt MT95(80-100A)",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 1225549,
+    "catalogPrice": 1225549,
+    "spec": "Mã 80-100A - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Rơ le nhiệt MT95(80-100A) (Mã 80-100A) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã 80-100A (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-85-240a",
+    "sku": "85-240A",
+    "name": "Rơ le nhiệt MT225(85-240A)",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 2933496,
+    "catalogPrice": 2933496,
+    "spec": "Mã 85-240A - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Rơ le nhiệt MT225(85-240A) (Mã 85-240A) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã 85-240A (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-200-400",
+    "sku": "200-400",
+    "name": "Rơ le nhiệt MT400(200-400)",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 4198159,
+    "catalogPrice": 4198159,
+    "spec": "Mã 200-400 - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Rơ le nhiệt MT400(200-400) (Mã 200-400) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã 200-400 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-400-800",
+    "sku": "400-800",
+    "name": "Rơ le nhiệt MT800(400-800)",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 7887845,
+    "catalogPrice": 7887845,
+    "spec": "Mã 400-800 - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Rơ le nhiệt MT800(400-800) (Mã 400-800) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã 400-800 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yk19",
+    "sku": "YK19",
+    "name": "Khởi động từ 9A-220V LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 332462,
+    "catalogPrice": 332462,
+    "spec": "Mã YK19 - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Khởi động từ 9A-220V LS (Mã YK19) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YK19 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yk20",
+    "sku": "YK20",
+    "name": "Khởi động từ 12A-220V LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 378095,
+    "catalogPrice": 378095,
+    "spec": "Mã YK20 - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Khởi động từ 12A-220V LS (Mã YK20) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YK20 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yk21",
+    "sku": "YK21",
+    "name": "Khởi động từ 18A-220V LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 534548,
+    "catalogPrice": 534548,
+    "spec": "Mã YK21 - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Khởi động từ 18A-220V LS (Mã YK21) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YK21 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yk22",
+    "sku": "YK22",
+    "name": "Khởi động từ 22A-220V LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 651888,
+    "catalogPrice": 651888,
+    "spec": "Mã YK22 - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Khởi động từ 22A-220V LS (Mã YK22) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YK22 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yk23",
+    "sku": "YK23",
+    "name": "Khởi động từ 32A-220V LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 951756,
+    "catalogPrice": 951756,
+    "spec": "Mã YK23 - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Khởi động từ 32A-220V LS (Mã YK23) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YK23 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yk24",
+    "sku": "YK24",
+    "name": "Khởi động từ 40A-220V LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 1134286,
+    "catalogPrice": 1134286,
+    "spec": "Mã YK24 - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Khởi động từ 40A-220V LS (Mã YK24) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YK24 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yk25",
+    "sku": "YK25",
+    "name": "Khởi động từ 50A-220V LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 1473266,
+    "catalogPrice": 1473266,
+    "spec": "Mã YK25 - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Khởi động từ 50A-220V LS (Mã YK25) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YK25 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yk26",
+    "sku": "YK26",
+    "name": "Khởi động từ 65A-220V LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 1668833,
+    "catalogPrice": 1668833,
+    "spec": "Mã YK26 - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Khởi động từ 65A-220V LS (Mã YK26) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YK26 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yk26d",
+    "sku": "YK26D",
+    "name": "Khởi động từ 75A-220V LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 1890475,
+    "catalogPrice": 1890475,
+    "spec": "Mã YK26D - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Khởi động từ 75A-220V LS (Mã YK26D) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YK26D (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yk27",
+    "sku": "YK27",
+    "name": "Khởi động từ 85A-220V LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 2255532,
+    "catalogPrice": 2255532,
+    "spec": "Mã YK27 - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Khởi động từ 85A-220V LS (Mã YK27) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YK27 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yk28",
+    "sku": "YK28",
+    "name": "Khởi động từ 100A-220V LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 2972609,
+    "catalogPrice": 2972609,
+    "spec": "Mã YK28 - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Khởi động từ 100A-220V LS (Mã YK28) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YK28 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yk29",
+    "sku": "YK29",
+    "name": "Khởi động từ 130A-220V LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 3650573,
+    "catalogPrice": 3650573,
+    "spec": "Mã YK29 - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Khởi động từ 130A-220V LS (Mã YK29) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YK29 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yk30",
+    "sku": "YK30",
+    "name": "Khởi động từ 185A-220V LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 5736614,
+    "catalogPrice": 5736614,
+    "spec": "Mã YK30 - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Khởi động từ 185A-220V LS (Mã YK30) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YK30 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yk31",
+    "sku": "YK31",
+    "name": "Khởi động từ 150A-220V LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 4628405,
+    "catalogPrice": 4628405,
+    "spec": "Mã YK31 - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Khởi động từ 150A-220V LS (Mã YK31) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YK31 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yk32",
+    "sku": "YK32",
+    "name": "Khởi động từ 225A-220V LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 6844824,
+    "catalogPrice": 6844824,
+    "spec": "Mã YK32 - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Khởi động từ 225A-220V LS (Mã YK32) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YK32 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yk33",
+    "sku": "YK33",
+    "name": "Khởi động từ 330A-220V LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 10039075,
+    "catalogPrice": 10039075,
+    "spec": "Mã YK33 - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Khởi động từ 330A-220V LS (Mã YK33) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YK33 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yk34",
+    "sku": "YK34",
+    "name": "Khởi động từ 400A-220V LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 11799173,
+    "catalogPrice": 11799173,
+    "spec": "Mã YK34 - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Khởi động từ 400A-220V LS (Mã YK34) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YK34 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yk38",
+    "sku": "YK38",
+    "name": "Khởi động từ 9A-380V LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 332462,
+    "catalogPrice": 332462,
+    "spec": "Mã YK38 - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Khởi động từ 9A-380V LS (Mã YK38) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YK38 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yk39",
+    "sku": "YK39",
+    "name": "Khởi động từ 12A-380V LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 378095,
+    "catalogPrice": 378095,
+    "spec": "Mã YK39 - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Khởi động từ 12A-380V LS (Mã YK39) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YK39 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yk40",
+    "sku": "YK40",
+    "name": "Khởi động từ 18A-380V LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 534548,
+    "catalogPrice": 534548,
+    "spec": "Mã YK40 - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Khởi động từ 18A-380V LS (Mã YK40) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YK40 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yk41",
+    "sku": "YK41",
+    "name": "Khởi động từ 22A-380V LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 651888,
+    "catalogPrice": 651888,
+    "spec": "Mã YK41 - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Khởi động từ 22A-380V LS (Mã YK41) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YK41 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yk42",
+    "sku": "YK42",
+    "name": "Khởi động từ 32A-380V LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 951756,
+    "catalogPrice": 951756,
+    "spec": "Mã YK42 - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Khởi động từ 32A-380V LS (Mã YK42) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YK42 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yk43",
+    "sku": "YK43",
+    "name": "Khởi động từ 40A-380V LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 1134286,
+    "catalogPrice": 1134286,
+    "spec": "Mã YK43 - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Khởi động từ 40A-380V LS (Mã YK43) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YK43 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yk44",
+    "sku": "YK44",
+    "name": "Khởi động từ 50A-380V LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 1473266,
+    "catalogPrice": 1473266,
+    "spec": "Mã YK44 - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Khởi động từ 50A-380V LS (Mã YK44) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YK44 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yk45",
+    "sku": "YK45",
+    "name": "Khởi động từ 65A-380V LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 1668833,
+    "catalogPrice": 1668833,
+    "spec": "Mã YK45 - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Khởi động từ 65A-380V LS (Mã YK45) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YK45 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yk451",
+    "sku": "YK451",
+    "name": "Khởi động từ 75A-480V LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 1890475,
+    "catalogPrice": 1890475,
+    "spec": "Mã YK451 - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Khởi động từ 75A-480V LS (Mã YK451) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YK451 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yk46",
+    "sku": "YK46",
+    "name": "Khởi động từ 85A-380V LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 2255532,
+    "catalogPrice": 2255532,
+    "spec": "Mã YK46 - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Khởi động từ 85A-380V LS (Mã YK46) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YK46 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yk47",
+    "sku": "YK47",
+    "name": "Khởi động từ 100A-380V LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 2972609,
+    "catalogPrice": 2972609,
+    "spec": "Mã YK47 - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Khởi động từ 100A-380V LS (Mã YK47) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YK47 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-ls-116",
+    "sku": "LS-116",
+    "name": "Khởi động từ 130A-380V LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 2998685,
+    "catalogPrice": 2998685,
+    "spec": "Mã LS-116 - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Khởi động từ 130A-380V LS (Mã LS-116) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã LS-116 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yk47d",
+    "sku": "YK47D",
+    "name": "Khởi động từ 150A-380V LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 4628405,
+    "catalogPrice": 4628405,
+    "spec": "Mã YK47D - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Khởi động từ 150A-380V LS (Mã YK47D) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YK47D (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yk48",
+    "sku": "YK48",
+    "name": "Khởi động từ 225A-380V LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 6844824,
+    "catalogPrice": 6844824,
+    "spec": "Mã YK48 - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Khởi động từ 225A-380V LS (Mã YK48) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YK48 (Chiếc)"
+    ]
+  },
+  {
+    "id": "ls-yk49",
+    "sku": "YK49",
+    "name": "Khởi động từ 400A-380V LS",
+    "brand": "LS",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 11799173,
+    "catalogPrice": 11799173,
+    "spec": "Mã YK49 - Chính hãng LS",
+    "image": "assets/images/products/khoi-dong-tu-contactor-ls.jpg",
+    "desc": "Khởi động từ 400A-380V LS (Mã YK49) chính hãng LS, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YK49 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qd20",
+    "sku": "QD20",
+    "name": "Quạt đứng 400-MS",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 654840,
+    "catalogPrice": 654840,
+    "spec": "Mã QD20 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt đứng 400-MS (Mã QD20) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QD20 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qd201",
+    "sku": "QD201",
+    "name": "Quạt đứng 400-MS xanh môn",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 621120,
+    "catalogPrice": 621120,
+    "spec": "Mã QD201 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt đứng 400-MS xanh môn (Mã QD201) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QD201 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qd202",
+    "sku": "QD202",
+    "name": "Quạt đứng 400-MS xanh cốm",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 621120,
+    "catalogPrice": 621120,
+    "spec": "Mã QD202 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt đứng 400-MS xanh cốm (Mã QD202) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QD202 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qd21",
+    "sku": "QD21",
+    "name": "Quạt đứng 400-XMS",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 768240,
+    "catalogPrice": 768240,
+    "spec": "Mã QD21 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt đứng 400-XMS (Mã QD21) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QD21 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qd211",
+    "sku": "QD211",
+    "name": "Quạt đứng 400-XMS xanh môn",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 727200,
+    "catalogPrice": 727200,
+    "spec": "Mã QD211 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt đứng 400-XMS xanh môn (Mã QD211) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QD211 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qd212",
+    "sku": "QD212",
+    "name": "Quạt đứng 400-XMS xanh cốm",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 727200,
+    "catalogPrice": 727200,
+    "spec": "Mã QD212 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt đứng 400-XMS xanh cốm (Mã QD212) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QD212 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qd22",
+    "sku": "QD22",
+    "name": "Quạt đứng 400-XPN",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 1171080,
+    "catalogPrice": 1171080,
+    "spec": "Mã QD22 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt đứng 400-XPN (Mã QD22) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QD22 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qd23",
+    "sku": "QD23",
+    "name": "Quạt đứng lửng 400",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 425760,
+    "catalogPrice": 425760,
+    "spec": "Mã QD23 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt đứng lửng 400 (Mã QD23) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QD23 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qd24",
+    "sku": "QD24",
+    "name": "Quạt đứng công nghiệp 450",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 451080,
+    "catalogPrice": 451080,
+    "spec": "Mã QD24 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt đứng công nghiệp 450 (Mã QD24) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QD24 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qd25",
+    "sku": "QD25",
+    "name": "Quạt đứng công nghiệp 500",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 1500240,
+    "catalogPrice": 1500240,
+    "spec": "Mã QD25 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt đứng công nghiệp 500 (Mã QD25) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QD25 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qd26",
+    "sku": "QD26",
+    "name": "Quạt đứng công nghiệp 650",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 1723320,
+    "catalogPrice": 1723320,
+    "spec": "Mã QD26 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt đứng công nghiệp 650 (Mã QD26) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QD26 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qd27",
+    "sku": "QD27",
+    "name": "Quạt đứng công nghiệp 750",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 1747440,
+    "catalogPrice": 1747440,
+    "spec": "Mã QD27 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt đứng công nghiệp 750 (Mã QD27) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QD27 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qd30",
+    "sku": "QD30",
+    "name": "Quạt đứng mini 400-ĐK",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 416040,
+    "catalogPrice": 416040,
+    "spec": "Mã QD30 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt đứng mini 400-ĐK (Mã QD30) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QD30 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qb01",
+    "sku": "QB01",
+    "name": "Quạt bàn 225",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 255720,
+    "catalogPrice": 255720,
+    "spec": "Mã QB01 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt bàn 225 (Mã QB01) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QB01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qb13",
+    "sku": "QB13",
+    "name": "Quạt bàn 300-Đ",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 366600,
+    "catalogPrice": 366600,
+    "spec": "Mã QB13 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt bàn 300-Đ (Mã QB13) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QB13 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qh06",
+    "sku": "QH06",
+    "name": "Quạt hút trần 150",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 289440,
+    "catalogPrice": 289440,
+    "spec": "Mã QH06 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt hút trần 150 (Mã QH06) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QH06 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qh14",
+    "sku": "QH14",
+    "name": "Quạt hộp 300-LP",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 399240,
+    "catalogPrice": 399240,
+    "spec": "Mã QH14 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt hộp 300-LP (Mã QH14) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QH14 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qh16",
+    "sku": "QH16",
+    "name": "Quạt hộp 350-LP",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 513720,
+    "catalogPrice": 513720,
+    "spec": "Mã QH16 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt hộp 350-LP (Mã QH16) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QH16 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qh17",
+    "sku": "QH17",
+    "name": "Quạt hộp 350-TL",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 513720,
+    "catalogPrice": 513720,
+    "spec": "Mã QH17 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt hộp 350-TL (Mã QH17) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QH17 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qq01",
+    "sku": "QQ01",
+    "name": "Quạt Sàn 500 ĐCTN",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 1237320,
+    "catalogPrice": 1237320,
+    "spec": "Mã QQ01 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt Sàn 500 ĐCTN (Mã QQ01) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QQ01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qt00",
+    "sku": "QT00",
+    "name": "Quạt thông gió 150- PN",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 303960,
+    "catalogPrice": 303960,
+    "spec": "Mã QT00 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt thông gió 150- PN (Mã QT00) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QT00 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qt01",
+    "sku": "QT01",
+    "name": "Quạt thông gió 200-PN",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 326880,
+    "catalogPrice": 326880,
+    "spec": "Mã QT01 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt thông gió 200-PN (Mã QT01) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QT01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qt02",
+    "sku": "QT02",
+    "name": "Quạt thông gió 250- PN",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 351000,
+    "catalogPrice": 351000,
+    "spec": "Mã QT02 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt thông gió 250- PN (Mã QT02) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QT02 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qt30",
+    "sku": "QT30",
+    "name": "Quạt treo 400-EĐ CH đ.cơ điện",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 429360,
+    "catalogPrice": 429360,
+    "spec": "Mã QT30 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt treo 400-EĐ CH đ.cơ điện (Mã QT30) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QT30 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qt32",
+    "sku": "QT32",
+    "name": "Quạt treo 300-EĐ CH đ.cơ điện",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 404040,
+    "catalogPrice": 404040,
+    "spec": "Mã QT32 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt treo 300-EĐ CH đ.cơ điện (Mã QT32) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QT32 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qt33",
+    "sku": "QT33",
+    "name": "Quạt treo 400-XHĐ",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 569280,
+    "catalogPrice": 569280,
+    "spec": "Mã QT33 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt treo 400-XHĐ (Mã QT33) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QT33 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qt330",
+    "sku": "QT330",
+    "name": "Quạt treo 400-XHĐ xanh môn",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 569280,
+    "catalogPrice": 569280,
+    "spec": "Mã QT330 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt treo 400-XHĐ xanh môn (Mã QT330) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QT330 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qt34",
+    "sku": "QT34",
+    "name": "Quạt treo 400-XPN có đ.khiển",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 868320,
+    "catalogPrice": 868320,
+    "spec": "Mã QT34 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt treo 400-XPN có đ.khiển (Mã QT34) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QT34 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qt35",
+    "sku": "QT35",
+    "name": "Quạt treo tường CN 450",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 452280,
+    "catalogPrice": 452280,
+    "spec": "Mã QT35 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt treo tường CN 450 (Mã QT35) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QT35 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qt36",
+    "sku": "QT36",
+    "name": "Quạt treo tường CN 500",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 1335000,
+    "catalogPrice": 1335000,
+    "spec": "Mã QT36 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt treo tường CN 500 (Mã QT36) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QT36 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qt38",
+    "sku": "QT38",
+    "name": "Quạt treo tường CN 650",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 1605240,
+    "catalogPrice": 1605240,
+    "spec": "Mã QT38 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt treo tường CN 650 (Mã QT38) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QT38 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qt39",
+    "sku": "QT39",
+    "name": "Quạt treo tường CN 750",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 1700520,
+    "catalogPrice": 1700520,
+    "spec": "Mã QT39 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt treo tường CN 750 (Mã QT39) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QT39 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qt40",
+    "sku": "QT40",
+    "name": "Quạt trần đảo ko ĐK QĐT400",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 480000,
+    "catalogPrice": 480000,
+    "spec": "Mã QT40 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-tran-panasonic.jpg",
+    "desc": "Quạt trần đảo ko ĐK QĐT400 (Mã QT40) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QT40 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qt41",
+    "sku": "QT41",
+    "name": "Quạt trần đảo điều khiển",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 571680,
+    "catalogPrice": 571680,
+    "spec": "Mã QT41 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-tran-panasonic.jpg",
+    "desc": "Quạt trần đảo điều khiển (Mã QT41) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QT41 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qt42",
+    "sku": "QT42",
+    "name": "Quạt trần cánh sắt ĐCTN (VDT)",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 871920,
+    "catalogPrice": 871920,
+    "spec": "Mã QT42 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-tran-panasonic.jpg",
+    "desc": "Quạt trần cánh sắt ĐCTN (VDT) (Mã QT42) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QT42 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qt43",
+    "sku": "QT43",
+    "name": "Quạt trần cánh nhôm ĐCTN [QT1.4]",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 967200,
+    "catalogPrice": 967200,
+    "spec": "Mã QT43 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-tran-panasonic.jpg",
+    "desc": "Quạt trần cánh nhôm ĐCTN [QT1.4] (Mã QT43) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QT43 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qt44",
+    "sku": "QT44",
+    "name": "Quạt trần điều khiển [QT1.4X]",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 1093800,
+    "catalogPrice": 1093800,
+    "spec": "Mã QT44 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-tran-panasonic.jpg",
+    "desc": "Quạt trần điều khiển [QT1.4X] (Mã QT44) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QT44 (Chiếc)"
+    ]
+  },
+  {
+    "id": "dien-co-thong-nhat-qt45",
+    "sku": "QT45",
+    "name": "Quạt trần 5 cánh ĐCTN [QT1.5X]",
+    "brand": "Điện Cơ Thống Nhất",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 2650800,
+    "catalogPrice": 2650800,
+    "spec": "Mã QT45 - Chính hãng Điện Cơ Thống Nhất",
+    "image": "assets/images/products/quat-tran-panasonic.jpg",
+    "desc": "Quạt trần 5 cánh ĐCTN [QT1.5X] (Mã QT45) chính hãng Điện Cơ Thống Nhất, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã QT45 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-s18a01",
+    "sku": "S18A01",
+    "name": "Mặt 1 lỗ S18A (S18A1X)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 10328,
+    "catalogPrice": 10328,
+    "spec": "Mã S18A01 - Chính hãng Sino",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 1 lỗ S18A (S18A1X) (Mã S18A01) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18A01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-s18a02",
+    "sku": "S18A02",
+    "name": "Mặt 2 lỗ S18A (S18A2X)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 10328,
+    "catalogPrice": 10328,
+    "spec": "Mã S18A02 - Chính hãng Sino",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 2 lỗ S18A (S18A2X) (Mã S18A02) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18A02 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-s18a03",
+    "sku": "S18A03",
+    "name": "Mặt 3 lỗ S18A (S18A3X)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 10328,
+    "catalogPrice": 10328,
+    "spec": "Mã S18A03 - Chính hãng Sino",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 3 lỗ S18A (S18A3X) (Mã S18A03) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18A03 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-s18a04",
+    "sku": "S18A04",
+    "name": "Mặt 4 lỗ S18A (S18A4X)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 13925,
+    "catalogPrice": 13925,
+    "spec": "Mã S18A04 - Chính hãng Sino",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 4 lỗ S18A (S18A4X) (Mã S18A04) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18A04 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-s18a05",
+    "sku": "S18A05",
+    "name": "Mặt 5 lỗ S18A (S18A5X)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 14154,
+    "catalogPrice": 14154,
+    "spec": "Mã S18A05 - Chính hãng Sino",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 5 lỗ S18A (S18A5X) (Mã S18A05) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18A05 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-s18a06",
+    "sku": "S18A06",
+    "name": "Mặt 6 lỗ S18A (S18A6X)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 14154,
+    "catalogPrice": 14154,
+    "spec": "Mã S18A06 - Chính hãng Sino",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 6 lỗ S18A (S18A6X) (Mã S18A06) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18A06 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-s18a08",
+    "sku": "S18A08",
+    "name": "Ổ đôi S18A (S18AU2/M)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 44491,
+    "catalogPrice": 44491,
+    "spec": "Mã S18A08 - Chính hãng Sino",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ đôi S18A (S18AU2/M) (Mã S18A08) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18A08 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-s18a12",
+    "sku": "S18A12",
+    "name": "Ổ cắm ba S18A (S18AU3)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 54719,
+    "catalogPrice": 54719,
+    "spec": "Mã S18A12 - Chính hãng Sino",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ cắm ba S18A (S18AU3) (Mã S18A12) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18A12 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-s18a14",
+    "sku": "S18A14",
+    "name": "Ổ đôi 3 chấu S18A (S18AUE2)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 56965,
+    "catalogPrice": 56965,
+    "spec": "Mã S18A14 - Chính hãng Sino",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ đôi 3 chấu S18A (S18AUE2) (Mã S18A14) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18A14 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-s18a143",
+    "sku": "S18A143",
+    "name": "Ổ 2 3 chấu S18A (S18AUAM2)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 62620,
+    "catalogPrice": 62620,
+    "spec": "Mã S18A143 - Chính hãng Sino",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ 2 3 chấu S18A (S18AUAM2) (Mã S18A143) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18A143 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-s18a07",
+    "sku": "S18A07",
+    "name": "Ổ đơn S18A (S18AU/M)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 28636,
+    "catalogPrice": 28636,
+    "spec": "Mã S18A07 - Chính hãng Sino",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ đơn S18A (S18AU/M) (Mã S18A07) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18A07 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-s18a13",
+    "sku": "S18A13",
+    "name": "Ổ đơn 3 chấu S18A (S18AUE)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 40494,
+    "catalogPrice": 40494,
+    "spec": "Mã S18A13 - Chính hãng Sino",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ đơn 3 chấu S18A (S18AUE) (Mã S18A13) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18A13 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-s18a09",
+    "sku": "S18A09",
+    "name": "Ổ và 1 lỗ S18A (S18AU/X/M)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 33880,
+    "catalogPrice": 33880,
+    "spec": "Mã S18A09 - Chính hãng Sino",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ và 1 lỗ S18A (S18AU/X/M) (Mã S18A09) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18A09 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-s18a10",
+    "sku": "S18A10",
+    "name": "Ổ và 2 lỗ S18A (S18AU/XX/M)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 33880,
+    "catalogPrice": 33880,
+    "spec": "Mã S18A10 - Chính hãng Sino",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ và 2 lỗ S18A (S18AU/XX/M) (Mã S18A10) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18A10 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-s18a11",
+    "sku": "S18A11",
+    "name": "2 ổ và 2 lỗ S18A (S18AU2/XX)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 41946,
+    "catalogPrice": 41946,
+    "spec": "Mã S18A11 - Chính hãng Sino",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "2 ổ và 2 lỗ S18A (S18AU2/XX) (Mã S18A11) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18A11 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-s18a110",
+    "sku": "S18A110",
+    "name": "2 ổ và 1 lỗ S18A (S18AU2/X)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 41946,
+    "catalogPrice": 41946,
+    "spec": "Mã S18A110 - Chính hãng Sino",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "2 ổ và 1 lỗ S18A (S18AU2/X) (Mã S18A110) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18A110 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-s18a141",
+    "sku": "S18A141",
+    "name": "Ổ 3 chấu + 1 lỗ S18A (S18AUE/X)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 42914,
+    "catalogPrice": 42914,
+    "spec": "Mã S18A141 - Chính hãng Sino",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ 3 chấu + 1 lỗ S18A (S18AUE/X) (Mã S18A141) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18A141 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-s18a142",
+    "sku": "S18A142",
+    "name": "Ổ 3 chấu + 2 lỗ S18A (S18AUE/XX)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 42914,
+    "catalogPrice": 42914,
+    "spec": "Mã S18A142 - Chính hãng Sino",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ 3 chấu + 2 lỗ S18A (S18AUE/XX) (Mã S18A142) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18A142 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-s18a15",
+    "sku": "S18A15",
+    "name": "Hạt CT S19+18A (A96/1/2M)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Hạt",
+    "price": 10692,
+    "catalogPrice": 10692,
+    "spec": "Mã S18A15 - Chính hãng Sino",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Hạt CT S19+18A (A96/1/2M) (Mã S18A15) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18A15 (Hạt)"
+    ]
+  },
+  {
+    "id": "sino-s18a16",
+    "sku": "S18A16",
+    "name": "Hạt CT 2 chiều S19+18A (A96M)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Hạt",
+    "price": 18818,
+    "catalogPrice": 18818,
+    "spec": "Mã S18A16 - Chính hãng Sino",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Hạt CT 2 chiều S19+18A (A96M) (Mã S18A16) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18A16 (Hạt)"
+    ]
+  },
+  {
+    "id": "sino-s18a17",
+    "sku": "S18A17",
+    "name": "H ĐB đỏ S19+18A ko dây (A96NRD)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Hạt",
+    "price": 17107,
+    "catalogPrice": 17107,
+    "spec": "Mã S18A17 - Chính hãng Sino",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "H ĐB đỏ S19+18A ko dây (A96NRD) (Mã S18A17) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18A17 (Hạt)"
+    ]
+  },
+  {
+    "id": "sino-s18a18",
+    "sku": "S18A18",
+    "name": "Hạt tivi S19+18A (A96TV)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Hạt",
+    "price": 36353,
+    "catalogPrice": 36353,
+    "spec": "Mã S18A18 - Chính hãng Sino",
+    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "desc": "Hạt tivi S19+18A (A96TV) (Mã S18A18) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18A18 (Hạt)"
+    ]
+  },
+  {
+    "id": "sino-s18a19",
+    "sku": "S18A19",
+    "name": "Hạt ĐT S19+S18A (S19RJ)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Hạt",
+    "price": 53460,
+    "catalogPrice": 53460,
+    "spec": "Mã S18A19 - Chính hãng Sino",
+    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "desc": "Hạt ĐT S19+S18A (S19RJ) (Mã S18A19) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18A19 (Hạt)"
+    ]
+  },
+  {
+    "id": "sino-s18a19d",
+    "sku": "S18A19D",
+    "name": "Hạt ĐTcó dây S19+S18A (A96RJ40/W)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Hạt",
+    "price": 42768,
+    "catalogPrice": 42768,
+    "spec": "Mã S18A19D - Chính hãng Sino",
+    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "desc": "Hạt ĐTcó dây S19+S18A (A96RJ40/W) (Mã S18A19D) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18A19D (Hạt)"
+    ]
+  },
+  {
+    "id": "sino-s18a20",
+    "sku": "S18A20",
+    "name": "H CAQ S19+18A (A96/400V.X)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Hạt",
+    "price": 103801,
+    "catalogPrice": 103801,
+    "spec": "Mã S18A20 - Chính hãng Sino",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "H CAQ S19+18A (A96/400V.X) (Mã S18A20) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18A20 (Hạt)"
+    ]
+  },
+  {
+    "id": "sino-s18a21",
+    "sku": "S18A21",
+    "name": "H CAĐ 500W S19+18A (A96/500V.X)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Hạt",
+    "price": 103801,
+    "catalogPrice": 103801,
+    "spec": "Mã S18A21 - Chính hãng Sino",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "H CAĐ 500W S19+18A (A96/500V.X) (Mã S18A21) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18A21 (Hạt)"
+    ]
+  },
+  {
+    "id": "sino-s18a22",
+    "sku": "S18A22",
+    "name": "H CAĐ 1000W S19+18A (A96/1000V.X)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Hạt",
+    "price": 124740,
+    "catalogPrice": 124740,
+    "spec": "Mã S18A22 - Chính hãng Sino",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "H CAĐ 1000W S19+18A (A96/1000V.X) (Mã S18A22) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18A22 (Hạt)"
+    ]
+  },
+  {
+    "id": "sino-s18a23",
+    "sku": "S18A23",
+    "name": "Hạt CT 20A S19+18A (A96MD20)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Hạt",
+    "price": 61657,
+    "catalogPrice": 61657,
+    "spec": "Mã S18A23 - Chính hãng Sino",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Hạt CT 20A S19+18A (A96MD20) (Mã S18A23) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18A23 (Hạt)"
+    ]
+  },
+  {
+    "id": "sino-s18a24",
+    "sku": "S18A24",
+    "name": "H đèn có dây S19+18A (A96NRD/W)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Hạt",
+    "price": 17107,
+    "catalogPrice": 17107,
+    "spec": "Mã S18A24 - Chính hãng Sino",
+    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "desc": "H đèn có dây S19+18A (A96NRD/W) (Mã S18A24) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18A24 (Hạt)"
+    ]
+  },
+  {
+    "id": "sino-s18a25",
+    "sku": "S18A25",
+    "name": "Hạt CT 3chiều S18A (A96MI)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Hạt",
+    "price": 109237,
+    "catalogPrice": 109237,
+    "spec": "Mã S18A25 - Chính hãng Sino",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Hạt CT 3chiều S18A (A96MI) (Mã S18A25) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18A25 (Hạt)"
+    ]
+  },
+  {
+    "id": "sino-s18a28",
+    "sku": "S18A28",
+    "name": "Ổ cắm máy tính 8 dây S18A+S19 (A96RJ88)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 64865,
+    "catalogPrice": 64865,
+    "spec": "Mã S18A28 - Chính hãng Sino",
+    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "desc": "Ổ cắm máy tính 8 dây S18A+S19 (A96RJ88) (Mã S18A28) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18A28 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-s18a2m1",
+    "sku": "S18A2M1",
+    "name": "Hạt CT2 chiều XD(A96MDB)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Hạt",
+    "price": 22453,
+    "catalogPrice": 22453,
+    "spec": "Mã S18A2M1 - Chính hãng Sino",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Hạt CT2 chiều XD(A96MDB) (Mã S18A2M1) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18A2M1 (Hạt)"
+    ]
+  },
+  {
+    "id": "sino-s18a2m2",
+    "sku": "S18A2M2",
+    "name": "Hạt CT2 chiều XL(A96MGR)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Hạt",
+    "price": 22453,
+    "catalogPrice": 22453,
+    "spec": "Mã S18A2M2 - Chính hãng Sino",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Hạt CT2 chiều XL(A96MGR) (Mã S18A2M2) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18A2M2 (Hạt)"
+    ]
+  },
+  {
+    "id": "sino-s18a2m3",
+    "sku": "S18A2M3",
+    "name": "Hạt CT2 chiều ĐR(A96MRD)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Hạt",
+    "price": 22453,
+    "catalogPrice": 22453,
+    "spec": "Mã S18A2M3 - Chính hãng Sino",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Hạt CT2 chiều ĐR(A96MRD) (Mã S18A2M3) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18A2M3 (Hạt)"
+    ]
+  },
+  {
+    "id": "sino-s18a2m4",
+    "sku": "S18A2M4",
+    "name": "Hạt CT2 chiều VN(A96MYL)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Hạt",
+    "price": 22453,
+    "catalogPrice": 22453,
+    "spec": "Mã S18A2M4 - Chính hãng Sino",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Hạt CT2 chiều VN(A96MYL) (Mã S18A2M4) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18A2M4 (Hạt)"
+    ]
+  },
+  {
+    "id": "sino-s18am1",
+    "sku": "S18AM1",
+    "name": "Hạt CT-XDương(A96/1/2MDB)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Hạt",
+    "price": 13366,
+    "catalogPrice": 13366,
+    "spec": "Mã S18AM1 - Chính hãng Sino",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Hạt CT-XDương(A96/1/2MDB) (Mã S18AM1) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18AM1 (Hạt)"
+    ]
+  },
+  {
+    "id": "sino-s18am2",
+    "sku": "S18AM2",
+    "name": "Hạt CT-XLá (A96/1/2MGR)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Hạt",
+    "price": 13366,
+    "catalogPrice": 13366,
+    "spec": "Mã S18AM2 - Chính hãng Sino",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Hạt CT-XLá (A96/1/2MGR) (Mã S18AM2) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18AM2 (Hạt)"
+    ]
+  },
+  {
+    "id": "sino-s18am3",
+    "sku": "S18AM3",
+    "name": "Hạt CT-đỏ(A96/1/2MRD)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Hạt",
+    "price": 13366,
+    "catalogPrice": 13366,
+    "spec": "Mã S18AM3 - Chính hãng Sino",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Hạt CT-đỏ(A96/1/2MRD) (Mã S18AM3) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18AM3 (Hạt)"
+    ]
+  },
+  {
+    "id": "sino-s18am4",
+    "sku": "S18AM4",
+    "name": "Hạt CT-vàng(A96/1/2MYL)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Hạt",
+    "price": 13366,
+    "catalogPrice": 13366,
+    "spec": "Mã S18AM4 - Chính hãng Sino",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Hạt CT-vàng(A96/1/2MYL) (Mã S18AM4) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S18AM4 (Hạt)"
+    ]
+  },
+  {
+    "id": "sino-s1927",
+    "sku": "S1927",
+    "name": "Nút đậy lỗ vít (S19CAP)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 463,
+    "catalogPrice": 463,
+    "spec": "Mã S1927 - Chính hãng Sino",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Nút đậy lỗ vít (S19CAP) (Mã S1927) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S1927 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-s1901",
+    "sku": "S1901",
+    "name": "Mặt 1 lỗ S19 (S191)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 9580,
+    "catalogPrice": 9580,
+    "spec": "Mã S1901 - Chính hãng Sino",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 1 lỗ S19 (S191) (Mã S1901) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S1901 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-s1902",
+    "sku": "S1902",
+    "name": "Mặt 2 lỗ S19 (S192)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 9580,
+    "catalogPrice": 9580,
+    "spec": "Mã S1902 - Chính hãng Sino",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 2 lỗ S19 (S192) (Mã S1902) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S1902 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-s1903",
+    "sku": "S1903",
+    "name": "Mặt 3 lỗ S19 (S193)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 9580,
+    "catalogPrice": 9580,
+    "spec": "Mã S1903 - Chính hãng Sino",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 3 lỗ S19 (S193) (Mã S1903) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S1903 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-s1904",
+    "sku": "S1904",
+    "name": "Mặt 4 lỗ S19 (S194)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 12125,
+    "catalogPrice": 12125,
+    "spec": "Mã S1904 - Chính hãng Sino",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 4 lỗ S19 (S194) (Mã S1904) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S1904 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-s1905",
+    "sku": "S1905",
+    "name": "Mặt 5 lỗ S19 (S195)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 12574,
+    "catalogPrice": 12574,
+    "spec": "Mã S1905 - Chính hãng Sino",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 5 lỗ S19 (S195) (Mã S1905) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S1905 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-s1906",
+    "sku": "S1906",
+    "name": "Mặt 6 lỗ S19 (S196)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 12574,
+    "catalogPrice": 12574,
+    "spec": "Mã S1906 - Chính hãng Sino",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 6 lỗ S19 (S196) (Mã S1906) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S1906 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-s1907",
+    "sku": "S1907",
+    "name": "Ổ cắm đơn S19 (S1981)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 22079,
+    "catalogPrice": 22079,
+    "spec": "Mã S1907 - Chính hãng Sino",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ cắm đơn S19 (S1981) (Mã S1907) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S1907 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-s1908",
+    "sku": "S1908",
+    "name": "Ổ cắm đôi S19 (S1982)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 37048,
+    "catalogPrice": 37048,
+    "spec": "Mã S1908 - Chính hãng Sino",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ cắm đôi S19 (S1982) (Mã S1908) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S1908 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-s1909",
+    "sku": "S1909",
+    "name": "Ổ và 1 lỗ S19 (S198X)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 28890,
+    "catalogPrice": 28890,
+    "spec": "Mã S1909 - Chính hãng Sino",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ và 1 lỗ S19 (S198X) (Mã S1909) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S1909 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-s1910",
+    "sku": "S1910",
+    "name": "Ổ và 2 lỗ S19 (S198XX)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 28890,
+    "catalogPrice": 28890,
+    "spec": "Mã S1910 - Chính hãng Sino",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ và 2 lỗ S19 (S198XX) (Mã S1910) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S1910 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-s1911",
+    "sku": "S1911",
+    "name": "2 ổ và 2 lỗ S19 (S1982XX)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 36673,
+    "catalogPrice": 36673,
+    "spec": "Mã S1911 - Chính hãng Sino",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "2 ổ và 2 lỗ S19 (S1982XX) (Mã S1911) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S1911 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-s1911d",
+    "sku": "S1911D",
+    "name": "2 ổ và 1 lỗ S19 (S1982X)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 36673,
+    "catalogPrice": 36673,
+    "spec": "Mã S1911D - Chính hãng Sino",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "2 ổ và 1 lỗ S19 (S1982X) (Mã S1911D) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S1911D (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-s1912",
+    "sku": "S1912",
+    "name": "Ổ cắm ba S19 (S1983)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 45505,
+    "catalogPrice": 45505,
+    "spec": "Mã S1912 - Chính hãng Sino",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ cắm ba S19 (S1983) (Mã S1912) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S1912 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-s1913",
+    "sku": "S1913",
+    "name": "Ổ đơn 3 chấu S19 (S1981E)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 34877,
+    "catalogPrice": 34877,
+    "spec": "Mã S1913 - Chính hãng Sino",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ đơn 3 chấu S19 (S1981E) (Mã S1913) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S1913 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-s1914",
+    "sku": "S1914",
+    "name": "Ổ đôi 3 chấu S19 (S1982E)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 47750,
+    "catalogPrice": 47750,
+    "spec": "Mã S1914 - Chính hãng Sino",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ đôi 3 chấu S19 (S1982E) (Mã S1914) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S1914 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-s1925",
+    "sku": "S1925",
+    "name": "Ổ 3 chấu và 1 lỗ S19 (S198EX)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 37272,
+    "catalogPrice": 37272,
+    "spec": "Mã S1925 - Chính hãng Sino",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ 3 chấu và 1 lỗ S19 (S198EX) (Mã S1925) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S1925 (Chiếc)"
+    ]
+  },
+  {
+    "id": "sino-s1926",
+    "sku": "S1926",
+    "name": "Ổ 3 chấu và 2 lỗ S19 (S198EXX)",
+    "brand": "Sino",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 37272,
+    "catalogPrice": 37272,
+    "spec": "Mã S1926 - Chính hãng Sino",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ 3 chấu và 2 lỗ S19 (S198EXX) (Mã S1926) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã S1926 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pa51",
+    "sku": "PA51",
+    "name": "Át đen 15A Pana (BS1111TV)",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 67386,
+    "catalogPrice": 67386,
+    "spec": "Mã PA51 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át đen 15A Pana (BS1111TV) (Mã PA51) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PA51 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pa52",
+    "sku": "PA52",
+    "name": "Át đen 20A Pana (BS1112TV)",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 67386,
+    "catalogPrice": 67386,
+    "spec": "Mã PA52 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át đen 20A Pana (BS1112TV) (Mã PA52) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PA52 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pa53",
+    "sku": "PA53",
+    "name": "Át đen 30A Pana (BS1113TV)",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 67386,
+    "catalogPrice": 67386,
+    "spec": "Mã PA53 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át đen 30A Pana (BS1113TV) (Mã PA53) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PA53 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pa54",
+    "sku": "PA54",
+    "name": "Át đen 40A Pana (BS1114TV)",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 67386,
+    "catalogPrice": 67386,
+    "spec": "Mã PA54 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át đen 40A Pana (BS1114TV) (Mã PA54) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PA54 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pav01",
+    "sku": "PAV01",
+    "name": "Át chống giật 16A Pana (BBDE21631CNV)",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 503485,
+    "catalogPrice": 503485,
+    "spec": "Mã PAV01 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-rcbo-schneider.jpg",
+    "desc": "Át chống giật 16A Pana (BBDE21631CNV) (Mã PAV01) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PAV01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pav02",
+    "sku": "PAV02",
+    "name": "Át chống giật 20A Pana (BBDE22031CNV)",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 503485,
+    "catalogPrice": 503485,
+    "spec": "Mã PAV02 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-rcbo-schneider.jpg",
+    "desc": "Át chống giật 20A Pana (BBDE22031CNV) (Mã PAV02) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PAV02 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pav03",
+    "sku": "PAV03",
+    "name": "Át chống giật 32A Pana (BBDE23231CNV)",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 539449,
+    "catalogPrice": 539449,
+    "spec": "Mã PAV03 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-rcbo-schneider.jpg",
+    "desc": "Át chống giật 32A Pana (BBDE23231CNV) (Mã PAV03) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PAV03 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pav04",
+    "sku": "PAV04",
+    "name": "Át chống giật 40A Pana (BBDE24031CNV)",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 539449,
+    "catalogPrice": 539449,
+    "spec": "Mã PAV04 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-rcbo-schneider.jpg",
+    "desc": "Át chống giật 40A Pana (BBDE24031CNV) (Mã PAV04) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PAV04 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pav041",
+    "sku": "PAV041",
+    "name": "Át chống giật 50A Pana (BBDE25031CNV)",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 764969,
+    "catalogPrice": 764969,
+    "spec": "Mã PAV041 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-rcbo-schneider.jpg",
+    "desc": "Át chống giật 50A Pana (BBDE25031CNV) (Mã PAV041) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PAV041 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pav05",
+    "sku": "PAV05",
+    "name": "Át chống giật 63A Pana (BBDE26331CNV)",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 764969,
+    "catalogPrice": 764969,
+    "spec": "Mã PAV05 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-rcbo-schneider.jpg",
+    "desc": "Át chống giật 63A Pana (BBDE26331CNV) (Mã PAV05) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PAV05 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pav13",
+    "sku": "PAV13",
+    "name": "Át 1 cực 16A (1161CNV) Pana",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 73811,
+    "catalogPrice": 73811,
+    "spec": "Mã PAV13 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át 1 cực 16A (1161CNV) Pana (Mã PAV13) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PAV13 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pav14",
+    "sku": "PAV14",
+    "name": "Át 1 cực 20A (1201CNV) Pana",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 73811,
+    "catalogPrice": 73811,
+    "spec": "Mã PAV14 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át 1 cực 20A (1201CNV) Pana (Mã PAV14) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PAV14 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pav15",
+    "sku": "PAV15",
+    "name": "Át 1 cực 25A (1251CNV) Pana",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 73811,
+    "catalogPrice": 73811,
+    "spec": "Mã PAV15 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át 1 cực 25A (1251CNV) Pana (Mã PAV15) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PAV15 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pav16",
+    "sku": "PAV16",
+    "name": "Át 1 cực 32A (1321CNV) Pana",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 73811,
+    "catalogPrice": 73811,
+    "spec": "Mã PAV16 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át 1 cực 32A (1321CNV) Pana (Mã PAV16) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PAV16 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pav17",
+    "sku": "PAV17",
+    "name": "Át 1 cực 40A (1401CNV) Pana",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 73811,
+    "catalogPrice": 73811,
+    "spec": "Mã PAV17 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át 1 cực 40A (1401CNV) Pana (Mã PAV17) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PAV17 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pav18",
+    "sku": "PAV18",
+    "name": "Át 1 cực 50A (1501CNV) Pana",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 173717,
+    "catalogPrice": 173717,
+    "spec": "Mã PAV18 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át 1 cực 50A (1501CNV) Pana (Mã PAV18) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PAV18 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pav19",
+    "sku": "PAV19",
+    "name": "Át 1 cực 63A (1631CNV) Pana",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 173717,
+    "catalogPrice": 173717,
+    "spec": "Mã PAV19 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át 1 cực 63A (1631CNV) Pana (Mã PAV19) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PAV19 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pav23",
+    "sku": "PAV23",
+    "name": "Át 2 cực 16A (2162CNV) Pana",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 211740,
+    "catalogPrice": 211740,
+    "spec": "Mã PAV23 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át 2 cực 16A (2162CNV) Pana (Mã PAV23) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PAV23 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pav24",
+    "sku": "PAV24",
+    "name": "Át 2 cực 20A (2202CNV) Pana",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 211740,
+    "catalogPrice": 211740,
+    "spec": "Mã PAV24 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át 2 cực 20A (2202CNV) Pana (Mã PAV24) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PAV24 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pav25",
+    "sku": "PAV25",
+    "name": "Át 2 cực 25A (2252CNV) Pana",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 211740,
+    "catalogPrice": 211740,
+    "spec": "Mã PAV25 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át 2 cực 25A (2252CNV) Pana (Mã PAV25) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PAV25 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pav26",
+    "sku": "PAV26",
+    "name": "Át 2 cực 32A (2322CNV) Pana",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 211740,
+    "catalogPrice": 211740,
+    "spec": "Mã PAV26 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át 2 cực 32A (2322CNV) Pana (Mã PAV26) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PAV26 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pav27",
+    "sku": "PAV27",
+    "name": "Át 2 cực 40A (2402CNV) Pana",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 211740,
+    "catalogPrice": 211740,
+    "spec": "Mã PAV27 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át 2 cực 40A (2402CNV) Pana (Mã PAV27) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PAV27 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pav28",
+    "sku": "PAV28",
+    "name": "Át 2 cực 50A (2502CNV) Pana",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 349670,
+    "catalogPrice": 349670,
+    "spec": "Mã PAV28 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át 2 cực 50A (2502CNV) Pana (Mã PAV28) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PAV28 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pav29",
+    "sku": "PAV29",
+    "name": "Át 2 cực 63A (2632CNV) Pana",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 349670,
+    "catalogPrice": 349670,
+    "spec": "Mã PAV29 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át 2 cực 63A (2632CNV) Pana (Mã PAV29) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PAV29 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pav32",
+    "sku": "PAV32",
+    "name": "Át 3 cực 20A (3203CNV) Pana",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 349670,
+    "catalogPrice": 349670,
+    "spec": "Mã PAV32 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át 3 cực 20A (3203CNV) Pana (Mã PAV32) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PAV32 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pav33",
+    "sku": "PAV33",
+    "name": "Át 3 cực 25A (3253CNV) Pana",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 374274,
+    "catalogPrice": 374274,
+    "spec": "Mã PAV33 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át 3 cực 25A (3253CNV) Pana (Mã PAV33) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PAV33 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pav36",
+    "sku": "PAV36",
+    "name": "Át 3 cực 32A (3323CNV) Pana",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 374274,
+    "catalogPrice": 374274,
+    "spec": "Mã PAV36 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át 3 cực 32A (3323CNV) Pana (Mã PAV36) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PAV36 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pav37",
+    "sku": "PAV37",
+    "name": "Át 3 cực 40A (3403CNV) Pana",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 374274,
+    "catalogPrice": 374274,
+    "spec": "Mã PAV37 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át 3 cực 40A (3403CNV) Pana (Mã PAV37) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PAV37 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pav38",
+    "sku": "PAV38",
+    "name": "Át 3 cực 50A (3503CNV) Pana",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 559920,
+    "catalogPrice": 559920,
+    "spec": "Mã PAV38 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át 3 cực 50A (3503CNV) Pana (Mã PAV38) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PAV38 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pav39",
+    "sku": "PAV39",
+    "name": "Át 3 cực 63A (3633CNV) Pana",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 559920,
+    "catalogPrice": 559920,
+    "spec": "Mã PAV39 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Át 3 cực 63A (3633CNV) Pana (Mã PAV39) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PAV39 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pc11",
+    "sku": "PC11",
+    "name": "Chuông Pana (EBG888)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 171656,
+    "catalogPrice": 171656,
+    "spec": "Mã PC11 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Chuông Pana (EBG888) (Mã PC11) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PC11 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pc12",
+    "sku": "PC12",
+    "name": "Nút chuông Pana (EGG331)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 100194,
+    "catalogPrice": 100194,
+    "spec": "Mã PC12 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Nút chuông Pana (EGG331) (Mã PC12) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PC12 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pf01",
+    "sku": "PF01",
+    "name": "Mặt 1 TB Full (WZV7841W)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 11245,
+    "catalogPrice": 11245,
+    "spec": "Mã PF01 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 1 TB Full (WZV7841W) (Mã PF01) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PF01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pf02",
+    "sku": "PF02",
+    "name": "Mặt 2 TB Full (WZV7842W)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 11245,
+    "catalogPrice": 11245,
+    "spec": "Mã PF02 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 2 TB Full (WZV7842W) (Mã PF02) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PF02 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pf02d",
+    "sku": "PF02D",
+    "name": "Mặt 2 TB Full (WZV6842W)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 11245,
+    "catalogPrice": 11245,
+    "spec": "Mã PF02D - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 2 TB Full (WZV6842W) (Mã PF02D) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PF02D (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pf03",
+    "sku": "PF03",
+    "name": "Mặt 3 TB Full (WZV7843W)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 11245,
+    "catalogPrice": 11245,
+    "spec": "Mã PF03 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 3 TB Full (WZV7843W) (Mã PF03) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PF03 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pf04",
+    "sku": "PF04",
+    "name": "Mặt 4 TB Full (WZV6844W)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 27806,
+    "catalogPrice": 27806,
+    "spec": "Mã PF04 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 4 TB Full (WZV6844W) (Mã PF04) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PF04 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pf05",
+    "sku": "PF05",
+    "name": "Mặt 5 TB Full (WZV6845W)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 27806,
+    "catalogPrice": 27806,
+    "spec": "Mã PF05 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 5 TB Full (WZV6845W) (Mã PF05) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PF05 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pf06",
+    "sku": "PF06",
+    "name": "Mặt 6 TB Full (WZV6846W)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 27806,
+    "catalogPrice": 27806,
+    "spec": "Mã PF06 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 6 TB Full (WZV6846W) (Mã PF06) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PF06 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pf07",
+    "sku": "PF07",
+    "name": "Công tắc đơn Full (WNV5001-7W)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 11354,
+    "catalogPrice": 11354,
+    "spec": "Mã PF07 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Công tắc đơn Full (WNV5001-7W) (Mã PF07) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PF07 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pf08",
+    "sku": "PF08",
+    "name": "Công tắc đôi Full (WNG5021W-7)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 115475,
+    "catalogPrice": 115475,
+    "spec": "Mã PF08 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Công tắc đôi Full (WNG5021W-7) (Mã PF08) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PF08 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pf09",
+    "sku": "PF09",
+    "name": "Công tắc cầu thang Full (WNV5002-7W)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 30510,
+    "catalogPrice": 30510,
+    "spec": "Mã PF09 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Công tắc cầu thang Full (WNV5002-7W) (Mã PF09) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PF09 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pf10",
+    "sku": "PF10",
+    "name": "Ổ đơn Full (WNV1081-7W)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 20552,
+    "catalogPrice": 20552,
+    "spec": "Mã PF10 - Chính hãng Panasonic",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ đơn Full (WNV1081-7W) (Mã PF10) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PF10 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pf11",
+    "sku": "PF11",
+    "name": "Ổ đôi 3 chấu Full (WNG159237W)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 69131,
+    "catalogPrice": 69131,
+    "spec": "Mã PF11 - Chính hãng Panasonic",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ đôi 3 chấu Full (WNG159237W) (Mã PF11) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PF11 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pf13",
+    "sku": "PF13",
+    "name": "Ổ tivi Full (WZ1201W)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 55228,
+    "catalogPrice": 55228,
+    "spec": "Mã PF13 - Chính hãng Panasonic",
+    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "desc": "Ổ tivi Full (WZ1201W) (Mã PF13) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PF13 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pf14",
+    "sku": "PF14",
+    "name": "Ổ ĐT 4 dây Full (WNTG15649W)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 78013,
+    "catalogPrice": 78013,
+    "spec": "Mã PF14 - Chính hãng Panasonic",
+    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "desc": "Ổ ĐT 4 dây Full (WNTG15649W) (Mã PF14) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PF14 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pf15",
+    "sku": "PF15",
+    "name": "Ổ mạng Full (NRV3160W)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 148302,
+    "catalogPrice": 148302,
+    "spec": "Mã PF15 - Chính hãng Panasonic",
+    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "desc": "Ổ mạng Full (NRV3160W) (Mã PF15) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PF15 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pf17",
+    "sku": "PF17",
+    "name": "Hạt CT 10A (2 tiếp điểm) (WNG5003WW-7)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 87282,
+    "catalogPrice": 87282,
+    "spec": "Mã PF17 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Hạt CT 10A (2 tiếp điểm) (WNG5003WW-7) (Mã PF17) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PF17 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pf18",
+    "sku": "PF18",
+    "name": "Hạt 20A Full (WNG5343W-761)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 159888,
+    "catalogPrice": 159888,
+    "spec": "Mã PF18 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Hạt 20A Full (WNG5343W-761) (Mã PF18) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PF18 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pf19",
+    "sku": "PF19",
+    "name": "Hạt 3chiều Full (WNG5004W-7)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 170702,
+    "catalogPrice": 170702,
+    "spec": "Mã PF19 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Hạt 3chiều Full (WNG5004W-7) (Mã PF19) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PF19 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pf12",
+    "sku": "PF12",
+    "name": "Đèn báo nano Full (N302RF)",
+    "brand": "Panasonic",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 13903,
+    "catalogPrice": 13903,
+    "spec": "Mã PF12 - Chính hãng Panasonic",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn báo nano Full (N302RF) (Mã PF12) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PF12 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pf16",
+    "sku": "PF16",
+    "name": "Chiết áp quạt nano Full (FDF603FW)",
+    "brand": "Panasonic",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 49048,
+    "catalogPrice": 49048,
+    "spec": "Mã PF16 - Chính hãng Panasonic",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Chiết áp quạt nano Full (FDF603FW) (Mã PF16) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PF16 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-ph00",
+    "sku": "PH00",
+    "name": "Mặt 1 TB Halumie (WEVH68010)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 16057,
+    "catalogPrice": 16057,
+    "spec": "Mã PH00 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 1 TB Halumie (WEVH68010) (Mã PH00) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PH00 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-ph01",
+    "sku": "PH01",
+    "name": "Mặt 2 TB Halumie (WEVH68020)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 16057,
+    "catalogPrice": 16057,
+    "spec": "Mã PH01 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 2 TB Halumie (WEVH68020) (Mã PH01) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PH01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-ph02",
+    "sku": "PH02",
+    "name": "Mặt 3 TB Halumie (WEVH68030)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 16057,
+    "catalogPrice": 16057,
+    "spec": "Mã PH02 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 3 TB Halumie (WEVH68030) (Mã PH02) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PH02 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-ph03",
+    "sku": "PH03",
+    "name": "Công tắc đơn Halumie (WEVH5531-7)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 19126,
+    "catalogPrice": 19126,
+    "spec": "Mã PH03 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Công tắc đơn Halumie (WEVH5531-7) (Mã PH03) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PH03 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-ph04",
+    "sku": "PH04",
+    "name": "Công tắc cầu thang Halumie (WEVH5532-7)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 38964,
+    "catalogPrice": 38964,
+    "spec": "Mã PH04 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Công tắc cầu thang Halumie (WEVH5532-7) (Mã PH04) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PH04 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-ph05",
+    "sku": "PH05",
+    "name": "Công tắc đôi 2 chiều Halumie (WEVH 5542-7)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 126313,
+    "catalogPrice": 126313,
+    "spec": "Mã PH05 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Công tắc đôi 2 chiều Halumie (WEVH 5542-7) (Mã PH05) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PH05 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-phv00",
+    "sku": "PHV00",
+    "name": "Mặt 1 TB vàng ánh kim Halumie (WEVH68010MYZ)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 31115,
+    "catalogPrice": 31115,
+    "spec": "Mã PHV00 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 1 TB vàng ánh kim Halumie (WEVH68010MYZ) (Mã PHV00) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PHV00 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-phv01",
+    "sku": "PHV01",
+    "name": "Mặt 2 TB vàng ánh kim Halumie (WEVH68020MYZ)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 31115,
+    "catalogPrice": 31115,
+    "spec": "Mã PHV01 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 2 TB vàng ánh kim Halumie (WEVH68020MYZ) (Mã PHV01) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PHV01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-phv02",
+    "sku": "PHV02",
+    "name": "Mặt 3 TB vàng ánh kim Halumie (WEVH68030MYZ)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 31115,
+    "catalogPrice": 31115,
+    "spec": "Mã PHV02 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 3 TB vàng ánh kim Halumie (WEVH68030MYZ) (Mã PHV02) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PHV02 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-phv03",
+    "sku": "PHV03",
+    "name": "Công tắc đơn vàng ánh kim Halumie (WEVH5531-7MYZ)Chiếc",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 31115,
+    "catalogPrice": 31115,
+    "spec": "Mã PHV03 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Công tắc đơn vàng ánh kim Halumie (WEVH5531-7MYZ)Chiếc (Mã PHV03) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PHV03 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-phv04",
+    "sku": "PHV04",
+    "name": "Công tắc cầu thang vàng ánh kim Halumie (WEVH5532-7MYZ)Chiếc",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 56021,
+    "catalogPrice": 56021,
+    "spec": "Mã PHV04 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Công tắc cầu thang vàng ánh kim Halumie (WEVH5532-7MYZ)Chiếc (Mã PHV04) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PHV04 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-phv05",
+    "sku": "PHV05",
+    "name": "Ổ đơn vàng ánh kim Halumie (WEV1081-7MYZ)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 57448,
+    "catalogPrice": 57448,
+    "spec": "Mã PHV05 - Chính hãng Panasonic",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ đơn vàng ánh kim Halumie (WEV1081-7MYZ) (Mã PHV05) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PHV05 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-phv06",
+    "sku": "PHV06",
+    "name": "Ổ đơn 3 chấu vàng ánh kim Halumie (WEV1181-7MYZ)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 99552,
+    "catalogPrice": 99552,
+    "spec": "Mã PHV06 - Chính hãng Panasonic",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ đơn 3 chấu vàng ánh kim Halumie (WEV1181-7MYZ) (Mã PHV06) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PHV06 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-phv07",
+    "sku": "PHV07",
+    "name": "Ổ đôi 3 chấu vàng ánh kim Halumie (WEV1582-7MYZ)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 139159,
+    "catalogPrice": 139159,
+    "spec": "Mã PHV07 - Chính hãng Panasonic",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ đôi 3 chấu vàng ánh kim Halumie (WEV1582-7MYZ) (Mã PHV07) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PHV07 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-phv08",
+    "sku": "PHV08",
+    "name": "Ổ cắm mạng Cat5 vàng ánh kim Halumie (WEV2488MYZ)Chiếc",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 222298,
+    "catalogPrice": 222298,
+    "spec": "Mã PHV08 - Chính hãng Panasonic",
+    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "desc": "Ổ cắm mạng Cat5 vàng ánh kim Halumie (WEV2488MYZ)Chiếc (Mã PHV08) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PHV08 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-phv09",
+    "sku": "PHV09",
+    "name": "Ổ đơn 3 chấu ĐN vàng ánh kim Halumie (WEV1171MYZ)Chiếc",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 199818,
+    "catalogPrice": 199818,
+    "spec": "Mã PHV09 - Chính hãng Panasonic",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ đơn 3 chấu ĐN vàng ánh kim Halumie (WEV1171MYZ)Chiếc (Mã PHV09) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PHV09 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-phv10",
+    "sku": "PHV10",
+    "name": "Mặt kín đơn vàng ánh kim Halumie (WEVH68910MYZ)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 31115,
+    "catalogPrice": 31115,
+    "spec": "Mã PHV10 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt kín đơn vàng ánh kim Halumie (WEVH68910MYZ) (Mã PHV10) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PHV10 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-phv11",
+    "sku": "PHV11",
+    "name": "Hạt 20Avàng ánh kim Halumie (WEVH5033-7MYZ)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 294018,
+    "catalogPrice": 294018,
+    "spec": "Mã PHV11 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Hạt 20Avàng ánh kim Halumie (WEVH5033-7MYZ) (Mã PHV11) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PHV11 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-phv12",
+    "sku": "PHV12",
+    "name": "Mặt HB vàng ánh kim Halumie (WEVH8061MYZ)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 31115,
+    "catalogPrice": 31115,
+    "spec": "Mã PHV12 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt HB vàng ánh kim Halumie (WEVH8061MYZ) (Mã PHV12) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PHV12 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-phx01",
+    "sku": "PHX01",
+    "name": "Mặt 1 TB xám ánh kim Halumie (WEVH68010MYH)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 31115,
+    "catalogPrice": 31115,
+    "spec": "Mã PHX01 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 1 TB xám ánh kim Halumie (WEVH68010MYH) (Mã PHX01) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PHX01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-phx02",
+    "sku": "PHX02",
+    "name": "Mặt 2 TB xám ánh kim Halumie (WEVH68020MYH)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 31115,
+    "catalogPrice": 31115,
+    "spec": "Mã PHX02 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 2 TB xám ánh kim Halumie (WEVH68020MYH) (Mã PHX02) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PHX02 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-phx03",
+    "sku": "PHX03",
+    "name": "Mặt 3 TB xám ánh kim Halumie (WEVH68030MYH)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 31115,
+    "catalogPrice": 31115,
+    "spec": "Mã PHX03 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 3 TB xám ánh kim Halumie (WEVH68030MYH) (Mã PHX03) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PHX03 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-phx04",
+    "sku": "PHX04",
+    "name": "Công tắc đơn xám ánh kim Halumie (WEVH5531-7MYHK)Chiếc",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 31115,
+    "catalogPrice": 31115,
+    "spec": "Mã PHX04 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Công tắc đơn xám ánh kim Halumie (WEVH5531-7MYHK)Chiếc (Mã PHX04) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PHX04 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-phx05",
+    "sku": "PHX05",
+    "name": "Công tắc cầu thang xám ánh kim Halumie (WEVH5532-7MYH)Chiếc",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 56021,
+    "catalogPrice": 56021,
+    "spec": "Mã PHX05 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Công tắc cầu thang xám ánh kim Halumie (WEVH5532-7MYH)Chiếc (Mã PHX05) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PHX05 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-phx06",
+    "sku": "PHX06",
+    "name": "Ổ đơn xám ánh kim Halumie (WEV1081-7MYH)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 57448,
+    "catalogPrice": 57448,
+    "spec": "Mã PHX06 - Chính hãng Panasonic",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ đơn xám ánh kim Halumie (WEV1081-7MYH) (Mã PHX06) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PHX06 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-phx08",
+    "sku": "PHX08",
+    "name": "Ổ đơn 3 chấu xám ánh kim Halumie (WEV1181-7MYH)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 99552,
+    "catalogPrice": 99552,
+    "spec": "Mã PHX08 - Chính hãng Panasonic",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ đơn 3 chấu xám ánh kim Halumie (WEV1181-7MYH) (Mã PHX08) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PHX08 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-phx13",
+    "sku": "PHX13",
+    "name": "Công tắc đôi 2 chiều xám ánh kim Halumie (WEVH5542-7MYH)Chiếc",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 191255,
+    "catalogPrice": 191255,
+    "spec": "Mã PHX13 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Công tắc đôi 2 chiều xám ánh kim Halumie (WEVH5542-7MYH)Chiếc (Mã PHX13) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PHX13 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-phx14",
+    "sku": "PHX14",
+    "name": "Công tắc đôi 1 chiều xám ánh kim Halumie (WEVH554127MYH)Chiếc",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 114895,
+    "catalogPrice": 114895,
+    "spec": "Mã PHX14 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Công tắc đôi 1 chiều xám ánh kim Halumie (WEVH554127MYH)Chiếc (Mã PHX14) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PHX14 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pn00",
+    "sku": "PN00",
+    "name": "Ổ cắm đôi nổi Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 44800,
+    "catalogPrice": 44800,
+    "spec": "Mã PN00 - Chính hãng Panasonic",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ cắm đôi nổi Pana (Mã PN00) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PN00 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm22",
+    "sku": "PM22",
+    "name": "Mặt 1TB Xám ánh kim (WEV68010MH)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 25078,
+    "catalogPrice": 25078,
+    "spec": "Mã PM22 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 1TB Xám ánh kim (WEV68010MH) (Mã PM22) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM22 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm23",
+    "sku": "PM23",
+    "name": "Mặt 2TB Xám ánh kim (WEV68020MH)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 25078,
+    "catalogPrice": 25078,
+    "spec": "Mã PM23 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 2TB Xám ánh kim (WEV68020MH) (Mã PM23) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM23 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm24",
+    "sku": "PM24",
+    "name": "Mặt 3TB Xám ánh kim (WEV68030MH)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 25078,
+    "catalogPrice": 25078,
+    "spec": "Mã PM24 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 3TB Xám ánh kim (WEV68030MH) (Mã PM24) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM24 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm01",
+    "sku": "PM01",
+    "name": "Mặt 1TB Trắng ánh kim (WEV68010MW)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 25078,
+    "catalogPrice": 25078,
+    "spec": "Mã PM01 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 1TB Trắng ánh kim (WEV68010MW) (Mã PM01) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm02",
+    "sku": "PM02",
+    "name": "Mặt 2TB Trắng ánh kim (WEV68020MW)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 25078,
+    "catalogPrice": 25078,
+    "spec": "Mã PM02 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 2TB Trắng ánh kim (WEV68020MW) (Mã PM02) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM02 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm021",
+    "sku": "PM021",
+    "name": "Mặt 2 át Trắng ánh kim (WEV680290MW)",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 25078,
+    "catalogPrice": 25078,
+    "spec": "Mã PM021 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Mặt 2 át Trắng ánh kim (WEV680290MW) (Mã PM021) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM021 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm03",
+    "sku": "PM03",
+    "name": "Mặt 3TB Trắng ánh kim (WEV68030MW)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 25078,
+    "catalogPrice": 25078,
+    "spec": "Mã PM03 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 3TB Trắng ánh kim (WEV68030MW) (Mã PM03) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM03 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm04",
+    "sku": "PM04",
+    "name": "Mặt 4TB Trắng ánh kim (WEV68040MW)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 41947,
+    "catalogPrice": 41947,
+    "spec": "Mã PM04 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 4TB Trắng ánh kim (WEV68040MW) (Mã PM04) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM04 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm05",
+    "sku": "PM05",
+    "name": "Mặt 6TB Trắng ánh kim (WEV68060MW)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 41947,
+    "catalogPrice": 41947,
+    "spec": "Mã PM05 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 6TB Trắng ánh kim (WEV68060MW) (Mã PM05) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM05 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm07",
+    "sku": "PM07",
+    "name": "Công tắc đơn xám (WEV5001-7H)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 30500,
+    "catalogPrice": 30500,
+    "spec": "Mã PM07 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Công tắc đơn xám (WEV5001-7H) (Mã PM07) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM07 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm10",
+    "sku": "PM10",
+    "name": "Ổ đơn xám (WEV1081-7H)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 42173,
+    "catalogPrice": 42173,
+    "spec": "Mã PM10 - Chính hãng Panasonic",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ đơn xám (WEV1081-7H) (Mã PM10) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM10 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm11",
+    "sku": "PM11",
+    "name": "Công tắc cầu thang Wide xám (WEV5002-7H)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 53168,
+    "catalogPrice": 53168,
+    "spec": "Mã PM11 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Công tắc cầu thang Wide xám (WEV5002-7H) (Mã PM11) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM11 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm110",
+    "sku": "PM110",
+    "name": "Ổ đơn 3 chấu xám Wide (WEV1181-7H)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 77569,
+    "catalogPrice": 77569,
+    "spec": "Mã PM110 - Chính hãng Panasonic",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ đơn 3 chấu xám Wide (WEV1181-7H) (Mã PM110) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM110 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm111",
+    "sku": "PM111",
+    "name": "Ổ đôi 3 chấu xám Wide (WEV1582-7H)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 112964,
+    "catalogPrice": 112964,
+    "spec": "Mã PM111 - Chính hãng Panasonic",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ đôi 3 chấu xám Wide (WEV1582-7H) (Mã PM111) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM111 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm12",
+    "sku": "PM12",
+    "name": "Hạt 20A Wide xám(WEV5033-7H)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 251534,
+    "catalogPrice": 251534,
+    "spec": "Mã PM12 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Hạt 20A Wide xám(WEV5033-7H) (Mã PM12) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM12 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm120",
+    "sku": "PM120",
+    "name": "Hạt đèn Wide xám(WEG3032RH)",
+    "brand": "Panasonic",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 120496,
+    "catalogPrice": 120496,
+    "spec": "Mã PM120 - Chính hãng Panasonic",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Hạt đèn Wide xám(WEG3032RH) (Mã PM120) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM120 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm13",
+    "sku": "PM13",
+    "name": "Ổ tivi Wide xám (WEV2501H)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 108070,
+    "catalogPrice": 108070,
+    "spec": "Mã PM13 - Chính hãng Panasonic",
+    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "desc": "Ổ tivi Wide xám (WEV2501H) (Mã PM13) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM13 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm14",
+    "sku": "PM14",
+    "name": "Ổ ĐT Wide xám (WEV2364H)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 108070,
+    "catalogPrice": 108070,
+    "spec": "Mã PM14 - Chính hãng Panasonic",
+    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "desc": "Ổ ĐT Wide xám (WEV2364H) (Mã PM14) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM14 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm16",
+    "sku": "PM16",
+    "name": "CT 3 chiều Wide xám (WEG5004KH",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 263584,
+    "catalogPrice": 263584,
+    "spec": "Mã PM16 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "CT 3 chiều Wide xám (WEG5004KH (Mã PM16) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM16 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm15",
+    "sku": "PM15",
+    "name": "Ổ mạng Wide xám (WEV2488H) -CAT5 Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 187145,
+    "catalogPrice": 187145,
+    "spec": "Mã PM15 - Chính hãng Panasonic",
+    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "desc": "Ổ mạng Wide xám (WEV2488H) -CAT5 Pana (Mã PM15) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM15 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm151",
+    "sku": "PM151",
+    "name": "Ổ mạng Wide xám (WEV24886H) -CAT6 Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 225929,
+    "catalogPrice": 225929,
+    "spec": "Mã PM151 - Chính hãng Panasonic",
+    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "desc": "Ổ mạng Wide xám (WEV24886H) -CAT6 Pana (Mã PM151) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM151 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm17",
+    "sku": "PM17",
+    "name": "Mặt che trơn trắng ánh kim (WEV68910MW)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 25078,
+    "catalogPrice": 25078,
+    "spec": "Mã PM17 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt che trơn trắng ánh kim (WEV68910MW) (Mã PM17) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM17 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm171",
+    "sku": "PM171",
+    "name": "Mặt che trơn xám ánh kim (WEV68910MH)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 25078,
+    "catalogPrice": 25078,
+    "spec": "Mã PM171 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt che trơn xám ánh kim (WEV68910MH) (Mã PM171) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM171 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm18",
+    "sku": "PM18",
+    "name": "Mặt 1 át xám (WEV7001MW)",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 25078,
+    "catalogPrice": 25078,
+    "spec": "Mã PM18 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Mặt 1 át xám (WEV7001MW) (Mã PM18) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM18 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm19",
+    "sku": "PM19",
+    "name": "Mặt át HB xám (WEV7061MH)",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 25078,
+    "catalogPrice": 25078,
+    "spec": "Mã PM19 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Mặt át HB xám (WEV7061MH) (Mã PM19) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM19 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm20",
+    "sku": "PM20",
+    "name": "Phím che trơn xám (WEG3020H)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 12953,
+    "catalogPrice": 12953,
+    "spec": "Mã PM20 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Phím che trơn xám (WEG3020H) (Mã PM20) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM20 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm21",
+    "sku": "PM21",
+    "name": "Mặt 2 át xám ánh kim (WEV680290MH) Pana",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 25078,
+    "catalogPrice": 25078,
+    "spec": "Mã PM21 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Mặt 2 át xám ánh kim (WEV680290MH) Pana (Mã PM21) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM21 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm21a",
+    "sku": "PM21A",
+    "name": "Mặt 1 át xám ánh kim (WEV7001MH) Pana",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 25078,
+    "catalogPrice": 25078,
+    "spec": "Mã PM21A - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Mặt 1 át xám ánh kim (WEV7001MH) Pana (Mã PM21A) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM21A (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm241",
+    "sku": "PM241",
+    "name": "Mặt 4TB Xám ánh kim (WEV68040MH) Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 41947,
+    "catalogPrice": 41947,
+    "spec": "Mã PM241 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 4TB Xám ánh kim (WEV68040MH) Pana (Mã PM241) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM241 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm25",
+    "sku": "PM25",
+    "name": "Mặt át HB trắng ánh kim (WEV7061MW)",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 25078,
+    "catalogPrice": 25078,
+    "spec": "Mã PM25 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Mặt át HB trắng ánh kim (WEV7061MW) (Mã PM25) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM25 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm26",
+    "sku": "PM26",
+    "name": "Mặt 1TB đen ánh kim (WEV68010MB) Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 25078,
+    "catalogPrice": 25078,
+    "spec": "Mã PM26 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 1TB đen ánh kim (WEV68010MB) Pana (Mã PM26) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM26 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm27",
+    "sku": "PM27",
+    "name": "Mặt 2TB đen ánh kim (WEV68020MB) Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 25078,
+    "catalogPrice": 25078,
+    "spec": "Mã PM27 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 2TB đen ánh kim (WEV68020MB) Pana (Mã PM27) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM27 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm28",
+    "sku": "PM28",
+    "name": "Mặt 3TB đen ánh kim (WEV68030MB) Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 25078,
+    "catalogPrice": 25078,
+    "spec": "Mã PM28 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 3TB đen ánh kim (WEV68030MB) Pana (Mã PM28) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM28 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm28a",
+    "sku": "PM28A",
+    "name": "Mặt 4TB đen ánh kim (WEV68040MB) Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 41947,
+    "catalogPrice": 41947,
+    "spec": "Mã PM28A - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 4TB đen ánh kim (WEV68040MB) Pana (Mã PM28A) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM28A (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm29",
+    "sku": "PM29",
+    "name": "Mặt HB đen ánh kim (WEV7061MB) Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 25078,
+    "catalogPrice": 25078,
+    "spec": "Mã PM29 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt HB đen ánh kim (WEV7061MB) Pana (Mã PM29) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM29 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm32",
+    "sku": "PM32",
+    "name": "Mặt 1TB vuông xám ánh kim (WEB7811MH) Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 34643,
+    "catalogPrice": 34643,
+    "spec": "Mã PM32 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 1TB vuông xám ánh kim (WEB7811MH) Pana (Mã PM32) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM32 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm33",
+    "sku": "PM33",
+    "name": "Mặt 2TB vuông xám ánh kim (WEB7812MH) Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 34643,
+    "catalogPrice": 34643,
+    "spec": "Mã PM33 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 2TB vuông xám ánh kim (WEB7812MH) Pana (Mã PM33) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM33 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm34",
+    "sku": "PM34",
+    "name": "Mặt 3TB vuông xám ánh kim (WEB7813MH) Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 34643,
+    "catalogPrice": 34643,
+    "spec": "Mã PM34 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 3TB vuông xám ánh kim (WEB7813MH) Pana (Mã PM34) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM34 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm35",
+    "sku": "PM35",
+    "name": "Mặt 1TB vuông đen ánh kim (WEB7811MB) Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 34643,
+    "catalogPrice": 34643,
+    "spec": "Mã PM35 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 1TB vuông đen ánh kim (WEB7811MB) Pana (Mã PM35) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM35 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm36",
+    "sku": "PM36",
+    "name": "Mặt 2TB vuông đen ánh kim (WEB7812MB) Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 34643,
+    "catalogPrice": 34643,
+    "spec": "Mã PM36 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 2TB vuông đen ánh kim (WEB7812MB) Pana (Mã PM36) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM36 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm37",
+    "sku": "PM37",
+    "name": "Mặt 3TB vuông đen ánh kim (WEB7813MB) Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 34643,
+    "catalogPrice": 34643,
+    "spec": "Mã PM37 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 3TB vuông đen ánh kim (WEB7813MB) Pana (Mã PM37) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM37 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm40",
+    "sku": "PM40",
+    "name": "Máy hút ẩm F-YCT10V Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 6354000,
+    "catalogPrice": 6354000,
+    "spec": "Mã PM40 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Máy hút ẩm F-YCT10V Pana (Mã PM40) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM40 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm41",
+    "sku": "PM41",
+    "name": "Máy hút ẩm F-YCT14V Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 8071200,
+    "catalogPrice": 8071200,
+    "spec": "Mã PM41 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Máy hút ẩm F-YCT14V Pana (Mã PM41) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM41 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm42",
+    "sku": "PM42",
+    "name": "Máy hút ẩm F-YCT17V Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 8772000,
+    "catalogPrice": 8772000,
+    "spec": "Mã PM42 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Máy hút ẩm F-YCT17V Pana (Mã PM42) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM42 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm43",
+    "sku": "PM43",
+    "name": "Máy hút ẩm NDH102 Nanoco",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 2796000,
+    "catalogPrice": 2796000,
+    "spec": "Mã PM43 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Máy hút ẩm NDH102 Nanoco (Mã PM43) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM43 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm44",
+    "sku": "PM44",
+    "name": "Máy hút ẩm NDH163 Nanoco",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 3816000,
+    "catalogPrice": 3816000,
+    "spec": "Mã PM44 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Máy hút ẩm NDH163 Nanoco (Mã PM44) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM44 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm45",
+    "sku": "PM45",
+    "name": "Máy hút ẩm NDH205 Nanoco",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 2580000,
+    "catalogPrice": 2580000,
+    "spec": "Mã PM45 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Máy hút ẩm NDH205 Nanoco (Mã PM45) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM45 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pm46",
+    "sku": "PM46",
+    "name": "Máy hút ẩm NDH256 Nanoco",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 4584000,
+    "catalogPrice": 4584000,
+    "spec": "Mã PM46 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Máy hút ẩm NDH256 Nanoco (Mã PM46) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PM46 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pb00",
+    "sku": "PB00",
+    "name": "Máy nước nóng 15L PANA",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 3348000,
+    "catalogPrice": 3348000,
+    "spec": "Mã PB00 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Máy nước nóng 15L PANA (Mã PB00) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PB00 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pb01",
+    "sku": "PB01",
+    "name": "Máy nước nóng 20L PANA",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 3480000,
+    "catalogPrice": 3480000,
+    "spec": "Mã PB01 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Máy nước nóng 20L PANA (Mã PB01) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PB01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pb02",
+    "sku": "PB02",
+    "name": "Máy nước nóng 30L PANA",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 3840000,
+    "catalogPrice": 3840000,
+    "spec": "Mã PB02 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Máy nước nóng 30L PANA (Mã PB02) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PB02 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqd04",
+    "sku": "PQD04",
+    "name": "Quạt đứng F409 be",
+    "brand": "Panasonic",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 2946000,
+    "catalogPrice": 2946000,
+    "spec": "Mã PQD04 - Chính hãng Panasonic",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt đứng F409 be (Mã PQD04) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQD04 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqd05",
+    "sku": "PQD05",
+    "name": "Quạt đứng F409 xanh",
+    "brand": "Panasonic",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 2946000,
+    "catalogPrice": 2946000,
+    "spec": "Mã PQD05 - Chính hãng Panasonic",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt đứng F409 xanh (Mã PQD05) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQD05 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqd07",
+    "sku": "PQD07",
+    "name": "Quạt đứng F409 đỏ",
+    "brand": "Panasonic",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 2946000,
+    "catalogPrice": 2946000,
+    "spec": "Mã PQD07 - Chính hãng Panasonic",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt đứng F409 đỏ (Mã PQD07) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQD07 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqd08",
+    "sku": "PQD08",
+    "name": "Quạt Bàn F - 400C xanh",
+    "brand": "Panasonic",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 1110000,
+    "catalogPrice": 1110000,
+    "spec": "Mã PQD08 - Chính hãng Panasonic",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt Bàn F - 400C xanh (Mã PQD08) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQD08 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt00",
+    "sku": "PQT00",
+    "name": "Q.trần 3 cánh (F-56NCL) Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 1902000,
+    "catalogPrice": 1902000,
+    "spec": "Mã PQT00 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q.trần 3 cánh (F-56NCL) Pana (Mã PQT00) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT00 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt01",
+    "sku": "PQT01",
+    "name": "Q.trần 3cánh ngắn (F-60MZ2-S) Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 1206000,
+    "catalogPrice": 1206000,
+    "spec": "Mã PQT01 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q.trần 3cánh ngắn (F-60MZ2-S) Pana (Mã PQT01) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt01c",
+    "sku": "PQT01C",
+    "name": "Q.trần 3cánh ngắn 9inch (F-60MZ2-MS) Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 1206000,
+    "catalogPrice": 1206000,
+    "spec": "Mã PQT01C - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q.trần 3cánh ngắn 9inch (F-60MZ2-MS) Pana (Mã PQT01C) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT01C (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt01d",
+    "sku": "PQT01D",
+    "name": "Q.trần 3 cánh (F-60MZ2) Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 1206000,
+    "catalogPrice": 1206000,
+    "spec": "Mã PQT01D - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q.trần 3 cánh (F-60MZ2) Pana (Mã PQT01D) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT01D (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt01e",
+    "sku": "PQT01E",
+    "name": "Q.trần 3 cánh (F-48CZL) Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 3582000,
+    "catalogPrice": 3582000,
+    "spec": "Mã PQT01E - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q.trần 3 cánh (F-48CZL) Pana (Mã PQT01E) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT01E (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt01f",
+    "sku": "PQT01F",
+    "name": "Q.trần 3 cánh đen 18inch (F-60MZ2-K) Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 1206000,
+    "catalogPrice": 1206000,
+    "spec": "Mã PQT01F - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q.trần 3 cánh đen 18inch (F-60MZ2-K) Pana (Mã PQT01F) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT01F (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt01g",
+    "sku": "PQT01G",
+    "name": "Q.trần 3 cánh dài đen 22inch (F-60MZ2-KL) Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 1206000,
+    "catalogPrice": 1206000,
+    "spec": "Mã PQT01G - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q.trần 3 cánh dài đen 22inch (F-60MZ2-KL) Pana (Mã PQT01G) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT01G (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt01h",
+    "sku": "PQT01H",
+    "name": "Q.trần 3 cánh ngắn đen 9inch (F-60MZ2-KMS) Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 1206000,
+    "catalogPrice": 1206000,
+    "spec": "Mã PQT01H - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q.trần 3 cánh ngắn đen 9inch (F-60MZ2-KMS) Pana (Mã PQT01H) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT01H (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt01i",
+    "sku": "PQT01I",
+    "name": "Q.trần 3 cánh ngắn đen 12inch (F-60MZ2-KS) Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 1206000,
+    "catalogPrice": 1206000,
+    "spec": "Mã PQT01I - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q.trần 3 cánh ngắn đen 12inch (F-60MZ2-KS) Pana (Mã PQT01I) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT01I (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt01k",
+    "sku": "PQT01K",
+    "name": "Q.trần 3 cánh đèn led (F-48DGL) Pana",
+    "brand": "Panasonic",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 8250000,
+    "catalogPrice": 8250000,
+    "spec": "Mã PQT01K - Chính hãng Panasonic",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Q.trần 3 cánh đèn led (F-48DGL) Pana (Mã PQT01K) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT01K (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt02",
+    "sku": "PQT02",
+    "name": "Q.trần 4cánh vàng ngắn (F-56MPG-GO)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 2592000,
+    "catalogPrice": 2592000,
+    "spec": "Mã PQT02 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q.trần 4cánh vàng ngắn (F-56MPG-GO) (Mã PQT02) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT02 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt02d",
+    "sku": "PQT02D",
+    "name": "Q.trần 4cánh vàng (F-56MZG-GO)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 2592000,
+    "catalogPrice": 2592000,
+    "spec": "Mã PQT02D - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q.trần 4cánh vàng (F-56MZG-GO) (Mã PQT02D) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT02D (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt03",
+    "sku": "PQT03",
+    "name": "Q.trần 4cánh bạc ngắn (F-56MPG-S)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 2592000,
+    "catalogPrice": 2592000,
+    "spec": "Mã PQT03 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q.trần 4cánh bạc ngắn (F-56MPG-S) (Mã PQT03) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT03 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt03d",
+    "sku": "PQT03D",
+    "name": "Q.trần 4cánh bạc (F-56MZG-S)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 2592000,
+    "catalogPrice": 2592000,
+    "spec": "Mã PQT03D - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q.trần 4cánh bạc (F-56MZG-S) (Mã PQT03D) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT03D (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt03e",
+    "sku": "PQT03E",
+    "name": "Quạt trần 4 cánh (F-56XPG)",
+    "brand": "Panasonic",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 2868000,
+    "catalogPrice": 2868000,
+    "spec": "Mã PQT03E - Chính hãng Panasonic",
+    "image": "assets/images/products/quat-tran-panasonic.jpg",
+    "desc": "Quạt trần 4 cánh (F-56XPG) (Mã PQT03E) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT03E (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt091",
+    "sku": "PQT091",
+    "name": "Quạt trần 5 cánh trắng F-60GDN pana",
+    "brand": "Panasonic",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 5106000,
+    "catalogPrice": 5106000,
+    "spec": "Mã PQT091 - Chính hãng Panasonic",
+    "image": "assets/images/products/quat-tran-panasonic.jpg",
+    "desc": "Quạt trần 5 cánh trắng F-60GDN pana (Mã PQT091) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT091 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt092",
+    "sku": "PQT092",
+    "name": "Quạt trần 5 cánh nâu F-60GDS-B pana",
+    "brand": "Panasonic",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 5106000,
+    "catalogPrice": 5106000,
+    "spec": "Mã PQT092 - Chính hãng Panasonic",
+    "image": "assets/images/products/quat-tran-panasonic.jpg",
+    "desc": "Quạt trần 5 cánh nâu F-60GDS-B pana (Mã PQT092) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT092 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt093",
+    "sku": "PQT093",
+    "name": "Quạt trần 5 cánh trắng F-60GDS-W pana",
+    "brand": "Panasonic",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 5106000,
+    "catalogPrice": 5106000,
+    "spec": "Mã PQT093 - Chính hãng Panasonic",
+    "image": "assets/images/products/quat-tran-panasonic.jpg",
+    "desc": "Quạt trần 5 cánh trắng F-60GDS-W pana (Mã PQT093) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT093 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt07",
+    "sku": "PQT07",
+    "name": "Q.trần 5 cánh (F-60TAN) Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 7104000,
+    "catalogPrice": 7104000,
+    "spec": "Mã PQT07 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q.trần 5 cánh (F-60TAN) Pana (Mã PQT07) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT07 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt08d",
+    "sku": "PQT08D",
+    "name": "Q.trần 5 cánh (F-60XDN) Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 6036000,
+    "catalogPrice": 6036000,
+    "spec": "Mã PQT08D - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q.trần 5 cánh (F-60XDN) Pana (Mã PQT08D) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT08D (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt08c",
+    "sku": "PQT08C",
+    "name": "Q.trần 5 cánh (F-60DGN) Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 9840000,
+    "catalogPrice": 9840000,
+    "spec": "Mã PQT08C - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q.trần 5 cánh (F-60DGN) Pana (Mã PQT08C) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT08C (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt08e",
+    "sku": "PQT08E",
+    "name": "Q.trần 5 cánh (F-60DHN) Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 7620000,
+    "catalogPrice": 7620000,
+    "spec": "Mã PQT08E - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q.trần 5 cánh (F-60DHN) Pana (Mã PQT08E) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT08E (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt08f",
+    "sku": "PQT08F",
+    "name": "Q.trần 5 cánh (F-60FEN) Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 8448000,
+    "catalogPrice": 8448000,
+    "spec": "Mã PQT08F - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q.trần 5 cánh (F-60FEN) Pana (Mã PQT08F) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT08F (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt09a",
+    "sku": "PQT09A",
+    "name": "Quạt trần 6 cánh đen (F-70ZBP) Pana",
+    "brand": "Panasonic",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 14640000,
+    "catalogPrice": 14640000,
+    "spec": "Mã PQT09A - Chính hãng Panasonic",
+    "image": "assets/images/products/quat-tran-panasonic.jpg",
+    "desc": "Quạt trần 6 cánh đen (F-70ZBP) Pana (Mã PQT09A) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT09A (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt09d",
+    "sku": "PQT09D",
+    "name": "Quạt trần 8 cánh (F-80ZBR) Pana",
+    "brand": "Panasonic",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 15750000,
+    "catalogPrice": 15750000,
+    "spec": "Mã PQT09D - Chính hãng Panasonic",
+    "image": "assets/images/products/quat-tran-panasonic.jpg",
+    "desc": "Quạt trần 8 cánh (F-80ZBR) Pana (Mã PQT09D) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT09D (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt09i",
+    "sku": "PQT09I",
+    "name": "Quạt trần 3 cánh nhôm trắng (NCF5631-WS) Nanoco",
+    "brand": "Panasonic",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 1146000,
+    "catalogPrice": 1146000,
+    "spec": "Mã PQT09I - Chính hãng Panasonic",
+    "image": "assets/images/products/quat-tran-panasonic.jpg",
+    "desc": "Quạt trần 3 cánh nhôm trắng (NCF5631-WS) Nanoco (Mã PQT09I) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT09I (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt09r",
+    "sku": "PQT09R",
+    "name": "Quạt trần 8 cánh (NCFD6089L) Nanoco",
+    "brand": "Panasonic",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 4140000,
+    "catalogPrice": 4140000,
+    "spec": "Mã PQT09R - Chính hãng Panasonic",
+    "image": "assets/images/products/quat-tran-panasonic.jpg",
+    "desc": "Quạt trần 8 cánh (NCFD6089L) Nanoco (Mã PQT09R) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT09R (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt09w",
+    "sku": "PQT09W",
+    "name": "Quạt trần 6 cánh vân gỗ (NCF5462-PL) Nanoco",
+    "brand": "Panasonic",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 2268000,
+    "catalogPrice": 2268000,
+    "spec": "Mã PQT09W - Chính hãng Panasonic",
+    "image": "assets/images/products/quat-tran-panasonic.jpg",
+    "desc": "Quạt trần 6 cánh vân gỗ (NCF5462-PL) Nanoco (Mã PQT09W) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT09W (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-ncf5462-gl",
+    "sku": "NCF5462-GL",
+    "name": "PQT09W1Quạt trần 6 cánh vàng (NCF5462-GL) Nanoco",
+    "brand": "Panasonic",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 2268000,
+    "catalogPrice": 2268000,
+    "spec": "Mã NCF5462-GL - Chính hãng Panasonic",
+    "image": "assets/images/products/quat-tran-panasonic.jpg",
+    "desc": "PQT09W1Quạt trần 6 cánh vàng (NCF5462-GL) Nanoco (Mã NCF5462-GL) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã NCF5462-GL (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-ncf5462-sl",
+    "sku": "NCF5462-SL",
+    "name": "PQT09W2Quạt trần 6 cánh bạc (NCF5462-SL) Nanoco",
+    "brand": "Panasonic",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 2268000,
+    "catalogPrice": 2268000,
+    "spec": "Mã NCF5462-SL - Chính hãng Panasonic",
+    "image": "assets/images/products/quat-tran-panasonic.jpg",
+    "desc": "PQT09W2Quạt trần 6 cánh bạc (NCF5462-SL) Nanoco (Mã NCF5462-SL) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã NCF5462-SL (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt09y",
+    "sku": "PQT09Y",
+    "name": "Quạt trần 5 cánh (NCF5653-WL) Nanoco",
+    "brand": "Panasonic",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 2790000,
+    "catalogPrice": 2790000,
+    "spec": "Mã PQT09Y - Chính hãng Panasonic",
+    "image": "assets/images/products/quat-tran-panasonic.jpg",
+    "desc": "Quạt trần 5 cánh (NCF5653-WL) Nanoco (Mã PQT09Y) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT09Y (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt10",
+    "sku": "PQT10",
+    "name": "Q.treo Pana ĐK (F409MG) xám",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 2094000,
+    "catalogPrice": 2094000,
+    "spec": "Mã PQT10 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q.treo Pana ĐK (F409MG) xám (Mã PQT10) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT10 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt11",
+    "sku": "PQT11",
+    "name": "Q.treo Pana ĐK (F409MB) xanh",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 2094000,
+    "catalogPrice": 2094000,
+    "spec": "Mã PQT11 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q.treo Pana ĐK (F409MB) xanh (Mã PQT11) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT11 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt12",
+    "sku": "PQT12",
+    "name": "Q.đảo trần (F409QGO) vàng",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 2388000,
+    "catalogPrice": 2388000,
+    "spec": "Mã PQT12 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q.đảo trần (F409QGO) vàng (Mã PQT12) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT12 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt13",
+    "sku": "PQT13",
+    "name": "Q. hút âm trần FV-24CH7 Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 2322000,
+    "catalogPrice": 2322000,
+    "spec": "Mã PQT13 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q. hút âm trần FV-24CH7 Pana (Mã PQT13) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT13 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt14",
+    "sku": "PQT14",
+    "name": "Q. hút âm trần FV-17CU8/CU9 Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 1842000,
+    "catalogPrice": 1842000,
+    "spec": "Mã PQT14 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q. hút âm trần FV-17CU8/CU9 Pana (Mã PQT14) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT14 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt15",
+    "sku": "PQT15",
+    "name": "Q. hút âm trần FV-24CU7 Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 2148000,
+    "catalogPrice": 2148000,
+    "spec": "Mã PQT15 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q. hút âm trần FV-24CU7 Pana (Mã PQT15) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT15 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt151",
+    "sku": "PQT151",
+    "name": "Q. hút âm trần FV-24CU8 Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 2262000,
+    "catalogPrice": 2262000,
+    "spec": "Mã PQT151 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q. hút âm trần FV-24CU8 Pana (Mã PQT151) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT151 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt153",
+    "sku": "PQT153",
+    "name": "Q. hút âm trần FV-24CU9 Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 2262000,
+    "catalogPrice": 2262000,
+    "spec": "Mã PQT153 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q. hút âm trần FV-24CU9 Pana (Mã PQT153) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT153 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt16",
+    "sku": "PQT16",
+    "name": "Q. hút âm trần FV-15EGS1 Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 756000,
+    "catalogPrice": 756000,
+    "spec": "Mã PQT16 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q. hút âm trần FV-15EGS1 Pana (Mã PQT16) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT16 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt16a",
+    "sku": "PQT16A",
+    "name": "Q. hút âm trần FV-15EGS2 Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 786000,
+    "catalogPrice": 786000,
+    "spec": "Mã PQT16A - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q. hút âm trần FV-15EGS2 Pana (Mã PQT16A) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT16A (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt17",
+    "sku": "PQT17",
+    "name": "Q.hút âm trần FV-32CD9 Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 4992000,
+    "catalogPrice": 4992000,
+    "spec": "Mã PQT17 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q.hút âm trần FV-32CD9 Pana (Mã PQT17) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT17 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt18",
+    "sku": "PQT18",
+    "name": "Q.hút âm trần FV-30AL7 Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 1758000,
+    "catalogPrice": 1758000,
+    "spec": "Mã PQT18 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q.hút âm trần FV-30AL7 Pana (Mã PQT18) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT18 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt19",
+    "sku": "PQT19",
+    "name": "Q.hút có sưởi ấm FV-27BV1 Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 4494000,
+    "catalogPrice": 4494000,
+    "spec": "Mã PQT19 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q.hút có sưởi ấm FV-27BV1 Pana (Mã PQT19) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT19 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt20",
+    "sku": "PQT20",
+    "name": "Q. hút gắn tường FV-20AL9 Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 816000,
+    "catalogPrice": 816000,
+    "spec": "Mã PQT20 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q. hút gắn tường FV-20AL9 Pana (Mã PQT20) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT20 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt201",
+    "sku": "PQT201",
+    "name": "Q. hút gắn tường FV-20AL1 Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 846000,
+    "catalogPrice": 846000,
+    "spec": "Mã PQT201 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q. hút gắn tường FV-20AL1 Pana (Mã PQT201) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT201 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt21",
+    "sku": "PQT21",
+    "name": "Q.hút âm trần FV-20CUT1 Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 732000,
+    "catalogPrice": 732000,
+    "spec": "Mã PQT21 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q.hút âm trần FV-20CUT1 Pana (Mã PQT21) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT21 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt211",
+    "sku": "PQT211",
+    "name": "Q.hút âm trần FV-20TGU6 Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 756000,
+    "catalogPrice": 756000,
+    "spec": "Mã PQT211 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q.hút âm trần FV-20TGU6 Pana (Mã PQT211) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT211 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt22",
+    "sku": "PQT22",
+    "name": "Q. hút âm trần FV-25AL9 Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 900000,
+    "catalogPrice": 900000,
+    "spec": "Mã PQT22 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q. hút âm trần FV-25AL9 Pana (Mã PQT22) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT22 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt23",
+    "sku": "PQT23",
+    "name": "Q. hút âm trần FV-25AU9/25AU1 Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 768000,
+    "catalogPrice": 768000,
+    "spec": "Mã PQT23 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q. hút âm trần FV-25AU9/25AU1 Pana (Mã PQT23) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT23 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt24",
+    "sku": "PQT24",
+    "name": "Q. hút gắn tường FV-10EGK Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 648000,
+    "catalogPrice": 648000,
+    "spec": "Mã PQT24 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q. hút gắn tường FV-10EGK Pana (Mã PQT24) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT24 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt25",
+    "sku": "PQT25",
+    "name": "Q. hút gắn tường FV-10EGS2 Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 654000,
+    "catalogPrice": 654000,
+    "spec": "Mã PQT25 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q. hút gắn tường FV-10EGS2 Pana (Mã PQT25) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT25 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt25a",
+    "sku": "PQT25A",
+    "name": "Q. hút gắn tường FV-10EGD2 Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 546000,
+    "catalogPrice": 546000,
+    "spec": "Mã PQT25A - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q. hút gắn tường FV-10EGD2 Pana (Mã PQT25A) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT25A (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt26",
+    "sku": "PQT26",
+    "name": "Q.hút âm trần FV-10BAT1 Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 1512000,
+    "catalogPrice": 1512000,
+    "spec": "Mã PQT26 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q.hút âm trần FV-10BAT1 Pana (Mã PQT26) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT26 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt27",
+    "sku": "PQT27",
+    "name": "Q. hút gắn tường FV-15EGK Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 816000,
+    "catalogPrice": 816000,
+    "spec": "Mã PQT27 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q. hút gắn tường FV-15EGK Pana (Mã PQT27) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT27 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt28",
+    "sku": "PQT28",
+    "name": "Q. hút gắn tường FV-15AUL Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 828000,
+    "catalogPrice": 828000,
+    "spec": "Mã PQT28 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q. hút gắn tường FV-15AUL Pana (Mã PQT28) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT28 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt28a",
+    "sku": "PQT28A",
+    "name": "Q. hút gắn tường FV-30AL1 Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 1812000,
+    "catalogPrice": 1812000,
+    "spec": "Mã PQT28A - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q. hút gắn tường FV-30AL1 Pana (Mã PQT28A) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT28A (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt292",
+    "sku": "PQT292",
+    "name": "Q. hút âm trần FV-32CH9 Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 564000,
+    "catalogPrice": 564000,
+    "spec": "Mã PQT292 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q. hút âm trần FV-32CH9 Pana (Mã PQT292) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT292 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt31",
+    "sku": "PQT31",
+    "name": "Q. hút âm trần FV-15TGU1/15TGU6 Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 670800,
+    "catalogPrice": 670800,
+    "spec": "Mã PQT31 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q. hút âm trần FV-15TGU1/15TGU6 Pana (Mã PQT31) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT31 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt31a",
+    "sku": "PQT31A",
+    "name": "Q. hút âm trần FV-25TGU5 Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 832800,
+    "catalogPrice": 832800,
+    "spec": "Mã PQT31A - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q. hút âm trần FV-25TGU5 Pana (Mã PQT31A) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT31A (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt33",
+    "sku": "PQT33",
+    "name": "Q. hút âm trần FV-27CH9 Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 3744000,
+    "catalogPrice": 3744000,
+    "spec": "Mã PQT33 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q. hút âm trần FV-27CH9 Pana (Mã PQT33) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT33 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt361",
+    "sku": "PQT361",
+    "name": "Q. hút gắn tường FV-25RL1 Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 1608000,
+    "catalogPrice": 1608000,
+    "spec": "Mã PQT361 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q. hút gắn tường FV-25RL1 Pana (Mã PQT361) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT361 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt362",
+    "sku": "PQT362",
+    "name": "Q. hút gắn tường FV-25AL1 Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 924000,
+    "catalogPrice": 924000,
+    "spec": "Mã PQT362 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q. hút gắn tường FV-25AL1 Pana (Mã PQT362) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT362 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt37",
+    "sku": "PQT37",
+    "name": "Q. hút gắn FV-12NS3 Cabinet Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 2520000,
+    "catalogPrice": 2520000,
+    "spec": "Mã PQT37 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q. hút gắn FV-12NS3 Cabinet Pana (Mã PQT37) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT37 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt39",
+    "sku": "PQT39",
+    "name": "Quạt thông gió FV-20AU1 Pana",
+    "brand": "Panasonic",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 678000,
+    "catalogPrice": 678000,
+    "spec": "Mã PQT39 - Chính hãng Panasonic",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt thông gió FV-20AU1 Pana (Mã PQT39) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT39 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt39a",
+    "sku": "PQT39A",
+    "name": "Quạt thông gió FV-30AU1 Pana",
+    "brand": "Panasonic",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 1224000,
+    "catalogPrice": 1224000,
+    "spec": "Mã PQT39A - Chính hãng Panasonic",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt thông gió FV-30AU1 Pana (Mã PQT39A) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT39A (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqh00",
+    "sku": "PQH00",
+    "name": "Q. hút âm trần FV-38CH8Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 7356000,
+    "catalogPrice": 7356000,
+    "spec": "Mã PQH00 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q. hút âm trần FV-38CH8Pana (Mã PQH00) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQH00 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqh01",
+    "sku": "PQH01",
+    "name": "Q. hút âm trần FV-38CD8 Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 6744000,
+    "catalogPrice": 6744000,
+    "spec": "Mã PQH01 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q. hút âm trần FV-38CD8 Pana (Mã PQH01) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQH01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt40",
+    "sku": "PQT40",
+    "name": "Q. hút gắn tường NWV1520 Nanoco",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 414000,
+    "catalogPrice": 414000,
+    "spec": "Mã PQT40 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q. hút gắn tường NWV1520 Nanoco (Mã PQT40) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT40 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt401",
+    "sku": "PQT401",
+    "name": "Q. hút gắn tường NWV2020 Nanoco",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 465600,
+    "catalogPrice": 465600,
+    "spec": "Mã PQT401 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q. hút gắn tường NWV2020 Nanoco (Mã PQT401) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT401 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt402",
+    "sku": "PQT402",
+    "name": "Q. hút gắn tường NWV2520 Nanoco",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 524400,
+    "catalogPrice": 524400,
+    "spec": "Mã PQT402 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q. hút gắn tường NWV2520 Nanoco (Mã PQT402) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT402 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt41",
+    "sku": "PQT41",
+    "name": "Q. hút âm trần NCV1520 Nanoco",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 362400,
+    "catalogPrice": 362400,
+    "spec": "Mã PQT41 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q. hút âm trần NCV1520 Nanoco (Mã PQT41) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT41 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt411",
+    "sku": "PQT411",
+    "name": "Q. hút âm trần NCV2020 Nanoco",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 400800,
+    "catalogPrice": 400800,
+    "spec": "Mã PQT411 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q. hút âm trần NCV2020 Nanoco (Mã PQT411) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT411 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt412",
+    "sku": "PQT412",
+    "name": "Q. hút âm trần NCV1520-C Nanoco",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 382800,
+    "catalogPrice": 382800,
+    "spec": "Mã PQT412 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q. hút âm trần NCV1520-C Nanoco (Mã PQT412) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT412 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt413",
+    "sku": "PQT413",
+    "name": "Q. hút âm trần NCV2020-C Nanoco",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 427200,
+    "catalogPrice": 427200,
+    "spec": "Mã PQT413 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Q. hút âm trần NCV2020-C Nanoco (Mã PQT413) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT413 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt42",
+    "sku": "PQT42",
+    "name": "Quạt hút trần mini 8W NMV1421 Nanoco",
+    "brand": "Panasonic",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 177600,
+    "catalogPrice": 177600,
+    "spec": "Mã PQT42 - Chính hãng Panasonic",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt hút trần mini 8W NMV1421 Nanoco (Mã PQT42) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT42 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt43",
+    "sku": "PQT43",
+    "name": "Quạt hút siêu mỏng NMV1523 Nanoco",
+    "brand": "Panasonic",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 259200,
+    "catalogPrice": 259200,
+    "spec": "Mã PQT43 - Chính hãng Panasonic",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt hút siêu mỏng NMV1523 Nanoco (Mã PQT43) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT43 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt44",
+    "sku": "PQT44",
+    "name": "Quạt hút siêu mỏng NMV2023 Nanoco",
+    "brand": "Panasonic",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 289200,
+    "catalogPrice": 289200,
+    "spec": "Mã PQT44 - Chính hãng Panasonic",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt hút siêu mỏng NMV2023 Nanoco (Mã PQT44) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT44 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pqt45",
+    "sku": "PQT45",
+    "name": "Quạt hút siêu mỏng NMV2523 Nanoco",
+    "brand": "Panasonic",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 337200,
+    "catalogPrice": 337200,
+    "spec": "Mã PQT45 - Chính hãng Panasonic",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Quạt hút siêu mỏng NMV2523 Nanoco (Mã PQT45) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PQT45 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pr00",
+    "sku": "PR00",
+    "name": "CT nhỏ (WEV55317SW) Refila-T",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 27806,
+    "catalogPrice": 27806,
+    "spec": "Mã PR00 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "CT nhỏ (WEV55317SW) Refila-T (Mã PR00) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PR00 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pr01",
+    "sku": "PR01",
+    "name": "CT trung (WEV55217SW) Refila-T",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 31128,
+    "catalogPrice": 31128,
+    "spec": "Mã PR01 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "CT trung (WEV55217SW) Refila-T (Mã PR01) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PR01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pr02",
+    "sku": "PR02",
+    "name": "CT lớn (WEV55117) Refila-T",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 31128,
+    "catalogPrice": 31128,
+    "spec": "Mã PR02 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "CT lớn (WEV55117) Refila-T (Mã PR02) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PR02 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pr04",
+    "sku": "PR04",
+    "name": "CTCT đôi (WEC5542-7) Refila-T",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 128220,
+    "catalogPrice": 128220,
+    "spec": "Mã PR04 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "CTCT đôi (WEC5542-7) Refila-T (Mã PR04) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PR04 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pr05",
+    "sku": "PR05",
+    "name": "CTCT nhỏ (WEV55327) Refila-T",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 50978,
+    "catalogPrice": 50978,
+    "spec": "Mã PR05 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "CTCT nhỏ (WEV55327) Refila-T (Mã PR05) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PR05 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pr051",
+    "sku": "PR051",
+    "name": "CTCT lớn (WEV55127SW) Refila-T",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 57158,
+    "catalogPrice": 57158,
+    "spec": "Mã PR051 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "CTCT lớn (WEV55127SW) Refila-T (Mã PR051) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PR051 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pr052",
+    "sku": "PR052",
+    "name": "CTCT trung(WEV55227SW) Refila",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 57158,
+    "catalogPrice": 57158,
+    "spec": "Mã PR052 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "CTCT trung(WEV55227SW) Refila (Mã PR052) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PR052 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pr06",
+    "sku": "PR06",
+    "name": "CT đơn có đèn báo (WEG51517H)",
+    "brand": "Panasonic",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 82648,
+    "catalogPrice": 82648,
+    "spec": "Mã PR06 - Chính hãng Panasonic",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "CT đơn có đèn báo (WEG51517H) (Mã PR06) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PR06 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pr20",
+    "sku": "PR20",
+    "name": "CT 20A (WEV55337SW) Refila-T",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 247943,
+    "catalogPrice": 247943,
+    "spec": "Mã PR20 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "CT 20A (WEV55337SW) Refila-T (Mã PR20) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PR20 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pr40",
+    "sku": "PR40",
+    "name": "CT nhỏ Refila màu đen ánh kim (WEG55317MB)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 39006,
+    "catalogPrice": 39006,
+    "spec": "Mã PR40 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "CT nhỏ Refila màu đen ánh kim (WEG55317MB) (Mã PR40) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PR40 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pr41",
+    "sku": "PR41",
+    "name": "CTCT nhỏ Refina màu đen ánh kim (WEG55327MB)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 68744,
+    "catalogPrice": 68744,
+    "spec": "Mã PR41 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "CTCT nhỏ Refina màu đen ánh kim (WEG55327MB) (Mã PR41) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PR41 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pr42",
+    "sku": "PR42",
+    "name": "CT nhỏ Refila màu xám ánh kim (WEG55317MH)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 39006,
+    "catalogPrice": 39006,
+    "spec": "Mã PR42 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "CT nhỏ Refila màu xám ánh kim (WEG55317MH) (Mã PR42) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PR42 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pr43",
+    "sku": "PR43",
+    "name": "CT nhỏ Refila màu trắng ánh kim (WEG55317MW)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 39006,
+    "catalogPrice": 39006,
+    "spec": "Mã PR43 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "CT nhỏ Refila màu trắng ánh kim (WEG55317MW) (Mã PR43) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PR43 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pt12",
+    "sku": "PT12",
+    "name": "Mặt kín đơn(WEV68910W) Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 15062,
+    "catalogPrice": 15062,
+    "spec": "Mã PT12 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt kín đơn(WEV68910W) Pana (Mã PT12) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PT12 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pt01",
+    "sku": "PT01",
+    "name": "Mặt át đơn Pana WEV7001W)",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 15062,
+    "catalogPrice": 15062,
+    "spec": "Mã PT01 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Mặt át đơn Pana WEV7001W) (Mã PT01) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PT01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pt02",
+    "sku": "PT02",
+    "name": "Mặt át đôi Pana (WEV680290SW)",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 15062,
+    "catalogPrice": 15062,
+    "spec": "Mã PT02 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Mặt át đôi Pana (WEV680290SW) (Mã PT02) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PT02 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pt03",
+    "sku": "PT03",
+    "name": "Mặt át HB Pana (WEV7061SW)",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 15062,
+    "catalogPrice": 15062,
+    "spec": "Mã PT03 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Mặt át HB Pana (WEV7061SW) (Mã PT03) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PT03 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pt04",
+    "sku": "PT04",
+    "name": "Đai sắt (NS80) Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 7178,
+    "catalogPrice": 7178,
+    "spec": "Mã PT04 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Đai sắt (NS80) Pana (Mã PT04) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PT04 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pt041",
+    "sku": "PT041",
+    "name": "Đai nhựa (NN81) nano",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 3191,
+    "catalogPrice": 3191,
+    "spec": "Mã PT041 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Đai nhựa (NN81) nano (Mã PT041) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PT041 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pt05",
+    "sku": "PT05",
+    "name": "Đế âm mặt 4,5,6 Pana (FPCA102)",
+    "brand": "Panasonic",
+    "category": "vat-tu-phu-kien",
+    "categoryName": "Ống Luồn & Phụ Kiện",
+    "unit": "Chiếc",
+    "price": 11166,
+    "catalogPrice": 11166,
+    "spec": "Mã PT05 - Chính hãng Panasonic",
+    "image": "assets/images/products/de-am-tuong-nanoco.jpg",
+    "desc": "Đế âm mặt 4,5,6 Pana (FPCA102) (Mã PT05) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PT05 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pt14",
+    "sku": "PT14",
+    "name": "Hộp che mưa Pana (WEG8981)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 192793,
+    "catalogPrice": 192793,
+    "spec": "Mã PT14 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Hộp che mưa Pana (WEG8981) (Mã PT14) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PT14 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pt141",
+    "sku": "PT141",
+    "name": "Mặt che mưa vuông xám Pana (WBG8981-P)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 189403,
+    "catalogPrice": 189403,
+    "spec": "Mã PT141 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt che mưa vuông xám Pana (WBG8981-P) (Mã PT141) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PT141 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pt143",
+    "sku": "PT143",
+    "name": "Mặt che mưa vuông trắng Pana (WBC8981SW)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 179990,
+    "catalogPrice": 179990,
+    "spec": "Mã PT143 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt che mưa vuông trắng Pana (WBC8981SW) (Mã PT143) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PT143 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-yk08",
+    "sku": "YK08",
+    "name": "Băng cách điện Nano 10 FKPC10",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Cuộn",
+    "price": 5046,
+    "catalogPrice": 5046,
+    "spec": "Mã YK08 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Băng cách điện Nano 10 FKPC10 (Mã YK08) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YK08 (Cuộn)"
+    ]
+  },
+  {
+    "id": "panasonic-yk09",
+    "sku": "YK09",
+    "name": "Băng cách điện Nano 20 FKPC20",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Cuộn",
+    "price": 9174,
+    "catalogPrice": 9174,
+    "spec": "Mã YK09 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Băng cách điện Nano 20 FKPC20 (Mã YK09) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã YK09 (Cuộn)"
+    ]
+  },
+  {
+    "id": "panasonic-pana-241",
+    "sku": "PANA-241",
+    "name": "Băng cách điện Nano 10 FKPT10",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Cuộn",
+    "price": 7187,
+    "catalogPrice": 7187,
+    "spec": "Mã PANA-241 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Băng cách điện Nano 10 FKPT10 (Mã PANA-241) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PANA-241 (Cuộn)"
+    ]
+  },
+  {
+    "id": "panasonic-pana-242",
+    "sku": "PANA-242",
+    "name": "Băng cách điện Nano 20 FKPT20",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Cuộn",
+    "price": 12538,
+    "catalogPrice": 12538,
+    "spec": "Mã PANA-242 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Băng cách điện Nano 20 FKPT20 (Mã PANA-242) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PANA-242 (Cuộn)"
+    ]
+  },
+  {
+    "id": "panasonic-pb15",
+    "sku": "PB15",
+    "name": "Bút thử điện NEP1501 Nano",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 13613,
+    "catalogPrice": 13613,
+    "spec": "Mã PB15 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bút thử điện NEP1501 Nano (Mã PB15) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PB15 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pb16",
+    "sku": "PB16",
+    "name": "Bút thử điện NEP1502 Nano",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 13613,
+    "catalogPrice": 13613,
+    "spec": "Mã PB16 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bút thử điện NEP1502 Nano (Mã PB16) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PB16 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwb01",
+    "sku": "PWB01",
+    "name": "Mặt 1TB vuông BS-Type (WEB7811SW) Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 19204,
+    "catalogPrice": 19204,
+    "spec": "Mã PWB01 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 1TB vuông BS-Type (WEB7811SW) Pana (Mã PWB01) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWB01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwb02",
+    "sku": "PWB02",
+    "name": "Mặt 2TB vuông BS-Type (WEB7812SW)Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 19204,
+    "catalogPrice": 19204,
+    "spec": "Mã PWB02 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 2TB vuông BS-Type (WEB7812SW)Pana (Mã PWB02) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWB02 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwb03",
+    "sku": "PWB03",
+    "name": "Mặt 3TB vuông BS-Type (WEB7813SW) Pana",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 19204,
+    "catalogPrice": 19204,
+    "spec": "Mã PWB03 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 3TB vuông BS-Type (WEB7813SW) Pana (Mã PWB03) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWB03 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pw01",
+    "sku": "PW01",
+    "name": "Mặt 1TB Wide (WEV68010SW)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 14569,
+    "catalogPrice": 14569,
+    "spec": "Mã PW01 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 1TB Wide (WEV68010SW) (Mã PW01) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PW01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pw02",
+    "sku": "PW02",
+    "name": "Mặt 2TB Wide (WEV68020SW)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 14569,
+    "catalogPrice": 14569,
+    "spec": "Mã PW02 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 2TB Wide (WEV68020SW) (Mã PW02) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PW02 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pw03",
+    "sku": "PW03",
+    "name": "Mặt 3TB Wide (WEV68030SW)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 14569,
+    "catalogPrice": 14569,
+    "spec": "Mã PW03 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 3TB Wide (WEV68030SW) (Mã PW03) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PW03 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pw04",
+    "sku": "PW04",
+    "name": "Mặt 4TB Wide (WEG6804SW)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 29352,
+    "catalogPrice": 29352,
+    "spec": "Mã PW04 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 4TB Wide (WEG6804SW) (Mã PW04) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PW04 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pw05",
+    "sku": "PW05",
+    "name": "Mặt 5TB Wide (WEG6806W-SP)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 29352,
+    "catalogPrice": 29352,
+    "spec": "Mã PW05 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 5TB Wide (WEG6806W-SP) (Mã PW05) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PW05 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pw06",
+    "sku": "PW06",
+    "name": "Mặt 6TB Wide (WEG6806SW)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 29352,
+    "catalogPrice": 29352,
+    "spec": "Mã PW06 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt 6TB Wide (WEG6806SW) (Mã PW06) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PW06 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pw07",
+    "sku": "PW07",
+    "name": "Công tắc đơn Wide (WEV5001-7SW)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 18247,
+    "catalogPrice": 18247,
+    "spec": "Mã PW07 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Công tắc đơn Wide (WEV5001-7SW) (Mã PW07) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PW07 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pw08",
+    "sku": "PW08",
+    "name": "Công tắc cầu thang Wide (WEV5002-7SW)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 37458,
+    "catalogPrice": 37458,
+    "spec": "Mã PW08 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Công tắc cầu thang Wide (WEV5002-7SW) (Mã PW08) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PW08 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pw09",
+    "sku": "PW09",
+    "name": "Ổ đơn Wide (WEV1081-7SW)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 32160,
+    "catalogPrice": 32160,
+    "spec": "Mã PW09 - Chính hãng Panasonic",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ đơn Wide (WEV1081-7SW) (Mã PW09) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PW09 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pw10",
+    "sku": "PW10",
+    "name": "Ổ đơn 3 chấu Wide (WEV1181-7SW)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 56372,
+    "catalogPrice": 56372,
+    "spec": "Mã PW10 - Chính hãng Panasonic",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ đơn 3 chấu Wide (WEV1181-7SW) (Mã PW10) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PW10 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pw11",
+    "sku": "PW11",
+    "name": "Ổ đôi 3 chấu Wide (WEG1582-7SW)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 80959,
+    "catalogPrice": 80959,
+    "spec": "Mã PW11 - Chính hãng Panasonic",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ đôi 3 chấu Wide (WEG1582-7SW) (Mã PW11) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PW11 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pw111",
+    "sku": "PW111",
+    "name": "Ổ đơn 3 chấu ĐN Wide (WEV117107SW)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 92630,
+    "catalogPrice": 92630,
+    "spec": "Mã PW111 - Chính hãng Panasonic",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ đơn 3 chấu ĐN Wide (WEV117107SW) (Mã PW111) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PW111 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pw13",
+    "sku": "PW13",
+    "name": "Ổ tivi Wide (WEG2501SW)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 72298,
+    "catalogPrice": 72298,
+    "spec": "Mã PW13 - Chính hãng Panasonic",
+    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "desc": "Ổ tivi Wide (WEG2501SW) (Mã PW13) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PW13 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pw14",
+    "sku": "PW14",
+    "name": "Ổ ĐT 4 dây Wide (WEG2364SW)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 72298,
+    "catalogPrice": 72298,
+    "spec": "Mã PW14 - Chính hãng Panasonic",
+    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "desc": "Ổ ĐT 4 dây Wide (WEG2364SW) (Mã PW14) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PW14 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pw15",
+    "sku": "PW15",
+    "name": "Ổ mạng Wide (WEV2488SW) -CAT5",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 156644,
+    "catalogPrice": 156644,
+    "spec": "Mã PW15 - Chính hãng Panasonic",
+    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "desc": "Ổ mạng Wide (WEV2488SW) -CAT5 (Mã PW15) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PW15 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pw151",
+    "sku": "PW151",
+    "name": "Ổ mạng Wide (WEV24886SW) -CAT6",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 187522,
+    "catalogPrice": 187522,
+    "spec": "Mã PW151 - Chính hãng Panasonic",
+    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "desc": "Ổ mạng Wide (WEV24886SW) -CAT6 (Mã PW151) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PW151 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pw17",
+    "sku": "PW17",
+    "name": "Hạt CT 16A (2 tiếp điểm) (WEG5003K)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 109952,
+    "catalogPrice": 109952,
+    "spec": "Mã PW17 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Hạt CT 16A (2 tiếp điểm) (WEG5003K) (Mã PW17) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PW17 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pw18",
+    "sku": "PW18",
+    "name": "Hạt 20A Wide (WEG55337)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 202583,
+    "catalogPrice": 202583,
+    "spec": "Mã PW18 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Hạt 20A Wide (WEG55337) (Mã PW18) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PW18 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pw18d",
+    "sku": "PW18D",
+    "name": "Hạt 20A Wide (WEV5033-7SW)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 189028,
+    "catalogPrice": 189028,
+    "spec": "Mã PW18D - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Hạt 20A Wide (WEV5033-7SW) (Mã PW18D) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PW18D (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pw19",
+    "sku": "PW19",
+    "name": "Hạt 3chiều Wide (WEG5004KSW)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 205595,
+    "catalogPrice": 205595,
+    "spec": "Mã PW19 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Hạt 3chiều Wide (WEG5004KSW) (Mã PW19) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PW19 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pw28",
+    "sku": "PW28",
+    "name": "Chiết áp đèn 700W nano Wide (FDF603W)",
+    "brand": "Panasonic",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 54068,
+    "catalogPrice": 54068,
+    "spec": "Mã PW28 - Chính hãng Panasonic",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Chiết áp đèn 700W nano Wide (FDF603W) (Mã PW28) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PW28 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pw30",
+    "sku": "PW30",
+    "name": "Phím che trơn (WEG3020SW)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 9500,
+    "catalogPrice": 9500,
+    "spec": "Mã PW30 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Phím che trơn (WEG3020SW) (Mã PW30) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PW30 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pw12",
+    "sku": "PW12",
+    "name": "Đèn báo nano Wide (N302RW)",
+    "brand": "Panasonic",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 13903,
+    "catalogPrice": 13903,
+    "spec": "Mã PW12 - Chính hãng Panasonic",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn báo nano Wide (N302RW) (Mã PW12) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PW12 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pw16",
+    "sku": "PW16",
+    "name": "Chiết áp quạt nano Wide (NDF603W)",
+    "brand": "Panasonic",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 49048,
+    "catalogPrice": 49048,
+    "spec": "Mã PW16 - Chính hãng Panasonic",
+    "image": "assets/images/products/quat-hut-panasonic.jpg",
+    "desc": "Chiết áp quạt nano Wide (NDF603W) (Mã PW16) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PW16 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-ps01",
+    "sku": "PS01",
+    "name": "Ổ cắm âm sàn Pana- DUF1200LTK-1",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 980184,
+    "catalogPrice": 980184,
+    "spec": "Mã PS01 - Chính hãng Panasonic",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ cắm âm sàn Pana- DUF1200LTK-1 (Mã PS01) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PS01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-ps02",
+    "sku": "PS02",
+    "name": "Ổ cắm âm sàn Pana- DUFM3200LT-1",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 1615874,
+    "catalogPrice": 1615874,
+    "spec": "Mã PS02 - Chính hãng Panasonic",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ cắm âm sàn Pana- DUFM3200LT-1 (Mã PS02) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PS02 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-ps03",
+    "sku": "PS03",
+    "name": "Ổ cắm âm sàn Pana- DU5900VT",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 1011853,
+    "catalogPrice": 1011853,
+    "spec": "Mã PS03 - Chính hãng Panasonic",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ cắm âm sàn Pana- DU5900VT (Mã PS03) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PS03 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-ps04",
+    "sku": "PS04",
+    "name": "Ổ cắm âm sàn Pana- DUFS1200LTH-1",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 1194913,
+    "catalogPrice": 1194913,
+    "spec": "Mã PS04 - Chính hãng Panasonic",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ cắm âm sàn Pana- DUFS1200LTH-1 (Mã PS04) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PS04 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwb20",
+    "sku": "PWB20",
+    "name": "Mặt vuông 1TB (WMT7811-VN) trắng Minerva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 54236,
+    "catalogPrice": 54236,
+    "spec": "Mã PWB20 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt vuông 1TB (WMT7811-VN) trắng Minerva (Mã PWB20) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWB20 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwb21",
+    "sku": "PWB21",
+    "name": "Mặt vuông 2TB (WMT7812-VN) trắng Minerva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 54236,
+    "catalogPrice": 54236,
+    "spec": "Mã PWB21 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt vuông 2TB (WMT7812-VN) trắng Minerva (Mã PWB21) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWB21 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwb22",
+    "sku": "PWB22",
+    "name": "Mặt vuông 3TB (WMT7813-VN) trắng Minerva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 54236,
+    "catalogPrice": 54236,
+    "spec": "Mã PWB22 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt vuông 3TB (WMT7813-VN) trắng Minerva (Mã PWB22) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWB22 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwb23",
+    "sku": "PWB23",
+    "name": "Bộ 1 CT 1 chiều (WMT501-VN) trắng Minerva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 87064,
+    "catalogPrice": 87064,
+    "spec": "Mã PWB23 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 1 CT 1 chiều (WMT501-VN) trắng Minerva (Mã PWB23) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWB23 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwb24",
+    "sku": "PWB24",
+    "name": "Bộ 1 CT 2 chiều (WMT502-VN) trắng Minerva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 107046,
+    "catalogPrice": 107046,
+    "spec": "Mã PWB24 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 1 CT 2 chiều (WMT502-VN) trắng Minerva (Mã PWB24) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWB24 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwb25",
+    "sku": "PWB25",
+    "name": "Bộ 2 CT 1 chiều (WMT503-VN) trắng Minerva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 139159,
+    "catalogPrice": 139159,
+    "spec": "Mã PWB25 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 2 CT 1 chiều (WMT503-VN) trắng Minerva (Mã PWB25) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWB25 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwb26",
+    "sku": "PWB26",
+    "name": "Bộ 2 CT 2 chiều (WMT504-VN) trắng Minerva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 166277,
+    "catalogPrice": 166277,
+    "spec": "Mã PWB26 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 2 CT 2 chiều (WMT504-VN) trắng Minerva (Mã PWB26) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWB26 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwb27",
+    "sku": "PWB27",
+    "name": "Bộ 3 CT 1 chiều (WMT505-VN) trắng Minerva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 186259,
+    "catalogPrice": 186259,
+    "spec": "Mã PWB27 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 3 CT 1 chiều (WMT505-VN) trắng Minerva (Mã PWB27) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWB27 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwb28",
+    "sku": "PWB28",
+    "name": "Bộ 3 CT 2 chiều (WMT506-VN) trắng Minerva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 199104,
+    "catalogPrice": 199104,
+    "spec": "Mã PWB28 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 3 CT 2 chiều (WMT506-VN) trắng Minerva (Mã PWB28) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWB28 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwb29",
+    "sku": "PWB29",
+    "name": "Bộ 4 CT 1 chiều (WMT507-VN) trắng Minerva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 305436,
+    "catalogPrice": 305436,
+    "spec": "Mã PWB29 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 4 CT 1 chiều (WMT507-VN) trắng Minerva (Mã PWB29) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWB29 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwb30",
+    "sku": "PWB30",
+    "name": "Bộ 4 CT 2 chiều (WMT508-VN) trắng Minerva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 365382,
+    "catalogPrice": 365382,
+    "spec": "Mã PWB30 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 4 CT 2 chiều (WMT508-VN) trắng Minerva (Mã PWB30) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWB30 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwb31",
+    "sku": "PWB31",
+    "name": "Công tắc thẻ (WEC5781W-VN) trắngMinerva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 1445827,
+    "catalogPrice": 1445827,
+    "spec": "Mã PWB31 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Công tắc thẻ (WEC5781W-VN) trắngMinerva (Mã PWB31) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWB31 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwb32",
+    "sku": "PWB32",
+    "name": "Bộ1 CT 20A có đèn báo (WMTV503307) trắng Minerva",
+    "brand": "Panasonic",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 349682,
+    "catalogPrice": 349682,
+    "spec": "Mã PWB32 - Chính hãng Panasonic",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bộ1 CT 20A có đèn báo (WMTV503307) trắng Minerva (Mã PWB32) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWB32 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwx01",
+    "sku": "PWX01",
+    "name": "Mặt vuông 1TB (WMT7811MYH-VN) xám Minerva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 71364,
+    "catalogPrice": 71364,
+    "spec": "Mã PWX01 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt vuông 1TB (WMT7811MYH-VN) xám Minerva (Mã PWX01) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWX01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwx02",
+    "sku": "PWX02",
+    "name": "Mặt vuông 2TB (WMT7812MYH-VN) xám Minerva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 71364,
+    "catalogPrice": 71364,
+    "spec": "Mã PWX02 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt vuông 2TB (WMT7812MYH-VN) xám Minerva (Mã PWX02) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWX02 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwx03",
+    "sku": "PWX03",
+    "name": "Mặt vuông 3TB (WMT7813MYH-VN) xám Minerva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 71364,
+    "catalogPrice": 71364,
+    "spec": "Mã PWX03 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt vuông 3TB (WMT7813MYH-VN) xám Minerva (Mã PWX03) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWX03 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwx04",
+    "sku": "PWX04",
+    "name": "Bộ 1 CT 1 chiều (WMT501MYH-VN) xám Minerva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 96341,
+    "catalogPrice": 96341,
+    "spec": "Mã PWX04 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 1 CT 1 chiều (WMT501MYH-VN) xám Minerva (Mã PWX04) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWX04 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwx05",
+    "sku": "PWX05",
+    "name": "Bộ 1 CT 2 chiều (WMT502MYH-VN) xám Minerva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 116323,
+    "catalogPrice": 116323,
+    "spec": "Mã PWX05 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 1 CT 2 chiều (WMT502MYH-VN) xám Minerva (Mã PWX05) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWX05 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwx06",
+    "sku": "PWX06",
+    "name": "Bộ 2 CT 1 chiều (WMT503MYH-VN) xám Minerva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 146296,
+    "catalogPrice": 146296,
+    "spec": "Mã PWX06 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 2 CT 1 chiều (WMT503MYH-VN) xám Minerva (Mã PWX06) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWX06 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwx07",
+    "sku": "PWX07",
+    "name": "Bộ 2 CT 2 chiều (WMT504MYH-VN) xám Minerva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 174127,
+    "catalogPrice": 174127,
+    "spec": "Mã PWX07 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 2 CT 2 chiều (WMT504MYH-VN) xám Minerva (Mã PWX07) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWX07 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwx08",
+    "sku": "PWX08",
+    "name": "Bộ 3 CT 1 chiều (WMT505MYH-VN) xám Minerva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 204100,
+    "catalogPrice": 204100,
+    "spec": "Mã PWX08 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 3 CT 1 chiều (WMT505MYH-VN) xám Minerva (Mã PWX08) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWX08 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwx09",
+    "sku": "PWX09",
+    "name": "Bộ 3 CT 2 chiều (WMT506MYH-VN) xám Minerva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 216232,
+    "catalogPrice": 216232,
+    "spec": "Mã PWX09 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 3 CT 2 chiều (WMT506MYH-VN) xám Minerva (Mã PWX09) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWX09 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwx11",
+    "sku": "PWX11",
+    "name": "Bộ 1 CT có đèn báo (WMTV503307MYH) xám Minerva",
+    "brand": "Panasonic",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 389646,
+    "catalogPrice": 389646,
+    "spec": "Mã PWX11 - Chính hãng Panasonic",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bộ 1 CT có đèn báo (WMTV503307MYH) xám Minerva (Mã PWX11) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWX11 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwx15",
+    "sku": "PWX15",
+    "name": "Ổ đôi 3 chấu (WEV1582-7MYH) xám Minerva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 129882,
+    "catalogPrice": 129882,
+    "spec": "Mã PWX15 - Chính hãng Panasonic",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ đôi 3 chấu (WEV1582-7MYH) xám Minerva (Mã PWX15) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWX15 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwv01",
+    "sku": "PWV01",
+    "name": "Mặt vuông 1TB (WMT7811MYZ-VN) vàng Minerva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 71364,
+    "catalogPrice": 71364,
+    "spec": "Mã PWV01 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt vuông 1TB (WMT7811MYZ-VN) vàng Minerva (Mã PWV01) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWV01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwv02",
+    "sku": "PWV02",
+    "name": "Mặt vuông 2TB (WMT7812MYZ-VN) vàng Minerva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 71364,
+    "catalogPrice": 71364,
+    "spec": "Mã PWV02 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt vuông 2TB (WMT7812MYZ-VN) vàng Minerva (Mã PWV02) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWV02 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwv03",
+    "sku": "PWV03",
+    "name": "Mặt vuông 3TB (WMT7813MYZ-VN) vàng Minerva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 71364,
+    "catalogPrice": 71364,
+    "spec": "Mã PWV03 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt vuông 3TB (WMT7813MYZ-VN) vàng Minerva (Mã PWV03) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWV03 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwv04",
+    "sku": "PWV04",
+    "name": "Bộ 1 CT 1 chiều (WMT501MYZ-VN) vàng Minerva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 96341,
+    "catalogPrice": 96341,
+    "spec": "Mã PWV04 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 1 CT 1 chiều (WMT501MYZ-VN) vàng Minerva (Mã PWV04) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWV04 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwv05",
+    "sku": "PWV05",
+    "name": "Bộ 1 CT 2 chiều (WMT502MYZ-VN) vàng Minerva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 116323,
+    "catalogPrice": 116323,
+    "spec": "Mã PWV05 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 1 CT 2 chiều (WMT502MYZ-VN) vàng Minerva (Mã PWV05) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWV05 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwv06",
+    "sku": "PWV06",
+    "name": "Bộ 2 CT 1 chiều (WMT503MYZ-VN) vàng Minerva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 146296,
+    "catalogPrice": 146296,
+    "spec": "Mã PWV06 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 2 CT 1 chiều (WMT503MYZ-VN) vàng Minerva (Mã PWV06) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWV06 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwv07",
+    "sku": "PWV07",
+    "name": "Bộ 2 CT 2 chiều (WMT504MYZ-VN) vàng Minerva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 174127,
+    "catalogPrice": 174127,
+    "spec": "Mã PWV07 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 2 CT 2 chiều (WMT504MYZ-VN) vàng Minerva (Mã PWV07) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWV07 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwv08",
+    "sku": "PWV08",
+    "name": "Bộ 3 CT 1 chiều (WMT505MYZ-VN) vàng Minerva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 204100,
+    "catalogPrice": 204100,
+    "spec": "Mã PWV08 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 3 CT 1 chiều (WMT505MYZ-VN) vàng Minerva (Mã PWV08) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWV08 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwv09",
+    "sku": "PWV09",
+    "name": "Bộ 3 CT 2 chiều (WMT506MYZ-VN) vàng Minerva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 216232,
+    "catalogPrice": 216232,
+    "spec": "Mã PWV09 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 3 CT 2 chiều (WMT506MYZ-VN) vàng Minerva (Mã PWV09) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWV09 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwv10",
+    "sku": "PWV10",
+    "name": "Bộ 4 CT 1 chiều (WMT507MYZ-VN) vàng Minerva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 330414,
+    "catalogPrice": 330414,
+    "spec": "Mã PWV10 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 4 CT 1 chiều (WMT507MYZ-VN) vàng Minerva (Mã PWV10) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWV10 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwv11",
+    "sku": "PWV11",
+    "name": "Bộ 4CT 2 chiều (WMT508MYZ-VN) vàng Minerva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 391073,
+    "catalogPrice": 391073,
+    "spec": "Mã PWV11 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 4CT 2 chiều (WMT508MYZ-VN) vàng Minerva (Mã PWV11) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWV11 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwv12",
+    "sku": "PWV12",
+    "name": "Công tắc thẻ (WEC5781MYZ-VN) vàng Minerva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 1525042,
+    "catalogPrice": 1525042,
+    "spec": "Mã PWV12 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Công tắc thẻ (WEC5781MYZ-VN) vàng Minerva (Mã PWV12) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWV12 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwv13",
+    "sku": "PWV13",
+    "name": "Bộ 1 ổ cắm mạng Cat5E (WMT421MYZ-VN) vàng MinervaChiếc",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 328273,
+    "catalogPrice": 328273,
+    "spec": "Mã PWV13 - Chính hãng Panasonic",
+    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "desc": "Bộ 1 ổ cắm mạng Cat5E (WMT421MYZ-VN) vàng MinervaChiếc (Mã PWV13) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWV13 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-wmt6891myz-vn",
+    "sku": "WMT6891MYZ-VN",
+    "name": "Pwv30 Mặt kín đơn (WMT6891MYZ-VN) vàng Minerva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 71364,
+    "catalogPrice": 71364,
+    "spec": "Mã WMT6891MYZ-VN - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Pwv30 Mặt kín đơn (WMT6891MYZ-VN) vàng Minerva (Mã WMT6891MYZ-VN) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã WMT6891MYZ-VN (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwm00",
+    "sku": "PWM00",
+    "name": "Mặt vuông 1TB (WMFV7811MYH) xám Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 52810,
+    "catalogPrice": 52810,
+    "spec": "Mã PWM00 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt vuông 1TB (WMFV7811MYH) xám Moderva (Mã PWM00) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWM00 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwm01",
+    "sku": "PWM01",
+    "name": "Mặt vuông 2TB (WMFV7812MYH) xám Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 52810,
+    "catalogPrice": 52810,
+    "spec": "Mã PWM01 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt vuông 2TB (WMFV7812MYH) xám Moderva (Mã PWM01) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWM01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwm02",
+    "sku": "PWM02",
+    "name": "Mặt vuông 3TB (WMFV7813MYH) xám Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 52810,
+    "catalogPrice": 52810,
+    "spec": "Mã PWM02 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt vuông 3TB (WMFV7813MYH) xám Moderva (Mã PWM02) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWM02 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwm04",
+    "sku": "PWM04",
+    "name": "Bộ 1 CT 1 chiều (WMF501MYH-VN) xám Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 86350,
+    "catalogPrice": 86350,
+    "spec": "Mã PWM04 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 1 CT 1 chiều (WMF501MYH-VN) xám Moderva (Mã PWM04) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWM04 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwm05",
+    "sku": "PWM05",
+    "name": "Bộ 1 CT 2 chiều (WMF502MYH-VN) xám Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 112754,
+    "catalogPrice": 112754,
+    "spec": "Mã PWM05 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 1 CT 2 chiều (WMF502MYH-VN) xám Moderva (Mã PWM05) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWM05 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwm06",
+    "sku": "PWM06",
+    "name": "Bộ 2 CT 1 chiều (WMF503MYH-VN) xám Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 124886,
+    "catalogPrice": 124886,
+    "spec": "Mã PWM06 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 2 CT 1 chiều (WMF503MYH-VN) xám Moderva (Mã PWM06) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWM06 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwm07",
+    "sku": "PWM07",
+    "name": "Bộ 2 CT 2 chiều (WMF504MYH-VN) xám Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 145582,
+    "catalogPrice": 145582,
+    "spec": "Mã PWM07 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 2 CT 2 chiều (WMF504MYH-VN) xám Moderva (Mã PWM07) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWM07 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwm08",
+    "sku": "PWM08",
+    "name": "Bộ 3 CT 1 chiều (WMF505MYH-VN) xám Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 169846,
+    "catalogPrice": 169846,
+    "spec": "Mã PWM08 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 3 CT 1 chiều (WMF505MYH-VN) xám Moderva (Mã PWM08) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWM08 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwm09",
+    "sku": "PWM09",
+    "name": "Bộ 3 CT 2 chiều (WMF506MYH-VN) xám Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 187686,
+    "catalogPrice": 187686,
+    "spec": "Mã PWM09 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 3 CT 2 chiều (WMF506MYH-VN) xám Moderva (Mã PWM09) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWM09 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwm10",
+    "sku": "PWM10",
+    "name": "Bộ 4 CT 1 chiều (WMF507MYH-VN) xám Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 246918,
+    "catalogPrice": 246918,
+    "spec": "Mã PWM10 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 4 CT 1 chiều (WMF507MYH-VN) xám Moderva (Mã PWM10) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWM10 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwm11",
+    "sku": "PWM11",
+    "name": "Bộ 1 CT 20A có đèn báo (WMFV503307MYH) xám ModervaChiếc",
+    "brand": "Panasonic",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 204814,
+    "catalogPrice": 204814,
+    "spec": "Mã PWM11 - Chính hãng Panasonic",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bộ 1 CT 20A có đèn báo (WMFV503307MYH) xám ModervaChiếc (Mã PWM11) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWM11 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwm12",
+    "sku": "PWM12",
+    "name": "Bộ 4CT 2 chiều (WMF508MYH-VN) xám Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 276890,
+    "catalogPrice": 276890,
+    "spec": "Mã PWM12 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 4CT 2 chiều (WMF508MYH-VN) xám Moderva (Mã PWM12) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWM12 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwm13",
+    "sku": "PWM13",
+    "name": "Bộ 1 ổ cắm mạng Cat5E (WMF421MYH-VN0 xám ModervaChiếc",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 305436,
+    "catalogPrice": 305436,
+    "spec": "Mã PWM13 - Chính hãng Panasonic",
+    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "desc": "Bộ 1 ổ cắm mạng Cat5E (WMF421MYH-VN0 xám ModervaChiếc (Mã PWM13) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWM13 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwm14",
+    "sku": "PWM14",
+    "name": "Bộ 1 CT đa chiều (WMF594MYH-VN) xám Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 263332,
+    "catalogPrice": 263332,
+    "spec": "Mã PWM14 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 1 CT đa chiều (WMF594MYH-VN) xám Moderva (Mã PWM14) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWM14 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pwm20",
+    "sku": "PWM20",
+    "name": "Mặt kín đơn xám (WMF6891MYH-VN) Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 52810,
+    "catalogPrice": 52810,
+    "spec": "Mã PWM20 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt kín đơn xám (WMF6891MYH-VN) Moderva (Mã PWM20) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PWM20 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-phx07",
+    "sku": "PHX07",
+    "name": "Ổ đôi 3 chấu xám ánh kim Halumie (WEV1582-7MYH)",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 139159,
+    "catalogPrice": 139159,
+    "spec": "Mã PHX07 - Chính hãng Panasonic",
+    "image": "assets/images/products/o-cam-doi-panasonic-wide.jpg",
+    "desc": "Ổ đôi 3 chấu xám ánh kim Halumie (WEV1582-7MYH) (Mã PHX07) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PHX07 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pmv00",
+    "sku": "PMV00",
+    "name": "Mặt vuông 1TB (WMFV7811MYZ) vàng Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 52810,
+    "catalogPrice": 52810,
+    "spec": "Mã PMV00 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt vuông 1TB (WMFV7811MYZ) vàng Moderva (Mã PMV00) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PMV00 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pmv01",
+    "sku": "PMV01",
+    "name": "Mặt vuông 2TB (WMFV7812MYZ) vàng Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 52810,
+    "catalogPrice": 52810,
+    "spec": "Mã PMV01 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt vuông 2TB (WMFV7812MYZ) vàng Moderva (Mã PMV01) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PMV01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pmv02",
+    "sku": "PMV02",
+    "name": "Mặt vuông 3TB (WMFV7813MYZ) vàng Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 52810,
+    "catalogPrice": 52810,
+    "spec": "Mã PMV02 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt vuông 3TB (WMFV7813MYZ) vàng Moderva (Mã PMV02) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PMV02 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pmv04",
+    "sku": "PMV04",
+    "name": "Bộ 1 CT 1 chiều (WMF501MYZ-VN) vàng Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 86350,
+    "catalogPrice": 86350,
+    "spec": "Mã PMV04 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 1 CT 1 chiều (WMF501MYZ-VN) vàng Moderva (Mã PMV04) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PMV04 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pmv05",
+    "sku": "PMV05",
+    "name": "Bộ 1 CT 2 chiều (WMF502MYZ-VN) vàng Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 112754,
+    "catalogPrice": 112754,
+    "spec": "Mã PMV05 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 1 CT 2 chiều (WMF502MYZ-VN) vàng Moderva (Mã PMV05) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PMV05 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pmv06",
+    "sku": "PMV06",
+    "name": "Bộ 2 CT 1 chiều (WMF503MYZ-VN) vàng Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 124886,
+    "catalogPrice": 124886,
+    "spec": "Mã PMV06 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 2 CT 1 chiều (WMF503MYZ-VN) vàng Moderva (Mã PMV06) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PMV06 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pmv07",
+    "sku": "PMV07",
+    "name": "Bộ 2 CT 2 chiều (WMF504MYZ-VN) vàngModerva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 145582,
+    "catalogPrice": 145582,
+    "spec": "Mã PMV07 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 2 CT 2 chiều (WMF504MYZ-VN) vàngModerva (Mã PMV07) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PMV07 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pmv08",
+    "sku": "PMV08",
+    "name": "Bộ 3 CT 1 chiều (WMF505MYZ-VN) vàng Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 169846,
+    "catalogPrice": 169846,
+    "spec": "Mã PMV08 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 3 CT 1 chiều (WMF505MYZ-VN) vàng Moderva (Mã PMV08) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PMV08 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pmv09",
+    "sku": "PMV09",
+    "name": "Bộ 3 CT 2 chiều (WMF506MYZ-VN) vàng Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 187686,
+    "catalogPrice": 187686,
+    "spec": "Mã PMV09 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 3 CT 2 chiều (WMF506MYZ-VN) vàng Moderva (Mã PMV09) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PMV09 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pmv10",
+    "sku": "PMV10",
+    "name": "Bộ 4 CT 1 chiều (WMF507MYZ-VN) vàng Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 246918,
+    "catalogPrice": 246918,
+    "spec": "Mã PMV10 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 4 CT 1 chiều (WMF507MYZ-VN) vàng Moderva (Mã PMV10) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PMV10 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pmv11",
+    "sku": "PMV11",
+    "name": "Bộ 4 CT 2 chiều (WMF508MYZ-VN) vàng Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 276890,
+    "catalogPrice": 276890,
+    "spec": "Mã PMV11 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 4 CT 2 chiều (WMF508MYZ-VN) vàng Moderva (Mã PMV11) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PMV11 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pmv12",
+    "sku": "PMV12",
+    "name": "Bộ 1 CT 20A có đèn báo (WMFV503307MYZ) vàng ModervaChiếc",
+    "brand": "Panasonic",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 204814,
+    "catalogPrice": 204814,
+    "spec": "Mã PMV12 - Chính hãng Panasonic",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bộ 1 CT 20A có đèn báo (WMFV503307MYZ) vàng ModervaChiếc (Mã PMV12) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PMV12 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pmv13",
+    "sku": "PMV13",
+    "name": "Bộ 1 ổ cắm mạng Cat5E (WMF421MYZ-VN) vàng ModervaChiếc",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 305436,
+    "catalogPrice": 305436,
+    "spec": "Mã PMV13 - Chính hãng Panasonic",
+    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "desc": "Bộ 1 ổ cắm mạng Cat5E (WMF421MYZ-VN) vàng ModervaChiếc (Mã PMV13) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PMV13 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pmv20",
+    "sku": "PMV20",
+    "name": "Mặt kín đơn (WMF6891MYZ-VN) vàng Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 52810,
+    "catalogPrice": 52810,
+    "spec": "Mã PMV20 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt kín đơn (WMF6891MYZ-VN) vàng Moderva (Mã PMV20) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PMV20 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pmt00",
+    "sku": "PMT00",
+    "name": "Mặt vuông 1TB (WMFV7811) trắng Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 38179,
+    "catalogPrice": 38179,
+    "spec": "Mã PMT00 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt vuông 1TB (WMFV7811) trắng Moderva (Mã PMT00) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PMT00 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pmt01",
+    "sku": "PMT01",
+    "name": "Mặt vuông 2TB (WMFV7812)trắng Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 38179,
+    "catalogPrice": 38179,
+    "spec": "Mã PMT01 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt vuông 2TB (WMFV7812)trắng Moderva (Mã PMT01) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PMT01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pmt02",
+    "sku": "PMT02",
+    "name": "Mặt vuông 3TB (WMFV7813) trắng Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 38179,
+    "catalogPrice": 38179,
+    "spec": "Mã PMT02 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Mặt vuông 3TB (WMFV7813) trắng Moderva (Mã PMT02) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PMT02 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pmt04",
+    "sku": "PMT04",
+    "name": "Bộ 1 CT 1 chiều (WMF501-VN) trắng Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 60659,
+    "catalogPrice": 60659,
+    "spec": "Mã PMT04 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 1 CT 1 chiều (WMF501-VN) trắng Moderva (Mã PMT04) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PMT04 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pmt05",
+    "sku": "PMT05",
+    "name": "Bộ 1 CT 2 chiều (WMF502-VN) trắngModerva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 80284,
+    "catalogPrice": 80284,
+    "spec": "Mã PMT05 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 1 CT 2 chiều (WMF502-VN) trắngModerva (Mã PMT05) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PMT05 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pmt06",
+    "sku": "PMT06",
+    "name": "Bộ 2 CT 1 chiều (WMF503-VN) trắng Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 88848,
+    "catalogPrice": 88848,
+    "spec": "Mã PMT06 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 2 CT 1 chiều (WMF503-VN) trắng Moderva (Mã PMT06) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PMT06 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pmt07",
+    "sku": "PMT07",
+    "name": "Bộ 2 CT 2 chiều (WMF504-VN) trắng Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 105618,
+    "catalogPrice": 105618,
+    "spec": "Mã PMT07 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 2 CT 2 chiều (WMF504-VN) trắng Moderva (Mã PMT07) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PMT07 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pmt072",
+    "sku": "PMT072",
+    "name": "Bộ 2 CT 3 chiều (WMF596-VN) trắng Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 295446,
+    "catalogPrice": 295446,
+    "spec": "Mã PMT072 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 2 CT 3 chiều (WMF596-VN) trắng Moderva (Mã PMT072) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PMT072 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pmt08",
+    "sku": "PMT08",
+    "name": "Bộ 3 CT 1 chiều (WMF505-VN) trắng Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 119891,
+    "catalogPrice": 119891,
+    "spec": "Mã PMT08 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 3 CT 1 chiều (WMF505-VN) trắng Moderva (Mã PMT08) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PMT08 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pmt09",
+    "sku": "PMT09",
+    "name": "Bộ 3 CT 2 chiều (WMF506-VN) trắng Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 135590,
+    "catalogPrice": 135590,
+    "spec": "Mã PMT09 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 3 CT 2 chiều (WMF506-VN) trắng Moderva (Mã PMT09) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PMT09 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pmt10",
+    "sku": "PMT10",
+    "name": "Bộ 4 CT 1 chiều (WMF507-VN) trắng Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 177696,
+    "catalogPrice": 177696,
+    "spec": "Mã PMT10 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 4 CT 1 chiều (WMF507-VN) trắng Moderva (Mã PMT10) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PMT10 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pmt11",
+    "sku": "PMT11",
+    "name": "Bộ 4 CT 2 chiều (WMF508-VN) trắng Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 199104,
+    "catalogPrice": 199104,
+    "spec": "Mã PMT11 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 4 CT 2 chiều (WMF508-VN) trắng Moderva (Mã PMT11) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PMT11 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pmt12",
+    "sku": "PMT12",
+    "name": "Bộ 1 CT 20A có đèn báo (WMFV503307) trắng ModervaChiếc",
+    "brand": "Panasonic",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 145582,
+    "catalogPrice": 145582,
+    "spec": "Mã PMT12 - Chính hãng Panasonic",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bộ 1 CT 20A có đèn báo (WMFV503307) trắng ModervaChiếc (Mã PMT12) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PMT12 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pmt13",
+    "sku": "PMT13",
+    "name": "Bộ 1 ổ cắm mạng Cat5E (WMF421-VN) trắng Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 217660,
+    "catalogPrice": 217660,
+    "spec": "Mã PMT13 - Chính hãng Panasonic",
+    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "desc": "Bộ 1 ổ cắm mạng Cat5E (WMF421-VN) trắng Moderva (Mã PMT13) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PMT13 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pmt14",
+    "sku": "PMT14",
+    "name": "Bộ 1 CT 2 chiều có chỉ báo dạ quang (WMF512-1VN) trắng ModervaChiếc",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 86350,
+    "catalogPrice": 86350,
+    "spec": "Mã PMT14 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 1 CT 2 chiều có chỉ báo dạ quang (WMF512-1VN) trắng ModervaChiếc (Mã PMT14) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PMT14 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pmt15",
+    "sku": "PMT15",
+    "name": "Bộ 1 CT đa chiều (WMF594- 1VN) trắng Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 187686,
+    "catalogPrice": 187686,
+    "spec": "Mã PMT15 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Bộ 1 CT đa chiều (WMF594- 1VN) trắng Moderva (Mã PMT15) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PMT15 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pmt16",
+    "sku": "PMT16",
+    "name": "Công tắc thẻ (WMF535-VN) trắng Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 610159,
+    "catalogPrice": 610159,
+    "spec": "Mã PMT16 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Công tắc thẻ (WMF535-VN) trắng Moderva (Mã PMT16) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PMT16 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pmt18",
+    "sku": "PMT18",
+    "name": "MẶt kín đơn (WMF6891-VN) trắng Moderva",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 38179,
+    "catalogPrice": 38179,
+    "spec": "Mã PMT18 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "MẶt kín đơn (WMF6891-VN) trắng Moderva (Mã PMT18) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PMT18 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pb67",
+    "sku": "PB67",
+    "name": "Bóng led trụ 20w - T(NLBL206) Nanoco",
+    "brand": "Panasonic",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 40199,
+    "catalogPrice": 40199,
+    "spec": "Mã PB67 - Chính hãng Panasonic",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bóng led trụ 20w - T(NLBL206) Nanoco (Mã PB67) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PB67 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pb68",
+    "sku": "PB68",
+    "name": "Bóng led trụ 30w - T (NLBL306) Nanoco",
+    "brand": "Panasonic",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 60298,
+    "catalogPrice": 60298,
+    "spec": "Mã PB68 - Chính hãng Panasonic",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bóng led trụ 30w - T (NLBL306) Nanoco (Mã PB68) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PB68 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pb69",
+    "sku": "PB69",
+    "name": "Bóng led trụ 40w - T (NLBL406) Nanoco",
+    "brand": "Panasonic",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 81514,
+    "catalogPrice": 81514,
+    "spec": "Mã PB69 - Chính hãng Panasonic",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bóng led trụ 40w - T (NLBL406) Nanoco (Mã PB69) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PB69 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pb70",
+    "sku": "PB70",
+    "name": "Bóng led trụ 50w - T (NLBL06) Nanoco",
+    "brand": "Panasonic",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 106080,
+    "catalogPrice": 106080,
+    "spec": "Mã PB70 - Chính hãng Panasonic",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bóng led trụ 50w - T (NLBL06) Nanoco (Mã PB70) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PB70 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pd91",
+    "sku": "PD91",
+    "name": "Đèn bán nguyệt ECO 1.2m 50W (NSHE506) Nanoco",
+    "brand": "Panasonic",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 128934,
+    "catalogPrice": 128934,
+    "spec": "Mã PD91 - Chính hãng Panasonic",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn bán nguyệt ECO 1.2m 50W (NSHE506) Nanoco (Mã PD91) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PD91 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pd92",
+    "sku": "PD92",
+    "name": "Đèn bán nguyệt ECO 1.2m 40W (NSHE406) Nanoco",
+    "brand": "Panasonic",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 118620,
+    "catalogPrice": 118620,
+    "spec": "Mã PD92 - Chính hãng Panasonic",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn bán nguyệt ECO 1.2m 40W (NSHE406) Nanoco (Mã PD92) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PD92 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pd93",
+    "sku": "PD93",
+    "name": "Đèn bán nguyệt ECO 1.2m 50W (NSHE503) Nanoco",
+    "brand": "Panasonic",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 128934,
+    "catalogPrice": 128934,
+    "spec": "Mã PD93 - Chính hãng Panasonic",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn bán nguyệt ECO 1.2m 50W (NSHE503) Nanoco (Mã PD93) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PD93 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-po11",
+    "sku": "PO11",
+    "name": "Ốp tròn tràn viền 15w (NRP1561R) Nanoco",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 145126,
+    "catalogPrice": 145126,
+    "spec": "Mã PO11 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Ốp tròn tràn viền 15w (NRP1561R) Nanoco (Mã PO11) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PO11 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-po12",
+    "sku": "PO12",
+    "name": "Ốp tròn tràn viền 22w (NRP2261R) Nanoco",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 191303,
+    "catalogPrice": 191303,
+    "spec": "Mã PO12 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Ốp tròn tràn viền 22w (NRP2261R) Nanoco (Mã PO12) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PO12 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-po13",
+    "sku": "PO13",
+    "name": "Ốp tròn tràn viền 30w (NRP3061R) Nanoco",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 267164,
+    "catalogPrice": 267164,
+    "spec": "Mã PO13 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Ốp tròn tràn viền 30w (NRP3061R) Nanoco (Mã PO13) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PO13 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-po14",
+    "sku": "PO14",
+    "name": "Ốp vuông tràn viền 15w (NRP1561S) Nanoco",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 151723,
+    "catalogPrice": 151723,
+    "spec": "Mã PO14 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Ốp vuông tràn viền 15w (NRP1561S) Nanoco (Mã PO14) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PO14 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-po15",
+    "sku": "PO15",
+    "name": "Ốp vuông tràn viền 22w (NRP2261S) Nanoco",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 197899,
+    "catalogPrice": 197899,
+    "spec": "Mã PO15 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Ốp vuông tràn viền 22w (NRP2261S) Nanoco (Mã PO15) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PO15 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-po16",
+    "sku": "PO16",
+    "name": "Ốp vuông tràn viền 30w (NRP3061S) Nanoco",
+    "brand": "Panasonic",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 290252,
+    "catalogPrice": 290252,
+    "spec": "Mã PO16 - Chính hãng Panasonic",
+    "image": "assets/images/products/cong-tac-panasonic-wide.jpg",
+    "desc": "Ốp vuông tràn viền 30w (NRP3061S) Nanoco (Mã PO16) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PO16 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pt522",
+    "sku": "PT522",
+    "name": "Tủ âm tường 24 át vàng (BQDX24G11AV) Pana",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 4228422,
+    "catalogPrice": 4228422,
+    "spec": "Mã PT522 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Tủ âm tường 24 át vàng (BQDX24G11AV) Pana (Mã PT522) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PT522 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pt523",
+    "sku": "PT523",
+    "name": "Tủ âm tường 16 át vàng (BQDX16G11AV) Pana",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 2757240,
+    "catalogPrice": 2757240,
+    "spec": "Mã PT523 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Tủ âm tường 16 át vàng (BQDX16G11AV) Pana (Mã PT523) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PT523 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pt524",
+    "sku": "PT524",
+    "name": "Tủ âm tường 8 át trắng (BQDX08T11AV) Pana",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 1042748,
+    "catalogPrice": 1042748,
+    "spec": "Mã PT524 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Tủ âm tường 8 át trắng (BQDX08T11AV) Pana (Mã PT524) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PT524 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pt525",
+    "sku": "PT525",
+    "name": "Tủ âm tường 12 át trắng (BQDX12T11AV) Pana",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 1140223,
+    "catalogPrice": 1140223,
+    "spec": "Mã PT525 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Tủ âm tường 12 át trắng (BQDX12T11AV) Pana (Mã PT525) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PT525 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pt525a",
+    "sku": "PT525A",
+    "name": "Tủ âm tường 16 át trắng (BQDX16T11AV) Pana",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 1293613,
+    "catalogPrice": 1293613,
+    "spec": "Mã PT525A - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Tủ âm tường 16 át trắng (BQDX16T11AV) Pana (Mã PT525A) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PT525A (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pt525b",
+    "sku": "PT525B",
+    "name": "Tủ âm tường 24 át trắng (BQDX24T11AV) Pana",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 1956288,
+    "catalogPrice": 1956288,
+    "spec": "Mã PT525B - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Tủ âm tường 24 át trắng (BQDX24T11AV) Pana (Mã PT525B) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PT525B (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pt526",
+    "sku": "PT526",
+    "name": "Tủ âm tường 8 át vàng (BQDX08G11AV) Pana",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 2312183,
+    "catalogPrice": 2312183,
+    "spec": "Mã PT526 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Tủ âm tường 8 át vàng (BQDX08G11AV) Pana (Mã PT526) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PT526 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pt527",
+    "sku": "PT527",
+    "name": "Tủ âm tường 12 át vàng (BQDX12G11AV) Pana",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 2490508,
+    "catalogPrice": 2490508,
+    "spec": "Mã PT527 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Tủ âm tường 12 át vàng (BQDX12G11AV) Pana (Mã PT527) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PT527 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pt5271",
+    "sku": "PT5271",
+    "name": "Tủ âm tường 32 át vàng (BQDX32G11AV) Pana",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 5117782,
+    "catalogPrice": 5117782,
+    "spec": "Mã PT5271 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Tủ âm tường 32 át vàng (BQDX32G11AV) Pana (Mã PT5271) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PT5271 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pt528",
+    "sku": "PT528",
+    "name": "Tủ âm tường 8 át trắng (BQDF08W31AV) Pana",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 614315,
+    "catalogPrice": 614315,
+    "spec": "Mã PT528 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Tủ âm tường 8 át trắng (BQDF08W31AV) Pana (Mã PT528) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PT528 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pt5281",
+    "sku": "PT5281",
+    "name": "Tủ âm tường 12 át trắng (BQDF12W31AV) Pana",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 776017,
+    "catalogPrice": 776017,
+    "spec": "Mã PT5281 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Tủ âm tường 12 át trắng (BQDF12W31AV) Pana (Mã PT5281) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PT5281 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pt5282",
+    "sku": "PT5282",
+    "name": "Tủ âm tường 16 át trắng (BQDF16W31AV) Pana",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 905227,
+    "catalogPrice": 905227,
+    "spec": "Mã PT5282 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Tủ âm tường 16 át trắng (BQDF16W31AV) Pana (Mã PT5282) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PT5282 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pt529",
+    "sku": "PT529",
+    "name": "Tủ âm tường 24 át vàng ánh kim (BQDF24MG11AV) Pana",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 2126300,
+    "catalogPrice": 2126300,
+    "spec": "Mã PT529 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Tủ âm tường 24 át vàng ánh kim (BQDF24MG11AV) Pana (Mã PT529) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PT529 (Chiếc)"
+    ]
+  },
+  {
+    "id": "panasonic-pt5291",
+    "sku": "PT5291",
+    "name": "Tủ âm tường 12 át vàng ánh kim (BQDF12MG31AV) Pana",
+    "brand": "Panasonic",
+    "category": "dong-cat-tu-dien",
+    "categoryName": "Aptomat & Tủ Điện",
+    "unit": "Chiếc",
+    "price": 1042748,
+    "catalogPrice": 1042748,
+    "spec": "Mã PT5291 - Chính hãng Panasonic",
+    "image": "assets/images/products/aptomat-mcb-schneider.jpg",
+    "desc": "Tủ âm tường 12 át vàng ánh kim (BQDF12MG31AV) Pana (Mã PT5291) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã PT5291 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp010",
+    "sku": "RP010",
+    "name": "Ruột phích 2L loại 1",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 70871,
+    "catalogPrice": 70871,
+    "spec": "Mã RP010 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Ruột phích 2L loại 1 (Mã RP010) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP010 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp065",
+    "sku": "RP065",
+    "name": "Ruột phích 1040",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 61800,
+    "catalogPrice": 61800,
+    "spec": "Mã RP065 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Ruột phích 1040 (Mã RP065) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP065 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp031",
+    "sku": "RP031",
+    "name": "Ruột phích 1055",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 83369,
+    "catalogPrice": 83369,
+    "spec": "Mã RP031 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Ruột phích 1055 (Mã RP031) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP031 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp020",
+    "sku": "RP020",
+    "name": "Ruột phích 3245-3,2L",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 100333,
+    "catalogPrice": 100333,
+    "spec": "Mã RP020 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Ruột phích 3245-3,2L (Mã RP020) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP020 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp27",
+    "sku": "RP27",
+    "name": "Ruột phích 2045 ST1.E-2.0L",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 74402,
+    "catalogPrice": 74402,
+    "spec": "Mã RP27 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Ruột phích 2045 ST1.E-2.0L (Mã RP27) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP27 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp26",
+    "sku": "RP26",
+    "name": "Ruột phích 2545 ST1.E-2,5L",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 80825,
+    "catalogPrice": 80825,
+    "spec": "Mã RP26 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Ruột phích 2545 ST1.E-2,5L (Mã RP26) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP26 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp050",
+    "sku": "RP050",
+    "name": "Ruột phích 04528",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 47864,
+    "catalogPrice": 47864,
+    "spec": "Mã RP050 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Ruột phích 04528 (Mã RP050) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP050 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp05",
+    "sku": "RP05",
+    "name": "Phích giữ nhiệt (RD 04528 ) 0,45L",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 87744,
+    "catalogPrice": 87744,
+    "spec": "Mã RP05 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích giữ nhiệt (RD 04528 ) 0,45L (Mã RP05) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP05 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp11",
+    "sku": "RP11",
+    "name": "Phích giữ nhiệt (RD 04528 N2) 0,45L",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 87744,
+    "catalogPrice": 87744,
+    "spec": "Mã RP11 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích giữ nhiệt (RD 04528 N2) 0,45L (Mã RP11) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP11 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd-phich-giu-nh",
+    "sku": "RD-PHICH-GIU-NH",
+    "name": "Phích giữ nhiệt (RD 04528 N2) 0,45L-QT",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 94614,
+    "catalogPrice": 94614,
+    "spec": "Mã RD-PHICH-GIU-NH - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích giữ nhiệt (RD 04528 N2) 0,45L-QT (Mã RD-PHICH-GIU-NH) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD-PHICH-GIU-NH (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp19",
+    "sku": "RP19",
+    "name": "Phích đựng nước nóng (RD 0538 N1) 0,5L",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 87383,
+    "catalogPrice": 87383,
+    "spec": "Mã RP19 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích đựng nước nóng (RD 0538 N1) 0,5L (Mã RP19) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP19 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp18",
+    "sku": "RP18",
+    "name": "Phích cá nhân RD 0538 N2.E",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 145838,
+    "catalogPrice": 145838,
+    "spec": "Mã RP18 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích cá nhân RD 0538 N2.E (Mã RP18) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP18 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd-phich-dung-n",
+    "sku": "RD-PHICH-DUNG-N",
+    "name": "Phích đựng nước RD 0538 N3.E",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 277214,
+    "catalogPrice": 277214,
+    "spec": "Mã RD-PHICH-DUNG-N - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích đựng nước RD 0538 N3.E (Mã RD-PHICH-DUNG-N) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD-PHICH-DUNG-N (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp13",
+    "sku": "RP13",
+    "name": "Phích cà phê RD 0740 ST3.E",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 229003,
+    "catalogPrice": 229003,
+    "spec": "Mã RP13 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích cà phê RD 0740 ST3.E (Mã RP13) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP13 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp14",
+    "sku": "RP14",
+    "name": "Phích RD-0940 N1.E",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 139812,
+    "catalogPrice": 139812,
+    "spec": "Mã RP14 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích RD-0940 N1.E (Mã RP14) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP14 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp200",
+    "sku": "RP200",
+    "name": "Phích đựng nước nóng (RD-1038 N1)-1L",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 119323,
+    "catalogPrice": 119323,
+    "spec": "Mã RP200 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích đựng nước nóng (RD-1038 N1)-1L (Mã RP200) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP200 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp20",
+    "sku": "RP20",
+    "name": "Phích đựng nước nóng (RD-1038 N2)-1L",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 121733,
+    "catalogPrice": 121733,
+    "spec": "Mã RP20 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích đựng nước nóng (RD-1038 N2)-1L (Mã RP20) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP20 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd-phich-1040-1",
+    "sku": "RD-PHICH-1040-1",
+    "name": "Phích 1040-1L",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 125350,
+    "catalogPrice": 125350,
+    "spec": "Mã RD-PHICH-1040-1 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích 1040-1L (Mã RD-PHICH-1040-1) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD-PHICH-1040-1 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp060",
+    "sku": "RP060",
+    "name": "Phích 1040TS-1L HT",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 125350,
+    "catalogPrice": 125350,
+    "spec": "Mã RP060 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích 1040TS-1L HT (Mã RP060) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP060 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp06",
+    "sku": "RP06",
+    "name": "Phích 1040 ST2-1L-Thân Inox",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 147044,
+    "catalogPrice": 147044,
+    "spec": "Mã RP06 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích 1040 ST2-1L-Thân Inox (Mã RP06) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP06 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp062",
+    "sku": "RP062",
+    "name": "Phích 1040 N1.E-1,0L-Pioneer",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 131376,
+    "catalogPrice": 131376,
+    "spec": "Mã RP062 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích 1040 N1.E-1,0L-Pioneer (Mã RP062) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP062 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd-phich-1040-s",
+    "sku": "RD-PHICH-1040-S",
+    "name": "Phích 1040 ST2.E-1,0L-Pioneer",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 167534,
+    "catalogPrice": 167534,
+    "spec": "Mã RD-PHICH-1040-S - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích 1040 ST2.E-1,0L-Pioneer (Mã RD-PHICH-1040-S) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD-PHICH-1040-S (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp06a",
+    "sku": "RP06A",
+    "name": "Phích 1040 ST2.E-1,0L-Pioneer-QT",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 179587,
+    "catalogPrice": 179587,
+    "spec": "Mã RP06A - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích 1040 ST2.E-1,0L-Pioneer-QT (Mã RP06A) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP06A (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp063",
+    "sku": "RP063",
+    "name": "Phích đựng nước RD 1040 TS4.E HT",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 142223,
+    "catalogPrice": 142223,
+    "spec": "Mã RP063 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích đựng nước RD 1040 TS4.E HT (Mã RP063) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP063 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd-phich-1040-n",
+    "sku": "RD-PHICH-1040-N",
+    "name": "Phích 1040 N2-1.0L",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 116430,
+    "catalogPrice": 116430,
+    "spec": "Mã RD-PHICH-1040-N - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích 1040 N2-1.0L (Mã RD-PHICH-1040-N) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD-PHICH-1040-N (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp061",
+    "sku": "RP061",
+    "name": "Phích cà phê RD 1040 ST3.E",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 242261,
+    "catalogPrice": 242261,
+    "spec": "Mã RP061 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích cà phê RD 1040 ST3.E (Mã RP061) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP061 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp10",
+    "sku": "RP10",
+    "name": "Phích 1045TS-E Pioneer",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 154276,
+    "catalogPrice": 154276,
+    "spec": "Mã RP10 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích 1045TS-E Pioneer (Mã RP10) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP10 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp100",
+    "sku": "RP100",
+    "name": "Phích cao cấp 1045 N1.E-1.0L Pioneer",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 222977,
+    "catalogPrice": 222977,
+    "spec": "Mã RP100 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích cao cấp 1045 N1.E-1.0L Pioneer (Mã RP100) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP100 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp101",
+    "sku": "RP101",
+    "name": "Phích cao cấp 1045 ST1.E-1,0L",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 227798,
+    "catalogPrice": 227798,
+    "spec": "Mã RP101 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích cao cấp 1045 ST1.E-1,0L (Mã RP101) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP101 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd-phich-tra-10",
+    "sku": "RD-PHICH-TRA-10",
+    "name": "Phích trà 1045 N2.E",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 161508,
+    "catalogPrice": 161508,
+    "spec": "Mã RD-PHICH-TRA-10 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích trà 1045 N2.E (Mã RD-PHICH-TRA-10) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD-PHICH-TRA-10 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp03",
+    "sku": "RP03",
+    "name": "Phích trà 1055TS-1L",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 161508,
+    "catalogPrice": 161508,
+    "spec": "Mã RP03 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích trà 1055TS-1L (Mã RP03) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP03 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp21",
+    "sku": "RP21",
+    "name": "Phích trà 1355 TS",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 181997,
+    "catalogPrice": 181997,
+    "spec": "Mã RP21 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích trà 1355 TS (Mã RP21) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP21 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp030",
+    "sku": "RP030",
+    "name": "Phích 1055 ST1.E-1L-Pioneer",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 203693,
+    "catalogPrice": 203693,
+    "spec": "Mã RP030 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích 1055 ST1.E-1L-Pioneer (Mã RP030) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP030 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp032",
+    "sku": "RP032",
+    "name": "Phích cao cấp 1055 N1.E-1.0L Pioneer",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 232619,
+    "catalogPrice": 232619,
+    "spec": "Mã RP032 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích cao cấp 1055 N1.E-1.0L Pioneer (Mã RP032) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP032 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd-phich-cao-ca",
+    "sku": "RD-PHICH-CAO-CA",
+    "name": "Phích cao cấp 1055 N1.E-1.0L Pioneer-QT",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 284446,
+    "catalogPrice": 284446,
+    "spec": "Mã RD-PHICH-CAO-CA - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích cao cấp 1055 N1.E-1.0L Pioneer-QT (Mã RD-PHICH-CAO-CA) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD-PHICH-CAO-CA (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp24",
+    "sku": "RP24",
+    "name": "Phích 1235 N1-1,2Lít",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 119323,
+    "catalogPrice": 119323,
+    "spec": "Mã RP24 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích 1235 N1-1,2Lít (Mã RP24) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP24 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp251",
+    "sku": "RP251",
+    "name": "Phích pha trà 1542 N2.E-1.5L Pioneer",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 243467,
+    "catalogPrice": 243467,
+    "spec": "Mã RP251 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích pha trà 1542 N2.E-1.5L Pioneer (Mã RP251) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP251 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp25",
+    "sku": "RP25",
+    "name": "Phích đựng nước RD 1542 N3.E",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 491754,
+    "catalogPrice": 491754,
+    "spec": "Mã RP25 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích đựng nước RD 1542 N3.E (Mã RP25) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP25 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp17",
+    "sku": "RP17",
+    "name": "Phích pha trà 1565 N1.E-1.5L",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 169944,
+    "catalogPrice": 169944,
+    "spec": "Mã RP17 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích pha trà 1565 N1.E-1.5L (Mã RP17) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP17 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp01",
+    "sku": "RP01",
+    "name": "Phích 2035 N3-2Lít (MB)",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 127759,
+    "catalogPrice": 127759,
+    "spec": "Mã RP01 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích 2035 N3-2Lít (MB) (Mã RP01) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp04",
+    "sku": "RP04",
+    "name": "Phích cao cấp RD-2045 TS.E-2,0L Pioneer",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 248287,
+    "catalogPrice": 248287,
+    "spec": "Mã RP04 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích cao cấp RD-2045 TS.E-2,0L Pioneer (Mã RP04) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP04 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp15",
+    "sku": "RP15",
+    "name": "Phích cao cấp 2045 ST1.E-2,0L",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 268777,
+    "catalogPrice": 268777,
+    "spec": "Mã RP15 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích cao cấp 2045 ST1.E-2,0L (Mã RP15) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP15 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp16",
+    "sku": "RP16",
+    "name": "Phích cao cấp 2545 ST1.E-2,5L",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 297704,
+    "catalogPrice": 297704,
+    "spec": "Mã RP16 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích cao cấp 2545 ST1.E-2,5L (Mã RP16) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP16 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp151",
+    "sku": "RP151",
+    "name": "Phích cao cấp 2045 ST3.E-2,0L",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 398947,
+    "catalogPrice": 398947,
+    "spec": "Mã RP151 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích cao cấp 2045 ST3.E-2,0L (Mã RP151) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP151 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp02",
+    "sku": "RP02",
+    "name": "Phích 3245 N1.E-3,2L-Pioneer",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 221772,
+    "catalogPrice": 221772,
+    "spec": "Mã RP02 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Phích 3245 N1.E-3,2L-Pioneer (Mã RP02) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP02 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp102t",
+    "sku": "RP102T",
+    "name": "Bình ủ RD 0900 TS1.E",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 196460,
+    "catalogPrice": 196460,
+    "spec": "Mã RP102T - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Bình ủ RD 0900 TS1.E (Mã RP102T) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP102T (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp12",
+    "sku": "RP12",
+    "name": "Bình ủ RD 1800 N1.E",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 209719,
+    "catalogPrice": 209719,
+    "spec": "Mã RP12 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Bình ủ RD 1800 N1.E (Mã RP12) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP12 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp122",
+    "sku": "RP122",
+    "name": "Bình giữ nhiệt inox RD-BGN045ST1",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 164521,
+    "catalogPrice": 164521,
+    "spec": "Mã RP122 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Bình giữ nhiệt inox RD-BGN045ST1 (Mã RP122) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP122 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd-binh-giu-nhi",
+    "sku": "RD-BINH-GIU-NHI",
+    "name": "Bình giữ nhiệt inox RD-BGN04ST1",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 175970,
+    "catalogPrice": 175970,
+    "spec": "Mã RD-BINH-GIU-NHI - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Bình giữ nhiệt inox RD-BGN04ST1 (Mã RD-BINH-GIU-NHI) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD-BINH-GIU-NHI (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp124",
+    "sku": "RP124",
+    "name": "Bình giữ nhiệt inox RD-BGN06ST1",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 195256,
+    "catalogPrice": 195256,
+    "spec": "Mã RP124 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Bình giữ nhiệt inox RD-BGN06ST1 (Mã RP124) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP124 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp123",
+    "sku": "RP123",
+    "name": "Bình giữ nhiệt inox RD-BGN05ST3.E",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 208513,
+    "catalogPrice": 208513,
+    "spec": "Mã RP123 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Bình giữ nhiệt inox RD-BGN05ST3.E (Mã RP123) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP123 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp102",
+    "sku": "RP102",
+    "name": "Bình ủ RD 1300 TS1",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 224182,
+    "catalogPrice": 224182,
+    "spec": "Mã RP102 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Bình ủ RD 1300 TS1 (Mã RP102) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP102 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp102a",
+    "sku": "RP102A",
+    "name": "Bình ủ RD 1300 ST1.E",
+    "brand": "Rạng Đông",
+    "category": "quat-gia-dung",
+    "categoryName": "Quạt & Gia Dụng",
+    "unit": "Chiếc",
+    "price": 380868,
+    "catalogPrice": 380868,
+    "spec": "Mã RP102A - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Bình ủ RD 1300 ST1.E (Mã RP102A) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP102A (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd54",
+    "sku": "RD54",
+    "name": "Đèn LED Downlight AT04 110/12W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 110168,
+    "catalogPrice": 110168,
+    "spec": "Mã RD54 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight AT04 110/12W 6500K (Mã RD54) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD54 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd540",
+    "sku": "RD540",
+    "name": "Đèn LED Downlight AT04 110/12W 4000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 110168,
+    "catalogPrice": 110168,
+    "spec": "Mã RD540 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight AT04 110/12W 4000K (Mã RD540) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD540 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd57",
+    "sku": "RD57",
+    "name": "Đèn LED Downlight AT04 155/16W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 191449,
+    "catalogPrice": 191449,
+    "spec": "Mã RD57 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight AT04 155/16W 6500K (Mã RD57) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD57 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd56",
+    "sku": "RD56",
+    "name": "Đèn LED Downlight AT04 155/25W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 222792,
+    "catalogPrice": 222792,
+    "spec": "Mã RD56 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight AT04 155/25W 6500K (Mã RD56) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD56 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd-den-led-down",
+    "sku": "RD-DEN-LED-DOWN",
+    "name": "Đèn LED Downlight AT04 155/25W 3000K SS",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 105256,
+    "catalogPrice": 105256,
+    "spec": "Mã RD-DEN-LED-DOWN - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight AT04 155/25W 3000K SS (Mã RD-DEN-LED-DOWN) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD-DEN-LED-DOWN (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd301",
+    "sku": "RD301",
+    "name": "Đèn LED Downlight AT04 90/8W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 87713,
+    "catalogPrice": 87713,
+    "spec": "Mã RD301 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight AT04 90/8W 6500K (Mã RD301) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD301 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd3011",
+    "sku": "RD3011",
+    "name": "Đèn LED Downlight AT04 90/8W 4000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 87713,
+    "catalogPrice": 87713,
+    "spec": "Mã RD3011 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight AT04 90/8W 4000K (Mã RD3011) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD3011 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd3012",
+    "sku": "RD3012",
+    "name": "Đèn LED Downlight AT04 90/8W 3000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 87713,
+    "catalogPrice": 87713,
+    "spec": "Mã RD3012 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight AT04 90/8W 3000K (Mã RD3012) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD3012 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd49d",
+    "sku": "RD49D",
+    "name": "Đèn LED Downlight AT04 90/10W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 90988,
+    "catalogPrice": 90988,
+    "spec": "Mã RD49D - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight AT04 90/10W 6500K (Mã RD49D) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD49D (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd49j",
+    "sku": "RD49J",
+    "name": "Đèn LED Downlight AT04 90/10W 4000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 90988,
+    "catalogPrice": 90988,
+    "spec": "Mã RD49J - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight AT04 90/10W 4000K (Mã RD49J) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD49J (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd450",
+    "sku": "RD450",
+    "name": "Đèn LED Downlight AT04 110/10W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 104905,
+    "catalogPrice": 104905,
+    "spec": "Mã RD450 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight AT04 110/10W 6500K (Mã RD450) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD450 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd285",
+    "sku": "RD285",
+    "name": "Đèn LED Downlight AT06.V2 90/8W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 71808,
+    "catalogPrice": 71808,
+    "spec": "Mã RD285 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight AT06.V2 90/8W 6500K (Mã RD285) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD285 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd284",
+    "sku": "RD284",
+    "name": "Đèn LED Downlight AT06.V3 90/8W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 59645,
+    "catalogPrice": 59645,
+    "spec": "Mã RD284 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight AT06.V3 90/8W 6500K (Mã RD284) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD284 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd36",
+    "sku": "RD36",
+    "name": "Đèn LED Downlight AT10 90/8W 6500K (G)",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 87713,
+    "catalogPrice": 87713,
+    "spec": "Mã RD36 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight AT10 90/8W 6500K (G) (Mã RD36) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD36 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd360",
+    "sku": "RD360",
+    "name": "Đèn LED Downlight AT10 90/8W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 87713,
+    "catalogPrice": 87713,
+    "spec": "Mã RD360 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight AT10 90/8W 6500K (Mã RD360) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD360 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd362",
+    "sku": "RD362",
+    "name": "Đèn LED Downlight đổi màu AT10 90/8W",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 96349,
+    "catalogPrice": 96349,
+    "spec": "Mã RD362 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight đổi màu AT10 90/8W (Mã RD362) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD362 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd361",
+    "sku": "RD361",
+    "name": "Đèn LED Downlight đổi màu AT10 90/8W (G)",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 96349,
+    "catalogPrice": 96349,
+    "spec": "Mã RD361 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight đổi màu AT10 90/8W (G) (Mã RD361) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD361 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd384",
+    "sku": "RD384",
+    "name": "Đèn LED Downlight đổi màu AT10 90/10W",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 100764,
+    "catalogPrice": 100764,
+    "spec": "Mã RD384 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight đổi màu AT10 90/10W (Mã RD384) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD384 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd383",
+    "sku": "RD383",
+    "name": "Đèn LED Downlight đổi màu AT10 90/10W (G)",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 100764,
+    "catalogPrice": 100764,
+    "spec": "Mã RD383 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight đổi màu AT10 90/10W (G) (Mã RD383) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD383 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd39q",
+    "sku": "RD39Q",
+    "name": "Đèn LED Downlight đổi màu AT02 90/7W",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 96349,
+    "catalogPrice": 96349,
+    "spec": "Mã RD39Q - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight đổi màu AT02 90/7W (Mã RD39Q) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD39Q (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd39h",
+    "sku": "RD39H",
+    "name": "Đèn LED Downlight đổi màu AT02 90/9W",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 100764,
+    "catalogPrice": 100764,
+    "spec": "Mã RD39H - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight đổi màu AT02 90/9W (Mã RD39H) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD39H (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd26",
+    "sku": "RD26",
+    "name": "Đèn LED Downlight đổi màu AT10 90/7W (G)",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 89996,
+    "catalogPrice": 89996,
+    "spec": "Mã RD26 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight đổi màu AT10 90/7W (G) (Mã RD26) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD26 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd38",
+    "sku": "RD38",
+    "name": "Đèn LED Downlight đổi màu AT10 90/9W (G)",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 94121,
+    "catalogPrice": 94121,
+    "spec": "Mã RD38 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight đổi màu AT10 90/9W (G) (Mã RD38) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD38 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd381",
+    "sku": "RD381",
+    "name": "Đèn LED Downlight đổi màu AT10 90/9W",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 94121,
+    "catalogPrice": 94121,
+    "spec": "Mã RD381 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight đổi màu AT10 90/9W (Mã RD381) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD381 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd3821",
+    "sku": "RD3821",
+    "name": "Đèn LED Downlight đổi màu AT10 110/12W",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 117748,
+    "catalogPrice": 117748,
+    "spec": "Mã RD3821 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight đổi màu AT10 110/12W (Mã RD3821) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD3821 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd382",
+    "sku": "RD382",
+    "name": "Đèn LED Downlight đổi màu AT10 110/12W (G)",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 117748,
+    "catalogPrice": 117748,
+    "spec": "Mã RD382 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight đổi màu AT10 110/12W (G) (Mã RD382) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD382 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd490",
+    "sku": "RD490",
+    "name": "Đèn LED Downlight đổi màu AT20 90/8W (G)",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 90008,
+    "catalogPrice": 90008,
+    "spec": "Mã RD490 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight đổi màu AT20 90/8W (G) (Mã RD490) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD490 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd491",
+    "sku": "RD491",
+    "name": "Đèn LED Downlight đổi màu AT20 90/10W (G)",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 94198,
+    "catalogPrice": 94198,
+    "spec": "Mã RD491 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight đổi màu AT20 90/10W (G) (Mã RD491) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD491 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd492",
+    "sku": "RD492",
+    "name": "Đèn LED Downlight đổi màu AT20 110/10W (G)",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 107105,
+    "catalogPrice": 107105,
+    "spec": "Mã RD492 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight đổi màu AT20 110/10W (G) (Mã RD492) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD492 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd493",
+    "sku": "RD493",
+    "name": "Đèn LED Downlight đổi màu AT20 110/12W (G)",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 110048,
+    "catalogPrice": 110048,
+    "spec": "Mã RD493 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight đổi màu AT20 110/12W (G) (Mã RD493) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD493 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd4932",
+    "sku": "RD4932",
+    "name": "Đèn LED Downlight diệt khuẩn AT21.UV 90/7W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 306180,
+    "catalogPrice": 306180,
+    "spec": "Mã RD4932 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight diệt khuẩn AT21.UV 90/7W 6500K (Mã RD4932) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD4932 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd4931",
+    "sku": "RD4931",
+    "name": "Đèn LED Downlight diệt khuẩn AT21.UV 135/14W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 593989,
+    "catalogPrice": 593989,
+    "spec": "Mã RD4931 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight diệt khuẩn AT21.UV 135/14W 6500K (Mã RD4931) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD4931 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd64",
+    "sku": "RD64",
+    "name": "Đèn LED Downlight xoay góc AT39 76/12W 4000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 172686,
+    "catalogPrice": 172686,
+    "spec": "Mã RD64 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight xoay góc AT39 76/12W 4000K (Mã RD64) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD64 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd593",
+    "sku": "RD593",
+    "name": "Đèn LED Downlight xoay góc AT40 95/12W 4000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 149416,
+    "catalogPrice": 149416,
+    "spec": "Mã RD593 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight xoay góc AT40 95/12W 4000K (Mã RD593) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD593 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd591",
+    "sku": "RD591",
+    "name": "Đèn LED Downlight AT41 86/12W 4000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 142068,
+    "catalogPrice": 142068,
+    "spec": "Mã RD591 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight AT41 86/12W 4000K (Mã RD591) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD591 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd542",
+    "sku": "RD542",
+    "name": "Đèn LED Downlight đổi màu AT26 90/8W (G)",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 85058,
+    "catalogPrice": 85058,
+    "spec": "Mã RD542 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight đổi màu AT26 90/8W (G) (Mã RD542) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD542 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd543",
+    "sku": "RD543",
+    "name": "Đèn LED Downlight đổi màu AT26 90/10W (G)",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 89017,
+    "catalogPrice": 89017,
+    "spec": "Mã RD543 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight đổi màu AT26 90/10W (G) (Mã RD543) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD543 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd544",
+    "sku": "RD544",
+    "name": "Đèn LED Downlight đổi màu AT26 110/10W (G)",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 101214,
+    "catalogPrice": 101214,
+    "spec": "Mã RD544 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight đổi màu AT26 110/10W (G) (Mã RD544) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD544 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd541",
+    "sku": "RD541",
+    "name": "Đèn LED Downlight đổi màu AT26 110/12W (G)",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 103996,
+    "catalogPrice": 103996,
+    "spec": "Mã RD541 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight đổi màu AT26 110/12W (G) (Mã RD541) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD541 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd558",
+    "sku": "RD558",
+    "name": "Đèn LED Downlight AT58 90/8W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 65726,
+    "catalogPrice": 65726,
+    "spec": "Mã RD558 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-ban-nguyet-rang-dong.jpg",
+    "desc": "Đèn LED Downlight AT58 90/8W 6500K (Mã RD558) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD558 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd556",
+    "sku": "RD556",
+    "name": "Đèn LED Downlight AT58 90/10W 3000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 71106,
+    "catalogPrice": 71106,
+    "spec": "Mã RD556 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-ban-nguyet-rang-dong.jpg",
+    "desc": "Đèn LED Downlight AT58 90/10W 3000K (Mã RD556) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD556 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd555",
+    "sku": "RD555",
+    "name": "Đèn LED Downlight AT58 90/10W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 71106,
+    "catalogPrice": 71106,
+    "spec": "Mã RD555 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-ban-nguyet-rang-dong.jpg",
+    "desc": "Đèn LED Downlight AT58 90/10W 6500K (Mã RD555) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD555 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd552a",
+    "sku": "RD552A",
+    "name": "Đèn LED Downlight đổi màu AT58 90/8W (G)",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 72007,
+    "catalogPrice": 72007,
+    "spec": "Mã RD552A - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-ban-nguyet-rang-dong.jpg",
+    "desc": "Đèn LED Downlight đổi màu AT58 90/8W (G) (Mã RD552A) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD552A (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd552",
+    "sku": "RD552",
+    "name": "Đèn LED Downlight đổi màu AT58 90/10W (G)",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 78574,
+    "catalogPrice": 78574,
+    "spec": "Mã RD552 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-ban-nguyet-rang-dong.jpg",
+    "desc": "Đèn LED Downlight đổi màu AT58 90/10W (G) (Mã RD552) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD552 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd5521",
+    "sku": "RD5521",
+    "name": "Đèn LED Downlight đổi màu AT58 110/10W (G)",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 100594,
+    "catalogPrice": 100594,
+    "spec": "Mã RD5521 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-ban-nguyet-rang-dong.jpg",
+    "desc": "Đèn LED Downlight đổi màu AT58 110/10W (G) (Mã RD5521) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD5521 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd60",
+    "sku": "RD60",
+    "name": "Đèn LED Downlight nổi trần NT01 90/10W 4000K (trắng)",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 173322,
+    "catalogPrice": 173322,
+    "spec": "Mã RD60 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight nổi trần NT01 90/10W 4000K (trắng) (Mã RD60) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD60 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd601",
+    "sku": "RD601",
+    "name": "Đèn LED Downlight nổi trần NT01 110/10W 6500K (trắng)",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 200338,
+    "catalogPrice": 200338,
+    "spec": "Mã RD601 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight nổi trần NT01 110/10W 6500K (trắng) (Mã RD601) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD601 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd602",
+    "sku": "RD602",
+    "name": "Đèn LED Downlight nổi trần NT01 110/15W 4000K (trắng)",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 211213,
+    "catalogPrice": 211213,
+    "spec": "Mã RD602 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight nổi trần NT01 110/15W 4000K (trắng) (Mã RD602) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD602 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd6061",
+    "sku": "RD6061",
+    "name": "Đèn LED Downlight nổi trần NT03 120/10W 6500K (Trắng)",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 81983,
+    "catalogPrice": 81983,
+    "spec": "Mã RD6061 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight nổi trần NT03 120/10W 6500K (Trắng) (Mã RD6061) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD6061 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd6071",
+    "sku": "RD6071",
+    "name": "Đèn LED Downlight nổi trần NT03 120/12W 6500K (Trắng)",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 86544,
+    "catalogPrice": 86544,
+    "spec": "Mã RD6071 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight nổi trần NT03 120/12W 6500K (Trắng) (Mã RD6071) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD6071 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd606",
+    "sku": "RD606",
+    "name": "Đèn LED Downlight nổi trần đổi màu NT03 120/10W (Trắng)",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 105256,
+    "catalogPrice": 105256,
+    "spec": "Mã RD606 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight nổi trần đổi màu NT03 120/10W (Trắng) (Mã RD606) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD606 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd607",
+    "sku": "RD607",
+    "name": "Đèn LED Downlight nổi trần đổi màu NT03 120/12W (Trắng)",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 110051,
+    "catalogPrice": 110051,
+    "spec": "Mã RD607 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Downlight nổi trần đổi màu NT03 120/12W (Trắng) (Mã RD607) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD607 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rb30",
+    "sku": "RB30",
+    "name": "Bóng LED Tube T8 600/10W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 88468,
+    "catalogPrice": 88468,
+    "spec": "Mã RB30 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-ban-nguyet-rang-dong.jpg",
+    "desc": "Bóng LED Tube T8 600/10W 6500K (Mã RB30) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RB30 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rb32",
+    "sku": "RB32",
+    "name": "Bóng LED Tube T8 TT01 600/10W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 45680,
+    "catalogPrice": 45680,
+    "spec": "Mã RB32 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-ban-nguyet-rang-dong.jpg",
+    "desc": "Bóng LED Tube T8 TT01 600/10W 6500K (Mã RB32) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RB32 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rb31",
+    "sku": "RB31",
+    "name": "Bóng LED Tube T8 1200/20W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 135474,
+    "catalogPrice": 135474,
+    "spec": "Mã RB31 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-ban-nguyet-rang-dong.jpg",
+    "desc": "Bóng LED Tube T8 1200/20W 6500K (Mã RB31) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RB31 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd-bong-led-tub",
+    "sku": "RD-BONG-LED-TUB",
+    "name": "Bóng LED Tube T8 1200/20W 3000K LPF SS",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 135474,
+    "catalogPrice": 135474,
+    "spec": "Mã RD-BONG-LED-TUB - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-ban-nguyet-rang-dong.jpg",
+    "desc": "Bóng LED Tube T8 1200/20W 3000K LPF SS (Mã RD-BONG-LED-TUB) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD-BONG-LED-TUB (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rb33",
+    "sku": "RB33",
+    "name": "Bóng LED Tube T8 TT01 1200/20W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 54118,
+    "catalogPrice": 54118,
+    "spec": "Mã RB33 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-ban-nguyet-rang-dong.jpg",
+    "desc": "Bóng LED Tube T8 TT01 1200/20W 6500K (Mã RB33) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RB33 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rm01",
+    "sku": "RM01",
+    "name": "Bộ đèn LED Tube T8 M11/10Wx1 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 130384,
+    "catalogPrice": 130384,
+    "spec": "Mã RM01 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-ban-nguyet-rang-dong.jpg",
+    "desc": "Bộ đèn LED Tube T8 M11/10Wx1 6500K (Mã RM01) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RM01 (Bộ)"
+    ]
+  },
+  {
+    "id": "rang-dong-rm02",
+    "sku": "RM02",
+    "name": "Bộ đèn LED Tube T8 M11/20Wx1 6500K (LPF)",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 192313,
+    "catalogPrice": 192313,
+    "spec": "Mã RM02 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-ban-nguyet-rang-dong.jpg",
+    "desc": "Bộ đèn LED Tube T8 M11/20Wx1 6500K (LPF) (Mã RM02) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RM02 (Bộ)"
+    ]
+  },
+  {
+    "id": "rang-dong-rm04",
+    "sku": "RM04",
+    "name": "Bộ đèn LED Tube T8 TT01 M21.1/10Wx1 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 73748,
+    "catalogPrice": 73748,
+    "spec": "Mã RM04 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-ban-nguyet-rang-dong.jpg",
+    "desc": "Bộ đèn LED Tube T8 TT01 M21.1/10Wx1 6500K (Mã RM04) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RM04 (Bộ)"
+    ]
+  },
+  {
+    "id": "rang-dong-rm05",
+    "sku": "RM05",
+    "name": "Bộ đèn LED Tube T8 TT01 M21.1/20Wx1 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 93571,
+    "catalogPrice": 93571,
+    "spec": "Mã RM05 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-ban-nguyet-rang-dong.jpg",
+    "desc": "Bộ đèn LED Tube T8 TT01 M21.1/20Wx1 6500K (Mã RM05) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RM05 (Bộ)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd-bo-den-led-t",
+    "sku": "RD-BO-DEN-LED-T",
+    "name": "Bộ đèn LED Tube T8 N02 M21.1/20Wx1 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 566093,
+    "catalogPrice": 566093,
+    "spec": "Mã RD-BO-DEN-LED-T - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-ban-nguyet-rang-dong.jpg",
+    "desc": "Bộ đèn LED Tube T8 N02 M21.1/20Wx1 6500K (Mã RD-BO-DEN-LED-T) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD-BO-DEN-LED-T (Bộ)"
+    ]
+  },
+  {
+    "id": "rang-dong-rm17a",
+    "sku": "RM17A",
+    "name": "Bộ đèn LED Tube T5 LT03 1200/16W 6500K SS",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 115123,
+    "catalogPrice": 115123,
+    "spec": "Mã RM17A - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-ban-nguyet-rang-dong.jpg",
+    "desc": "Bộ đèn LED Tube T5 LT03 1200/16W 6500K SS (Mã RM17A) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RM17A (Bộ)"
+    ]
+  },
+  {
+    "id": "rang-dong-rm17",
+    "sku": "RM17",
+    "name": "Bộ đèn LED Tube T5 LT03 600/8W 6500K SS",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 81744,
+    "catalogPrice": 81744,
+    "spec": "Mã RM17 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-ban-nguyet-rang-dong.jpg",
+    "desc": "Bộ đèn LED Tube T5 LT03 600/8W 6500K SS (Mã RM17) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RM17 (Bộ)"
+    ]
+  },
+  {
+    "id": "rang-dong-rm17b",
+    "sku": "RM17B",
+    "name": "Bộ đèn LED Tube T5 LT03 300/4W 6500K SS",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 73460,
+    "catalogPrice": 73460,
+    "spec": "Mã RM17B - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-ban-nguyet-rang-dong.jpg",
+    "desc": "Bộ đèn LED Tube T5 LT03 300/4W 6500K SS (Mã RM17B) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RM17B (Bộ)"
+    ]
+  },
+  {
+    "id": "rang-dong-rm43d",
+    "sku": "RM43D",
+    "name": "Bộ đèn LED Tube T8 CA01/20Wx1 6500K SS",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 469333,
+    "catalogPrice": 469333,
+    "spec": "Mã RM43D - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-ban-nguyet-rang-dong.jpg",
+    "desc": "Bộ đèn LED Tube T8 CA01/20Wx1 6500K SS (Mã RM43D) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RM43D (Bộ)"
+    ]
+  },
+  {
+    "id": "rang-dong-rm43f",
+    "sku": "RM43F",
+    "name": "Bộ đèn LED Tube T8 CA01/20Wx2 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 650320,
+    "catalogPrice": 650320,
+    "spec": "Mã RM43F - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-ban-nguyet-rang-dong.jpg",
+    "desc": "Bộ đèn LED Tube T8 CA01/20Wx2 6500K (Mã RM43F) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RM43F (Bộ)"
+    ]
+  },
+  {
+    "id": "rang-dong-rm43h",
+    "sku": "RM43H",
+    "name": "Bộ đèn LED Tube T8 TT01 CA01/20Wx1 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 422794,
+    "catalogPrice": 422794,
+    "spec": "Mã RM43H - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-ban-nguyet-rang-dong.jpg",
+    "desc": "Bộ đèn LED Tube T8 TT01 CA01/20Wx1 6500K (Mã RM43H) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RM43H (Bộ)"
+    ]
+  },
+  {
+    "id": "rang-dong-rm43t",
+    "sku": "RM43T",
+    "name": "Bộ đèn LED Tube T8 TT01 CA01/20Wx2 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 555887,
+    "catalogPrice": 555887,
+    "spec": "Mã RM43T - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-ban-nguyet-rang-dong.jpg",
+    "desc": "Bộ đèn LED Tube T8 TT01 CA01/20Wx2 6500K (Mã RM43T) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RM43T (Bộ)"
+    ]
+  },
+  {
+    "id": "rang-dong-rm45i",
+    "sku": "RM45I",
+    "name": "Bộ đèn LED Tube T8 TT01 CA02/20Wx2 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 421070,
+    "catalogPrice": 421070,
+    "spec": "Mã RM45I - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-ban-nguyet-rang-dong.jpg",
+    "desc": "Bộ đèn LED Tube T8 TT01 CA02/20Wx2 6500K (Mã RM45I) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RM45I (Bộ)"
+    ]
+  },
+  {
+    "id": "rang-dong-rm450",
+    "sku": "RM450",
+    "name": "Bộ đèn LED Tube T8 TT01 CA02/20Wx1 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 316418,
+    "catalogPrice": 316418,
+    "spec": "Mã RM450 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-ban-nguyet-rang-dong.jpg",
+    "desc": "Bộ đèn LED Tube T8 TT01 CA02/20Wx1 6500K (Mã RM450) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RM450 (Bộ)"
+    ]
+  },
+  {
+    "id": "rang-dong-rm12a",
+    "sku": "RM12A",
+    "name": "Bộ đèn LED M26 300/9W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 89094,
+    "catalogPrice": 89094,
+    "spec": "Mã RM12A - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bộ đèn LED M26 300/9W 6500K (Mã RM12A) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RM12A (Bộ)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd-bo-den-led-m",
+    "sku": "RD-BO-DEN-LED-M",
+    "name": "Bộ đèn LED M26 300/9W 3000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 162774,
+    "catalogPrice": 162774,
+    "spec": "Mã RD-BO-DEN-LED-M - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bộ đèn LED M26 300/9W 3000K (Mã RD-BO-DEN-LED-M) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD-BO-DEN-LED-M (Bộ)"
+    ]
+  },
+  {
+    "id": "rang-dong-rm12c",
+    "sku": "RM12C",
+    "name": "Bộ đèn LED M26 600/25W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 105480,
+    "catalogPrice": 105480,
+    "spec": "Mã RM12C - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bộ đèn LED M26 600/25W 6500K (Mã RM12C) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RM12C (Bộ)"
+    ]
+  },
+  {
+    "id": "rang-dong-rm12b",
+    "sku": "RM12B",
+    "name": "Bộ đèn LED M26 1200/50W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 162774,
+    "catalogPrice": 162774,
+    "spec": "Mã RM12B - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bộ đèn LED M26 1200/50W 6500K (Mã RM12B) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RM12B (Bộ)"
+    ]
+  },
+  {
+    "id": "rang-dong-rm13",
+    "sku": "RM13",
+    "name": "Bộ đèn LED đổi màu M26 1200/40W",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 195545,
+    "catalogPrice": 195545,
+    "spec": "Mã RM13 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bộ đèn LED đổi màu M26 1200/40W (Mã RM13) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RM13 (Bộ)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd-bo-den-led-d",
+    "sku": "RD-BO-DEN-LED-D",
+    "name": "Bộ đèn LED đổi màu M26 1200/50W",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 195545,
+    "catalogPrice": 195545,
+    "spec": "Mã RD-BO-DEN-LED-D - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bộ đèn LED đổi màu M26 1200/50W (Mã RD-BO-DEN-LED-D) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD-BO-DEN-LED-D (Bộ)"
+    ]
+  },
+  {
+    "id": "rang-dong-rm14c",
+    "sku": "RM14C",
+    "name": "Bộ đèn LED M36 600/25W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 105480,
+    "catalogPrice": 105480,
+    "spec": "Mã RM14C - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bộ đèn LED M36 600/25W 6500K (Mã RM14C) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RM14C (Bộ)"
+    ]
+  },
+  {
+    "id": "rang-dong-rm141",
+    "sku": "RM141",
+    "name": "Bộ đèn LED M36 1200/50W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 162774,
+    "catalogPrice": 162774,
+    "spec": "Mã RM141 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bộ đèn LED M36 1200/50W 6500K (Mã RM141) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RM141 (Bộ)"
+    ]
+  },
+  {
+    "id": "rang-dong-rm05d",
+    "sku": "RM05D",
+    "name": "Bộ đèn LED M66 1200/60W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 187244,
+    "catalogPrice": 187244,
+    "spec": "Mã RM05D - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bộ đèn LED M66 1200/60W 6500K (Mã RM05D) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RM05D (Bộ)"
+    ]
+  },
+  {
+    "id": "rang-dong-rm05h",
+    "sku": "RM05H",
+    "name": "Bộ đèn LED M66 1200/60W 3000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 187244,
+    "catalogPrice": 187244,
+    "spec": "Mã RM05H - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bộ đèn LED M66 1200/60W 3000K (Mã RM05H) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RM05H (Bộ)"
+    ]
+  },
+  {
+    "id": "rang-dong-rb03v",
+    "sku": "RB03V",
+    "name": "Bóng LED Bulb A45N1/3W E27 3000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 22297,
+    "catalogPrice": 22297,
+    "spec": "Mã RB03V - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bóng LED Bulb A45N1/3W E27 3000K (Mã RB03V) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RB03V (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rb03",
+    "sku": "RB03",
+    "name": "Bóng LED Bulb A45N1/3W E27 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 22297,
+    "catalogPrice": 22297,
+    "spec": "Mã RB03 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bóng LED Bulb A45N1/3W E27 6500K (Mã RB03) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RB03 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd-led-bulb-led",
+    "sku": "RD-LED-BULB-LED",
+    "name": "LED BULB (LED A60N 12VDC/3W)-Trắng S",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 32348,
+    "catalogPrice": 32348,
+    "spec": "Mã RD-LED-BULB-LED - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "LED BULB (LED A60N 12VDC/3W)-Trắng S (Mã RD-LED-BULB-LED) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD-LED-BULB-LED (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rb04",
+    "sku": "RB04",
+    "name": "Bóng LED Bulb A55N4/5W E27 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 28420,
+    "catalogPrice": 28420,
+    "spec": "Mã RB04 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bóng LED Bulb A55N4/5W E27 6500K (Mã RB04) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RB04 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rb04v",
+    "sku": "RB04V",
+    "name": "Bóng LED Bulb A55N4/5W E27 3000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 28420,
+    "catalogPrice": 28420,
+    "spec": "Mã RB04V - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bóng LED Bulb A55N4/5W E27 3000K (Mã RB04V) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RB04V (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rb05",
+    "sku": "RB05",
+    "name": "Bóng LED Bulb A60N3/7W.H E27 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 32810,
+    "catalogPrice": 32810,
+    "spec": "Mã RB05 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bóng LED Bulb A60N3/7W.H E27 6500K (Mã RB05) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RB05 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rb05v",
+    "sku": "RB05V",
+    "name": "Bóng LED Bulb A60N3/7W.H E27 3000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 32810,
+    "catalogPrice": 32810,
+    "spec": "Mã RB05V - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bóng LED Bulb A60N3/7W.H E27 3000K (Mã RB05V) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RB05V (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rb06",
+    "sku": "RB06",
+    "name": "Bóng LED Bulb A60N1/9W.H E27 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 38356,
+    "catalogPrice": 38356,
+    "spec": "Mã RB06 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bóng LED Bulb A60N1/9W.H E27 6500K (Mã RB06) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RB06 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rb06v",
+    "sku": "RB06V",
+    "name": "Bóng LED Bulb A60N1/9W.H E27 3000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 38356,
+    "catalogPrice": 38356,
+    "spec": "Mã RB06V - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bóng LED Bulb A60N1/9W.H E27 3000K (Mã RB06V) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RB06V (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rb04x",
+    "sku": "RB04X",
+    "name": "Bóng LED Bulb TR60N2/10W E27 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 41821,
+    "catalogPrice": 41821,
+    "spec": "Mã RB04X - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bóng LED Bulb TR60N2/10W E27 6500K (Mã RB04X) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RB04X (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd-bong-led-bul",
+    "sku": "RD-BONG-LED-BUL",
+    "name": "Bóng LED Bulb TR60N2/10W E27 3000K SS",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 260461,
+    "catalogPrice": 260461,
+    "spec": "Mã RD-BONG-LED-BUL - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bóng LED Bulb TR60N2/10W E27 3000K SS (Mã RD-BONG-LED-BUL) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD-BONG-LED-BUL (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rb07",
+    "sku": "RB07",
+    "name": "Bóng LED Bulb A70N1/12W E27 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 47021,
+    "catalogPrice": 47021,
+    "spec": "Mã RB07 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bóng LED Bulb A70N1/12W E27 6500K (Mã RB07) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RB07 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rb07v",
+    "sku": "RB07V",
+    "name": "Bóng LED Bulb A70N1/12W E27 3000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 47021,
+    "catalogPrice": 47021,
+    "spec": "Mã RB07V - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bóng LED Bulb A70N1/12W E27 3000K (Mã RB07V) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RB07V (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rb08",
+    "sku": "RB08",
+    "name": "Bóng LED Bulb A80N1/15W E27 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 60035,
+    "catalogPrice": 60035,
+    "spec": "Mã RB08 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bóng LED Bulb A80N1/15W E27 6500K (Mã RB08) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RB08 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rb08v",
+    "sku": "RB08V",
+    "name": "Bóng LED Bulb A80N1/15W E27 3000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 60035,
+    "catalogPrice": 60035,
+    "spec": "Mã RB08V - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bóng LED Bulb A80N1/15W E27 3000K (Mã RB08V) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RB08V (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rb11",
+    "sku": "RB11",
+    "name": "Bóng LED Bulb A95N1/20W E27 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 78839,
+    "catalogPrice": 78839,
+    "spec": "Mã RB11 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bóng LED Bulb A95N1/20W E27 6500K (Mã RB11) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RB11 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rb11v",
+    "sku": "RB11V",
+    "name": "Bóng LED Bulb A95N1/20W E27 3000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 78839,
+    "catalogPrice": 78839,
+    "spec": "Mã RB11V - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bóng LED Bulb A95N1/20W E27 3000K (Mã RB11V) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RB11V (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rb11t",
+    "sku": "RB11T",
+    "name": "Bóng LED Bulb TR80N1/20W E27 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 78722,
+    "catalogPrice": 78722,
+    "spec": "Mã RB11T - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bóng LED Bulb TR80N1/20W E27 6500K (Mã RB11T) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RB11T (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rb12",
+    "sku": "RB12",
+    "name": "Bóng LED Bulb A120N1/30W E27 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 105703,
+    "catalogPrice": 105703,
+    "spec": "Mã RB12 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bóng LED Bulb A120N1/30W E27 6500K (Mã RB12) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RB12 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rb12v",
+    "sku": "RB12V",
+    "name": "Bóng LED Bulb A120N1/30W E27 3000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 105703,
+    "catalogPrice": 105703,
+    "spec": "Mã RB12V - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bóng LED Bulb A120N1/30W E27 3000K (Mã RB12V) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RB12V (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rb12t",
+    "sku": "RB12T",
+    "name": "Bóng LED Bulb TR100N1/30W E27 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 105703,
+    "catalogPrice": 105703,
+    "spec": "Mã RB12T - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bóng LED Bulb TR100N1/30W E27 6500K (Mã RB12T) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RB12T (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rb13",
+    "sku": "RB13",
+    "name": "Bóng LED Bulb TR120N1/40W E27 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 138757,
+    "catalogPrice": 138757,
+    "spec": "Mã RB13 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bóng LED Bulb TR120N1/40W E27 6500K (Mã RB13) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RB13 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rb13v",
+    "sku": "RB13V",
+    "name": "Bóng LED Bulb TR120N1/40W E27 3000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 138757,
+    "catalogPrice": 138757,
+    "spec": "Mã RB13V - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bóng LED Bulb TR120N1/40W E27 3000K (Mã RB13V) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RB13V (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rb14",
+    "sku": "RB14",
+    "name": "Bóng LED Bulb TR140N1/50W E27 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 166205,
+    "catalogPrice": 166205,
+    "spec": "Mã RB14 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bóng LED Bulb TR140N1/50W E27 6500K (Mã RB14) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RB14 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rb14v",
+    "sku": "RB14V",
+    "name": "Bóng LED Bulb TR140N1/50W E27 3000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 166205,
+    "catalogPrice": 166205,
+    "spec": "Mã RB14V - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bóng LED Bulb TR140N1/50W E27 3000K (Mã RB14V) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RB14V (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rb15",
+    "sku": "RB15",
+    "name": "Bóng LED Bulb TR135NĐ1/60W E27 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 236167,
+    "catalogPrice": 236167,
+    "spec": "Mã RB15 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bóng LED Bulb TR135NĐ1/60W E27 6500K (Mã RB15) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RB15 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rb16",
+    "sku": "RB16",
+    "name": "Bóng LED Bulb TR135/80W E27 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 260461,
+    "catalogPrice": 260461,
+    "spec": "Mã RB16 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bóng LED Bulb TR135/80W E27 6500K (Mã RB16) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RB16 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp46b",
+    "sku": "RP46B",
+    "name": "Đèn LED Panel P06 600x600/50W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 533434,
+    "catalogPrice": 533434,
+    "spec": "Mã RP46B - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Panel P06 600x600/50W 6500K (Mã RP46B) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP46B (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd-den-led-pane",
+    "sku": "RD-DEN-LED-PANE",
+    "name": "Đèn LED Panel P06 600x600/50W 3000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 600904,
+    "catalogPrice": 600904,
+    "spec": "Mã RD-DEN-LED-PANE - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Panel P06 600x600/50W 3000K (Mã RD-DEN-LED-PANE) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD-DEN-LED-PANE (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp46v",
+    "sku": "RP46V",
+    "name": "Đèn LED Panel P06 300x1200/50W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 533434,
+    "catalogPrice": 533434,
+    "spec": "Mã RP46V - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Panel P06 300x1200/50W 6500K (Mã RP46V) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP46V (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp56",
+    "sku": "RP56",
+    "name": "Đèn LED Panel P06 320x1280/50W 6500K (Nổi trần)",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 533434,
+    "catalogPrice": 533434,
+    "spec": "Mã RP56 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Panel P06 320x1280/50W 6500K (Nổi trần) (Mã RP56) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP56 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp561",
+    "sku": "RP561",
+    "name": "Đèn LED Panel P06 640x640/50W 6500K (Nổi trần)",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 533434,
+    "catalogPrice": 533434,
+    "spec": "Mã RP561 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Panel P06 640x640/50W 6500K (Nổi trần) (Mã RP561) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP561 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp451",
+    "sku": "RP451",
+    "name": "Đèn LED Panel P08 600x600/50W 3000K (KPK) SS",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 715392,
+    "catalogPrice": 715392,
+    "spec": "Mã RP451 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Panel P08 600x600/50W 3000K (KPK) SS (Mã RP451) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP451 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp33a",
+    "sku": "RP33A",
+    "name": "Đèn LED Panel P08 300x1200/50W 6500K (KPK) SS",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 715392,
+    "catalogPrice": 715392,
+    "spec": "Mã RP33A - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Panel P08 300x1200/50W 6500K (KPK) SS (Mã RP33A) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP33A (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rp44",
+    "sku": "RP44",
+    "name": "Đèn LED Panel P08 600x1200/100W 6500K (KPK)",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 1433117,
+    "catalogPrice": 1433117,
+    "spec": "Mã RP44 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED Panel P08 600x1200/100W 6500K (KPK) (Mã RP44) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RP44 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro02",
+    "sku": "RO02",
+    "name": "Đèn LED ốp trần LN12 170/15W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 158936,
+    "catalogPrice": 158936,
+    "spec": "Mã RO02 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED ốp trần LN12 170/15W 6500K (Mã RO02) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO02 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro04",
+    "sku": "RO04",
+    "name": "Đèn LED ốp trần LN12 220/22W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 215190,
+    "catalogPrice": 215190,
+    "spec": "Mã RO04 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED ốp trần LN12 220/22W 6500K (Mã RO04) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO04 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro06",
+    "sku": "RO06",
+    "name": "Đèn LED ốp trần LN12 300/30W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 263140,
+    "catalogPrice": 263140,
+    "spec": "Mã RO06 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED ốp trần LN12 300/30W 6500K (Mã RO06) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO06 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro020",
+    "sku": "RO020",
+    "name": "Đèn LED ốp trần LN12 170x170/15W 6500K SS",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 158936,
+    "catalogPrice": 158936,
+    "spec": "Mã RO020 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED ốp trần LN12 170x170/15W 6500K SS (Mã RO020) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO020 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro040",
+    "sku": "RO040",
+    "name": "Đèn LED ốp trần LN12 220x220/22W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 222792,
+    "catalogPrice": 222792,
+    "spec": "Mã RO040 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED ốp trần LN12 220x220/22W 6500K (Mã RO040) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO040 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro060",
+    "sku": "RO060",
+    "name": "Đèn LED ốp trần LN12 300x300/30W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 281852,
+    "catalogPrice": 281852,
+    "spec": "Mã RO060 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED ốp trần LN12 300x300/30W 6500K (Mã RO060) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO060 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro01",
+    "sku": "RO01",
+    "name": "Đèn LED ốp trần LN12N 170/12W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 130166,
+    "catalogPrice": 130166,
+    "spec": "Mã RO01 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED ốp trần LN12N 170/12W 6500K (Mã RO01) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd-den-led-op-t",
+    "sku": "RD-DEN-LED-OP-T",
+    "name": "Đèn LED ốp trần LN12N 170/12W 4000K SS",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 71280,
+    "catalogPrice": 71280,
+    "spec": "Mã RD-DEN-LED-OP-T - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED ốp trần LN12N 170/12W 4000K SS (Mã RD-DEN-LED-OP-T) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD-DEN-LED-OP-T (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro010",
+    "sku": "RO010",
+    "name": "Đèn LED ốp trần LN12N 170x170/12W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 130166,
+    "catalogPrice": 130166,
+    "spec": "Mã RO010 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED ốp trần LN12N 170x170/12W 6500K (Mã RO010) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO010 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro03",
+    "sku": "RO03",
+    "name": "Đèn LED ốp trần LN12N 220/18W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 177649,
+    "catalogPrice": 177649,
+    "spec": "Mã RO03 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED ốp trần LN12N 220/18W 6500K (Mã RO03) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO03 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro030",
+    "sku": "RO030",
+    "name": "Đèn LED ốp trần LN12N 220x220/18W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 177649,
+    "catalogPrice": 177649,
+    "spec": "Mã RO030 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED ốp trần LN12N 220x220/18W 6500K (Mã RO030) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO030 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro05",
+    "sku": "RO05",
+    "name": "Đèn LED ốp trần LN12N 300/24W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 221506,
+    "catalogPrice": 221506,
+    "spec": "Mã RO05 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED ốp trần LN12N 300/24W 6500K (Mã RO05) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO05 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro050",
+    "sku": "RO050",
+    "name": "Đèn LED ốp trần LN12N 300x300/24W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 221506,
+    "catalogPrice": 221506,
+    "spec": "Mã RO050 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED ốp trần LN12N 300x300/24W 6500K (Mã RO050) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO050 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro830",
+    "sku": "RO830",
+    "name": "Đèn LED ốp trần LN16 540x540/40W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 550840,
+    "catalogPrice": 550840,
+    "spec": "Mã RO830 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED ốp trần LN16 540x540/40W 6500K (Mã RO830) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO830 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro20",
+    "sku": "RO20",
+    "name": "Đèn LED ốp trần LN29N 170/12W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 135196,
+    "catalogPrice": 135196,
+    "spec": "Mã RO20 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED ốp trần LN29N 170/12W 6500K (Mã RO20) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO20 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro21",
+    "sku": "RO21",
+    "name": "Đèn LED ốp trần LN29N 220/18W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 177649,
+    "catalogPrice": 177649,
+    "spec": "Mã RO21 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED ốp trần LN29N 220/18W 6500K (Mã RO21) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO21 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro22",
+    "sku": "RO22",
+    "name": "Đèn LED ốp trần LN29N 300/24W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 221506,
+    "catalogPrice": 221506,
+    "spec": "Mã RO22 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED ốp trần LN29N 300/24W 6500K (Mã RO22) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO22 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro200",
+    "sku": "RO200",
+    "name": "Đèn LED ốp trần LN29N 170x170/12W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 135196,
+    "catalogPrice": 135196,
+    "spec": "Mã RO200 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED ốp trần LN29N 170x170/12W 6500K (Mã RO200) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO200 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro210",
+    "sku": "RO210",
+    "name": "Đèn LED ốp trần LN29N 220x220/18W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 177649,
+    "catalogPrice": 177649,
+    "spec": "Mã RO210 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED ốp trần LN29N 220x220/18W 6500K (Mã RO210) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO210 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro220",
+    "sku": "RO220",
+    "name": "Đèn LED ốp trần LN29N 300x300/24W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 221506,
+    "catalogPrice": 221506,
+    "spec": "Mã RO220 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED ốp trần LN29N 300x300/24W 6500K (Mã RO220) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO220 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro061",
+    "sku": "RO061",
+    "name": "Đèn LED ốp trần đổi màu LN12 300/30W",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 322784,
+    "catalogPrice": 322784,
+    "spec": "Mã RO061 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED ốp trần đổi màu LN12 300/30W (Mã RO061) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO061 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro062",
+    "sku": "RO062",
+    "name": "Đèn LED ốp trần đổi màu LN12 300x300/30W",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 322784,
+    "catalogPrice": 322784,
+    "spec": "Mã RO062 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED ốp trần đổi màu LN12 300x300/30W (Mã RO062) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO062 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro01c",
+    "sku": "RO01C",
+    "name": "Đèn LED ốp trần đổi màu LN12N 170/12W",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 151452,
+    "catalogPrice": 151452,
+    "spec": "Mã RO01C - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED ốp trần đổi màu LN12N 170/12W (Mã RO01C) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO01C (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro03a",
+    "sku": "RO03A",
+    "name": "Đèn LED ốp trần đổi màu LN12N 220/18W",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 225247,
+    "catalogPrice": 225247,
+    "spec": "Mã RO03A - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED ốp trần đổi màu LN12N 220/18W (Mã RO03A) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO03A (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro051",
+    "sku": "RO051",
+    "name": "Đèn LED ốp trần đổi màu LN12N 300/24W",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 274835,
+    "catalogPrice": 274835,
+    "spec": "Mã RO051 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED ốp trần đổi màu LN12N 300/24W (Mã RO051) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO051 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro01d",
+    "sku": "RO01D",
+    "name": "Đèn LED ốp trần đổi màu LN12N 170x170/12W",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 151452,
+    "catalogPrice": 151452,
+    "spec": "Mã RO01D - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED ốp trần đổi màu LN12N 170x170/12W (Mã RO01D) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO01D (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro031",
+    "sku": "RO031",
+    "name": "Đèn LED ốp trần đổi màu LN12N 220x220/18W",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 225247,
+    "catalogPrice": 225247,
+    "spec": "Mã RO031 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED ốp trần đổi màu LN12N 220x220/18W (Mã RO031) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO031 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro052",
+    "sku": "RO052",
+    "name": "Đèn LED ốp trần đổi màu LN12N 300x300/24W",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 274835,
+    "catalogPrice": 274835,
+    "spec": "Mã RO052 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED ốp trần đổi màu LN12N 300x300/24W (Mã RO052) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO052 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro201",
+    "sku": "RO201",
+    "name": "Đèn LED ốp trần đổi màu LN29N 170/12W",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 151452,
+    "catalogPrice": 151452,
+    "spec": "Mã RO201 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED ốp trần đổi màu LN29N 170/12W (Mã RO201) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO201 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro211",
+    "sku": "RO211",
+    "name": "Đèn LED ốp trần đổi màu LN29N 220/18W",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 215190,
+    "catalogPrice": 215190,
+    "spec": "Mã RO211 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED ốp trần đổi màu LN29N 220/18W (Mã RO211) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO211 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro221",
+    "sku": "RO221",
+    "name": "Đèn LED ốp trần đổi màu LN29N 300/24W",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 274835,
+    "catalogPrice": 274835,
+    "spec": "Mã RO221 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED ốp trần đổi màu LN29N 300/24W (Mã RO221) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO221 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro202",
+    "sku": "RO202",
+    "name": "Đèn LED ốp trần đổi màu LN29N 170x170/12W",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 151452,
+    "catalogPrice": 151452,
+    "spec": "Mã RO202 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED ốp trần đổi màu LN29N 170x170/12W (Mã RO202) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO202 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro212",
+    "sku": "RO212",
+    "name": "Đèn LED ốp trần đổi màu LN29N 220x220/18W",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 215190,
+    "catalogPrice": 215190,
+    "spec": "Mã RO212 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED ốp trần đổi màu LN29N 220x220/18W (Mã RO212) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO212 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro222",
+    "sku": "RO222",
+    "name": "Đèn LED ốp trần đổi màu LN29N 300x300/24W",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 274835,
+    "catalogPrice": 274835,
+    "spec": "Mã RO222 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED ốp trần đổi màu LN29N 300x300/24W (Mã RO222) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO222 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro6712",
+    "sku": "RO6712",
+    "name": "Đèn LED ốp trần LN12.RAD 220x220/18W (HL) 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 287700,
+    "catalogPrice": 287700,
+    "spec": "Mã RO6712 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED ốp trần LN12.RAD 220x220/18W (HL) 6500K (Mã RO6712) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO6712 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro6713",
+    "sku": "RO6713",
+    "name": "Đèn LED ốp trần LN12.RAD 220/18W (HL) 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 252614,
+    "catalogPrice": 252614,
+    "spec": "Mã RO6713 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED ốp trần LN12.RAD 220/18W (HL) 6500K (Mã RO6713) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO6713 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd06",
+    "sku": "RD06",
+    "name": "Đèn bàn LED bảo vệ thị lực RD-RL-19 5W 3000K SS",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 124687,
+    "catalogPrice": 124687,
+    "spec": "Mã RD06 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn bàn LED bảo vệ thị lực RD-RL-19 5W 3000K SS (Mã RD06) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD06 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd-den-ban-led",
+    "sku": "RD-DEN-BAN-LED-",
+    "name": "Đèn bàn LED cảm ứng RD-RL-18.LED E",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 252604,
+    "catalogPrice": 252604,
+    "spec": "Mã RD-DEN-BAN-LED- - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn bàn LED cảm ứng RD-RL-18.LED E (Mã RD-DEN-BAN-LED-) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD-DEN-BAN-LED- (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd051",
+    "sku": "RD051",
+    "name": "Đèn bàn LED bảo vệ thị lực RD-RL-16 5W 6500K SS",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 159175,
+    "catalogPrice": 159175,
+    "spec": "Mã RD051 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn bàn LED bảo vệ thị lực RD-RL-16 5W 6500K SS (Mã RD051) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD051 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd09",
+    "sku": "RD09",
+    "name": "Đèn bàn LED bảo vệ thị lực RD-RL-25 5W 3000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 128378,
+    "catalogPrice": 128378,
+    "spec": "Mã RD09 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn bàn LED bảo vệ thị lực RD-RL-25 5W 3000K (Mã RD09) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD09 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd10",
+    "sku": "RD10",
+    "name": "Đèn bàn LED bảo vệ thị lực RD-RL-26 5W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 128378,
+    "catalogPrice": 128378,
+    "spec": "Mã RD10 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn bàn LED bảo vệ thị lực RD-RL-26 5W 6500K (Mã RD10) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD10 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd133",
+    "sku": "RD133",
+    "name": "Đèn bàn LED bảo vệ thị lực RD-RL-38 6W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 159175,
+    "catalogPrice": 159175,
+    "spec": "Mã RD133 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn bàn LED bảo vệ thị lực RD-RL-38 6W 6500K (Mã RD133) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD133 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd131",
+    "sku": "RD131",
+    "name": "Đèn bàn LED bảo vệ thị lực RD-RL-32 5W 3000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 133338,
+    "catalogPrice": 133338,
+    "spec": "Mã RD131 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn bàn LED bảo vệ thị lực RD-RL-32 5W 3000K (Mã RD131) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD131 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd11",
+    "sku": "RD11",
+    "name": "Đèn bàn LED bảo vệ thị lực RD-RL-27.V2 5W 3000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 128378,
+    "catalogPrice": 128378,
+    "spec": "Mã RD11 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn bàn LED bảo vệ thị lực RD-RL-27.V2 5W 3000K (Mã RD11) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD11 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd08",
+    "sku": "RD08",
+    "name": "Đèn bàn LED bảo vệ thị lực RD-RL-24.V2 5W 3000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 128378,
+    "catalogPrice": 128378,
+    "spec": "Mã RD08 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn bàn LED bảo vệ thị lực RD-RL-24.V2 5W 3000K (Mã RD08) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD08 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd01",
+    "sku": "RD01",
+    "name": "Đèn bàn LED bảo vệ thị lực RD-RL-01.V2 5W 3000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 119611,
+    "catalogPrice": 119611,
+    "spec": "Mã RD01 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn bàn LED bảo vệ thị lực RD-RL-01.V2 5W 3000K (Mã RD01) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd1351",
+    "sku": "RD1351",
+    "name": "Đèn bàn LED cảm ứng RD-RL-21 6W",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 312582,
+    "catalogPrice": 312582,
+    "spec": "Mã RD1351 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn bàn LED cảm ứng RD-RL-21 6W (Mã RD1351) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD1351 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd130",
+    "sku": "RD130",
+    "name": "Đèn bàn LED cảm ứng RD-RL-31 5W",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 290666,
+    "catalogPrice": 290666,
+    "spec": "Mã RD130 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn bàn LED cảm ứng RD-RL-31 5W (Mã RD130) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD130 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd135",
+    "sku": "RD135",
+    "name": "Đèn bàn LED cảm ứng RD-RL-20V2 6W SS",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 234494,
+    "catalogPrice": 234494,
+    "spec": "Mã RD135 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn bàn LED cảm ứng RD-RL-20V2 6W SS (Mã RD135) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD135 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd121",
+    "sku": "RD121",
+    "name": "Đèn bàn LED cảm ứng RD-RL-38.Plus 6W",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 209810,
+    "catalogPrice": 209810,
+    "spec": "Mã RD121 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn bàn LED cảm ứng RD-RL-38.Plus 6W (Mã RD121) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD121 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd123",
+    "sku": "RD123",
+    "name": "Đèn bàn LED cảm ứng RD-RL-41 6W",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 209810,
+    "catalogPrice": 209810,
+    "spec": "Mã RD123 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn bàn LED cảm ứng RD-RL-41 6W (Mã RD123) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD123 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd1361",
+    "sku": "RD1361",
+    "name": "Đèn bàn LED cảm ứng RD-RL-46 6W",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 234494,
+    "catalogPrice": 234494,
+    "spec": "Mã RD1361 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn bàn LED cảm ứng RD-RL-46 6W (Mã RD1361) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD1361 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd134",
+    "sku": "RD134",
+    "name": "Đèn bàn LED cảm ứng RD-RL-36 8W",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 216040,
+    "catalogPrice": 216040,
+    "spec": "Mã RD134 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn bàn LED cảm ứng RD-RL-36 8W (Mã RD134) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD134 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd136",
+    "sku": "RD136",
+    "name": "Đèn bàn LED cảm ứng RD-RL-45 8W",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 216040,
+    "catalogPrice": 216040,
+    "spec": "Mã RD136 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn bàn LED cảm ứng RD-RL-45 8W (Mã RD136) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD136 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd-rd135-den-ba",
+    "sku": "RD-RD135-DEN-BA",
+    "name": "Rd135 Đèn bàn LED cảm ứng RD-RL-20V2 8W",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 252604,
+    "catalogPrice": 252604,
+    "spec": "Mã RD-RD135-DEN-BA - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Rd135 Đèn bàn LED cảm ứng RD-RL-20V2 8W (Mã RD-RD135-DEN-BA) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD-RD135-DEN-BA (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd1362",
+    "sku": "RD1362",
+    "name": "Đèn bàn LED bảo vệ thị lực RD-RL-48 8W 3000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 128378,
+    "catalogPrice": 128378,
+    "spec": "Mã RD1362 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn bàn LED bảo vệ thị lực RD-RL-48 8W 3000K (Mã RD1362) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD1362 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rf04",
+    "sku": "RF04",
+    "name": "Đèn LED Chiếu pha CP06 70W 6500K SS",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 739710,
+    "catalogPrice": 739710,
+    "spec": "Mã RF04 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Chiếu pha CP06 70W 6500K SS (Mã RF04) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RF04 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd-den-led-chie",
+    "sku": "RD-DEN-LED-CHIE",
+    "name": "Đèn LED Chiếu pha CP06 70W 5000K SS",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 3969726,
+    "catalogPrice": 3969726,
+    "spec": "Mã RD-DEN-LED-CHIE - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Chiếu pha CP06 70W 5000K SS (Mã RD-DEN-LED-CHIE) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD-DEN-LED-CHIE (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rf05",
+    "sku": "RF05",
+    "name": "Đèn LED Chiếu pha CP06 100W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 1025867,
+    "catalogPrice": 1025867,
+    "spec": "Mã RF05 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Chiếu pha CP06 100W 6500K (Mã RF05) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RF05 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rf03",
+    "sku": "RF03",
+    "name": "Đèn LED Chiếu pha CP06 50W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 357413,
+    "catalogPrice": 357413,
+    "spec": "Mã RF03 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Chiếu pha CP06 50W 6500K (Mã RF03) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RF03 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rf00",
+    "sku": "RF00",
+    "name": "Đèn LED Chiếu pha CP06 10W 6500K SS",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 152466,
+    "catalogPrice": 152466,
+    "spec": "Mã RF00 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Chiếu pha CP06 10W 6500K SS (Mã RF00) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RF00 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rf01",
+    "sku": "RF01",
+    "name": "Đèn LED Chiếu pha CP06 20W 6500K SS",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 212977,
+    "catalogPrice": 212977,
+    "spec": "Mã RF01 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Chiếu pha CP06 20W 6500K SS (Mã RF01) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RF01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rf06",
+    "sku": "RF06",
+    "name": "Đèn LED Chiếu pha CP06 150W 6500K SS",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 1451143,
+    "catalogPrice": 1451143,
+    "spec": "Mã RF06 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Chiếu pha CP06 150W 6500K SS (Mã RF06) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RF06 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rf07",
+    "sku": "RF07",
+    "name": "Đèn LED Chiếu pha CP06 200W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 2288123,
+    "catalogPrice": 2288123,
+    "spec": "Mã RF07 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Chiếu pha CP06 200W 6500K (Mã RF07) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RF07 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rf02",
+    "sku": "RF02",
+    "name": "Đèn LED Chiếu pha CP06 30W 6500K SS",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 246570,
+    "catalogPrice": 246570,
+    "spec": "Mã RF02 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Chiếu pha CP06 30W 6500K SS (Mã RF02) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RF02 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rf22",
+    "sku": "RF22",
+    "name": "Đèn LED Chiếu pha CP10 30W 6500K SS",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 181535,
+    "catalogPrice": 181535,
+    "spec": "Mã RF22 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Chiếu pha CP10 30W 6500K SS (Mã RF22) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RF22 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rf23",
+    "sku": "RF23",
+    "name": "Đèn LED Chiếu pha CP10 50W 6500K SS",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 249964,
+    "catalogPrice": 249964,
+    "spec": "Mã RF23 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Chiếu pha CP10 50W 6500K SS (Mã RF23) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RF23 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rf25",
+    "sku": "RF25",
+    "name": "Đèn LED Chiếu pha CP10 100W 6500K SS",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 613032,
+    "catalogPrice": 613032,
+    "spec": "Mã RF25 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Chiếu pha CP10 100W 6500K SS (Mã RF25) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RF25 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rf24",
+    "sku": "RF24",
+    "name": "Đèn LED Chiếu pha CP10 70W 6500K SS",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 444504,
+    "catalogPrice": 444504,
+    "spec": "Mã RF24 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Chiếu pha CP10 70W 6500K SS (Mã RF24) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RF24 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rf20",
+    "sku": "RF20",
+    "name": "Đèn LED Chiếu pha CP10 10W 6500K SS",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 113671,
+    "catalogPrice": 113671,
+    "spec": "Mã RF20 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Chiếu pha CP10 10W 6500K SS (Mã RF20) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RF20 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rf21",
+    "sku": "RF21",
+    "name": "Đèn LED Chiếu pha CP10 20W 6500K SS",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 142061,
+    "catalogPrice": 142061,
+    "spec": "Mã RF21 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Chiếu pha CP10 20W 6500K SS (Mã RF21) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RF21 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rf220",
+    "sku": "RF220",
+    "name": "Đèn LED Chiếu pha CP10 30W 3000K SS",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 181535,
+    "catalogPrice": 181535,
+    "spec": "Mã RF220 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Chiếu pha CP10 30W 3000K SS (Mã RF220) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RF220 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rf230",
+    "sku": "RF230",
+    "name": "Đèn LED Chiếu pha CP10 50W 3000K SS",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 249964,
+    "catalogPrice": 249964,
+    "spec": "Mã RF230 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Chiếu pha CP10 50W 3000K SS (Mã RF230) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RF230 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rf250",
+    "sku": "RF250",
+    "name": "Đèn LED Chiếu pha CP10 100W 3000K SS",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 613032,
+    "catalogPrice": 613032,
+    "spec": "Mã RF250 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Chiếu pha CP10 100W 3000K SS (Mã RF250) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RF250 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rf251",
+    "sku": "RF251",
+    "name": "Đèn LED Chiếu pha CP10 150W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 988542,
+    "catalogPrice": 988542,
+    "spec": "Mã RF251 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Chiếu pha CP10 150W 6500K (Mã RF251) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RF251 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rf26",
+    "sku": "RF26",
+    "name": "Đèn LED Chiếu pha CP10 200W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 1476026,
+    "catalogPrice": 1476026,
+    "spec": "Mã RF26 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Chiếu pha CP10 200W 6500K (Mã RF26) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RF26 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rf21v",
+    "sku": "RF21V",
+    "name": "Đèn LED Chiếu pha CP10 20W 3000K SS",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 142061,
+    "catalogPrice": 142061,
+    "spec": "Mã RF21V - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Chiếu pha CP10 20W 3000K SS (Mã RF21V) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RF21V (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rf50",
+    "sku": "RF50",
+    "name": "Đèn LED Chiếu pha CP12 10W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 113671,
+    "catalogPrice": 113671,
+    "spec": "Mã RF50 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Chiếu pha CP12 10W 6500K (Mã RF50) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RF50 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rf51",
+    "sku": "RF51",
+    "name": "Đèn LED Chiếu pha CP12 20W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 142061,
+    "catalogPrice": 142061,
+    "spec": "Mã RF51 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Chiếu pha CP12 20W 6500K (Mã RF51) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RF51 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rf52",
+    "sku": "RF52",
+    "name": "Đèn LED Chiếu pha CP12 30W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 181535,
+    "catalogPrice": 181535,
+    "spec": "Mã RF52 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Chiếu pha CP12 30W 6500K (Mã RF52) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RF52 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rf53",
+    "sku": "RF53",
+    "name": "Đèn LED Chiếu pha CP12 50W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 249964,
+    "catalogPrice": 249964,
+    "spec": "Mã RF53 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Chiếu pha CP12 50W 6500K (Mã RF53) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RF53 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rf55",
+    "sku": "RF55",
+    "name": "Đèn LED Chiếu pha CP12 100W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 613032,
+    "catalogPrice": 613032,
+    "spec": "Mã RF55 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Chiếu pha CP12 100W 6500K (Mã RF55) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RF55 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rf56",
+    "sku": "RF56",
+    "name": "Đèn LED Chiếu pha CP12 150W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 988542,
+    "catalogPrice": 988542,
+    "spec": "Mã RF56 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Chiếu pha CP12 150W 6500K (Mã RF56) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RF56 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rf57",
+    "sku": "RF57",
+    "name": "Đèn LED Chiếu pha CP12 200W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 1476026,
+    "catalogPrice": 1476026,
+    "spec": "Mã RF57 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Chiếu pha CP12 200W 6500K (Mã RF57) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RF57 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd-den-led-gan",
+    "sku": "RD-DEN-LED-GAN-",
+    "name": "Đèn LED gắn tường cảm biến GT16.PIR 220x100/15W 3000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 251424,
+    "catalogPrice": 251424,
+    "spec": "Mã RD-DEN-LED-GAN- - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED gắn tường cảm biến GT16.PIR 220x100/15W 3000K (Mã RD-DEN-LED-GAN-) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD-DEN-LED-GAN- (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro31",
+    "sku": "RO31",
+    "name": "Đèn LED gắn tường cảm biến GT16.PIR 220x100/15W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 207360,
+    "catalogPrice": 207360,
+    "spec": "Mã RO31 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED gắn tường cảm biến GT16.PIR 220x100/15W 6500K (Mã RO31) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO31 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro30",
+    "sku": "RO30",
+    "name": "Đèn LED gắn tường cảm biến GT16.PIR 180/15W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 251424,
+    "catalogPrice": 251424,
+    "spec": "Mã RO30 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED gắn tường cảm biến GT16.PIR 180/15W 6500K (Mã RO30) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO30 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-roo02",
+    "sku": "ROO02",
+    "name": "Đèn LED ốp tường LN12 90x195/10W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 88906,
+    "catalogPrice": 88906,
+    "spec": "Mã ROO02 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED ốp tường LN12 90x195/10W 6500K (Mã ROO02) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã ROO02 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd1741",
+    "sku": "RD1741",
+    "name": "Đèn LED Highbay HB02 430/150W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 1664077,
+    "catalogPrice": 1664077,
+    "spec": "Mã RD1741 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Highbay HB02 430/150W 6500K (Mã RD1741) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD1741 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd-den-led-high",
+    "sku": "RD-DEN-LED-HIGH",
+    "name": "Đèn LED Highbay HB01 410/70W 3000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 1664077,
+    "catalogPrice": 1664077,
+    "spec": "Mã RD-DEN-LED-HIGH - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Highbay HB01 410/70W 3000K (Mã RD-DEN-LED-HIGH) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD-DEN-LED-HIGH (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd171",
+    "sku": "RD171",
+    "name": "Đèn LED Highbay HB02 350/70W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 852677,
+    "catalogPrice": 852677,
+    "spec": "Mã RD171 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Highbay HB02 350/70W 6500K (Mã RD171) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD171 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd1711",
+    "sku": "RD1711",
+    "name": "Đèn LED Highbay HB02 350/50W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 813758,
+    "catalogPrice": 813758,
+    "spec": "Mã RD1711 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Highbay HB02 350/50W 6500K (Mã RD1711) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD1711 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd174",
+    "sku": "RD174",
+    "name": "Đèn LED Highbay HB02 430/100W 3000K SS",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 1365698,
+    "catalogPrice": 1365698,
+    "spec": "Mã RD174 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Highbay HB02 430/100W 3000K SS (Mã RD174) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD174 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd175",
+    "sku": "RD175",
+    "name": "Đèn LED Highbay HB02 500/200W 6500K SS",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 2033216,
+    "catalogPrice": 2033216,
+    "spec": "Mã RD175 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Highbay HB02 500/200W 6500K SS (Mã RD175) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD175 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd163",
+    "sku": "RD163",
+    "name": "Đèn LED High Bay HB03 290/100W 6500K SS",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 1046093,
+    "catalogPrice": 1046093,
+    "spec": "Mã RD163 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED High Bay HB03 290/100W 6500K SS (Mã RD163) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD163 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd162",
+    "sku": "RD162",
+    "name": "Đèn LED High Bay HB03 390/200W 6500K SS",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 2021423,
+    "catalogPrice": 2021423,
+    "spec": "Mã RD162 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED High Bay HB03 390/200W 6500K SS (Mã RD162) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD162 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd160",
+    "sku": "RD160",
+    "name": "Đèn LED High Bay HB03 350/120W 6500K SS",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 1565011,
+    "catalogPrice": 1565011,
+    "spec": "Mã RD160 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED High Bay HB03 350/120W 6500K SS (Mã RD160) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD160 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd161",
+    "sku": "RD161",
+    "name": "Đèn LED High Bay HB03 350/150W 6500K SS",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 1589777,
+    "catalogPrice": 1589777,
+    "spec": "Mã RD161 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED High Bay HB03 350/150W 6500K SS (Mã RD161) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD161 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd1621",
+    "sku": "RD1621",
+    "name": "Đèn LED High Bay HB03 390/250W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 2565108,
+    "catalogPrice": 2565108,
+    "spec": "Mã RD1621 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED High Bay HB03 390/250W 6500K (Mã RD1621) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD1621 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd176",
+    "sku": "RD176",
+    "name": "Đèn LED Highbay HB04 300/100W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 623881,
+    "catalogPrice": 623881,
+    "spec": "Mã RD176 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Highbay HB04 300/100W 6500K (Mã RD176) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD176 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd178",
+    "sku": "RD178",
+    "name": "Đèn LED Highbay HB04 360/120W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 855036,
+    "catalogPrice": 855036,
+    "spec": "Mã RD178 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Highbay HB04 360/120W 6500K (Mã RD178) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD178 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd177",
+    "sku": "RD177",
+    "name": "Đèn LED Highbay HB04 360/150W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 879803,
+    "catalogPrice": 879803,
+    "spec": "Mã RD177 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Highbay HB04 360/150W 6500K (Mã RD177) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD177 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd190",
+    "sku": "RD190",
+    "name": "Đèn LED Highbay HB08 300/150W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 970613,
+    "catalogPrice": 970613,
+    "spec": "Mã RD190 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Highbay HB08 300/150W 6500K (Mã RD190) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD190 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd1900",
+    "sku": "RD1900",
+    "name": "Đèn LED Highbay HB08 300/200W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 1112136,
+    "catalogPrice": 1112136,
+    "spec": "Mã RD1900 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Highbay HB08 300/200W 6500K (Mã RD1900) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD1900 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd672",
+    "sku": "RD672",
+    "name": "Đèn LED chiếu sáng đường CSD02 70W 5000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 2241964,
+    "catalogPrice": 2241964,
+    "spec": "Mã RD672 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED chiếu sáng đường CSD02 70W 5000K (Mã RD672) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD672 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd673",
+    "sku": "RD673",
+    "name": "Đèn LED chiếu sáng đường CSD02 100W 5000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 2776213,
+    "catalogPrice": 2776213,
+    "spec": "Mã RD673 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED chiếu sáng đường CSD02 100W 5000K (Mã RD673) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD673 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd674",
+    "sku": "RD674",
+    "name": "Đèn LED chiếu sáng đường CSD02 200W 5000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 4754000,
+    "catalogPrice": 4754000,
+    "spec": "Mã RD674 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED chiếu sáng đường CSD02 200W 5000K (Mã RD674) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD674 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd682",
+    "sku": "RD682",
+    "name": "Đèn LED chiếu sáng đường CSD08 80W 5000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 2992037,
+    "catalogPrice": 2992037,
+    "spec": "Mã RD682 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED chiếu sáng đường CSD08 80W 5000K (Mã RD682) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD682 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd69",
+    "sku": "RD69",
+    "name": "Đèn LED chiếu sáng đường CSD08 100W 5000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 3725598,
+    "catalogPrice": 3725598,
+    "spec": "Mã RD69 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED chiếu sáng đường CSD08 100W 5000K (Mã RD69) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD69 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd692",
+    "sku": "RD692",
+    "name": "Đèn LED chiếu sáng đường CSD08 200W 5000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 4884910,
+    "catalogPrice": 4884910,
+    "spec": "Mã RD692 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED chiếu sáng đường CSD08 200W 5000K (Mã RD692) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD692 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd691",
+    "sku": "RD691",
+    "name": "Đèn LED chiếu sáng đường CSD08 120W 5000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 3847073,
+    "catalogPrice": 3847073,
+    "spec": "Mã RD691 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED chiếu sáng đường CSD08 120W 5000K (Mã RD691) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD691 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd6933",
+    "sku": "RD6933",
+    "name": "Đèn LED chiếu sáng đường CSD10 150W 5000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 3969726,
+    "catalogPrice": 3969726,
+    "spec": "Mã RD6933 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED chiếu sáng đường CSD10 150W 5000K (Mã RD6933) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD6933 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd693",
+    "sku": "RD693",
+    "name": "Đèn LED chiếu sáng đường CSD10 200W 5000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 4884910,
+    "catalogPrice": 4884910,
+    "spec": "Mã RD693 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED chiếu sáng đường CSD10 200W 5000K (Mã RD693) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD693 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd6934",
+    "sku": "RD6934",
+    "name": "Đèn LED chiếu sáng đường CSD10 250W 4000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 5111346,
+    "catalogPrice": 5111346,
+    "spec": "Mã RD6934 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED chiếu sáng đường CSD10 250W 4000K (Mã RD6934) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD6934 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd6938",
+    "sku": "RD6938",
+    "name": "Đèn LED chiếu sáng đường CSD12 100W 5000K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 1954200,
+    "catalogPrice": 1954200,
+    "spec": "Mã RD6938 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED chiếu sáng đường CSD12 100W 5000K (Mã RD6938) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD6938 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rf162",
+    "sku": "RF162",
+    "name": "Đèn LED chiếu sáng đường NLMT CSD05.SL.RF 300W.V2 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 1928254,
+    "catalogPrice": 1928254,
+    "spec": "Mã RF162 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED chiếu sáng đường NLMT CSD05.SL.RF 300W.V2 6500K (Mã RF162) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RF162 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rf1622",
+    "sku": "RF1622",
+    "name": "Đèn LED chiếu sáng đường NLMT CSD05.SL.RF 400W.V2 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 3108793,
+    "catalogPrice": 3108793,
+    "spec": "Mã RF1622 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED chiếu sáng đường NLMT CSD05.SL.RF 400W.V2 6500K (Mã RF1622) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RF1622 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rf1623",
+    "sku": "RF1623",
+    "name": "Đèn LED chiếu sáng đường NLMT CSD05.SL.RF 500W.V2 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 3760979,
+    "catalogPrice": 3760979,
+    "spec": "Mã RF1623 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED chiếu sáng đường NLMT CSD05.SL.RF 500W.V2 6500K (Mã RF1623) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RF1623 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rf35",
+    "sku": "RF35",
+    "name": "Đèn LED Chiếu pha NLMT CP03.SL.RAD 200W.V2 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 1154580,
+    "catalogPrice": 1154580,
+    "spec": "Mã RF35 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Chiếu pha NLMT CP03.SL.RAD 200W.V2 6500K (Mã RF35) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RF35 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rf36",
+    "sku": "RF36",
+    "name": "Đèn LED Chiếu pha NLMT CP03.SL.RAD 300W.V2 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 1576351,
+    "catalogPrice": 1576351,
+    "spec": "Mã RF36 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Chiếu pha NLMT CP03.SL.RAD 300W.V2 6500K (Mã RF36) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RF36 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rf37",
+    "sku": "RF37",
+    "name": "Đèn LED Chiếu pha NLMT CP03.SL.RAD 400W.V2 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 2295475,
+    "catalogPrice": 2295475,
+    "spec": "Mã RF37 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Chiếu pha NLMT CP03.SL.RAD 400W.V2 6500K (Mã RF37) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RF37 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rf371",
+    "sku": "RF371",
+    "name": "Đèn LED Chiếu pha NLMT CP03.SL.RAD 500W.V2 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 2852858,
+    "catalogPrice": 2852858,
+    "spec": "Mã RF371 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Chiếu pha NLMT CP03.SL.RAD 500W.V2 6500K (Mã RF371) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RF371 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rf34",
+    "sku": "RF34",
+    "name": "Đèn LED Chiếu pha NLMT CP03.SL.RAD 100W.V2 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 855982,
+    "catalogPrice": 855982,
+    "spec": "Mã RF34 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-highbay-mpe.jpg",
+    "desc": "Đèn LED Chiếu pha NLMT CP03.SL.RAD 100W.V2 6500K (Mã RF34) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RF34 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rv01",
+    "sku": "RV01",
+    "name": "Vợt bắt muỗi VBM RD.02",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 102643,
+    "catalogPrice": 102643,
+    "spec": "Mã RV01 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Vợt bắt muỗi VBM RD.02 (Mã RV01) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RV01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rv02",
+    "sku": "RV02",
+    "name": "Vợt bắt muỗi VBM RD.03",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 102643,
+    "catalogPrice": 102643,
+    "spec": "Mã RV02 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Vợt bắt muỗi VBM RD.03 (Mã RV02) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RV02 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd-vot-bat-muoi",
+    "sku": "RD-VOT-BAT-MUOI",
+    "name": "Vợt bắt muỗi VBM RD.05",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 102643,
+    "catalogPrice": 102643,
+    "spec": "Mã RD-VOT-BAT-MUOI - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Vợt bắt muỗi VBM RD.05 (Mã RD-VOT-BAT-MUOI) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD-VOT-BAT-MUOI (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rv05",
+    "sku": "RV05",
+    "name": "Vợt bắt muỗi VBM RD.06",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 102643,
+    "catalogPrice": 102643,
+    "spec": "Mã RV05 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Vợt bắt muỗi VBM RD.06 (Mã RV05) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RV05 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd07",
+    "sku": "RD07",
+    "name": "Đèn bắt muỗi DBM01 5W",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 277344,
+    "catalogPrice": 277344,
+    "spec": "Mã RD07 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn bắt muỗi DBM01 5W (Mã RD07) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD07 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd-rd11-den-bat",
+    "sku": "RD-RD11-DEN-BAT",
+    "name": "RĐ11 Đèn bắt muỗi DBM02 400x250/4W",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 244063,
+    "catalogPrice": 244063,
+    "spec": "Mã RD-RD11-DEN-BAT - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "RĐ11 Đèn bắt muỗi DBM02 400x250/4W (Mã RD-RD11-DEN-BAT) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD-RD11-DEN-BAT (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd-rd12-den-bat",
+    "sku": "RD-RD12-DEN-BAT",
+    "name": "RĐ12 Đèn bắt muỗi DBM02 500x250/4W",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 277344,
+    "catalogPrice": 277344,
+    "spec": "Mã RD-RD12-DEN-BAT - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "RĐ12 Đèn bắt muỗi DBM02 500x250/4W (Mã RD-RD12-DEN-BAT) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD-RD12-DEN-BAT (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rl7f",
+    "sku": "RL7F",
+    "name": "Bộ Driver LED dây LD02 1000/7W,9W",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 43675,
+    "catalogPrice": 43675,
+    "spec": "Mã RL7F - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bộ Driver LED dây LD02 1000/7W,9W (Mã RL7F) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RL7F (Bộ)"
+    ]
+  },
+  {
+    "id": "rang-dong-rl502",
+    "sku": "RL502",
+    "name": "Đèn LED dây LD03 1000/8W 3000K (220V-100m)",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 28324,
+    "catalogPrice": 28324,
+    "spec": "Mã RL502 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED dây LD03 1000/8W 3000K (220V-100m) (Mã RL502) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RL502 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rl503",
+    "sku": "RL503",
+    "name": "Đèn LED dây LD03 1000/10W 3000K (220V-100m)",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 42546,
+    "catalogPrice": 42546,
+    "spec": "Mã RL503 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED dây LD03 1000/10W 3000K (220V-100m) (Mã RL503) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RL503 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd-den-led-day",
+    "sku": "RD-DEN-LED-DAY-",
+    "name": "Đèn LED dây LD03 1000/10W 6500K (220V-100m)",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 42546,
+    "catalogPrice": 42546,
+    "spec": "Mã RD-DEN-LED-DAY- - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED dây LD03 1000/10W 6500K (220V-100m) (Mã RD-DEN-LED-DAY-) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD-DEN-LED-DAY- (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rl51",
+    "sku": "RL51",
+    "name": "Đèn LED dây LD03 đổi màu 1000/10W (220V-100m)",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 46765,
+    "catalogPrice": 46765,
+    "spec": "Mã RL51 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Đèn LED dây LD03 đổi màu 1000/10W (220V-100m) (Mã RL51) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RL51 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rq00",
+    "sku": "RQ00",
+    "name": "Quạt hút gắn tường 1 chiều.QHGT01.1C 200x200",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 316678,
+    "catalogPrice": 316678,
+    "spec": "Mã RQ00 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Quạt hút gắn tường 1 chiều.QHGT01.1C 200x200 (Mã RQ00) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RQ00 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rq01",
+    "sku": "RQ01",
+    "name": "Quạt hút gắn tường 1 chiều.QHGT01.1C 250x250",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 380014,
+    "catalogPrice": 380014,
+    "spec": "Mã RQ01 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Quạt hút gắn tường 1 chiều.QHGT01.1C 250x250 (Mã RQ01) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RQ01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rq02",
+    "sku": "RQ02",
+    "name": "Quạt hút gắn tường 1 chiều.QHGT01.1C 300x300",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 443348,
+    "catalogPrice": 443348,
+    "spec": "Mã RQ02 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Quạt hút gắn tường 1 chiều.QHGT01.1C 300x300 (Mã RQ02) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RQ02 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rq16",
+    "sku": "RQ16",
+    "name": "Quạt hút âm trần cổ đứng.QHAT01.CĐ 200x200",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 316678,
+    "catalogPrice": 316678,
+    "spec": "Mã RQ16 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Quạt hút âm trần cổ đứng.QHAT01.CĐ 200x200 (Mã RQ16) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RQ16 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd-quat-hut-am",
+    "sku": "RD-QUAT-HUT-AM-",
+    "name": "Quạt hút âm trần cổ đứng.QHAT01.CĐ 250x250",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 443348,
+    "catalogPrice": 443348,
+    "spec": "Mã RD-QUAT-HUT-AM- - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Quạt hút âm trần cổ đứng.QHAT01.CĐ 250x250 (Mã RD-QUAT-HUT-AM-) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD-QUAT-HUT-AM- (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rq10",
+    "sku": "RQ10",
+    "name": "Quạt hút âm trần cổ ngang.QHAT01.CN 200x200",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 316678,
+    "catalogPrice": 316678,
+    "spec": "Mã RQ10 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Quạt hút âm trần cổ ngang.QHAT01.CN 200x200 (Mã RQ10) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RQ10 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rq11",
+    "sku": "RQ11",
+    "name": "Quạt hút âm trần cổ ngang.QHAT01.CN 250x250",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 380014,
+    "catalogPrice": 380014,
+    "spec": "Mã RQ11 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Quạt hút âm trần cổ ngang.QHAT01.CN 250x250 (Mã RQ11) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RQ11 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rq12",
+    "sku": "RQ12",
+    "name": "Quạt hút âm trần cổ ngang.QHAT01.CN 300x300",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 443348,
+    "catalogPrice": 443348,
+    "spec": "Mã RQ12 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Quạt hút âm trần cổ ngang.QHAT01.CN 300x300 (Mã RQ12) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RQ12 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rtf00",
+    "sku": "RTF00",
+    "name": "Ổ cắm Wifi đơn OC.01.WF 16A",
+    "brand": "Rạng Đông",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 166290,
+    "catalogPrice": 166290,
+    "spec": "Mã RTF00 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Ổ cắm Wifi đơn OC.01.WF 16A (Mã RTF00) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RTF00 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro42",
+    "sku": "RO42",
+    "name": "Ổ cắm đa năng OC02 4C/3M/10A",
+    "brand": "Rạng Đông",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 117936,
+    "catalogPrice": 117936,
+    "spec": "Mã RO42 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Ổ cắm đa năng OC02 4C/3M/10A (Mã RO42) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO42 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro421",
+    "sku": "RO421",
+    "name": "Ổ cắm đa năng OC02 4C/5M/10A",
+    "brand": "Rạng Đông",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 135626,
+    "catalogPrice": 135626,
+    "spec": "Mã RO421 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Ổ cắm đa năng OC02 4C/5M/10A (Mã RO421) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO421 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro40",
+    "sku": "RO40",
+    "name": "Ổ cắm đa năng USB OC02.USB 3C/3M/10A",
+    "brand": "Rạng Đông",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 165110,
+    "catalogPrice": 165110,
+    "spec": "Mã RO40 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Ổ cắm đa năng USB OC02.USB 3C/3M/10A (Mã RO40) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO40 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro41",
+    "sku": "RO41",
+    "name": "Ổ cắm đa năng USB OC02.USB 3C/5M/10A",
+    "brand": "Rạng Đông",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 182801,
+    "catalogPrice": 182801,
+    "spec": "Mã RO41 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Ổ cắm đa năng USB OC02.USB 3C/5M/10A (Mã RO41) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO41 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro62",
+    "sku": "RO62",
+    "name": "Ổ cắm đa năng OC05 3C/2M/10A",
+    "brand": "Rạng Đông",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 76658,
+    "catalogPrice": 76658,
+    "spec": "Mã RO62 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Ổ cắm đa năng OC05 3C/2M/10A (Mã RO62) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO62 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro63",
+    "sku": "RO63",
+    "name": "Ổ cắm đa năng OC05 3C/5M/10A",
+    "brand": "Rạng Đông",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 106142,
+    "catalogPrice": 106142,
+    "spec": "Mã RO63 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Ổ cắm đa năng OC05 3C/5M/10A (Mã RO63) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO63 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd-o-cam-da-nan",
+    "sku": "RD-O-CAM-DA-NAN",
+    "name": "Ổ cắm đa năng OC05.V2 3C/2M/10A",
+    "brand": "Rạng Đông",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 106142,
+    "catalogPrice": 106142,
+    "spec": "Mã RD-O-CAM-DA-NAN - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Ổ cắm đa năng OC05.V2 3C/2M/10A (Mã RD-O-CAM-DA-NAN) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD-O-CAM-DA-NAN (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro60",
+    "sku": "RO60",
+    "name": "Ổ cắm đa năng OC06 6C/2M/10A",
+    "brand": "Rạng Đông",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 94349,
+    "catalogPrice": 94349,
+    "spec": "Mã RO60 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Ổ cắm đa năng OC06 6C/2M/10A (Mã RO60) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO60 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro61",
+    "sku": "RO61",
+    "name": "Ổ cắm đa năng OC06 6C/5M/10A",
+    "brand": "Rạng Đông",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 123833,
+    "catalogPrice": 123833,
+    "spec": "Mã RO61 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Ổ cắm đa năng OC06 6C/5M/10A (Mã RO61) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO61 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ro50",
+    "sku": "RO50",
+    "name": "Ổ cắm máy bơm an toàn OC03.MB 16A",
+    "brand": "Rạng Đông",
+    "category": "cong-tac-o-cam",
+    "categoryName": "Ổ Cắm & Công Tắc",
+    "unit": "Chiếc",
+    "price": 188934,
+    "catalogPrice": 188934,
+    "spec": "Mã RO50 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/o-cam-day-tran-phu.webp",
+    "desc": "Ổ cắm máy bơm an toàn OC03.MB 16A (Mã RO50) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RO50 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ra50",
+    "sku": "RA50",
+    "name": "Aptomat gia dụng RD.HB 2P1E 15A",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 44815,
+    "catalogPrice": 44815,
+    "spec": "Mã RA50 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Aptomat gia dụng RD.HB 2P1E 15A (Mã RA50) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RA50 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ra51",
+    "sku": "RA51",
+    "name": "Aptomat gia dụng RD.HB 2P1E 20A",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 44815,
+    "catalogPrice": 44815,
+    "spec": "Mã RA51 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Aptomat gia dụng RD.HB 2P1E 20A (Mã RA51) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RA51 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ra52",
+    "sku": "RA52",
+    "name": "Aptomat gia dụng RD.HB 2P1E 30A",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 44815,
+    "catalogPrice": 44815,
+    "spec": "Mã RA52 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Aptomat gia dụng RD.HB 2P1E 30A (Mã RA52) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RA52 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-ra53",
+    "sku": "RA53",
+    "name": "Aptomat gia dụng RD.HB 2P1E 40A",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 44815,
+    "catalogPrice": 44815,
+    "spec": "Mã RA53 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Aptomat gia dụng RD.HB 2P1E 40A (Mã RA53) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RA53 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rac01",
+    "sku": "RAC01",
+    "name": "Aptomat chống giật RD.RCBO 1P+N 20A",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 178084,
+    "catalogPrice": 178084,
+    "spec": "Mã RAC01 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Aptomat chống giật RD.RCBO 1P+N 20A (Mã RAC01) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RAC01 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rac02",
+    "sku": "RAC02",
+    "name": "Aptomat chống giật RD.RCBO 1P+N 25A",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 178084,
+    "catalogPrice": 178084,
+    "spec": "Mã RAC02 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Aptomat chống giật RD.RCBO 1P+N 25A (Mã RAC02) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RAC02 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rac03",
+    "sku": "RAC03",
+    "name": "Aptomat chống giật RD.RCBO 1P+N 32A",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 178084,
+    "catalogPrice": 178084,
+    "spec": "Mã RAC03 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Aptomat chống giật RD.RCBO 1P+N 32A (Mã RAC03) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RAC03 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rac04",
+    "sku": "RAC04",
+    "name": "Aptomat chống giật RD.RCBO 1P+N 40A",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 178084,
+    "catalogPrice": 178084,
+    "spec": "Mã RAC04 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Aptomat chống giật RD.RCBO 1P+N 40A (Mã RAC04) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RAC04 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rac05",
+    "sku": "RAC05",
+    "name": "Aptomat chống giật RD.RCBO 1P+N 50A",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 217002,
+    "catalogPrice": 217002,
+    "spec": "Mã RAC05 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Aptomat chống giật RD.RCBO 1P+N 50A (Mã RAC05) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RAC05 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd-vo-hop-aptom",
+    "sku": "RD-VO-HOP-APTOM",
+    "name": "Vỏ hộp Aptomat nổi tường HAT01-1",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 4717,
+    "catalogPrice": 4717,
+    "spec": "Mã RD-VO-HOP-APTOM - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Vỏ hộp Aptomat nổi tường HAT01-1 (Mã RD-VO-HOP-APTOM) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD-VO-HOP-APTOM (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd-aptomat-thon",
+    "sku": "RD-APTOMAT-THON",
+    "name": "Aptomat thông minh WiFi RD.MCB.WF 2P C63",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 1155773,
+    "catalogPrice": 1155773,
+    "spec": "Mã RD-APTOMAT-THON - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Aptomat thông minh WiFi RD.MCB.WF 2P C63 (Mã RD-APTOMAT-THON) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD-APTOMAT-THON (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rm08",
+    "sku": "RM08",
+    "name": "Máng đèn FS-40/36x1-M9-k/balÁt(lắp Led Tube)",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 59914,
+    "catalogPrice": 59914,
+    "spec": "Mã RM08 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-ban-nguyet-rang-dong.jpg",
+    "desc": "Máng đèn FS-40/36x1-M9-k/balÁt(lắp Led Tube) (Mã RM08) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RM08 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rm080",
+    "sku": "RM080",
+    "name": "Máng đèn FS40/36x1-M9-koBL,ko nắp(lắp Led Tube)",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 53011,
+    "catalogPrice": 53011,
+    "spec": "Mã RM080 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-ban-nguyet-rang-dong.jpg",
+    "desc": "Máng đèn FS40/36x1-M9-koBL,ko nắp(lắp Led Tube) (Mã RM080) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RM080 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rm09",
+    "sku": "RM09",
+    "name": "Máng đèn FS-40/36x2-M9-k/balÁt(lắp Led Tube)",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 75283,
+    "catalogPrice": 75283,
+    "spec": "Mã RM09 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-ban-nguyet-rang-dong.jpg",
+    "desc": "Máng đèn FS-40/36x2-M9-k/balÁt(lắp Led Tube) (Mã RM09) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RM09 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rm090",
+    "sku": "RM090",
+    "name": "Máng đèn FS40/36x2-M9-koBL,ko nắp(lắp Led Tube)",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 65515,
+    "catalogPrice": 65515,
+    "spec": "Mã RM090 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-ban-nguyet-rang-dong.jpg",
+    "desc": "Máng đèn FS40/36x2-M9-koBL,ko nắp(lắp Led Tube) (Mã RM090) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RM090 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rm201",
+    "sku": "RM201",
+    "name": "Chao (choá) Inox 1,2m đơn,trần",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 77497,
+    "catalogPrice": 77497,
+    "spec": "Mã RM201 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Chao (choá) Inox 1,2m đơn,trần (Mã RM201) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RM201 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd-chao-tran-do",
+    "sku": "RD-CHAO-TRAN-DO",
+    "name": "Chao trần,đôi,1.2m sơn tĩnh điện",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 92867,
+    "catalogPrice": 92867,
+    "spec": "Mã RD-CHAO-TRAN-DO - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Chao trần,đôi,1.2m sơn tĩnh điện (Mã RD-CHAO-TRAN-DO) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD-CHAO-TRAN-DO (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rm20",
+    "sku": "RM20",
+    "name": "Chao (choá) Inox 1,2m đôi,trần",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 99379,
+    "catalogPrice": 99379,
+    "spec": "Mã RM20 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Chao (choá) Inox 1,2m đôi,trần (Mã RM20) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RM20 (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd-rd00-dui-den",
+    "sku": "RD-RD00-DUI-DEN",
+    "name": "RĐ00 Đui đèn cảm biến ĐCB01.PIR E27/300W",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Chiếc",
+    "price": 137278,
+    "catalogPrice": 137278,
+    "spec": "Mã RD-RD00-DUI-DEN - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "RĐ00 Đui đèn cảm biến ĐCB01.PIR E27/300W (Mã RD-RD00-DUI-DEN) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD-RD00-DUI-DEN (Chiếc)"
+    ]
+  },
+  {
+    "id": "rang-dong-rm56",
+    "sku": "RM56",
+    "name": "Bộ đèn LED Tube T8 TT01 CSBA /20Wx1 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 401863,
+    "catalogPrice": 401863,
+    "spec": "Mã RM56 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-ban-nguyet-rang-dong.jpg",
+    "desc": "Bộ đèn LED Tube T8 TT01 CSBA /20Wx1 6500K (Mã RM56) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RM56 (Bộ)"
+    ]
+  },
+  {
+    "id": "rang-dong-rm531",
+    "sku": "RM531",
+    "name": "Bộ đèn LED Tube T8 TT01 CSLH/20Wx1 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 401863,
+    "catalogPrice": 401863,
+    "spec": "Mã RM531 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-ban-nguyet-rang-dong.jpg",
+    "desc": "Bộ đèn LED Tube T8 TT01 CSLH/20Wx1 6500K (Mã RM531) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RM531 (Bộ)"
+    ]
+  },
+  {
+    "id": "rang-dong-rm532",
+    "sku": "RM532",
+    "name": "Bộ đèn LED Tube T8 TT01 CSLH/20Wx2 6500K SS",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 566093,
+    "catalogPrice": 566093,
+    "spec": "Mã RM532 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-ban-nguyet-rang-dong.jpg",
+    "desc": "Bộ đèn LED Tube T8 TT01 CSLH/20Wx2 6500K SS (Mã RM532) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RM532 (Bộ)"
+    ]
+  },
+  {
+    "id": "rang-dong-rm55b",
+    "sku": "RM55B",
+    "name": "Bộ đèn LED CSLH.LS 300x1200/40W 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 849761,
+    "catalogPrice": 849761,
+    "spec": "Mã RM55B - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bộ đèn LED CSLH.LS 300x1200/40W 6500K (Mã RM55B) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RM55B (Bộ)"
+    ]
+  },
+  {
+    "id": "rang-dong-rd-bo-den-led-c",
+    "sku": "RD-BO-DEN-LED-C",
+    "name": "Bộ đèn LED CSBA 80x1200/28W 6500K (CRI90)",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 849761,
+    "catalogPrice": 849761,
+    "spec": "Mã RD-BO-DEN-LED-C - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-am-tran-downlight.jpg",
+    "desc": "Bộ đèn LED CSBA 80x1200/28W 6500K (CRI90) (Mã RD-BO-DEN-LED-C) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RD-BO-DEN-LED-C (Bộ)"
+    ]
+  },
+  {
+    "id": "rang-dong-rm561",
+    "sku": "RM561",
+    "name": "Bộ đèn LED Tube T8 CSBA/20Wx1 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 467804,
+    "catalogPrice": 467804,
+    "spec": "Mã RM561 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-ban-nguyet-rang-dong.jpg",
+    "desc": "Bộ đèn LED Tube T8 CSBA/20Wx1 6500K (Mã RM561) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RM561 (Bộ)"
+    ]
+  },
+  {
+    "id": "rang-dong-rm55",
+    "sku": "RM55",
+    "name": "Bộ đèn LED Tube T8 CSLH/20Wx2 6500K",
+    "brand": "Rạng Đông",
+    "category": "chieu-sang",
+    "categoryName": "Bóng Đèn & LED",
+    "unit": "Bộ",
+    "price": 705439,
+    "catalogPrice": 705439,
+    "spec": "Mã RM55 - Chính hãng Rạng Đông",
+    "image": "assets/images/products/den-led-ban-nguyet-rang-dong.jpg",
+    "desc": "Bộ đèn LED Tube T8 CSLH/20Wx2 6500K (Mã RM55) chính hãng Rạng Đông, bảo hành tiêu chuẩn nhà sản xuất, phân phối tại Duy Phong Bắc Ninh.",
+    "inStock": true,
+    "variants": [
+      "Mã RM55 (Bộ)"
+    ]
   }
 ];

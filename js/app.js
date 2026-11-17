@@ -704,13 +704,40 @@ const PROJECT_COMBOS = {
             { productId: 'dp-tp-vcm-25', qty: 6 },
             { productId: 'dp-tp-vcm-15', qty: 5 },
             { productId: 'dp-cdv-cv-40', qty: 2 },
-            { productId: 'dp-pana-oc-doi', qty: 35 },
-            { productId: 'dp-pana-ct-2c', qty: 18 },
-            { productId: 'dp-led-nano-9w-3m', qty: 45 },
-            { productId: 'dp-mcb-sch-2p-63a', qty: 3 },
-            { productId: 'dp-mcb-sch-1p-20a', qty: 12 },
-            { productId: 'dp-tu-dien-am-12m', qty: 3 },
-            { productId: 'dp-ong-ruot-ga-d20', qty: 6 }
+            { productId: 'sino-s18a01', qty: 20 },
+            { productId: 'sino-s18a02', qty: 55 },
+            { productId: 'sino-s18a03', qty: 20 },
+            { productId: 'panasonic-pm021', qty: 16 },
+            { productId: 'panasonic-pa53', qty: 16 },
+            { productId: 'sino-s18a15', qty: 45 },
+            { productId: 'sino-s18a16', qty: 30 },
+            { productId: 'sino-s18a07', qty: 120 },
+            { productId: 'ls-ya25', qty: 8 },
+            { productId: 'ls-ya26', qty: 8 },
+            { productId: 'ls-ya29', qty: 2 },
+            { productId: 'rang-dong-rd54', qty: 60 },
+            { productId: 'rang-dong-ro02', qty: 12 },
+            { productId: 'sino-sgs12', qty: 45 }
+        ]
+    },
+    'hoan-thien-bill': {
+        title: 'Gói Hoàn Thiện Chuẩn Bill Thực Tế Duy Phong',
+        customerType: 'Tho-dien-cong-trinh',
+        items: [
+            { productId: 'sino-s18a01', qty: 60 },
+            { productId: 'sino-s18a02', qty: 200 },
+            { productId: 'sino-s18a03', qty: 50 },
+            { productId: 'panasonic-pm021', qty: 50 },
+            { productId: 'panasonic-pa53', qty: 50 },
+            { productId: 'sino-s18a15', qty: 120 },
+            { productId: 'sino-s18a16', qty: 110 },
+            { productId: 'sino-s18a07', qty: 500 },
+            { productId: 'panasonic-pf12', qty: 25 },
+            { productId: 'ls-ya25', qty: 25 },
+            { productId: 'ls-ya26', qty: 22 },
+            { productId: 'ls-ya29', qty: 7 },
+            { productId: 'rang-dong-rd54', qty: 200 },
+            { productId: 'rang-dong-ro02', qty: 40 }
         ]
     },
     'biet-thu': {
@@ -719,26 +746,33 @@ const PROJECT_COMBOS = {
         items: [
             { productId: 'dp-cdv-cv-60', qty: 4 },
             { productId: 'dp-tp-vcm-25', qty: 12 },
-            { productId: 'dp-brt-oc-doi-vang', qty: 55 },
-            { productId: 'dp-brt-ct-3h-xam', qty: 28 },
-            { productId: 'dp-led-nano-12w-3m', qty: 80 },
-            { productId: 'dp-rcbo-sch-2p-40a', qty: 6 },
-            { productId: 'dp-tu-dien-am-18m', qty: 4 },
-            { productId: 'dp-quat-tran-5c-dc', qty: 3 }
+            { productId: 'dp-brt-oc3', qty: 55 },
+            { productId: 'dp-brt-ct2', qty: 25 },
+            { productId: 'dp-brt-ct3', qty: 20 },
+            { productId: 'panasonic-pm21', qty: 12 },
+            { productId: 'rang-dong-rd54', qty: 80 },
+            { productId: 'rang-dong-ro04', qty: 18 },
+            { productId: 'dp-sch-rcbo', qty: 6 },
+            { productId: 'ls-ya29', qty: 4 },
+            { productId: 'dp-nnc-tu18', qty: 4 },
+            { productId: 'dp-pana-qt5c', qty: 3 },
+            { productId: 'sino-sgs13', qty: 60 }
         ]
     },
     'nha-xuong': {
         title: 'Gói Thi Công Nhà Xưởng Vừa & Nhỏ (200m² - 800m²)',
         customerType: 'Nha-thau-xuong',
         items: [
-            { productId: 'dp-cds-cvv-3x16-1x10', qty: 85 },
+            { productId: 'dp-cds-3p-16', qty: 85 },
             { productId: 'dp-cdv-cv-40', qty: 6 },
-            { productId: 'dp-highbay-rd-150w', qty: 16 },
-            { productId: 'dp-led-tube-bn-12m', qty: 20 },
-            { productId: 'dp-mccb-ls-3p-100a', qty: 2 },
-            { productId: 'dp-mccb-ls-3p-63a', qty: 6 },
-            { productId: 'dp-contactor-ls-mc32a', qty: 4 },
-            { productId: 'dp-vo-tu-dien-600x800', qty: 1 }
+            { productId: 'dp-mpe-hb150', qty: 16 },
+            { productId: 'dp-rd-bn50', qty: 20 },
+            { productId: 'dp-ls-mccb100', qty: 2 },
+            { productId: 'dp-ls-mccb63', qty: 6 },
+            { productId: 'dp-ls-mc32', qty: 4 },
+            { productId: 'ls-yg01', qty: 4 },
+            { productId: 'dp-tu-xn68', qty: 1 },
+            { productId: 'sino-sgs14', qty: 40 }
         ]
     }
 };
@@ -2840,42 +2874,52 @@ window.updateEstimator = function() {
     if (floorsValEl) floorsValEl.textContent = floors + ' tầng';
     if (totalAreaEl) totalAreaEl.textContent = totalArea.toLocaleString('vi-VN') + ' m² sàn';
 
-    let wireCoils = 0, switchSets = 0, ledQty = 0, breakerQty = 0, minCost = 0, maxCost = 0;
+    let faceplateQty = 0, switchQty = 0, ledQty = 0, breakerQty = 0, wireCoils = 0, accessoryQty = 0, minCost = 0, maxCost = 0;
 
     if (currentEstimatorType === 'xuong') {
+        faceplateQty = Math.max(12, Math.round(totalArea / 22));
+        switchQty = Math.max(24, Math.round(totalArea / 10));
+        ledQty = Math.max(8, Math.round(totalArea / 18));
+        breakerQty = Math.max(6, Math.round(totalArea / 35));
         wireCoils = Math.max(4, Math.round(totalArea / 45));
-        switchSets = Math.max(8, Math.round(totalArea / 25));
-        ledQty = Math.max(8, Math.round(totalArea / 22));
-        breakerQty = Math.max(4, Math.round(totalArea / 40));
-        minCost = totalArea * 95000;
-        maxCost = totalArea * 135000;
+        accessoryQty = Math.max(20, Math.round(totalArea / 10));
+        minCost = totalArea * 105000;
+        maxCost = totalArea * 145000;
     } else if (currentEstimatorType === 'bietthu') {
-        wireCoils = Math.max(8, Math.round(totalArea / 20));
-        switchSets = Math.max(25, Math.round(totalArea / 4.5));
-        ledQty = Math.max(24, Math.round(totalArea / 5));
-        breakerQty = Math.max(10, Math.round(floors * 6));
-        minCost = totalArea * 115000;
-        maxCost = totalArea * 155000;
+        faceplateQty = Math.max(60, Math.round(totalArea * 0.48));
+        switchQty = Math.max(120, Math.round(totalArea * 1.1));
+        ledQty = Math.max(40, Math.round(totalArea * 0.34));
+        breakerQty = Math.max(20, Math.round(floors * 16));
+        wireCoils = Math.max(10, Math.round(totalArea / 20));
+        accessoryQty = Math.max(30, Math.round(totalArea / 6));
+        minCost = totalArea * 135000;
+        maxCost = totalArea * 175000;
     } else {
-        wireCoils = Math.max(5, Math.round(totalArea / 24));
-        switchSets = Math.max(18, Math.round(totalArea / 5.5));
-        ledQty = Math.max(16, Math.round(totalArea / 6));
-        breakerQty = Math.max(6, Math.round(floors * 5));
-        minCost = totalArea * 78000;
-        maxCost = totalArea * 105000;
+        faceplateQty = Math.max(40, Math.round(totalArea * 0.38));
+        switchQty = Math.max(90, Math.round(totalArea * 0.85));
+        ledQty = Math.max(28, Math.round(totalArea * 0.25));
+        breakerQty = Math.max(14, Math.round(floors * 13));
+        wireCoils = Math.max(6, Math.round(totalArea / 24));
+        accessoryQty = Math.max(20, Math.round(totalArea / 7));
+        minCost = totalArea * 95000;
+        maxCost = totalArea * 128000;
     }
 
     const fmt = (n) => Math.round(n / 100000) * 100000;
-    const wireEl = document.getElementById('estWireQty');
+    const faceEl = document.getElementById('estFaceplateQty');
     const switchEl = document.getElementById('estSwitchQty');
     const ledEl = document.getElementById('estLedQty');
     const brkEl = document.getElementById('estBreakerQty');
+    const wireEl = document.getElementById('estWireQty');
+    const accEl = document.getElementById('estAccessoryQty');
     const budEl = document.getElementById('estBudgetText');
 
-    if (wireEl) wireEl.textContent = currentEstimatorType === 'xuong' ? (wireCoils * 15) + ' Mét cáp + ' + Math.round(wireCoils/2) + ' Cuộn' : wireCoils + ' Cuộn (100m)';
-    if (switchEl) switchEl.textContent = switchSets + ' Bộ';
-    if (ledEl) ledEl.textContent = ledQty + (currentEstimatorType === 'xuong' ? ' Bộ Highbay/Bán nguyệt' : ' Cái');
-    if (brkEl) brkEl.textContent = breakerQty + ' Cái / Bộ';
+    if (faceEl) faceEl.textContent = faceplateQty + ' Cái (1/2/3 lỗ & Mặt át)';
+    if (switchEl) switchEl.textContent = switchQty + ' Hạt (CT 1C/2C & Ổ)';
+    if (ledEl) ledEl.textContent = ledQty + (currentEstimatorType === 'xuong' ? ' Bộ Highbay/Bán nguyệt' : ' Cái (Mắt trâu & Ốp)');
+    if (brkEl) brkEl.textContent = breakerQty + ' Cái (Át khối & Át 2P)';
+    if (wireEl) wireEl.textContent = currentEstimatorType === 'xuong' ? (wireCoils * 15) + ' Mét cáp + ' + Math.round(wireCoils / 2) + ' Cuộn' : wireCoils + ' Cuộn (100m)';
+    if (accEl) accEl.textContent = accessoryQty + ' Cây / Bộ';
     if (budEl) budEl.textContent = formatVND(fmt(minCost)) + ' – ' + formatVND(fmt(maxCost));
 };
 
@@ -2885,33 +2929,65 @@ window.applyEstimatorToBoq = function() {
     const floors = currentEstimatorType === 'xuong' ? 1 : (parseInt((document.getElementById('estFloorsRange') || {}).value, 10) || 3);
     const totalArea = area * floors;
 
-    const pick = (kw) => state.products.find(pr => pr.name.toLowerCase().includes(kw.toLowerCase())) || state.products[0];
+    const pickById = (id, kw) => state.products.find(pr => pr.id === id) || state.products.find(pr => pr.name.toLowerCase().includes((kw || '').toLowerCase())) || state.products[0];
     const itemsToAdd = [];
 
     if (currentEstimatorType === 'xuong') {
-        const pCable = pick('Cadisun') || pick('Cadivi');
-        const pLed = pick('Highbay') || pick('Bán nguyệt') || pick('LED');
-        const pMccb = pick('MCCB') || pick('Aptomat');
-        if (pCable) itemsToAdd.push({ product: pCable, qty: Math.max(40, Math.round(totalArea / 4)) });
-        if (pLed) itemsToAdd.push({ product: pLed, qty: Math.max(8, Math.round(totalArea / 22)) });
-        if (pMccb) itemsToAdd.push({ product: pMccb, qty: Math.max(4, Math.round(totalArea / 40)) });
+        itemsToAdd.push(
+            { product: pickById('dp-cds-3p-16', 'Cadisun'), qty: Math.max(40, Math.round(totalArea / 4.5)) },
+            { product: pickById('dp-cdv-cv-40', 'Cadivi'), qty: Math.max(3, Math.round(totalArea / 70)) },
+            { product: pickById('dp-mpe-hb150', 'Highbay'), qty: Math.max(8, Math.round(totalArea / 25)) },
+            { product: pickById('dp-rd-bn50', 'Bán nguyệt'), qty: Math.max(10, Math.round(totalArea / 20)) },
+            { product: pickById('dp-ls-mccb100', 'MCCB'), qty: Math.max(2, Math.round(totalArea / 200)) },
+            { product: pickById('dp-ls-mccb63', 'MCCB'), qty: Math.max(4, Math.round(totalArea / 65)) },
+            { product: pickById('dp-ls-mc32', 'Khởi động từ'), qty: Math.max(2, Math.round(totalArea / 100)) },
+            { product: pickById('dp-tu-xn68', 'Vỏ tủ'), qty: 1 },
+            { product: pickById('sino-sgs14', 'Ống ghen'), qty: Math.max(20, Math.round(totalArea / 10)) }
+        );
     } else {
+        const scale = totalArea / 300;
         const wireCoils = Math.max(5, Math.round(totalArea / 24));
-        const pWire25 = pick('2.5mm');
-        const pWire15 = pick('1.5mm');
-        const pSwitch = currentEstimatorType === 'bietthu' ? (pick('Bretina') || pick('Vanni') || pick('Panasonic')) : (pick('Panasonic') || pick('Sino'));
-        const pLed = pick('Âm trần') || pick('Downlight') || pick('LED');
-        const pRcbo = pick('RCBO') || pick('Aptomat');
+        const mat1 = pickById('sino-s18a01', 'Mặt 1 lỗ');
+        const mat2 = pickById('sino-s18a02', 'Mặt 2 lỗ');
+        const mat3 = pickById('sino-s18a03', 'Mặt 3 lỗ');
+        const matAt = pickById('panasonic-pm021', 'Mặt 2 át');
+        const atKhoi30 = pickById('panasonic-pa53', 'Át đen 30A');
+        const hatCt1 = pickById('sino-s18a15', 'Hạt CT');
+        const hatCt2 = pickById('sino-s18a16', '2 chiều');
+        const hatO = pickById('sino-s18a07', 'Ổ đơn');
+        const denBao = pickById('panasonic-pf12', 'Đèn báo');
+        const at25 = pickById('ls-ya25', '2 cực 25A');
+        const at32 = pickById('ls-ya26', '2 cực 32A');
+        const at63 = pickById('ls-ya29', '2 cực 63A');
+        const ledMatTrau = pickById('rang-dong-rd54', '110/12W');
+        const ledOp = pickById(currentEstimatorType === 'bietthu' ? 'rang-dong-ro04' : 'rang-dong-ro02', 'ốp trần');
+        const wire25 = pickById('dp-tp-vcm-25', '2.5mm');
+        const wire15 = pickById('dp-tp-vcm-15', '1.5mm');
+        const ongGhen = pickById('sino-sgs12', 'Ống ghen SP tròn 20');
 
-        if (pWire25) itemsToAdd.push({ product: pWire25, qty: Math.ceil(wireCoils * 0.55) });
-        if (pWire15) itemsToAdd.push({ product: pWire15, qty: Math.max(2, Math.floor(wireCoils * 0.45)) });
-        if (pSwitch) itemsToAdd.push({ product: pSwitch, qty: Math.max(18, Math.round(totalArea / 5.5)) });
-        if (pLed) itemsToAdd.push({ product: pLed, qty: Math.max(16, Math.round(totalArea / 6)) });
-        if (pRcbo) itemsToAdd.push({ product: pRcbo, qty: Math.max(4, floors * 2) });
+        itemsToAdd.push(
+            { product: mat1, qty: Math.max(8, Math.round(20 * scale)) },
+            { product: mat2, qty: Math.max(20, Math.round(60 * scale)) },
+            { product: mat3, qty: Math.max(6, Math.round(16 * scale)) },
+            { product: matAt, qty: Math.max(6, Math.round(16 * scale)) },
+            { product: atKhoi30, qty: Math.max(6, Math.round(16 * scale)) },
+            { product: hatCt1, qty: Math.max(15, Math.round(40 * scale)) },
+            { product: hatCt2, qty: Math.max(12, Math.round(35 * scale)) },
+            { product: hatO, qty: Math.max(40, Math.round(150 * scale)) },
+            { product: denBao, qty: Math.max(4, Math.round(8 * scale)) },
+            { product: at25, qty: Math.max(4, Math.round(8 * scale)) },
+            { product: at32, qty: Math.max(3, Math.round(7 * scale)) },
+            { product: at63, qty: Math.max(2, Math.round(3 * scale)) },
+            { product: ledMatTrau, qty: Math.max(20, Math.round(60 * scale)) },
+            { product: ledOp, qty: Math.max(6, Math.round(12 * scale)) },
+            { product: wire25, qty: Math.ceil(wireCoils * 0.55) },
+            { product: wire15, qty: Math.max(2, Math.floor(wireCoils * 0.45)) },
+            { product: ongGhen, qty: Math.max(18, Math.round(40 * scale)) }
+        );
     }
 
     state.boqCart = [];
-    itemsToAdd.forEach(entry => {
+    itemsToAdd.filter(e => e.product).forEach(entry => {
         const pr = entry.product;
         state.boqCart.push({
             cartId: pr.id + '_est_' + Date.now() + Math.random().toString(36).slice(2, 6),

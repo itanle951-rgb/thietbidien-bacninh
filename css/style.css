@@ -573,8 +573,31 @@ button, input, select, textarea {
 
 .combo-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+
+@media (max-width: 1199px) {
+    .combo-grid {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        padding-bottom: 12px;
+        -webkit-overflow-scrolling: touch;
+    }
+    .combo-grid .combo-card {
+        flex: 0 0 320px;
+        scroll-snap-align: start;
+    }
+}
+
+@media (max-width: 640px) {
+    .combo-grid .combo-card {
+        flex: 0 0 86%;
+        min-width: 280px;
+    }
 }
 
 .combo-card {
@@ -625,21 +648,29 @@ button, input, select, textarea {
 
 .combo-items-preview {
     list-style: none;
-    margin-bottom: 18px;
+    margin-bottom: 16px;
     background: #140E0A;
-    padding: 12px 14px;
+    padding: 10px 12px;
     border-radius: var(--radius-sm);
     border: 1px solid rgba(224, 159, 62, 0.25);
+    max-height: 310px;
+    overflow-y: auto;
 }
 
 .combo-items-preview li {
-    font-size: 0.86rem;
+    font-size: 0.79rem;
     color: #FFF8F0;
     font-weight: 600;
-    padding: 6px 0;
+    padding: 5px 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 8px;
     border-bottom: 1px dashed rgba(255, 235, 220, 0.1);
+}
+
+.combo-items-preview li:last-child {
+    border-bottom: none;
 }
 
 .combo-items-preview li span:last-child {
@@ -1623,7 +1654,7 @@ button, input, select, textarea {
 
 /* Responsive */
 @media (max-width: 992px) {
-    .hero-grid, .boq-layout, .admin-grid, .combo-grid, .footer-grid {
+    .hero-grid, .boq-layout, .admin-grid, .footer-grid {
         grid-template-columns: 1fr;
     }
     .hero-title {

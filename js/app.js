@@ -2848,23 +2848,68 @@ window.selectEstimatorType = function(type) {
         if (floorsGroup) floorsGroup.style.opacity = '0.5';
     } else if (type === 'bietthu') {
         if (areaEl) { areaEl.min = 80; areaEl.max = 600; areaEl.value = 150; }
-        if (floorsEl) floorsEl.value = 3;
+        if (floorsEl) floorsEl.value = 4;
         if (floorsGroup) floorsGroup.style.opacity = '1';
     } else {
         if (areaEl) { areaEl.min = 40; areaEl.max = 300; areaEl.value = 90; }
-        if (floorsEl) floorsEl.value = 3;
+        if (floorsEl) floorsEl.value = 5;
         if (floorsGroup) floorsGroup.style.opacity = '1';
     }
     window.updateEstimator();
 };
+
+function computeEstimatorBreakdown(type, area, floors) {
+    const totalArea = area * floors;
+    if (type === 'xuong') {
+        const s = totalArea / 400;
+        return [
+            { label: 'Cáp 3 pha 4 lõi Cadisun', qty: Math.max(40, Math.round(85 * s)), unit: 'Mét', productId: 'dp-cds-3p-16', kw: 'Cadisun' },
+            { label: 'Cáp nhánh Cadivi 4.0mm²', qty: Math.max(2, Math.round(6 * s)), unit: 'Cuộn', productId: 'dp-cdv-cv-40', kw: 'Cadivi' },
+            { label: 'Đèn LED Highbay 150W', qty: Math.max(6, Math.round(16 * s)), unit: 'Bộ', productId: 'dp-mpe-hb150', kw: 'Highbay' },
+            { label: 'Đèn Bán nguyệt 1.2m 50W', qty: Math.max(8, Math.round(20 * s)), unit: 'Bộ', productId: 'dp-rd-bn50', kw: 'Bán nguyệt' },
+            { label: 'Át khối MCCB 3P 100A LS', qty: Math.max(1, Math.round(2 * s)), unit: 'Cái', productId: 'dp-ls-mccb100', kw: 'MCCB' },
+            { label: 'Át khối MCCB 3P 63A LS', qty: Math.max(2, Math.round(6 * s)), unit: 'Cái', productId: 'dp-ls-mccb63', kw: 'MCCB' },
+            { label: 'Khởi động từ 3P MC-32a LS', qty: Math.max(2, Math.round(4 * s)), unit: 'Cái', productId: 'dp-ls-mc32', kw: 'Khởi động từ' },
+            { label: 'Rơ le nhiệt MT32 LS', qty: Math.max(2, Math.round(4 * s)), unit: 'Cái', productId: 'ls-yg01', kw: 'Rơ le' },
+            { label: 'Vỏ tủ điện tổng 600x800', qty: Math.max(1, Math.round(1 * s)), unit: 'Tủ', productId: 'dp-tu-xn68', kw: 'Vỏ tủ' },
+            { label: 'Ổ cắm & Công tắc văn phòng', qty: Math.max(10, Math.round(25 * s)), unit: 'Cái', productId: 'sino-s18a08', kw: 'Ổ đôi' },
+            { label: 'Ống ghen SP tròn 32 Sino', qty: Math.max(20, Math.round(40 * s)), unit: 'Cây', productId: 'sino-sgs14', kw: 'Ống ghen' }
+        ];
+    }
+
+    // Chuẩn Bill thực tế nhà 5 tầng (~450m² sàn -> tỷ lệ 1.0; Biệt thự mật độ cao hơn 15%)
+    const density = type === 'bietthu' ? 1.15 : 1.0;
+    const scale = (totalArea / 450) * density;
+    const wire25 = Math.max(3, Math.round(11 * scale));
+    const wire15 = Math.max(2, Math.round(9 * scale));
+
+    return [
+        { label: 'Mặt 1 lỗ (Sino / Pana)', qty: Math.max(12, Math.round(60 * scale)), unit: 'Cái', productId: 'sino-s18a01', kw: 'Mặt 1 lỗ' },
+        { label: 'Mặt 2 lỗ (Sino / Pana)', qty: Math.max(35, Math.round(200 * scale)), unit: 'Cái', productId: 'sino-s18a02', kw: 'Mặt 2 lỗ' },
+        { label: 'Mặt 3 lỗ (Sino / Pana)', qty: Math.max(10, Math.round(50 * scale)), unit: 'Cái', productId: 'sino-s18a03', kw: 'Mặt 3 lỗ' },
+        { label: 'Mặt át khối (Pana / Sino)', qty: Math.max(8, Math.round(50 * scale)), unit: 'Cái', productId: 'panasonic-pm021', kw: 'Mặt 2 át' },
+        { label: 'Át khối 30A (Pana / LS)', qty: Math.max(8, Math.round(50 * scale)), unit: 'Cái', productId: 'panasonic-pa53', kw: 'Át đen 30A' },
+        { label: 'Hạt công tắc 1 chiều', qty: Math.max(20, Math.round(120 * scale)), unit: 'Hạt', productId: 'sino-s18a15', kw: 'Hạt CT' },
+        { label: 'Hạt công tắc 2 chiều', qty: Math.max(18, Math.round(110 * scale)), unit: 'Hạt', productId: 'sino-s18a16', kw: '2 chiều' },
+        { label: 'Hạt ổ cắm 2 chấu', qty: Math.max(80, Math.round(500 * scale)), unit: 'Cái', productId: 'sino-s18a07', kw: 'Ổ đơn' },
+        { label: 'Hạt đèn báo (Pana)', qty: Math.max(5, Math.round(25 * scale)), unit: 'Cái', productId: 'panasonic-pf12', kw: 'Đèn báo' },
+        { label: 'Át cài 2P 25A (LS)', qty: Math.max(5, Math.round(25 * scale)), unit: 'Cái', productId: 'ls-ya25', kw: '2 cực 25A' },
+        { label: 'Át cài 2P 32A (LS)', qty: Math.max(4, Math.round(22 * scale)), unit: 'Cái', productId: 'ls-ya26', kw: '2 cực 32A' },
+        { label: 'Át cài 2P 63A (LS)', qty: Math.max(2, Math.round(7 * scale)), unit: 'Cái', productId: 'ls-ya29', kw: '2 cực 63A' },
+        { label: 'Đèn mắt trâu 110/12W RĐ', qty: Math.max(35, Math.round(200 * scale)), unit: 'Cái', productId: 'rang-dong-rd54', kw: '110/12W' },
+        { label: 'Đèn ốp tường / trần RĐ', qty: Math.max(8, Math.round(40 * scale)), unit: 'Cái', productId: type === 'bietthu' ? 'rang-dong-ro04' : 'rang-dong-ro02', kw: 'ốp trần' },
+        { label: 'Dây Trần Phú 2.5mm² & 1.5mm²', qty: wire25 + wire15, unit: 'Cuộn', productId: 'dp-tp-vcm-25', kw: '2.5mm', splitWire: { wire25, wire15 } },
+        { label: 'Ống ghen SP 20 & Vít mặt', qty: Math.max(15, Math.round(65 * scale)), unit: 'Cây/Lạng', productId: 'sino-sgs12', kw: 'Ống ghen SP tròn 20' }
+    ];
+}
 
 window.updateEstimator = function() {
     const areaEl = document.getElementById('estAreaRange');
     const floorsEl = document.getElementById('estFloorsRange');
     if (!areaEl || !floorsEl) return;
 
-    const area = parseInt(areaEl.value, 10) || 100;
-    const floors = currentEstimatorType === 'xuong' ? 1 : (parseInt(floorsEl.value, 10) || 3);
+    const area = parseInt(areaEl.value, 10) || 90;
+    const floors = currentEstimatorType === 'xuong' ? 1 : (parseInt(floorsEl.value, 10) || 5);
     const totalArea = area * floors;
 
     const areaValEl = document.getElementById('estAreaVal');
@@ -2874,117 +2919,48 @@ window.updateEstimator = function() {
     if (floorsValEl) floorsValEl.textContent = floors + ' tầng';
     if (totalAreaEl) totalAreaEl.textContent = totalArea.toLocaleString('vi-VN') + ' m² sàn';
 
-    let faceplateQty = 0, switchQty = 0, ledQty = 0, breakerQty = 0, wireCoils = 0, accessoryQty = 0, minCost = 0, maxCost = 0;
-
-    if (currentEstimatorType === 'xuong') {
-        faceplateQty = Math.max(12, Math.round(totalArea / 22));
-        switchQty = Math.max(24, Math.round(totalArea / 10));
-        ledQty = Math.max(8, Math.round(totalArea / 18));
-        breakerQty = Math.max(6, Math.round(totalArea / 35));
-        wireCoils = Math.max(4, Math.round(totalArea / 45));
-        accessoryQty = Math.max(20, Math.round(totalArea / 10));
-        minCost = totalArea * 105000;
-        maxCost = totalArea * 145000;
-    } else if (currentEstimatorType === 'bietthu') {
-        faceplateQty = Math.max(60, Math.round(totalArea * 0.48));
-        switchQty = Math.max(120, Math.round(totalArea * 1.1));
-        ledQty = Math.max(40, Math.round(totalArea * 0.34));
-        breakerQty = Math.max(20, Math.round(floors * 16));
-        wireCoils = Math.max(10, Math.round(totalArea / 20));
-        accessoryQty = Math.max(30, Math.round(totalArea / 6));
-        minCost = totalArea * 135000;
-        maxCost = totalArea * 175000;
-    } else {
-        faceplateQty = Math.max(40, Math.round(totalArea * 0.38));
-        switchQty = Math.max(90, Math.round(totalArea * 0.85));
-        ledQty = Math.max(28, Math.round(totalArea * 0.25));
-        breakerQty = Math.max(14, Math.round(floors * 13));
-        wireCoils = Math.max(6, Math.round(totalArea / 24));
-        accessoryQty = Math.max(20, Math.round(totalArea / 7));
-        minCost = totalArea * 95000;
-        maxCost = totalArea * 128000;
+    const breakdown = computeEstimatorBreakdown(currentEstimatorType, area, floors);
+    const gridEl = document.getElementById('estResultGrid');
+    if (gridEl) {
+        gridEl.innerHTML = breakdown.map(item => `
+            <div class="est-res-item">
+                <span>${item.label}</span>
+                <strong>${item.qty.toLocaleString('vi-VN')} ${item.unit}</strong>
+            </div>
+        `).join('');
     }
 
+    let catalogEst = 0;
+    if (typeof state !== 'undefined' && Array.isArray(state.products) && state.products.length > 0) {
+        breakdown.forEach(item => {
+            const pr = state.products.find(p => p.id === item.productId);
+            if (pr && pr.price) catalogEst += pr.price * item.qty;
+        });
+    }
+    const minCost = catalogEst > 0 ? catalogEst * 0.85 : totalArea * 120000;
+    const maxCost = catalogEst > 0 ? catalogEst * 1.15 : totalArea * 165000;
     const fmt = (n) => Math.round(n / 100000) * 100000;
-    const faceEl = document.getElementById('estFaceplateQty');
-    const switchEl = document.getElementById('estSwitchQty');
-    const ledEl = document.getElementById('estLedQty');
-    const brkEl = document.getElementById('estBreakerQty');
-    const wireEl = document.getElementById('estWireQty');
-    const accEl = document.getElementById('estAccessoryQty');
     const budEl = document.getElementById('estBudgetText');
-
-    if (faceEl) faceEl.textContent = faceplateQty + ' Cái (1/2/3 lỗ & Mặt át)';
-    if (switchEl) switchEl.textContent = switchQty + ' Hạt (CT 1C/2C & Ổ)';
-    if (ledEl) ledEl.textContent = ledQty + (currentEstimatorType === 'xuong' ? ' Bộ Highbay/Bán nguyệt' : ' Cái (Mắt trâu & Ốp)');
-    if (brkEl) brkEl.textContent = breakerQty + ' Cái (Át khối & Át 2P)';
-    if (wireEl) wireEl.textContent = currentEstimatorType === 'xuong' ? (wireCoils * 15) + ' Mét cáp + ' + Math.round(wireCoils / 2) + ' Cuộn' : wireCoils + ' Cuộn (100m)';
-    if (accEl) accEl.textContent = accessoryQty + ' Cây / Bộ';
     if (budEl) budEl.textContent = formatVND(fmt(minCost)) + ' – ' + formatVND(fmt(maxCost));
 };
 
 window.applyEstimatorToBoq = function() {
     if (typeof state === 'undefined' || !Array.isArray(state.products)) return;
-    const area = parseInt((document.getElementById('estAreaRange') || {}).value, 10) || 100;
-    const floors = currentEstimatorType === 'xuong' ? 1 : (parseInt((document.getElementById('estFloorsRange') || {}).value, 10) || 3);
-    const totalArea = area * floors;
+    const area = parseInt((document.getElementById('estAreaRange') || {}).value, 10) || 90;
+    const floors = currentEstimatorType === 'xuong' ? 1 : (parseInt((document.getElementById('estFloorsRange') || {}).value, 10) || 5);
 
     const pickById = (id, kw) => state.products.find(pr => pr.id === id) || state.products.find(pr => pr.name.toLowerCase().includes((kw || '').toLowerCase())) || state.products[0];
+    const breakdown = computeEstimatorBreakdown(currentEstimatorType, area, floors);
     const itemsToAdd = [];
 
-    if (currentEstimatorType === 'xuong') {
-        itemsToAdd.push(
-            { product: pickById('dp-cds-3p-16', 'Cadisun'), qty: Math.max(40, Math.round(totalArea / 4.5)) },
-            { product: pickById('dp-cdv-cv-40', 'Cadivi'), qty: Math.max(3, Math.round(totalArea / 70)) },
-            { product: pickById('dp-mpe-hb150', 'Highbay'), qty: Math.max(8, Math.round(totalArea / 25)) },
-            { product: pickById('dp-rd-bn50', 'Bán nguyệt'), qty: Math.max(10, Math.round(totalArea / 20)) },
-            { product: pickById('dp-ls-mccb100', 'MCCB'), qty: Math.max(2, Math.round(totalArea / 200)) },
-            { product: pickById('dp-ls-mccb63', 'MCCB'), qty: Math.max(4, Math.round(totalArea / 65)) },
-            { product: pickById('dp-ls-mc32', 'Khởi động từ'), qty: Math.max(2, Math.round(totalArea / 100)) },
-            { product: pickById('dp-tu-xn68', 'Vỏ tủ'), qty: 1 },
-            { product: pickById('sino-sgs14', 'Ống ghen'), qty: Math.max(20, Math.round(totalArea / 10)) }
-        );
-    } else {
-        const scale = totalArea / 300;
-        const wireCoils = Math.max(5, Math.round(totalArea / 24));
-        const mat1 = pickById('sino-s18a01', 'Mặt 1 lỗ');
-        const mat2 = pickById('sino-s18a02', 'Mặt 2 lỗ');
-        const mat3 = pickById('sino-s18a03', 'Mặt 3 lỗ');
-        const matAt = pickById('panasonic-pm021', 'Mặt 2 át');
-        const atKhoi30 = pickById('panasonic-pa53', 'Át đen 30A');
-        const hatCt1 = pickById('sino-s18a15', 'Hạt CT');
-        const hatCt2 = pickById('sino-s18a16', '2 chiều');
-        const hatO = pickById('sino-s18a07', 'Ổ đơn');
-        const denBao = pickById('panasonic-pf12', 'Đèn báo');
-        const at25 = pickById('ls-ya25', '2 cực 25A');
-        const at32 = pickById('ls-ya26', '2 cực 32A');
-        const at63 = pickById('ls-ya29', '2 cực 63A');
-        const ledMatTrau = pickById('rang-dong-rd54', '110/12W');
-        const ledOp = pickById(currentEstimatorType === 'bietthu' ? 'rang-dong-ro04' : 'rang-dong-ro02', 'ốp trần');
-        const wire25 = pickById('dp-tp-vcm-25', '2.5mm');
-        const wire15 = pickById('dp-tp-vcm-15', '1.5mm');
-        const ongGhen = pickById('sino-sgs12', 'Ống ghen SP tròn 20');
-
-        itemsToAdd.push(
-            { product: mat1, qty: Math.max(8, Math.round(20 * scale)) },
-            { product: mat2, qty: Math.max(20, Math.round(60 * scale)) },
-            { product: mat3, qty: Math.max(6, Math.round(16 * scale)) },
-            { product: matAt, qty: Math.max(6, Math.round(16 * scale)) },
-            { product: atKhoi30, qty: Math.max(6, Math.round(16 * scale)) },
-            { product: hatCt1, qty: Math.max(15, Math.round(40 * scale)) },
-            { product: hatCt2, qty: Math.max(12, Math.round(35 * scale)) },
-            { product: hatO, qty: Math.max(40, Math.round(150 * scale)) },
-            { product: denBao, qty: Math.max(4, Math.round(8 * scale)) },
-            { product: at25, qty: Math.max(4, Math.round(8 * scale)) },
-            { product: at32, qty: Math.max(3, Math.round(7 * scale)) },
-            { product: at63, qty: Math.max(2, Math.round(3 * scale)) },
-            { product: ledMatTrau, qty: Math.max(20, Math.round(60 * scale)) },
-            { product: ledOp, qty: Math.max(6, Math.round(12 * scale)) },
-            { product: wire25, qty: Math.ceil(wireCoils * 0.55) },
-            { product: wire15, qty: Math.max(2, Math.floor(wireCoils * 0.45)) },
-            { product: ongGhen, qty: Math.max(18, Math.round(40 * scale)) }
-        );
-    }
+    breakdown.forEach(entry => {
+        if (entry.splitWire) {
+            itemsToAdd.push({ product: pickById('dp-tp-vcm-25', '2.5mm'), qty: entry.splitWire.wire25 });
+            itemsToAdd.push({ product: pickById('dp-tp-vcm-15', '1.5mm'), qty: entry.splitWire.wire15 });
+        } else {
+            itemsToAdd.push({ product: pickById(entry.productId, entry.kw), qty: entry.qty });
+        }
+    });
 
     state.boqCart = [];
     itemsToAdd.filter(e => e.product).forEach(entry => {

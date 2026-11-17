@@ -2208,7 +2208,7 @@ button, input, select, textarea {
     padding: 26px;
     box-shadow: var(--shadow-card);
     display: grid;
-    grid-template-columns: 1.05fr 0.95fr;
+    grid-template-columns: 0.82fr 1.18fr;
     gap: 28px;
     align-items: center;
 }
@@ -2282,28 +2282,29 @@ button, input, select, textarea {
 
 .est-res-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    margin: 14px 0 18px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin: 12px 0 16px;
 }
 
 .est-res-item {
     background: var(--bg-elevated);
     border: 1px solid var(--border-subtle);
     border-radius: var(--radius-sm);
-    padding: 10px 12px;
+    padding: 8px 10px;
 }
 
 .est-res-item span {
     display: block;
-    font-size: 0.76rem;
+    font-size: 0.72rem;
     color: var(--text-muted);
-    margin-bottom: 3px;
+    margin-bottom: 2px;
+    line-height: 1.25;
 }
 
 .est-res-item strong {
-    font-size: 0.96rem;
-    color: var(--text-primary);
+    font-size: 0.9rem;
+    color: var(--primary-light);
 }
 
 .est-budget-banner {

@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="css/style.css?v=20261117_01">
+    <link rel="stylesheet" href="css/style.css?v=20261117_02">
 
     <!-- Schema.org JSON-LD -->
     <script type="application/ld+json">
@@ -226,49 +226,26 @@
                     <div class="est-slider-group">
                         <div class="est-slider-header">
                             <span><i class="fas fa-vector-square" style="color: var(--primary);"></i> Diện tích 1 mặt sàn:</span>
-                            <strong id="estAreaVal">100 m²</strong>
+                            <strong id="estAreaVal">90 m²</strong>
                         </div>
-                        <input type="range" id="estAreaRange" class="est-range" min="40" max="800" step="10" value="100" oninput="updateEstimator()">
+                        <input type="range" id="estAreaRange" class="est-range" min="40" max="800" step="10" value="90" oninput="updateEstimator()">
                     </div>
 
                     <div class="est-slider-group" id="estFloorsGroup">
                         <div class="est-slider-header">
                             <span><i class="fas fa-building" style="color: var(--primary);"></i> Số tầng xây dựng:</span>
-                            <strong id="estFloorsVal">3 tầng</strong>
+                            <strong id="estFloorsVal">5 tầng</strong>
                         </div>
-                        <input type="range" id="estFloorsRange" class="est-range" min="1" max="6" step="1" value="3" oninput="updateEstimator()">
+                        <input type="range" id="estFloorsRange" class="est-range" min="1" max="7" step="1" value="5" oninput="updateEstimator()">
                     </div>
                 </div>
 
                 <div class="estimator-result-box">
                     <div style="font-size: 0.9rem; font-weight: 700; color: var(--primary-light); text-transform: uppercase; letter-spacing: 0.4px;">
-                        <i class="fas fa-bolt"></i> Khối Lượng Vật Tư Ước Tính (<span id="estTotalArea">300 m² sàn</span>)
+                        <i class="fas fa-bolt"></i> Khối Lượng Vật Tư Ước Tính (<span id="estTotalArea">450 m² sàn</span>)
                     </div>
-                    <div class="est-res-grid">
-                        <div class="est-res-item">
-                            <span>Mặt công tắc & Mặt ổ (1/2/3 lỗ + Mặt át)</span>
-                            <strong id="estFaceplateQty">110 Cái</strong>
-                        </div>
-                        <div class="est-res-item">
-                            <span>Hạt công tắc (1C/2C) & Hạt ổ cắm</span>
-                            <strong id="estSwitchQty">230 Hạt</strong>
-                        </div>
-                        <div class="est-res-item">
-                            <span>Đèn mắt trâu 110/12W & Ốp trần Rạng Đông</span>
-                            <strong id="estLedQty">72 Cái</strong>
-                        </div>
-                        <div class="est-res-item">
-                            <span>Át khối 30A, Át 2P (25A-63A) & Đèn báo</span>
-                            <strong id="estBreakerQty">38 Cái</strong>
-                        </div>
-                        <div class="est-res-item">
-                            <span>Dây cáp điện âm tường (1.5 / 2.5 / 4.0mm²)</span>
-                            <strong id="estWireQty">13 Cuộn (100m)</strong>
-                        </div>
-                        <div class="est-res-item">
-                            <span>Ống ghen SP luồn dây & Phụ kiện</span>
-                            <strong id="estAccessoryQty">45 Cây / Bộ</strong>
-                        </div>
+                    <div class="est-res-grid" id="estResultGrid">
+                        <!-- Render động 15+ đầu hàng chuẩn Bill thực tế qua app.js -->
                     </div>
                     <div class="est-budget-banner">
                         <span style="font-size: 0.86rem; color: var(--text-secondary);">Ngân sách Catalog dự kiến:</span>
@@ -758,7 +735,7 @@
     <!-- Product Catalog Data (420 Sản Phẩm Nhà Máy) -->
     <script src="js/products.js?v=20261115_01"></script>
     <!-- Main Application Script -->
-    <script src="js/app.js?v=20261117_01"></script>
+    <script src="js/app.js?v=20261117_02"></script>
     <!-- Script Popup Thu Thập SĐT Xây Nhà -->
     <script src="js/lead-popup.js?v=20261110_02"></script>
 </body>

@@ -258,15 +258,15 @@ window.ALL_PRODUCTS_DATA = [
   {
     "id": "dp-brt-oc3",
     "sku": "BRT-LUX-OC",
-    "name": "Bộ Ổ Cắm Đôi 3 Chấu BRETINA Mặt Vàng Champagne",
-    "brand": "Bretina",
+    "name": "Bộ Ổ Cắm Đôi 3 Chấu BRENNA Mặt Vàng Champagne",
+    "brand": "Brenna",
     "category": "cong-tac-o-cam",
     "categoryName": "Ổ Cắm & Công Tắc",
     "unit": "Bộ",
     "price": 145000,
     "catalogPrice": 145000,
     "spec": "Mặt Vàng Champagne viền kim loại",
-    "image": "assets/images/products/o-cam-bretina-vang.jpg",
+    "image": "assets/images/products/o-cam-brenna-vang.jpg",
     "desc": "Dòng công tắc ổ cắm Luxury viền nhôm phay xước mạ vàng Champagne, mặt cắm chống lỏng, chịu tải 16A cho biệt thự.",
     "inStock": true,
     "variants": [
@@ -276,15 +276,15 @@ window.ALL_PRODUCTS_DATA = [
   {
     "id": "dp-brt-ct2",
     "sku": "BRT-LUX-CT2",
-    "name": "Bộ Công Tắc 2 Hạt BRETINA Mặt Vàng Champagne",
-    "brand": "Bretina",
+    "name": "Bộ Công Tắc 2 Hạt BRENNA Mặt Vàng Champagne",
+    "brand": "Brenna",
     "category": "cong-tac-o-cam",
     "categoryName": "Ổ Cắm & Công Tắc",
     "unit": "Bộ",
     "price": 135000,
     "catalogPrice": 135000,
     "spec": "Công tắc 2 hạt mặt Vàng Champagne",
-    "image": "assets/images/products/cong-tac-bretina-vang.jpg",
+    "image": "assets/images/products/cong-tac-brenna-vang.jpg",
     "desc": "Công tắc 2 phím bấm êm tay có dạ quang phát sáng ban đêm, tiếp điểm hợp kim bạc chống tia lửa điện.",
     "inStock": true,
     "variants": [
@@ -294,15 +294,15 @@ window.ALL_PRODUCTS_DATA = [
   {
     "id": "dp-brt-ct3",
     "sku": "BRT-LUX-CT3",
-    "name": "Bộ Công Tắc 3 Hạt BRETINA Mặt Xám Titan",
-    "brand": "Bretina",
+    "name": "Bộ Công Tắc 3 Hạt BRENNA Mặt Xám Titan",
+    "brand": "Brenna",
     "category": "cong-tac-o-cam",
     "categoryName": "Ổ Cắm & Công Tắc",
     "unit": "Bộ",
     "price": 165000,
     "catalogPrice": 165000,
     "spec": "Công tắc 3 hạt mặt Xám Titan",
-    "image": "assets/images/products/cong-tac-bretina-xam.jpg",
+    "image": "assets/images/products/cong-tac-brenna-xam.jpg",
     "desc": "Mặt viền nhôm xước màu Xám Titan sang trọng cho nội thất hiện đại, 3 phím bấm độc lập 16A.",
     "inStock": true,
     "variants": [
@@ -312,15 +312,15 @@ window.ALL_PRODUCTS_DATA = [
   {
     "id": "dp-brt-ct2c",
     "sku": "BRT-LUX-CT2C",
-    "name": "Bộ Công Tắc 1 Hạt 2 Chiều Cầu Thang BRETINA",
-    "brand": "Bretina",
+    "name": "Bộ Công Tắc 1 Hạt 2 Chiều Cầu Thang BRENNA",
+    "brand": "Brenna",
     "category": "cong-tac-o-cam",
     "categoryName": "Ổ Cắm & Công Tắc",
     "unit": "Bộ",
     "price": 98000,
     "catalogPrice": 98000,
     "spec": "1 hạt 2 chiều (Cầu thang / Phòng ngủ)",
-    "image": "assets/images/products/cong-tac-bretina-vang.jpg",
+    "image": "assets/images/products/cong-tac-brenna-vang.jpg",
     "desc": "Bộ công tắc đảo chiều chuyên dụng bật tắt 2 vị trí cầu thang và đầu giường ngủ, viền kim loại cao cấp.",
     "inStock": true,
     "variants": [
@@ -330,15 +330,15 @@ window.ALL_PRODUCTS_DATA = [
   {
     "id": "dp-brt-lan",
     "sku": "BRT-LUX-LAN",
-    "name": "Bộ Hạt Mạng LAN + Tivi BRETINA Mặt Kim Loại",
-    "brand": "Bretina",
+    "name": "Bộ Hạt Mạng LAN + Tivi BRENNA Mặt Kim Loại",
+    "brand": "Brenna",
     "category": "cong-tac-o-cam",
     "categoryName": "Ổ Cắm & Công Tắc",
     "unit": "Bộ",
     "price": 185000,
     "catalogPrice": 185000,
     "spec": "Mạng LAN Cat6 + Cáp Tivi đồng bộ",
-    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "image": "assets/images/products/hat-mang-brenna.jpg",
     "desc": "Bộ ổ cắm đa phương tiện mạng LAN tốc độ cao Gigabit kết hợp cổng cáp đồng trục Tivi gia đình.",
     "inStock": true,
     "variants": [
@@ -16640,7 +16640,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 36353,
     "catalogPrice": 36353,
     "spec": "Mã S18A18 - Chính hãng Sino",
-    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "image": "assets/images/products/hat-mang-brenna.jpg",
     "desc": "Hạt tivi S19+18A (A96TV) (Mã S18A18) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
     "inStock": true,
     "variants": [
@@ -16658,7 +16658,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 53460,
     "catalogPrice": 53460,
     "spec": "Mã S18A19 - Chính hãng Sino",
-    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "image": "assets/images/products/hat-mang-brenna.jpg",
     "desc": "Hạt ĐT S19+S18A (S19RJ) (Mã S18A19) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
     "inStock": true,
     "variants": [
@@ -16676,7 +16676,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 42768,
     "catalogPrice": 42768,
     "spec": "Mã S18A19D - Chính hãng Sino",
-    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "image": "assets/images/products/hat-mang-brenna.jpg",
     "desc": "Hạt ĐTcó dây S19+S18A (A96RJ40/W) (Mã S18A19D) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
     "inStock": true,
     "variants": [
@@ -16766,7 +16766,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 17107,
     "catalogPrice": 17107,
     "spec": "Mã S18A24 - Chính hãng Sino",
-    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "image": "assets/images/products/hat-mang-brenna.jpg",
     "desc": "H đèn có dây S19+18A (A96NRD/W) (Mã S18A24) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
     "inStock": true,
     "variants": [
@@ -16802,7 +16802,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 64865,
     "catalogPrice": 64865,
     "spec": "Mã S18A28 - Chính hãng Sino",
-    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "image": "assets/images/products/hat-mang-brenna.jpg",
     "desc": "Ổ cắm máy tính 8 dây S18A+S19 (A96RJ88) (Mã S18A28) chính hãng Sino, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
     "inStock": true,
     "variants": [
@@ -18080,7 +18080,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 55228,
     "catalogPrice": 55228,
     "spec": "Mã PF13 - Chính hãng Panasonic",
-    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "image": "assets/images/products/hat-mang-brenna.jpg",
     "desc": "Ổ tivi Full (WZ1201W) (Mã PF13) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
     "inStock": true,
     "variants": [
@@ -18098,7 +18098,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 78013,
     "catalogPrice": 78013,
     "spec": "Mã PF14 - Chính hãng Panasonic",
-    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "image": "assets/images/products/hat-mang-brenna.jpg",
     "desc": "Ổ ĐT 4 dây Full (WNTG15649W) (Mã PF14) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
     "inStock": true,
     "variants": [
@@ -18116,7 +18116,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 148302,
     "catalogPrice": 148302,
     "spec": "Mã PF15 - Chính hãng Panasonic",
-    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "image": "assets/images/products/hat-mang-brenna.jpg",
     "desc": "Ổ mạng Full (NRV3160W) (Mã PF15) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
     "inStock": true,
     "variants": [
@@ -18476,7 +18476,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 222298,
     "catalogPrice": 222298,
     "spec": "Mã PHV08 - Chính hãng Panasonic",
-    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "image": "assets/images/products/hat-mang-brenna.jpg",
     "desc": "Ổ cắm mạng Cat5 vàng ánh kim Halumie (WEV2488MYZ)Chiếc (Mã PHV08) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
     "inStock": true,
     "variants": [
@@ -19034,7 +19034,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 108070,
     "catalogPrice": 108070,
     "spec": "Mã PM13 - Chính hãng Panasonic",
-    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "image": "assets/images/products/hat-mang-brenna.jpg",
     "desc": "Ổ tivi Wide xám (WEV2501H) (Mã PM13) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
     "inStock": true,
     "variants": [
@@ -19052,7 +19052,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 108070,
     "catalogPrice": 108070,
     "spec": "Mã PM14 - Chính hãng Panasonic",
-    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "image": "assets/images/products/hat-mang-brenna.jpg",
     "desc": "Ổ ĐT Wide xám (WEV2364H) (Mã PM14) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
     "inStock": true,
     "variants": [
@@ -19088,7 +19088,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 187145,
     "catalogPrice": 187145,
     "spec": "Mã PM15 - Chính hãng Panasonic",
-    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "image": "assets/images/products/hat-mang-brenna.jpg",
     "desc": "Ổ mạng Wide xám (WEV2488H) -CAT5 Pana (Mã PM15) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
     "inStock": true,
     "variants": [
@@ -19106,7 +19106,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 225929,
     "catalogPrice": 225929,
     "spec": "Mã PM151 - Chính hãng Panasonic",
-    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "image": "assets/images/products/hat-mang-brenna.jpg",
     "desc": "Ổ mạng Wide xám (WEV24886H) -CAT6 Pana (Mã PM151) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
     "inStock": true,
     "variants": [
@@ -21950,7 +21950,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 72298,
     "catalogPrice": 72298,
     "spec": "Mã PW13 - Chính hãng Panasonic",
-    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "image": "assets/images/products/hat-mang-brenna.jpg",
     "desc": "Ổ tivi Wide (WEG2501SW) (Mã PW13) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
     "inStock": true,
     "variants": [
@@ -21968,7 +21968,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 72298,
     "catalogPrice": 72298,
     "spec": "Mã PW14 - Chính hãng Panasonic",
-    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "image": "assets/images/products/hat-mang-brenna.jpg",
     "desc": "Ổ ĐT 4 dây Wide (WEG2364SW) (Mã PW14) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
     "inStock": true,
     "variants": [
@@ -21986,7 +21986,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 156644,
     "catalogPrice": 156644,
     "spec": "Mã PW15 - Chính hãng Panasonic",
-    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "image": "assets/images/products/hat-mang-brenna.jpg",
     "desc": "Ổ mạng Wide (WEV2488SW) -CAT5 (Mã PW15) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
     "inStock": true,
     "variants": [
@@ -22004,7 +22004,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 187522,
     "catalogPrice": 187522,
     "spec": "Mã PW151 - Chính hãng Panasonic",
-    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "image": "assets/images/products/hat-mang-brenna.jpg",
     "desc": "Ổ mạng Wide (WEV24886SW) -CAT6 (Mã PW151) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
     "inStock": true,
     "variants": [
@@ -22886,7 +22886,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 328273,
     "catalogPrice": 328273,
     "spec": "Mã PWV13 - Chính hãng Panasonic",
-    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "image": "assets/images/products/hat-mang-brenna.jpg",
     "desc": "Bộ 1 ổ cắm mạng Cat5E (WMT421MYZ-VN) vàng MinervaChiếc (Mã PWV13) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
     "inStock": true,
     "variants": [
@@ -23138,7 +23138,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 305436,
     "catalogPrice": 305436,
     "spec": "Mã PWM13 - Chính hãng Panasonic",
-    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "image": "assets/images/products/hat-mang-brenna.jpg",
     "desc": "Bộ 1 ổ cắm mạng Cat5E (WMF421MYH-VN0 xám ModervaChiếc (Mã PWM13) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
     "inStock": true,
     "variants": [
@@ -23426,7 +23426,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 305436,
     "catalogPrice": 305436,
     "spec": "Mã PMV13 - Chính hãng Panasonic",
-    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "image": "assets/images/products/hat-mang-brenna.jpg",
     "desc": "Bộ 1 ổ cắm mạng Cat5E (WMF421MYZ-VN) vàng ModervaChiếc (Mã PMV13) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
     "inStock": true,
     "variants": [
@@ -23696,7 +23696,7 @@ window.ALL_PRODUCTS_DATA = [
     "price": 217660,
     "catalogPrice": 217660,
     "spec": "Mã PMT13 - Chính hãng Panasonic",
-    "image": "assets/images/products/hat-mang-bretina.jpg",
+    "image": "assets/images/products/hat-mang-brenna.jpg",
     "desc": "Bộ 1 ổ cắm mạng Cat5E (WMF421-VN) trắng Moderva (Mã PMT13) chính hãng Panasonic, phân phối trực tiếp tại Tổng Kho Thiết Bị Điện Duy Phong - Bắc Ninh.",
     "inStock": true,
     "variants": [

@@ -2852,7 +2852,7 @@ window.selectEstimatorType = function(type) {
         if (floorsGroup) floorsGroup.style.opacity = '1';
     } else {
         if (areaEl) { areaEl.min = 40; areaEl.max = 300; areaEl.value = 90; }
-        if (floorsEl) floorsEl.value = 5;
+        if (floorsEl) floorsEl.value = 6;
         if (floorsGroup) floorsGroup.style.opacity = '1';
     }
     window.updateEstimator();
@@ -2863,43 +2863,54 @@ function computeEstimatorBreakdown(type, area, floors) {
     if (type === 'xuong') {
         const s = totalArea / 400;
         return [
-            { label: 'Cáp 3 pha 4 lõi Cadisun', qty: Math.max(40, Math.round(85 * s)), unit: 'Mét', productId: 'dp-cds-3p-16', kw: 'Cadisun' },
-            { label: 'Cáp nhánh Cadivi 4.0mm²', qty: Math.max(2, Math.round(6 * s)), unit: 'Cuộn', productId: 'dp-cdv-cv-40', kw: 'Cadivi' },
-            { label: 'Đèn LED Highbay 150W', qty: Math.max(6, Math.round(16 * s)), unit: 'Bộ', productId: 'dp-mpe-hb150', kw: 'Highbay' },
-            { label: 'Đèn Bán nguyệt 1.2m 50W', qty: Math.max(8, Math.round(20 * s)), unit: 'Bộ', productId: 'dp-rd-bn50', kw: 'Bán nguyệt' },
-            { label: 'Át khối MCCB 3P 100A LS', qty: Math.max(1, Math.round(2 * s)), unit: 'Cái', productId: 'dp-ls-mccb100', kw: 'MCCB' },
-            { label: 'Át khối MCCB 3P 63A LS', qty: Math.max(2, Math.round(6 * s)), unit: 'Cái', productId: 'dp-ls-mccb63', kw: 'MCCB' },
-            { label: 'Khởi động từ 3P MC-32a LS', qty: Math.max(2, Math.round(4 * s)), unit: 'Cái', productId: 'dp-ls-mc32', kw: 'Khởi động từ' },
-            { label: 'Rơ le nhiệt MT32 LS', qty: Math.max(2, Math.round(4 * s)), unit: 'Cái', productId: 'ls-yg01', kw: 'Rơ le' },
-            { label: 'Vỏ tủ điện tổng 600x800', qty: Math.max(1, Math.round(1 * s)), unit: 'Tủ', productId: 'dp-tu-xn68', kw: 'Vỏ tủ' },
-            { label: 'Ổ cắm & Công tắc văn phòng', qty: Math.max(10, Math.round(25 * s)), unit: 'Cái', productId: 'sino-s18a08', kw: 'Ổ đôi' },
-            { label: 'Ống ghen SP tròn 32 Sino', qty: Math.max(20, Math.round(40 * s)), unit: 'Cây', productId: 'sino-sgs14', kw: 'Ống ghen' }
+            { label: 'Cáp 3 pha 4 lõi Cadisun', qty: Math.max(40, Math.round(85 * s)), unit: 'Mét', productId: 'dp-cds-3p-16', kw: 'Cadisun', unitPrice: 245000 },
+            { label: 'Cáp nhánh Cadivi 4.0mm²', qty: Math.max(2, Math.round(6 * s)), unit: 'Cuộn', productId: 'dp-cdv-cv-40', kw: 'Cadivi', unitPrice: 1650000 },
+            { label: 'Đèn LED Highbay 150W', qty: Math.max(6, Math.round(16 * s)), unit: 'Bộ', productId: 'dp-mpe-hb150', kw: 'Highbay', unitPrice: 850000 },
+            { label: 'Đèn Bán nguyệt 1.2m 50W', qty: Math.max(8, Math.round(20 * s)), unit: 'Bộ', productId: 'dp-rd-bn50', kw: 'Bán nguyệt', unitPrice: 195000 },
+            { label: 'Át khối MCCB 3P 100A LS', qty: Math.max(1, Math.round(2 * s)), unit: 'Cái', productId: 'dp-ls-mccb100', kw: 'MCCB', unitPrice: 850000 },
+            { label: 'Át khối MCCB 3P 63A LS', qty: Math.max(2, Math.round(6 * s)), unit: 'Cái', productId: 'dp-ls-mccb63', kw: 'MCCB', unitPrice: 650000 },
+            { label: 'Khởi động từ 3P MC-32a LS', qty: Math.max(2, Math.round(4 * s)), unit: 'Cái', productId: 'dp-ls-mc32', kw: 'Khởi động từ', unitPrice: 420000 },
+            { label: 'Rơ le nhiệt MT32 LS', qty: Math.max(2, Math.round(4 * s)), unit: 'Cái', productId: 'ls-yg01', kw: 'Rơ le', unitPrice: 280000 },
+            { label: 'Vỏ tủ điện tổng 600x800', qty: Math.max(1, Math.round(1 * s)), unit: 'Tủ', productId: 'dp-tu-xn68', kw: 'Vỏ tủ', unitPrice: 1250000 },
+            { label: 'Ổ cắm & Công tắc văn phòng', qty: Math.max(10, Math.round(25 * s)), unit: 'Cái', productId: 'sino-s18a08', kw: 'Ổ đôi', unitPrice: 45000 },
+            { label: 'Ống ghen SP tròn 32 Sino', qty: Math.max(20, Math.round(40 * s)), unit: 'Cây', productId: 'sino-sgs14', kw: 'Ống ghen', unitPrice: 32000 }
         ];
     }
 
-    // Chuẩn Bill thực tế nhà 5 tầng (~450m² sàn -> tỷ lệ 1.0; Biệt thự mật độ cao hơn 15%)
+    // Helper làm tròn khối lượng vật tư chuẩn thợ thầu (theo lố, hộp, số chẵn)
+    const roundStep = (val, step, minVal) => {
+        const rounded = Math.round(val / step) * step;
+        return Math.max(minVal, rounded);
+    };
+
+    // Chuẩn thực tế công trình Cửa Hàng Duy Phong: Nhà 6 tầng x 90m² = 540m² sàn (Khách hàng Anh Tài Hoan)
     const density = type === 'bietthu' ? 1.15 : 1.0;
-    const scale = (totalArea / 450) * density;
-    const wire25 = Math.max(3, Math.round(11 * scale));
-    const wire15 = Math.max(2, Math.round(9 * scale));
+    const scale = (totalArea / 540) * density;
+
+    // Phân bổ dây điện thực tế (14 cuộn 2.5mm² cấp ổ cắm, 10 cuộn 1.5mm² cấp chiếu sáng)
+    const wire25 = roundStep(14 * scale, 1, 2);
+    const wire15 = roundStep(10 * scale, 1, 2);
+
+    // Át 63A: 1 át tổng cả nhà + 1 át tổng cho mỗi tầng (chuẩn an toàn điện)
+    const at63Qty = Math.max(2, 1 + floors);
 
     return [
-        { label: 'Mặt 1 lỗ (Sino / Pana)', qty: Math.max(12, Math.round(60 * scale)), unit: 'Cái', productId: 'sino-s18a01', kw: 'Mặt 1 lỗ' },
-        { label: 'Mặt 2 lỗ (Sino / Pana)', qty: Math.max(35, Math.round(200 * scale)), unit: 'Cái', productId: 'sino-s18a02', kw: 'Mặt 2 lỗ' },
-        { label: 'Mặt 3 lỗ (Sino / Pana)', qty: Math.max(10, Math.round(50 * scale)), unit: 'Cái', productId: 'sino-s18a03', kw: 'Mặt 3 lỗ' },
-        { label: 'Mặt át khối (Pana / Sino)', qty: Math.max(8, Math.round(50 * scale)), unit: 'Cái', productId: 'panasonic-pm021', kw: 'Mặt 2 át' },
-        { label: 'Át khối 30A (Pana / LS)', qty: Math.max(8, Math.round(50 * scale)), unit: 'Cái', productId: 'panasonic-pa53', kw: 'Át đen 30A' },
-        { label: 'Hạt công tắc 1 chiều', qty: Math.max(20, Math.round(120 * scale)), unit: 'Hạt', productId: 'sino-s18a15', kw: 'Hạt CT' },
-        { label: 'Hạt công tắc 2 chiều', qty: Math.max(18, Math.round(110 * scale)), unit: 'Hạt', productId: 'sino-s18a16', kw: '2 chiều' },
-        { label: 'Hạt ổ cắm 2 chấu', qty: Math.max(80, Math.round(500 * scale)), unit: 'Cái', productId: 'sino-s18a07', kw: 'Ổ đơn' },
-        { label: 'Hạt đèn báo (Pana)', qty: Math.max(5, Math.round(25 * scale)), unit: 'Cái', productId: 'panasonic-pf12', kw: 'Đèn báo' },
-        { label: 'Át cài 2P 25A (LS)', qty: Math.max(5, Math.round(25 * scale)), unit: 'Cái', productId: 'ls-ya25', kw: '2 cực 25A' },
-        { label: 'Át cài 2P 32A (LS)', qty: Math.max(4, Math.round(22 * scale)), unit: 'Cái', productId: 'ls-ya26', kw: '2 cực 32A' },
-        { label: 'Át cài 2P 63A (LS)', qty: Math.max(2, Math.round(7 * scale)), unit: 'Cái', productId: 'ls-ya29', kw: '2 cực 63A' },
-        { label: 'Đèn mắt trâu 110/12W RĐ', qty: Math.max(35, Math.round(200 * scale)), unit: 'Cái', productId: 'rang-dong-rd54', kw: '110/12W' },
-        { label: 'Đèn ốp tường / trần RĐ', qty: Math.max(8, Math.round(40 * scale)), unit: 'Cái', productId: type === 'bietthu' ? 'rang-dong-ro04' : 'rang-dong-ro02', kw: 'ốp trần' },
-        { label: 'Dây Trần Phú 2.5mm² & 1.5mm²', qty: wire25 + wire15, unit: 'Cuộn', productId: 'dp-tp-vcm-25', kw: '2.5mm', splitWire: { wire25, wire15 } },
-        { label: 'Ống ghen SP 20 & Vít mặt', qty: Math.max(15, Math.round(65 * scale)), unit: 'Cây/Lạng', productId: 'sino-sgs12', kw: 'Ống ghen SP tròn 20' }
+        { label: 'Mặt 1 lỗ (Goneo / Sino)', qty: roundStep(60 * scale, 5, 5), unit: 'Cái', productId: 'sino-s18a01', kw: 'Mặt 1 lỗ', unitPrice: 12460 },
+        { label: 'Mặt 2 lỗ (Goneo / Sino)', qty: roundStep(200 * scale, 10, 10), unit: 'Cái', productId: 'sino-s18a02', kw: 'Mặt 2 lỗ', unitPrice: 12460 },
+        { label: 'Mặt 3 lỗ (Goneo / Sino)', qty: roundStep(50 * scale, 5, 5), unit: 'Cái', productId: 'sino-s18a03', kw: 'Mặt 3 lỗ', unitPrice: 12460 },
+        { label: 'Mặt át khối (Goneo / Pana)', qty: roundStep(50 * scale, 5, 5), unit: 'Cái', productId: 'panasonic-pm021', kw: 'Mặt 2 át', unitPrice: 12460 },
+        { label: 'Át khối 30A G8 (Goneo / Pana)', qty: roundStep(50 * scale, 5, 5), unit: 'Cái', productId: 'panasonic-pa53', kw: 'Át đen 30A', unitPrice: 45000 },
+        { label: 'Hạt công tắc 1 chiều (Goneo)', qty: roundStep(120 * scale, 10, 10), unit: 'Hạt', productId: 'sino-s18a15', kw: 'Hạt CT', unitPrice: 15836 },
+        { label: 'Hạt công tắc 2 chiều (Goneo)', qty: roundStep(110 * scale, 10, 10), unit: 'Hạt', productId: 'sino-s18a16', kw: '2 chiều', unitPrice: 25828 },
+        { label: 'Hạt ổ cắm 2 chấu (Goneo)', qty: roundStep(500 * scale, 20, 20), unit: 'Cái', productId: 'sino-s18a07', kw: 'Ổ đơn', unitPrice: 27100 },
+        { label: 'Hạt đèn báo (Goneo / Pana)', qty: roundStep(25 * scale, 5, 5), unit: 'Cái', productId: 'panasonic-pf12', kw: 'Đèn báo', unitPrice: 27612 },
+        { label: 'Át cài 2P 25A (Goneo / LS)', qty: roundStep(25 * scale, 5, 2), unit: 'Cái', productId: 'ls-ya25', kw: '2 cực 25A', unitPrice: 121982 },
+        { label: 'Át cài 2P 32A (Goneo / LS)', qty: roundStep(22 * scale, 2, 2), unit: 'Cái', productId: 'ls-ya26', kw: '2 cực 32A', unitPrice: 121982 },
+        { label: 'Át cài 2P 63A (Át tổng nhà & tầng)', qty: at63Qty, unit: 'Cái', productId: 'ls-ya29', kw: '2 cực 63A', unitPrice: 148932 },
+        { label: 'Đèn mắt trâu 110/12W trắng RĐ', qty: roundStep(200 * scale, 10, 10), unit: 'Cái', productId: 'rang-dong-rd54', kw: '110/12W', unitPrice: 95000 },
+        { label: 'Đèn ốp tường 10W Rạng Đông', qty: roundStep(40 * scale, 5, 4), unit: 'Cái', productId: type === 'bietthu' ? 'rang-dong-ro04' : 'rang-dong-ro02', kw: 'ốp trần', unitPrice: 85000 },
+        { label: 'Dây Trần Phú 2.5mm² & 1.5mm²', qty: wire25 + wire15, unit: 'Cuộn', productId: 'dp-tp-vcm-25', kw: '2.5mm', splitWire: { wire25, wire15 }, unitPrice: 1054000 },
+        { label: 'Ống ghen SP 20 & Vít mặt', qty: roundStep(70 * scale, 5, 10), unit: 'Cây/Lạng', productId: 'sino-sgs12', kw: 'Ống ghen SP tròn 20', unitPrice: 18500 }
     ];
 }
 
@@ -2911,7 +2922,7 @@ window.updateEstimator = function(preserveCustom = false) {
     if (!areaEl || !floorsEl) return;
 
     const area = parseInt(areaEl.value, 10) || 90;
-    const floors = currentEstimatorType === 'xuong' ? 1 : (parseInt(floorsEl.value, 10) || 5);
+    const floors = currentEstimatorType === 'xuong' ? 1 : (parseInt(floorsEl.value, 10) || 6);
     const totalArea = area * floors;
 
     const areaValEl = document.getElementById('estAreaVal');
@@ -2951,7 +2962,7 @@ window.changeEstQty = function(idx, delta) {
     const newQty = Math.max(0, currentQty + delta);
     currentEstimatorBreakdown[idx].qty = newQty;
     if (currentEstimatorBreakdown[idx].splitWire) {
-        const w25 = Math.round(newQty * 0.55);
+        const w25 = Math.round(newQty * 0.58);
         const w15 = newQty - w25;
         currentEstimatorBreakdown[idx].splitWire = { wire25: w25, wire15: w15 };
     }
@@ -2965,7 +2976,7 @@ window.setEstQty = function(idx, val) {
     const newQty = Math.max(0, parseInt(val, 10) || 0);
     currentEstimatorBreakdown[idx].qty = newQty;
     if (currentEstimatorBreakdown[idx].splitWire) {
-        const w25 = Math.round(newQty * 0.55);
+        const w25 = Math.round(newQty * 0.58);
         const w15 = newQty - w25;
         currentEstimatorBreakdown[idx].splitWire = { wire25: w25, wire15: w15 };
     }
@@ -2976,20 +2987,39 @@ window.recalculateEstimatorBudget = function() {
     const areaEl = document.getElementById('estAreaRange');
     const floorsEl = document.getElementById('estFloorsRange');
     const area = parseInt((areaEl || {}).value, 10) || 90;
-    const floors = currentEstimatorType === 'xuong' ? 1 : (parseInt((floorsEl || {}).value, 10) || 5);
+    const floors = currentEstimatorType === 'xuong' ? 1 : (parseInt((floorsEl || {}).value, 10) || 6);
     const totalArea = area * floors;
 
     let catalogEst = 0;
-    if (typeof state !== 'undefined' && Array.isArray(state.products) && state.products.length > 0) {
+    if (Array.isArray(currentEstimatorBreakdown) && currentEstimatorBreakdown.length > 0) {
         currentEstimatorBreakdown.forEach(item => {
-            const pr = state.products.find(p => p.id === item.productId);
-            if (pr && pr.price) catalogEst += pr.price * item.qty;
+            let p = item.unitPrice || 0;
+            if (!p && typeof state !== 'undefined' && Array.isArray(state.products)) {
+                const found = state.products.find(x => x.id === item.productId);
+                if (found && found.price) p = found.price;
+            }
+            if (item.splitWire) {
+                const w25 = item.splitWire.wire25 || Math.round(item.qty * 0.58);
+                const w15 = item.qty - w25;
+                catalogEst += w25 * 1250000 + w15 * 780000;
+            } else {
+                catalogEst += (p || 35000) * (item.qty || 0);
+            }
         });
     }
-    const minCost = catalogEst > 0 ? catalogEst * 0.85 : totalArea * 120000;
-    const maxCost = catalogEst > 0 ? catalogEst * 1.15 : totalArea * 165000;
+
+    if (catalogEst <= 0) {
+        catalogEst = totalArea * 150000;
+    }
+
+    // Giá chiết khấu thợ thầu tại Tổng Kho Duy Phong (tiết kiệm 15% - 25% so với giá Catalog niêm yết)
+    const minCost = catalogEst * 0.78;
+    const maxCost = catalogEst * 0.85;
     const fmt = (n) => Math.round(n / 100000) * 100000;
+
+    const catEl = document.getElementById('estCatalogText');
     const budEl = document.getElementById('estBudgetText');
+    if (catEl) catEl.textContent = formatVND(fmt(catalogEst));
     if (budEl) budEl.textContent = formatVND(fmt(minCost)) + ' – ' + formatVND(fmt(maxCost));
 };
 

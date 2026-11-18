@@ -2903,7 +2903,9 @@ function computeEstimatorBreakdown(type, area, floors) {
     ];
 }
 
-window.updateEstimator = function() {
+let currentEstimatorBreakdown = [];
+
+window.updateEstimator = function(preserveCustom = false) {
     const areaEl = document.getElementById('estAreaRange');
     const floorsEl = document.getElementById('estFloorsRange');
     if (!areaEl || !floorsEl) return;
@@ -2919,20 +2921,67 @@ window.updateEstimator = function() {
     if (floorsValEl) floorsValEl.textContent = floors + ' tầng';
     if (totalAreaEl) totalAreaEl.textContent = totalArea.toLocaleString('vi-VN') + ' m² sàn';
 
-    const breakdown = computeEstimatorBreakdown(currentEstimatorType, area, floors);
-    const gridEl = document.getElementById('estResultGrid');
-    if (gridEl) {
-        gridEl.innerHTML = breakdown.map(item => `
-            <div class="est-res-item">
-                <span>${item.label}</span>
-                <strong>${item.qty.toLocaleString('vi-VN')} ${item.unit}</strong>
-            </div>
-        `).join('');
+    if (!preserveCustom || currentEstimatorBreakdown.length === 0) {
+        currentEstimatorBreakdown = computeEstimatorBreakdown(currentEstimatorType, area, floors);
     }
+
+    renderEstimatorGrid();
+    recalculateEstimatorBudget();
+};
+
+window.renderEstimatorGrid = function() {
+    const gridEl = document.getElementById('estResultGrid');
+    if (!gridEl) return;
+    gridEl.innerHTML = currentEstimatorBreakdown.map((item, idx) => `
+        <div class="est-res-item">
+            <span class="est-res-label" title="${item.label}">${item.label}</span>
+            <div class="est-res-stepper">
+                <button type="button" class="est-step-btn" onclick="changeEstQty(${idx}, -1)" title="Giảm số lượng">-</button>
+                <input type="number" id="est-qty-input-${idx}" class="est-step-input" value="${item.qty}" min="0" max="9999" oninput="setEstQty(${idx}, this.value)" onchange="setEstQty(${idx}, this.value)">
+                <button type="button" class="est-step-btn" onclick="changeEstQty(${idx}, 1)" title="Tăng số lượng">+</button>
+                <span class="est-step-unit">${item.unit}</span>
+            </div>
+        </div>
+    `).join('');
+};
+
+window.changeEstQty = function(idx, delta) {
+    if (!currentEstimatorBreakdown || !currentEstimatorBreakdown[idx]) return;
+    const currentQty = currentEstimatorBreakdown[idx].qty;
+    const newQty = Math.max(0, currentQty + delta);
+    currentEstimatorBreakdown[idx].qty = newQty;
+    if (currentEstimatorBreakdown[idx].splitWire) {
+        const w25 = Math.round(newQty * 0.55);
+        const w15 = newQty - w25;
+        currentEstimatorBreakdown[idx].splitWire = { wire25: w25, wire15: w15 };
+    }
+    const inputEl = document.getElementById('est-qty-input-' + idx);
+    if (inputEl) inputEl.value = newQty;
+    recalculateEstimatorBudget();
+};
+
+window.setEstQty = function(idx, val) {
+    if (!currentEstimatorBreakdown || !currentEstimatorBreakdown[idx]) return;
+    const newQty = Math.max(0, parseInt(val, 10) || 0);
+    currentEstimatorBreakdown[idx].qty = newQty;
+    if (currentEstimatorBreakdown[idx].splitWire) {
+        const w25 = Math.round(newQty * 0.55);
+        const w15 = newQty - w25;
+        currentEstimatorBreakdown[idx].splitWire = { wire25: w25, wire15: w15 };
+    }
+    recalculateEstimatorBudget();
+};
+
+window.recalculateEstimatorBudget = function() {
+    const areaEl = document.getElementById('estAreaRange');
+    const floorsEl = document.getElementById('estFloorsRange');
+    const area = parseInt((areaEl || {}).value, 10) || 90;
+    const floors = currentEstimatorType === 'xuong' ? 1 : (parseInt((floorsEl || {}).value, 10) || 5);
+    const totalArea = area * floors;
 
     let catalogEst = 0;
     if (typeof state !== 'undefined' && Array.isArray(state.products) && state.products.length > 0) {
-        breakdown.forEach(item => {
+        currentEstimatorBreakdown.forEach(item => {
             const pr = state.products.find(p => p.id === item.productId);
             if (pr && pr.price) catalogEst += pr.price * item.qty;
         });
@@ -2946,24 +2995,22 @@ window.updateEstimator = function() {
 
 window.applyEstimatorToBoq = function() {
     if (typeof state === 'undefined' || !Array.isArray(state.products)) return;
-    const area = parseInt((document.getElementById('estAreaRange') || {}).value, 10) || 90;
-    const floors = currentEstimatorType === 'xuong' ? 1 : (parseInt((document.getElementById('estFloorsRange') || {}).value, 10) || 5);
 
     const pickById = (id, kw) => state.products.find(pr => pr.id === id) || state.products.find(pr => pr.name.toLowerCase().includes((kw || '').toLowerCase())) || state.products[0];
-    const breakdown = computeEstimatorBreakdown(currentEstimatorType, area, floors);
     const itemsToAdd = [];
 
-    breakdown.forEach(entry => {
+    currentEstimatorBreakdown.forEach(entry => {
+        if (entry.qty <= 0) return;
         if (entry.splitWire) {
-            itemsToAdd.push({ product: pickById('dp-tp-vcm-25', '2.5mm'), qty: entry.splitWire.wire25 });
-            itemsToAdd.push({ product: pickById('dp-tp-vcm-15', '1.5mm'), qty: entry.splitWire.wire15 });
+            if (entry.splitWire.wire25 > 0) itemsToAdd.push({ product: pickById('dp-tp-vcm-25', '2.5mm'), qty: entry.splitWire.wire25 });
+            if (entry.splitWire.wire15 > 0) itemsToAdd.push({ product: pickById('dp-tp-vcm-15', '1.5mm'), qty: entry.splitWire.wire15 });
         } else {
             itemsToAdd.push({ product: pickById(entry.productId, entry.kw), qty: entry.qty });
         }
     });
 
     state.boqCart = [];
-    itemsToAdd.filter(e => e.product).forEach(entry => {
+    itemsToAdd.filter(e => e.product && e.qty > 0).forEach(entry => {
         const pr = entry.product;
         state.boqCart.push({
             cartId: pr.id + '_est_' + Date.now() + Math.random().toString(36).slice(2, 6),
@@ -2984,6 +3031,9 @@ window.applyEstimatorToBoq = function() {
 
     const boqEl = document.getElementById('boq-section');
     if (boqEl) boqEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (typeof showToast === 'function') {
+        showToast('Đã nạp ' + state.boqCart.length + ' vật tư với số lượng tùy chỉnh vào bảng báo giá!');
+    }
 };
 
 document.addEventListener('DOMContentLoaded', () => {

@@ -50,7 +50,7 @@
 
                 <div class="lead-features">
                     <span><i class="fas fa-bolt"></i> Dây cáp âm tường: Trần Phú, Cadisun, Cadivi (100% đồng)</span>
-                    <span><i class="fas fa-toggle-on"></i> Công tắc & ổ cắm: Panasonic, Bretina viền kim loại sang trọng</span>
+                    <span><i class="fas fa-toggle-on"></i> Công tắc & ổ cắm: Panasonic, Brenna viền kim loại sang trọng</span>
                     <span><i class="fas fa-lightbulb"></i> Đèn LED âm trần đổi 3 màu & Aptomat Schneider chống giật</span>
                 </div>
 

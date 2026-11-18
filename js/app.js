@@ -7,7 +7,7 @@
  */
 
 const STORAGE_KEYS = {
-    PRODUCTS: 'duyphong_athanhbn_products_v20261115_full_1629',
+    PRODUCTS: 'duyphong_athanhbn_products_v20261118_brenna',
     CART_BOQ: 'duyphong_athanhbn_boq_v1',
     QUOTES:   'duyphong_athanhbn_quotes_v1'
 };

@@ -553,15 +553,15 @@ const INITIAL_PRODUCTS = [
     {
         id: 'dp-04',
         sku: 'BRT-LUX-G1',
-        name: 'Bộ Công Tắc & Ổ Cắm Cao Cấp BRETINA Viền Kim Loại',
+        name: 'Bộ Công Tắc & Ổ Cắm Cao Cấp BRENNA Viền Kim Loại',
         category: 'cong-tac-o-cam',
-        brand: 'Bretina',
+        brand: 'Brenna',
         price: 145000,
         unit: 'Bộ',
         discount: 10,
         variants: ['Ổ cắm đôi 3 chấu mặt Vàng Champagne', 'Công tắc 2 hạt mặt Vàng Champagne', 'Công tắc 3 hạt mặt Xám Titan', 'Công tắc 1 hạt 2 chiều (Cầu thang)', 'Hạt mạng LAN + Tivi đồng bộ'],
         desc: 'Dòng thiết bị mặt viền sang trọng trưng bày trực tiếp tại Showroom Duy Phong, tiếp điểm đồng hợp kim đàn hồi chống đánh lửa.',
-        image: 'assets/images/products/cong-tac-bretina-vang.jpg'
+        image: 'assets/images/products/cong-tac-brenna-vang.jpg'
     },
     {
         id: 'dp-05',
@@ -1703,7 +1703,7 @@ function sendTestEmailNotification() {
         notes: 'Đây là Email kiểm tra tính năng tự động báo đơn mới về hộp thư của bạn.',
         items: [
             { name: 'Dây Điện Đơn Mềm Trần Phú Chính Hãng', variant: 'Tiết diện 2.5mm²', qty: 6, unit: 'Cuộn (100m)', price: 685000, isCustom: false },
-            { name: 'Bộ Công Tắc & Ổ Cắm Cao Cấp BRETINA', variant: 'Ổ cắm đôi 3 chấu mặt Vàng Champagne', qty: 25, unit: 'Bộ', price: 145000, isCustom: false }
+            { name: 'Bộ Công Tắc & Ổ Cắm Cao Cấp BRENNA', variant: 'Ổ cắm đôi 3 chấu mặt Vàng Champagne', qty: 25, unit: 'Bộ', price: 145000, isCustom: false }
         ],
         summary: {
             totalItems: 2,
@@ -2535,13 +2535,13 @@ const ALL_SEO_ARTICLES = [
     },
     {
         "id": "art-02",
-        "title": "So sánh các dòng công tắc ổ cắm cao cấp: Bretina, Vanni, Panasonic và Schneider",
+        "title": "So sánh các dòng công tắc ổ cắm cao cấp: Brenna, Vanni, Panasonic và Schneider",
         "category": "Thiết Bị Cao Cấp",
         "author": "A Thành BN",
         "createdAt": "08/11/2026",
         "summary": "Đánh giá thực tế về tiếp điểm hợp kim bạc đồng, viền kim loại Champagne / Xám Titan, độ nhạy phím bấm và độ bền 40.000 lần bật tắt cho biệt thự và nhà phố hiện đại.",
-        "image": "assets/images/products/cong-tac-bretina-vang.jpg",
-        "content": "\n            <h3>1. Xu hướng thiết bị điện cao cấp cho công trình hiện đại 2026</h3>\n            <p>Thời đại ngày nay, công tắc và ổ cắm không chỉ đơn thuần là phụ kiện dẫn điện mà còn là điểm nhấn nội thất thể hiện gu thẩm mỹ sang trọng của chủ nhà. Các dòng viền kim loại phay xước cao cấp đang dần thay thế hoàn toàn các loại mặt nhựa thông thường.</p>\n\n            <h3>2. Đánh giá chi tiết 4 thương hiệu hàng đầu:</h3>\n            <ul>\n                <li><strong>Bretina (Viền hợp kim nhôm xước - Mặt Vàng Champagne & Xám Titan):</strong> Đang là dòng bán chạy số 1 tại Bắc Ninh cho các công trình nhà phố liền kề và biệt thự. Cảm giác bấm êm ái, tiếp điểm hợp kim bạc chịu tải 16A chống tóe lửa, lá đồng đàn hồi cao cắm rút 10.000 lần không lỏng.</li>\n                <li><strong>Vanni:</strong> Thiết kế mặt vuông phẳng tinh giản, góc cạnh vuông vắn mang phong cách kiến trúc Châu Âu tối giản, độ hoàn thiện tinh xảo.</li>\n                <li><strong>Panasonic (Dòng Wide & Halumie):</strong> Thương hiệu quốc dân bền bỉ, dễ mua dễ thay thế, độ tin cậy đã được kiểm chứng qua hàng chục năm.</li>\n                <li><strong>Schneider (AvatarOn / Zencelo):</strong> Đỉnh cao công nghệ bấm phẳng hoàn toàn, cơ chế phím nảy phẳng ấn tượng, giá thành thuộc phân khúc cao cấp.</li>\n            </ul>\n\n            <h3>3. Trải nghiệm trực tiếp tại Showroom Duy Phong</h3>\n            <p>Mời quý khách và các bác thợ điện ghé qua số <strong>549 Ngô Gia Tự, P. Ninh Xá, TP. Bắc Ninh</strong> để trực tiếp cầm trên tay, bấm thử các mẫu công tắc thực tế trên bảng demo và nhận bảng báo giá chiết khấu đại lý tốt nhất.</p>\n        "
+        "image": "assets/images/products/cong-tac-brenna-vang.jpg",
+        "content": "\n            <h3>1. Xu hướng thiết bị điện cao cấp cho công trình hiện đại 2026</h3>\n            <p>Thời đại ngày nay, công tắc và ổ cắm không chỉ đơn thuần là phụ kiện dẫn điện mà còn là điểm nhấn nội thất thể hiện gu thẩm mỹ sang trọng của chủ nhà. Các dòng viền kim loại phay xước cao cấp đang dần thay thế hoàn toàn các loại mặt nhựa thông thường.</p>\n\n            <h3>2. Đánh giá chi tiết 4 thương hiệu hàng đầu:</h3>\n            <ul>\n                <li><strong>Brenna (Viền hợp kim nhôm xước - Mặt Vàng Champagne & Xám Titan):</strong> Đang là dòng bán chạy số 1 tại Bắc Ninh cho các công trình nhà phố liền kề và biệt thự. Cảm giác bấm êm ái, tiếp điểm hợp kim bạc chịu tải 16A chống tóe lửa, lá đồng đàn hồi cao cắm rút 10.000 lần không lỏng.</li>\n                <li><strong>Vanni:</strong> Thiết kế mặt vuông phẳng tinh giản, góc cạnh vuông vắn mang phong cách kiến trúc Châu Âu tối giản, độ hoàn thiện tinh xảo.</li>\n                <li><strong>Panasonic (Dòng Wide & Halumie):</strong> Thương hiệu quốc dân bền bỉ, dễ mua dễ thay thế, độ tin cậy đã được kiểm chứng qua hàng chục năm.</li>\n                <li><strong>Schneider (AvatarOn / Zencelo):</strong> Đỉnh cao công nghệ bấm phẳng hoàn toàn, cơ chế phím nảy phẳng ấn tượng, giá thành thuộc phân khúc cao cấp.</li>\n            </ul>\n\n            <h3>3. Trải nghiệm trực tiếp tại Showroom Duy Phong</h3>\n            <p>Mời quý khách và các bác thợ điện ghé qua số <strong>549 Ngô Gia Tự, P. Ninh Xá, TP. Bắc Ninh</strong> để trực tiếp cầm trên tay, bấm thử các mẫu công tắc thực tế trên bảng demo và nhận bảng báo giá chiết khấu đại lý tốt nhất.</p>\n        "
     },
     {
         "id": "art-03",
@@ -2561,7 +2561,7 @@ const ALL_SEO_ARTICLES = [
         "createdAt": "09/11/2026",
         "summary": "Bóc tách khối lượng mẫu: Dây cáp âm tường, ống luồn SP Sino, đế âm, tủ điện, ổ cắm công tắc và đèn LED âm trần. Hướng dẫn lấy chiết khấu kịch sàn tại kho Duy Phong.",
         "image": "assets/images/du-toan-vat-tu-dien-nha-pho.jpg",
-        "content": "\n            <h3>1. Tổng quan ngân sách vật tư điện cho nhà phố 80m² x 3.5 tầng</h3>\n            <p>Chi phí hoàn thiện vật tư điện cho một căn nhà phố tiêu chuẩn thường dao động từ <strong>35 triệu đến 65 triệu đồng</strong> tùy thuộc vào cấp độ thiết bị (phổ thông hay cao cấp viền kim loại). Bóc tách khối lượng chính xác giúp chủ nhà không bị dư thừa lãng phí hoặc mua nhầm giá lẻ đắt đỏ.</p>\n\n            <h3>2. Bóc tách danh mục vật tư cơ bản:</h3>\n            <ul>\n                <li><strong>Dây cáp điện (Trần Phú / Cadisun):</strong> Khoảng 12 - 18 cuộn các loại (1.5mm², 2.5mm², 4.0mm², 6.0mm²) và cáp nguồn tổng 2x10mm² hoặc 2x16mm². Chi phí ước tính: 18tr - 28tr.</li>\n                <li><strong>Ống luồn dây & phụ kiện âm tường:</strong> Ống luồn d16/d20 chống cháy, đế âm đơn/đôi Sino, hộp chia ngả, băng dính điện nano. Chi phí ước tính: 4tr - 6tr.</li>\n                <li><strong>Công tắc & Ổ cắm (Bretina / Panasonic):</strong> 35 - 50 bộ ổ cắm 3 chấu đa năng, 20 - 30 phím công tắc, mặt che điều hòa, bình nóng lạnh. Chi phí ước tính: 7tr - 15tr.</li>\n                <li><strong>Tủ điện & Aptomat đóng cắt:</strong> 1 tủ tổng tầng 1 + 3 tủ phân phối tầng, hệ thống RCBO chống giật. Chi phí: 4tr - 8tr.</li>\n                <li><strong>Đèn LED âm trần & Chiếu sáng:</strong> Đèn âm trần 7W/9W đổi 3 màu, đèn rọi ray trang trí, đèn ban công. Chi phí: 5tr - 12tr.</li>\n            </ul>\n\n            <h3>3. Mẹo nhận chiết khấu kịch sàn tại Cửa hàng Duy Phong</h3>\n            <p>Khi gom trọn gói toàn bộ vật tư từ phần thô đến phần hoàn thiện tại <strong>Tổng Kho Duy Phong (0904.511.227)</strong>, gia chủ sẽ được áp dụng mức giá chiết khấu dự án kịch sàn (giá ưu đãi theo khối lượng hàng hoá mua thực tế), hỗ trợ vận chuyển tận chân công trình tại Bắc Ninh.</p>\n        "
+        "content": "\n            <h3>1. Tổng quan ngân sách vật tư điện cho nhà phố 80m² x 3.5 tầng</h3>\n            <p>Chi phí hoàn thiện vật tư điện cho một căn nhà phố tiêu chuẩn thường dao động từ <strong>35 triệu đến 65 triệu đồng</strong> tùy thuộc vào cấp độ thiết bị (phổ thông hay cao cấp viền kim loại). Bóc tách khối lượng chính xác giúp chủ nhà không bị dư thừa lãng phí hoặc mua nhầm giá lẻ đắt đỏ.</p>\n\n            <h3>2. Bóc tách danh mục vật tư cơ bản:</h3>\n            <ul>\n                <li><strong>Dây cáp điện (Trần Phú / Cadisun):</strong> Khoảng 12 - 18 cuộn các loại (1.5mm², 2.5mm², 4.0mm², 6.0mm²) và cáp nguồn tổng 2x10mm² hoặc 2x16mm². Chi phí ước tính: 18tr - 28tr.</li>\n                <li><strong>Ống luồn dây & phụ kiện âm tường:</strong> Ống luồn d16/d20 chống cháy, đế âm đơn/đôi Sino, hộp chia ngả, băng dính điện nano. Chi phí ước tính: 4tr - 6tr.</li>\n                <li><strong>Công tắc & Ổ cắm (Brenna / Panasonic):</strong> 35 - 50 bộ ổ cắm 3 chấu đa năng, 20 - 30 phím công tắc, mặt che điều hòa, bình nóng lạnh. Chi phí ước tính: 7tr - 15tr.</li>\n                <li><strong>Tủ điện & Aptomat đóng cắt:</strong> 1 tủ tổng tầng 1 + 3 tủ phân phối tầng, hệ thống RCBO chống giật. Chi phí: 4tr - 8tr.</li>\n                <li><strong>Đèn LED âm trần & Chiếu sáng:</strong> Đèn âm trần 7W/9W đổi 3 màu, đèn rọi ray trang trí, đèn ban công. Chi phí: 5tr - 12tr.</li>\n            </ul>\n\n            <h3>3. Mẹo nhận chiết khấu kịch sàn tại Cửa hàng Duy Phong</h3>\n            <p>Khi gom trọn gói toàn bộ vật tư từ phần thô đến phần hoàn thiện tại <strong>Tổng Kho Duy Phong (0904.511.227)</strong>, gia chủ sẽ được áp dụng mức giá chiết khấu dự án kịch sàn (giá ưu đãi theo khối lượng hàng hoá mua thực tế), hỗ trợ vận chuyển tận chân công trình tại Bắc Ninh.</p>\n        "
     },
     {
         "id": "art-05",

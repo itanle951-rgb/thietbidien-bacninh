@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="css/style.css?v=20261118_01">
+    <link rel="stylesheet" href="css/style.css?v=20261118_02">
 
     <!-- Schema.org JSON-LD -->
     <script type="application/ld+json">
@@ -234,16 +234,16 @@
                     <div class="est-slider-group" id="estFloorsGroup">
                         <div class="est-slider-header">
                             <span><i class="fas fa-building" style="color: var(--primary);"></i> Số tầng xây dựng:</span>
-                            <strong id="estFloorsVal">5 tầng</strong>
+                            <strong id="estFloorsVal">6 tầng</strong>
                         </div>
-                        <input type="range" id="estFloorsRange" class="est-range" min="1" max="7" step="1" value="5" oninput="updateEstimator()">
+                        <input type="range" id="estFloorsRange" class="est-range" min="1" max="7" step="1" value="6" oninput="updateEstimator()">
                     </div>
                 </div>
 
                 <div class="estimator-result-box">
                     <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; margin-bottom: 4px;">
                         <div style="font-size: 0.9rem; font-weight: 700; color: var(--primary-light); text-transform: uppercase; letter-spacing: 0.4px;">
-                            <i class="fas fa-bolt"></i> Khối Lượng Vật Tư Ước Tính (<span id="estTotalArea">450 m² sàn</span>)
+                            <i class="fas fa-bolt"></i> Khối Lượng Vật Tư Ước Tính (<span id="estTotalArea">540 m² sàn</span>)
                         </div>
                         <div style="display: flex; align-items: center; gap: 8px;">
                             <span style="font-size: 0.72rem; color: var(--text-secondary);"><i class="fas fa-pen" style="font-size:0.65rem; color:var(--primary);"></i> Có thể chỉnh số lượng từng món</span>
@@ -253,11 +253,16 @@
                         </div>
                     </div>
                     <div class="est-res-grid" id="estResultGrid">
-                        <!-- Render động 15+ đầu hàng chuẩn Bill thực tế qua app.js -->
+                        <!-- Render động 16 đầu hàng chuẩn Bill thực tế Cửa Hàng Duy Phong -->
                     </div>
                     <div class="est-budget-banner">
-                        <span style="font-size: 0.86rem; color: var(--text-secondary);">Ngân sách Catalog dự kiến:</span>
-                        <strong id="estBudgetText" style="font-size: 1.15rem; color: var(--primary-light);">24.500.000 đ – 31.000.000 đ</strong>
+                        <div style="flex: 1; min-width: 200px;">
+                            <div style="font-size: 0.82rem; color: var(--text-muted);">Ngân sách Catalog tham khảo: <strong id="estCatalogText" style="color: #F3E5AB;">79.300.000 đ</strong></div>
+                            <div style="font-size: 0.86rem; color: var(--accent-green); margin-top: 2px;">
+                                <i class="fas fa-tags"></i> Giá tại Tổng Kho Duy Phong (Chiết khấu thợ thầu 15% - 25%):
+                            </div>
+                        </div>
+                        <strong id="estBudgetText" style="font-size: 1.25rem; color: #10B981;">61.500.000 đ – 67.500.000 đ</strong>
                     </div>
                     <button type="button" class="btn btn-gold" style="width: 100%; padding: 12px 16px; font-size: 0.96rem;" onclick="applyEstimatorToBoq()">
                         <i class="fas fa-wand-magic-sparkles"></i> Nạp Bộ Vật Tư Này Vào Bảng Báo Giá Ngay
@@ -743,7 +748,7 @@
     <!-- Product Catalog Data (420 Sản Phẩm Nhà Máy) -->
     <script src="js/products.js?v=20261115_01"></script>
     <!-- Main Application Script -->
-    <script src="js/app.js?v=20261118_01"></script>
+    <script src="js/app.js?v=20261118_02"></script>
     <!-- Script Popup Thu Thập SĐT Xây Nhà -->
     <script src="js/lead-popup.js?v=20261110_02"></script>
 </body>

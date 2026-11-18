@@ -2291,20 +2291,117 @@ button, input, select, textarea {
     background: var(--bg-elevated);
     border: 1px solid var(--border-subtle);
     border-radius: var(--radius-sm);
-    padding: 8px 10px;
+    padding: 7px 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.2s ease;
+    min-width: 0;
 }
 
-.est-res-item span {
+.est-res-item:focus-within, .est-res-item:hover {
+    border-color: rgba(212, 175, 55, 0.45);
+    background: rgba(22, 31, 48, 0.9);
+}
+
+.est-res-label {
     display: block;
     font-size: 0.72rem;
     color: var(--text-muted);
-    margin-bottom: 2px;
     line-height: 1.25;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 5px;
 }
 
-.est-res-item strong {
-    font-size: 0.9rem;
+.est-res-stepper {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.est-step-btn {
+    width: 22px;
+    height: 22px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(212, 175, 55, 0.12);
+    border: 1px solid rgba(212, 175, 55, 0.35);
+    border-radius: 4px;
     color: var(--primary-light);
+    font-size: 0.85rem;
+    font-weight: 700;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.15s ease;
+    padding: 0;
+    line-height: 1;
+}
+
+.est-step-btn:hover {
+    background: var(--primary);
+    color: #000;
+    border-color: var(--primary);
+}
+
+.est-step-btn:active {
+    transform: scale(0.92);
+}
+
+.est-step-input {
+    width: 44px;
+    height: 22px;
+    background: #070A10;
+    border: 1px solid var(--border-subtle);
+    border-radius: 4px;
+    color: var(--primary-light);
+    font-size: 0.84rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 2px;
+    font-family: inherit;
+    -moz-appearance: textfield;
+}
+
+.est-step-input::-webkit-outer-spin-button,
+.est-step-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.est-step-input:focus {
+    outline: none;
+    border-color: var(--primary);
+    background: #0E1422;
+}
+
+.est-step-unit {
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    white-space: nowrap;
+    margin-left: 2px;
+}
+
+.est-reset-btn {
+    background: transparent;
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    border-radius: 4px;
+    color: var(--primary-light);
+    font-size: 0.72rem;
+    padding: 3px 8px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    transition: all 0.2s ease;
+}
+
+.est-reset-btn:hover {
+    background: rgba(212, 175, 55, 0.15);
+    border-color: var(--primary);
 }
 
 .est-budget-banner {
@@ -2443,15 +2540,15 @@ button, input, select, textarea {
     }
     .est-res-grid {
         grid-template-columns: 1fr 1fr;
-        gap: 8px;
+        gap: 6px;
     }
     .est-res-item {
-        padding: 8px 10px;
+        padding: 6px 8px;
         min-width: 0;
     }
-    .est-res-item strong {
-        font-size: 0.85rem;
-        word-break: break-word;
+    .est-step-input {
+        width: 38px;
+        font-size: 0.8rem;
     }
     .hero-stats-strip {
         gap: 6px;

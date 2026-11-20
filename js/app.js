@@ -1589,6 +1589,24 @@ function submitQuoteRequest(sendViaZalo = false) {
     // 2. Bắn ngầm dữ liệu về Webhook nội bộ (nếu Admin có cài đặt) mà khách không hề biết
     triggerSilentInternalWebhook(newQuote);
 
+    // 3. Bắn thông báo đơn báo giá mới tức thì về Hermes Bot Telegram
+    try {
+        fetch('https://itan-telegram-bot.onrender.com/api/lead', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            keepalive: true,
+            body: JSON.stringify({
+                customerName,
+                customerPhone,
+                customerType: customerTypeLabel || customerType,
+                projectAddress,
+                notes,
+                subtotalListed: summary.subtotalListed || 0,
+                items: newQuote.items.map(it => ({ name: it.name, qty: it.qty, unit: it.unit }))
+            })
+        }).catch(() => {});
+    } catch (e) {}
+
     // Hiển thị thông báo xác nhận lịch sự cho khách hàng (Không bật popup Zalo làm phiền khách)
     const resultBanner = document.getElementById('quoteSuccessBanner');
     if (resultBanner) {
@@ -1602,7 +1620,7 @@ function submitQuoteRequest(sendViaZalo = false) {
                     Cảm ơn Quý khách <strong>${customerName}</strong>. Danh sách <strong>${summary.totalItems} mặt hàng (Tổng SL: ${summary.totalUnits})</strong> đã được chuyển vào hệ thống nội bộ của <strong>Thiết Bị Điện Cao Cấp Duy Phong (A Thành BN)</strong>.
                 </p>
                 <p style="font-size: 0.84rem; color: var(--primary-light); margin-top: 6px;">
-                    <i class="fas fa-headset"></i> Cửa hàng đang áp mức chiết khấu tốt nhất và sẽ phản hồi trực tiếp qua SĐT/Zalo <strong>${customerPhone}</strong> của Quý khách trong ít phút!
+                    <i class="fas fa-headset"></i> Cửa hàng đang kiểm tra tồn kho và sẽ phản hồi báo giá ưu đãi tốt nhất qua SĐT/Zalo <strong>${customerPhone}</strong> của Quý khách trong ít phút!
                 </p>
             </div>
         `;

@@ -938,17 +938,49 @@ function getFilteredProducts() {
     });
 }
 
-// Tự động cập nhật dropdown lọc Thương hiệu
+// Tự động cập nhật dropdown lọc Thương hiệu & dải nút lọc Thương hiệu
+function syncBrandFilterUI() {
+    const select = document.getElementById('brandFilterSelect');
+    if (select) select.value = state.activeBrand || 'all';
+    document.querySelectorAll('.brand-filter-pill').forEach(btn => {
+        const b = btn.getAttribute('data-brand') || 'all';
+        btn.classList.toggle('active', b.toLowerCase() === (state.activeBrand || 'all').toLowerCase());
+    });
+}
+
+window.setBrandFilter = function(brandName) {
+    state.activeBrand = brandName || 'all';
+    state.currentPage = 1;
+    // Bấm vào thương hiệu nào -> nếu bấm hãng cụ thể thì tự mở về "Tất cả sản phẩm" để chỉ ra đúng hãng đó
+    if (state.activeBrand !== 'all') {
+        state.activeCategory = 'all';
+        document.querySelectorAll('.cat-tab').forEach((b, i) => b.classList.toggle('active', i === 0));
+    }
+    syncBrandFilterUI();
+    renderCatalog();
+};
+
 function populateBrandFilter() {
     const select = document.getElementById('brandFilterSelect');
-    if (!select) return;
-    const brands = Array.from(new Set(state.products.map(p => p.brand))).filter(Boolean).sort();
-    const current = state.activeBrand;
-    select.innerHTML = `<option value="all">⚡ Tất cả sản phẩm (${state.products.length} mặt hàng)</option>` +
-        brands.map(b => {
-            const count = state.products.filter(p => p.brand === b).length;
-            return `<option value="${b}" ${b === current ? 'selected' : ''}>Hãng: ${b} (${count} mặt hàng)</option>`;
-        }).join('');
+    const pillsEl = document.getElementById('catalogBrandPills');
+    const counts = new Map();
+    state.products.forEach(p => {
+        if (!p.brand) return;
+        counts.set(p.brand, (counts.get(p.brand) || 0) + 1);
+    });
+    const brands = Array.from(counts.keys()).sort((a, b) => (counts.get(b) - counts.get(a)) || a.localeCompare(b, 'vi'));
+    const current = state.activeBrand || 'all';
+
+    if (select) {
+        select.innerHTML = `<option value="all">⚡ Tất cả thương hiệu (${state.products.length} mặt hàng)</option>` +
+            brands.map(b => `<option value="${b}" ${b === current ? 'selected' : ''}>Hãng: ${b} (${counts.get(b)} mặt hàng)</option>`).join('');
+    }
+
+    if (pillsEl) {
+        const esc = (s) => (s || '').replace(/"/g, '&quot;');
+        pillsEl.innerHTML = `<button type="button" class="brand-filter-pill ${current === 'all' ? 'active' : ''}" data-brand="all" onclick="setBrandFilter('all')">Tất cả (${state.products.length})</button>` +
+            brands.map(b => `<button type="button" class="brand-filter-pill ${b.toLowerCase() === current.toLowerCase() ? 'active' : ''}" data-brand="${esc(b)}" onclick="setBrandFilter('${esc(b).replace(/'/g, "\'")}')">${b} <span style="opacity:0.75;">(${counts.get(b)})</span></button>`).join('');
+    }
 }
 
 // Render Danh mục Sản phẩm (Cả chế độ Lưới Thẻ và Chế độ Bảng Chọn Nhanh)
@@ -2460,6 +2492,7 @@ function resetCatalogFilters() {
     if (searchInput) searchInput.value = '';
     const brandSelect = document.getElementById('brandFilterSelect');
     if (brandSelect) brandSelect.value = 'all';
+    syncBrandFilterUI();
     document.querySelectorAll('.cat-tab').forEach((b, i) => b.classList.toggle('active', i === 0));
     renderCatalog();
 }
@@ -2916,9 +2949,7 @@ function initApplication() {
     const brandSelect = document.getElementById('brandFilterSelect');
     if (brandSelect) {
         brandSelect.addEventListener('change', (e) => {
-            state.activeBrand = e.target.value;
-            state.currentPage = 1;
-            renderCatalog();
+            window.setBrandFilter(e.target.value);
         });
     }
 

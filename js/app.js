@@ -909,17 +909,31 @@ function saveQuotes() {
     updateAdminQuoteBadge();
 }
 
+function normalizeSearchText(str) {
+    return (str || '')
+        .toString()
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .replace(/đ/g, 'd')
+        .replace(/Đ/g, 'D')
+        .toLowerCase()
+        .trim();
+}
+
+function matchProductQuery(p, rawQuery) {
+    const q = normalizeSearchText(rawQuery);
+    if (!q) return true;
+    const tokens = q.split(/\s+/).filter(Boolean);
+    const haystack = normalizeSearchText(`${p.name || ''} ${p.sku || ''} ${p.brand || ''} ${p.desc || ''} ${p.categoryName || ''}`);
+    return tokens.every(t => haystack.includes(t));
+}
+
 // Lọc sản phẩm theo danh mục, thương hiệu, từ khóa
 function getFilteredProducts() {
     return state.products.filter(p => {
         const matchCat = state.activeCategory === 'all' || p.category === state.activeCategory;
         const matchBrand = state.activeBrand === 'all' || p.brand.toLowerCase() === state.activeBrand.toLowerCase();
-        const q = state.searchQuery.trim().toLowerCase();
-        const matchSearch = !q ||
-            p.name.toLowerCase().includes(q) ||
-            p.sku.toLowerCase().includes(q) ||
-            p.brand.toLowerCase().includes(q) ||
-            (p.desc && p.desc.toLowerCase().includes(q));
+        const matchSearch = matchProductQuery(p, state.searchQuery);
         return matchCat && matchBrand && matchSearch;
     });
 }
@@ -2771,15 +2785,114 @@ function initApplication() {
     updateHeaderAndFloatingBadges();
     updateAdminQuoteBadge();
 
-    // Lắng nghe ô tìm kiếm
+    // Lắng nghe ô tìm kiếm + Dropdown gợi ý tức thì
     const searchInput = document.getElementById('globalSearchInput');
+    const searchDropdown = document.getElementById('searchDropdown');
+    const searchClearBtn = document.getElementById('searchClearBtn');
+    const escHtml = (s) => (s || '').toString().replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+    function jumpToCatalogResults() {
+        if (searchDropdown) searchDropdown.hidden = true;
+        if (state.searchQuery.trim() && getFilteredProducts().length === 0) {
+            const anyGlobal = state.products.some(p => matchProductQuery(p, state.searchQuery));
+            if (anyGlobal) {
+                state.activeCategory = 'all';
+                state.activeBrand = 'all';
+                const brandSelectEl = document.getElementById('brandFilterSelect');
+                if (brandSelectEl) brandSelectEl.value = 'all';
+                document.querySelectorAll('.cat-tab').forEach((btn, idx) => btn.classList.toggle('active', idx === 0));
+                renderCatalog();
+            }
+        }
+        const catalogEl = document.getElementById('catalog-section');
+        if (catalogEl) catalogEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    function renderSearchDropdown(queryText) {
+        if (!searchDropdown) return;
+        const q = (queryText || '').trim();
+        if (searchClearBtn) searchClearBtn.hidden = !q;
+        if (!q) {
+            searchDropdown.hidden = true;
+            searchDropdown.innerHTML = '';
+            return;
+        }
+        const matches = state.products.filter(p => matchProductQuery(p, q));
+        if (matches.length === 0) {
+            searchDropdown.innerHTML = `<div class="search-dd-empty">Không tìm thấy sản phẩm phù hợp với "<strong>${escHtml(q)}</strong>"</div>`;
+            searchDropdown.hidden = false;
+            return;
+        }
+        const topItems = matches.slice(0, 8);
+        searchDropdown.innerHTML = topItems.map(p => `
+            <div class="search-dd-item" data-search-pick="${escHtml(p.sku || p.name)}">
+                <img src="${escHtml(p.image || 'assets/images/products/cong-tac-brenna-vang.jpg')}" alt="${escHtml(p.name)}" onerror="this.style.display='none'">
+                <div class="search-dd-info">
+                    <div class="search-dd-name">${escHtml(p.name)}</div>
+                    <div class="search-dd-meta">${escHtml(p.brand)} • Mã: ${escHtml(p.sku)}</div>
+                </div>
+                <div class="search-dd-price">${formatVND(p.price)}</div>
+            </div>
+        `).join('') + `<div class="search-dd-footer" id="searchDdViewAll"><i class="fas fa-arrow-down"></i> Xem tất cả ${matches.length} kết quả trong Danh mục</div>`;
+        searchDropdown.hidden = false;
+
+        searchDropdown.querySelectorAll('.search-dd-item').forEach(row => {
+            row.addEventListener('click', () => {
+                const picked = row.getAttribute('data-search-pick') || q;
+                if (searchInput) searchInput.value = picked;
+                state.searchQuery = picked;
+                state.activeCategory = 'all';
+                state.activeBrand = 'all';
+                state.currentPage = 1;
+                const brandSelectEl = document.getElementById('brandFilterSelect');
+                if (brandSelectEl) brandSelectEl.value = 'all';
+                document.querySelectorAll('.cat-tab').forEach((btn, idx) => btn.classList.toggle('active', idx === 0));
+                renderCatalog();
+                jumpToCatalogResults();
+            });
+        });
+        const viewAllBtn = document.getElementById('searchDdViewAll');
+        if (viewAllBtn) viewAllBtn.addEventListener('click', jumpToCatalogResults);
+    }
+
     if (searchInput) {
         searchInput.addEventListener('input', (e) => {
             state.searchQuery = e.target.value;
             state.currentPage = 1;
             renderCatalog();
+            renderSearchDropdown(e.target.value);
+        });
+        searchInput.addEventListener('focus', (e) => {
+            if (e.target.value.trim()) renderSearchDropdown(e.target.value);
+        });
+        searchInput.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                jumpToCatalogResults();
+            } else if (e.key === 'Escape') {
+                if (searchDropdown) searchDropdown.hidden = true;
+            }
         });
     }
+
+    if (searchClearBtn) {
+        searchClearBtn.addEventListener('click', () => {
+            if (searchInput) {
+                searchInput.value = '';
+                searchInput.focus();
+            }
+            state.searchQuery = '';
+            state.currentPage = 1;
+            renderCatalog();
+            renderSearchDropdown('');
+        });
+    }
+
+    document.addEventListener('click', (e) => {
+        if (searchDropdown && !e.target.closest('.header-search')) {
+            searchDropdown.hidden = true;
+        }
+    });
 
     // Lắng nghe lọc thương hiệu
     const brandSelect = document.getElementById('brandFilterSelect');
